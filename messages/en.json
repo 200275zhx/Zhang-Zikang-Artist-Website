@@ -1,0 +1,12 @@
+{
+    "HomePage": {
+        "title": "Hello world!",
+        "about": "Go to the about page",
+        "contact": "Contact us",
+
+        "metadata": {
+            "title": "Zhang Zikang | Artist & Curator",
+            "description": "Zhang Zikang is a multidisciplinary artist and curator whose work redefines the boundaries between tradition and innovation, materiality and digitality. Engaging with traditional Chinese painting, modern realism, and AI-generated art, his practice examines the evolving relationship between heritage and technology. As director of the CAFA Art Museum, he curates exhibitions that explore the convergence of art, science, and cultural identity, shaping dialogues in contemporary Chinese art and beyond."
+        }
+    }
+}
