@@ -59,7 +59,7 @@ export default async function RootLayout({
     <html lang={locale}>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <NextIntlClientProvider messages={messages}>
-          <section>
+          <section id='body'>
             {children}
           </section>
         </NextIntlClientProvider>
