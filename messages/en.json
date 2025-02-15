@@ -1,12 +1,68 @@
 {
     "HomePage": {
-        "title": "Hello world!",
-        "about": "Go to the about page",
-        "contact": "Contact us",
-
         "metadata": {
             "title": "Zhang Zikang | Artist & Curator",
             "description": "Zhang Zikang is a multidisciplinary artist and curator whose work redefines the boundaries between tradition and innovation, materiality and digitality. Engaging with traditional Chinese painting, modern realism, and AI-generated art, his practice examines the evolving relationship between heritage and technology. As director of the CAFA Art Museum, he curates exhibitions that explore the convergence of art, science, and cultural identity, shaping dialogues in contemporary Chinese art and beyond."
+        },
+        "navbar": {
+            "name": "ZHANG ZIKANG",
+            "works": "WORKS",
+            "news": "NEWS",
+            "exhibitions": "EXHIBITIONS",
+            "publications": "PUBLICATIONS",
+            "biography": "BIOGRAPHY",
+            "contact": "CONTACT"
+        }
+    },
+    "Translations": {
+        "zh": "ZH",
+        "en": "EN"
+    },
+    "Navbar": {
+        "name": "ZHANG ZIKANG",
+        "works": "WORKS",
+        "news": "NEWS",
+        "exhibitions": "EXHIBITIONS",
+        "publications": "PUBLICATIONS",
+        "biography": "BIOGRAPHY",
+        "contact": "CONTACT"
+    },
+
+
+    "WorksPage": {
+        "title": "Works",
+        "description": "Zhang Zikang's works",
+        "go back": "Go back to home page"
+    },
+    "NewsPage": {
+        "title": "News",
+        "description": "Zhang Zikang's news",
+        "go back": "Go back to home page"
+    },
+    "ExhibitionsPage": {
+        "title": "Exhibitions",
+        "description": "Zhang Zikang's exhibitions",
+        "go back": "Go back to home page"
+    },
+    "PublicationsPage": {
+        "title": "Publications",
+        "description": "Zhang Zikang's publications",
+        "go back": "Go back to home page"
+    },
+    "BiographyPage": {
+        "title": "Biography",
+        "description": "Zhang Zikang's biography",
+        "go back": "Go back to home page"
+    },
+    "ContactPage": {
+        "title": "Contact us",
+        "description": "Get in touch with us",
+        "go back": "Go back to home page",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "submit": "Submit"
         }
     }
 }

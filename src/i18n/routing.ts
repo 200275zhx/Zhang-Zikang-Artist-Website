@@ -6,7 +6,37 @@ export const routing = defineRouting({
   locales: ['en', 'zh'],
  
   // Used when no locale matches
-  defaultLocale: 'en'
+  defaultLocale: 'en',
+  pathnames: {
+    "/": {
+      en: "/",
+      zh: "/",
+    },
+    "/works": {
+      en: "/works",
+      zh: "/zuopin",
+    },
+    "/news": {
+      en: "/news",
+      zh: "/xinwen",
+    },
+    "/exhibitions": {
+      en: "/exhibitions",
+      zh: "/zhanlan",
+    },
+    "/publications": {
+      en: "/publications",
+      zh: "/chuban",
+    },
+    "/biography": {
+      en: "/biography",
+      zh: "/zhuanji",
+    },
+    "/contact": {
+      en: "/contact",
+      zh: "/lianxi",
+    },
+  }
 });
  
 // Lightweight wrappers around Next.js' navigation APIs

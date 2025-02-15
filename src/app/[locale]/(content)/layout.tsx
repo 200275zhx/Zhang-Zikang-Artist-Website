@@ -1,17 +1,7 @@
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
 import { setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import type { Metadata } from "next";
-import { Noto_Sans_SC } from 'next/font/google';
-import "./globals.css";
-
-// Load fonts
-const notoSansSC = Noto_Sans_SC({
-  weight: ['400', '500', '600', '700'], // or an array like ['400', '700'] if needed
-  subsets: ['latin'],
-});
 
 // Default metadata for all pages
 export const metadata: Metadata = {
@@ -28,7 +18,7 @@ export function generateStaticParams() {
 
 type AvailableLocale = (typeof routing.locales)[number];
 
-export default async function RootLayout({
+export default async function ContentLayout({
   children,
   params,
 }: {
@@ -47,16 +37,10 @@ export default async function RootLayout({
   // Enable static rendering for this locale
   setRequestLocale(locale);
 
-  // Load locale-specific messages.
-  const messages = await getMessages();
-
   return (
-    <html lang={locale}>
-      <body className={`${notoSansSC.className} font-medium italic antialiased tracking-wider`}>
-        <NextIntlClientProvider messages={messages}>
-            {children}
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <div>
+        <div>group layout</div>
+        {children}
+    </div>
   );
 }

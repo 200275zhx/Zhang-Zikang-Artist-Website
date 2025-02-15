@@ -1,12 +1,68 @@
 {
     "HomePage": {
-        "title": "你好，世界",
-        "about": "前往关于页面",
-        "contact": "联系我们",
-
         "metadata": {
             "title": "张子康 | 艺术家与策展人",
             "description": "张子康是一位多学科艺术家和策展人，他的作品重新定义了传统与创新、物质性与数字性之间的界限。他的实践涉及传统中国画、现代写实主义和AI生成艺术，探讨了遗产与技术之间不断发展的关系。作为中央美术学院美术馆馆长，他策划的展览探索了艺术、科学和文化身份的融合，在当代中国艺术及其以外的领域塑造了对话。"
+        },
+        "navbar": {
+            "name": "张子康",
+            "works": "作品",
+            "news": "新闻",
+            "exhibitions": "展览",
+            "publications": "出版物",
+            "biography": "传记",
+            "contact": "联系我们"
+        }
+    },
+    "Translations": {
+        "zh": "中",
+        "en": "英"
+    },
+    "Navbar": {
+        "name": "张子康",
+        "works": "作品",
+        "news": "新闻",
+        "exhibitions": "展览",
+        "publications": "出版物",
+        "biography": "传记",
+        "contact": "联系我们"
+    },
+
+
+    "WorksPage": {
+        "title": "作品",
+        "description": "张子康的作品",
+        "go back": "返回主页"
+    },
+    "NewsPage": {
+        "title": "新闻",
+        "description": "张子康的新闻",
+        "go back": "返回主页"
+    },
+    "ExhibitionsPage": {
+        "title": "展览",
+        "description": "张子康的展览",
+        "go back": "返回主页"
+    },
+    "PublicationsPage": {
+        "title": "出版物",
+        "description": "张子康的出版物",
+        "go back": "返回主页"
+    },
+    "BiographyPage": {
+        "title": "传记",
+        "description": "张子康的传记",
+        "go back": "返回主页"
+    },
+    "ContactPage": {
+        "title": "联系我们",
+        "description": "与我们联系",
+        "go back": "返回主页",
+        "form": {
+            "name": "姓名",
+            "email": "电子邮件",
+            "message": "信息",
+            "submit": "提交"
         }
     }
 }
