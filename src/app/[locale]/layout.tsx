@@ -9,7 +9,7 @@ import "./globals.css";
 
 // Load fonts
 const notoSansSC = Noto_Sans_SC({
-  weight: ['400', '500', '600', '700'], // or an array like ['400', '700'] if needed
+  weight: ['300', '400', '500'], // or an array like ['400', '700'] if needed
   subsets: ['latin'],
 });
 
@@ -52,7 +52,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
-      <body className={`${notoSansSC.className} font-medium italic antialiased tracking-wider`}>
+      <body className={`${notoSansSC.className} font-medium italic antialiased tracking-wide`}>
         <NextIntlClientProvider messages={messages}>
             {children}
         </NextIntlClientProvider>

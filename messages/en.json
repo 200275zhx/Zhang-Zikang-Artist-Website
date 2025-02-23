@@ -2,7 +2,9 @@
     "HomePage": {
         "metadata": {
             "title": "Zhang Zikang | Artist & Curator",
-            "description": "Zhang Zikang is a multidisciplinary artist and curator whose work redefines the boundaries between tradition and innovation, materiality and digitality. Engaging with traditional Chinese painting, modern realism, and AI-generated art, his practice examines the evolving relationship between heritage and technology. As director of the CAFA Art Museum, he curates exhibitions that explore the convergence of art, science, and cultural identity, shaping dialogues in contemporary Chinese art and beyond."
+            "description": "Zhang Zikang is a multidisciplinary artist and curator whose work redefines the boundaries between tradition and innovation, materiality and digitality. Engaging with traditional Chinese painting, modern realism, and AI-generated art, his practice examines the evolving relationship between heritage and technology. As director of the CAFA Art Museum, he curates exhibitions that explore the convergence of art, science, and cultural identity, shaping dialogues in contemporary Chinese art and beyond.",
+            "backgroundVideoAlt": "Zhang Zikang - Featured Works",
+            "keywords": "Zhang Zikang, artist, curator, Chinese art, contemporary art, AI art, traditional Chinese painting, modern realism, CAFA Art Museum"
         },
         "navbar": {
             "name": "ZHANG ZIKANG",
@@ -14,8 +16,9 @@
             "contact": "CONTACT"
         }
     },
+
     "Translations": {
-        "zh": "ZH",
+        "zh": "中",
         "en": "EN"
     },
     "Navbar": {
@@ -30,10 +33,14 @@
 
 
     "WorksPage": {
-        "title": "Works",
-        "description": "Zhang Zikang's works",
-        "go back": "Go back to home page"
+        "metadata": {
+            "title": "Works – Zhang Zikang’s Art Portfolio & Creative Projects",
+            "description": "Explore the diverse portfolio of Zhang Zikang. View a wide range of his artworks—from multimedia installations to traditional paintings—that reflect his innovative approach and the fusion of Eastern and Western artistic traditions.",
+            "keywords": "Zhang Zikang, artworks, multimedia installations, traditional paintings, Eastern and Western art"
+        }
     },
+
+
     "NewsPage": {
         "title": "News",
         "description": "Zhang Zikang's news",

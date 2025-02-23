@@ -7,6 +7,31 @@ export async function generateMetadata() {
   return {
     title: t('title'),
     description: t('description'),
+    keywords: t('keywords'),
+    
+    // // Open Graph: For sharing on social media
+    // openGraph: {
+    //   title: "Zhang Zikang - Featured Works",
+    //   description: "Zhang Zikang's featured works",
+    //   videos: [
+    //     {
+    //       url: "/assets/homepage/homepage_background_demo.webm",
+    //       width: 1920,
+    //       height: 1080,
+    //       alt: "Zhang Zikang - Featured Works",
+    //     },
+    //   ],
+    // },
+
+    // // Twitter Card: For sharing on Twitter
+    // twitter: {
+    //   // 'card' is the type of Twitter Card you want:
+    //   //  - 'summary' or 'summary_large_image' for static images
+    //   //  - 'player' to embed a video
+    //   card: "player",
+    //   title: "Zhang Zikang - Featured Works",
+    //   description: "Zhang Zikang's featured works",
+    // },
   };
 }
  
@@ -14,17 +39,15 @@ export default async function HomePage() {
   const t = await getTranslations('HomePage');
   return (
     <div>
-      {/* <h1>{t('title')}</h1>
-      <Link href="/contact">{t('contact')}</Link> */}
-
       <div className="relative w-full h-screen overflow-hidden">
         <video 
-          src="/assets/homepage/webm_placeholder.webm" 
+          src="/assets/homepage/homepage_background_demo.webm" 
           autoPlay 
           muted 
           loop 
           playsInline 
           className="absolute top-0 left-0 w-full h-full object-cover"
+          aria-label={t('metadata.backgroundVideoAlt')}
         />
 
         {/* White background container for the title */}
@@ -33,7 +56,7 @@ export default async function HomePage() {
             <Link href="/" className="font-normal text-2xl text-left">
               {t('navbar.name')}
             </Link>
-            <span className="text-sm ml-40 space-x-8">
+            <span className="text-sm ml-44 space-x-8">
               <Link href="/works" className="hover:text-gray-600">{t('navbar.works')}</Link>
               <Link href="/news" className="hover:text-gray-600">{t('navbar.news')}</Link>
               <Link href="/exhibitions" className="hover:text-gray-600">{t('navbar.exhibitions')}</Link>
