@@ -22,7 +22,7 @@ export default function LocaleSwitcher() {
   const currentLocale = params.locale; 
   
   return (
-    <div className="text-sm ml-auto space-x-4">
+    <div className="text-sm space-x-4">
       <span
         className={
           // If current locale is English, show EN as normal, else muted

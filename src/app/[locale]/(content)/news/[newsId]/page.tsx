@@ -1,26 +1,26 @@
 import { routing } from '@/i18n/routing';
 import Image from 'next/image';
-import { worksMap } from '@/app/data/works/map';
-import type { WorkItem, WorkDetailBlock } from '@/app/data/works/item';
+import { newsMap } from '@/app/data/news/map';
+import type { NewsItem, NewsDetailBlock } from '@/app/data/news/item';
 
-type WorkDict = Record<string, WorkItem>;
+type WorkDict = Record<string, NewsItem>;
 
 export function generateStaticParams() {
   return routing.locales.flatMap((locale) => {
-    const dict = worksMap[locale] as WorkDict;
-    return Object.keys(dict).map((slug) => ({ locale, workId: slug }));
+    const dict = newsMap[locale] as WorkDict;
+    return Object.keys(dict).map((slug) => ({ locale, newsId: slug }));
   });
 }
 
 export async function generateMetadata({
   params
 }: {
-  params: Promise<{ locale: (typeof routing.locales)[number]; workId: string }>;
+  params: Promise<{ locale: (typeof routing.locales)[number]; newsId: string }>;
 }) {
-  const { locale, workId } = await params;
+  const { locale, newsId } = await params;
 
-  const dict = worksMap[locale] as WorkDict;
-  const item = dict[workId];
+  const dict = newsMap[locale] as WorkDict;
+  const item = dict[newsId];
   if (!item) {
     return {};
   }
@@ -35,19 +35,19 @@ export async function generateMetadata({
 export default async function WorkDetailPage({
   params
 }: {
-  params: Promise<{ locale: (typeof routing.locales)[number]; workId: string }>;
+  params: Promise<{ locale: (typeof routing.locales)[number]; newsId: string }>;
 }) {
-  const { locale, workId } = await params;
+  const { locale, newsId } = await params;
 
-  const dict = worksMap[locale] as WorkDict;
-  const item = dict[workId];
+  const dict = newsMap[locale] as WorkDict;
+  const item = dict[newsId];
   if (!item) {
     return <div>Not found</div>;
   }
 
   return (
     <div className="space-y-10">
-      {item.detail.map((block: WorkDetailBlock, index) => (
+      {item.detail.map((block: NewsDetailBlock, index) => (
         <div key={index} className="grid lg:grid-cols-[2fr_1fr] gap-20">
           {/* Left Column: image or video */}
           <div>

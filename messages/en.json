@@ -42,10 +42,14 @@
 
 
     "NewsPage": {
-        "title": "News",
-        "description": "Zhang Zikang's news",
-        "go back": "Go back to home page"
+        "metadata": {
+            "title": "News – Latest Updates & Media Coverage of Zhang Zikang",
+            "description": "Stay informed with the latest official news and media coverage on Zhang Zikang. Read press releases, interviews, and feature articles detailing his recent art projects, exhibitions, and curatorial initiatives.",
+            "keywords": "Zhang Zikang news, art news, press releases, media coverage, interviews, contemporary art updates, curatorial initiatives"
+        }
     },
+
+    
     "ExhibitionsPage": {
         "title": "Exhibitions",
         "description": "Zhang Zikang's exhibitions",
