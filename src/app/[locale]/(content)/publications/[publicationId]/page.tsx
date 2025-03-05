@@ -1,26 +1,26 @@
 import { routing } from '@/i18n/routing';
 import Image from 'next/image';
-import { WorksMap } from '@/app/data/works/map';
-import type { WorkItem, WorkDetailBlock } from '@/app/data/works/item';
+import { PublicationsMap } from '@/app/data/publications/map';
+import type { PublicationItem, PublicationDetailBlock } from '@/app/data/publications/item';
 
-type WorkDict = Record<string, WorkItem>;
+type WorkDict = Record<string, PublicationItem>;
 
 export function generateStaticParams() {
   return routing.locales.flatMap((locale) => {
-    const dict = WorksMap[locale] as WorkDict;
-    return Object.keys(dict).map((slug) => ({ locale, workId: slug }));
+    const dict = PublicationsMap[locale] as WorkDict;
+    return Object.keys(dict).map((slug) => ({ locale, publicationId: slug }));
   });
 }
 
 export async function generateMetadata({
   params
 }: {
-  params: Promise<{ locale: (typeof routing.locales)[number]; workId: string }>;
+  params: Promise<{ locale: (typeof routing.locales)[number]; publicationId: string }>;
 }) {
-  const { locale, workId } = await params;
+  const { locale, publicationId } = await params;
 
-  const dict = WorksMap[locale] as WorkDict;
-  const item = dict[workId];
+  const dict = PublicationsMap[locale] as WorkDict;
+  const item = dict[publicationId];
   if (!item) {
     return {};
   }
@@ -35,19 +35,19 @@ export async function generateMetadata({
 export default async function WorkDetailPage({
   params
 }: {
-  params: Promise<{ locale: (typeof routing.locales)[number]; workId: string }>;
+  params: Promise<{ locale: (typeof routing.locales)[number]; publicationId: string }>;
 }) {
-  const { locale, workId } = await params;
+  const { locale, publicationId } = await params;
 
-  const dict = WorksMap[locale] as WorkDict;
-  const item = dict[workId];
+  const dict = PublicationsMap[locale] as WorkDict;
+  const item = dict[publicationId];
   if (!item) {
     return <div>Not found</div>;
   }
 
   return (
     <div className="space-y-10">
-      {item.detail.map((block: WorkDetailBlock, index) => (
+      {item.detail.map((block: PublicationDetailBlock, index) => (
         <div key={index} className="grid lg:grid-cols-[2fr_1fr] gap-20">
           {/* Left Column: image or video */}
           <div>

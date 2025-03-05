@@ -1,13 +1,13 @@
 import { routing } from '@/i18n/routing';
 import Image from 'next/image';
-import { newsMap } from '@/app/data/news/map';
+import { NewsMap } from '@/app/data/news/map';
 import type { NewsItem, NewsDetailBlock } from '@/app/data/news/item';
 
 type WorkDict = Record<string, NewsItem>;
 
 export function generateStaticParams() {
   return routing.locales.flatMap((locale) => {
-    const dict = newsMap[locale] as WorkDict;
+    const dict = NewsMap[locale] as WorkDict;
     return Object.keys(dict).map((slug) => ({ locale, newsId: slug }));
   });
 }
@@ -19,7 +19,7 @@ export async function generateMetadata({
 }) {
   const { locale, newsId } = await params;
 
-  const dict = newsMap[locale] as WorkDict;
+  const dict = NewsMap[locale] as WorkDict;
   const item = dict[newsId];
   if (!item) {
     return {};
@@ -39,7 +39,7 @@ export default async function WorkDetailPage({
 }) {
   const { locale, newsId } = await params;
 
-  const dict = newsMap[locale] as WorkDict;
+  const dict = NewsMap[locale] as WorkDict;
   const item = dict[newsId];
   if (!item) {
     return <div>Not found</div>;

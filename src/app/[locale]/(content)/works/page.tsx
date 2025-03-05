@@ -1,7 +1,7 @@
 import { routing } from '@/i18n/routing';
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
-import { worksMap } from '@/app/data/works/map';
+import { WorksMap } from '@/app/data/works/map';
 import type { WorkItem } from '@/app/data/works/item';
 import { getTranslations } from 'next-intl/server';
 
@@ -22,7 +22,7 @@ export default async function WorksPage({
   params: Promise<{ locale: (typeof routing.locales)[number] }>;
 }) {
   const { locale } = await params;
-  const dict = worksMap[locale] as WorkDict;
+  const dict = WorksMap[locale] as WorkDict;
   const slugs = Object.keys(dict);
 
   return (

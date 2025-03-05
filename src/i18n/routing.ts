@@ -43,6 +43,14 @@ export const routing = defineRouting({
     "/news/[newsId]": {
       en: "/news/[newsId]",
       zh: "/news/[newsId]"
+    },
+    "/exhibitions/[exhibitionId]": {
+      en: "/exhibitions/[exhibitionId]",
+      zh: "/exhibitions/[exhibitionId]"
+    },
+    "/publications/[publicationId]": {
+      en: "/publications/[publicationId]",
+      zh: "/publications/[publicationId]"
     }
   }
 });

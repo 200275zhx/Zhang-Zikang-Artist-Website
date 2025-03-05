@@ -26,9 +26,16 @@ export default function Navbar() {
         <Link href="/biography" className="hover:text-gray-600">
           {t("biography")}
         </Link>
-        <Link href="/contact" className="hover:text-gray-600">
+        {/* <Link href="/contact" className="hover:text-gray-600">
           {t("contact")}
-        </Link>
+        </Link> */}
+        <a
+          href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=hexunzh@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {t("contact")}
+        </a>
       </div>
     </nav>
   );

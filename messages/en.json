@@ -51,20 +51,36 @@
 
     
     "ExhibitionsPage": {
-        "title": "Exhibitions",
-        "description": "Zhang Zikang's exhibitions",
-        "go back": "Go back to home page"
+        "metadata": {
+            "title": "Exhibitions – Curated Art Shows & International Projects by Zhang Zikang",
+            "description": "Discover the curated exhibitions of Zhang Zikang, including internationally acclaimed projects such as the Chinese Pavilion at the Venice Biennale. Learn how his visionary curatorial work bridges Eastern and Western art traditions in impactful contemporary shows.",
+            "keywords": "Zhang Zikang exhibitions, curated art shows, Chinese Pavilion, Venice Biennale, international art projects, contemporary exhibitions, curatorial vision"
+        }
     },
+
+
     "PublicationsPage": {
-        "title": "Publications",
-        "description": "Zhang Zikang's publications",
-        "go back": "Go back to home page"
+        "metadata": {
+            "title": "Publications – Research, Essays & Writings by Zhang Zikang",
+            "description": "Browse the official publications of Zhang Zikang. Read his in-depth research, essays, and writings on contemporary art, curatorial practice, and cultural innovation that continue to influence art discourse worldwide.",
+            "keywords": "Zhang Zikang publications, art essays, research, curatorial practice, cultural innovation, art writings, contemporary art"
+        }
     },
+
+
     "BiographyPage": {
-        "title": "Biography",
-        "description": "Zhang Zikang's biography",
-        "go back": "Go back to home page"
+        "metadata": {
+            "title": "Biography – The Life & Career of Zhang Zikang",
+            "description": "Learn about the distinguished career of Zhang Zikang, a prominent Chinese artist and curator. Read his official biography detailing his journey from Hebei to his leadership role at the CAFA Art Museum and his internationally recognized art projects.",
+            "keywords": "Zhang Zikang biography, Chinese artist biography, curator biography, CAFA Art Museum, art career, official biography, contemporary Chinese art"
+        },
+        "name": "ZHANG ZIKANG",
+        "summary-1": "Zhang Zikang is a professor and doctoral advisor at the Central Academy of Fine Arts (CAFA). He currently serves as the Honorary Director of Xinjiang Art Museum, Chair of the Academic Committee of Xinjiang Art Museum, and Director of Xinyi Art Museum. He has previously held key positions, including Director of the CAFA Art Museum, Deputy Director of the National Art Museum of China, President of Xinjiang Painting Academy, President of the Culture and Arts Publishing House, Executive Vice President of the Institute of Contemporary Art at the Chinese National Academy of Arts, Director of the Information Research Center at the National Academy of Painting, and Director of Today Art Museum.",
+        "summary-2": "As an artist, Zhang’s works have been exhibited in Italy, Germany, South Korea, Hong Kong, Macau, Beijing, Shanghai, and other locations. His art spans various media, including ink painting, oil painting, and video, and his works have been collected by institutions such as the Zhongshan Museum, CAFA Art Museum, and Ningbo Art Museum. In recent years, he has participated in major international exhibitions, including the 11th Florence Biennale of Contemporary Art (Italy, 2017), the 18th BIEAF Asia International Contemporary Art Invitational Exhibition (South Korea, 2020), Mountains and Water Circle—Yan Mountain Meeting 2022 International Ink Art Exhibition (Shandong, 2022), InK Asia (Hong Kong, 2023), Zizai Xukong—Zhang Zikang Solo Exhibition (Beijing, 2024), and NordArt 2024 International Contemporary Art Exhibition (Germany, 2024).",
+        "summary-3": "In curatorial work, Zhang has played a pivotal role in organizing and leading influential domestic and international exhibitions, such as Marc Chagall’s First Exhibition in China, Leandro Erlich—The Mirage, Anish Kapoor, Xu Beihong: The Life of a Great Artist, the 59th Venice Biennale China Pavilion, the 3rd and 4th Xinjiang International Biennales, Antoni Tàpies—Dialogue with Matter, and Liang Shaoji: Oceanic Abyss. Additionally, he has curated and edited over a thousand art and literature books, winning multiple national awards. His publications include Art Museums, Cultural City-Making, Survival Across Borders, Art Museums, Zhang Zikang Oil Painting Collection, and Zhang Zikang—Territories (a collection of video works). He has also published over a hundred academic essays on contemporary art, contributing significantly to the integration of artistic practice and academic research."
     },
+
+
     "ContactPage": {
         "title": "Contact us",
         "description": "Get in touch with us",

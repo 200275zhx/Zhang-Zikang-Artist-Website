@@ -1,26 +1,26 @@
 import { routing } from '@/i18n/routing';
 import Image from 'next/image';
-import { WorksMap } from '@/app/data/works/map';
-import type { WorkItem, WorkDetailBlock } from '@/app/data/works/item';
+import { ExhibitionsMap } from '@/app/data/exhibitions/map';
+import type { ExhibitionItem, ExhibitionDetailBlock } from '@/app/data/exhibitions/item';
 
-type WorkDict = Record<string, WorkItem>;
+type WorkDict = Record<string, ExhibitionItem>;
 
 export function generateStaticParams() {
   return routing.locales.flatMap((locale) => {
-    const dict = WorksMap[locale] as WorkDict;
-    return Object.keys(dict).map((slug) => ({ locale, workId: slug }));
+    const dict = ExhibitionsMap[locale] as WorkDict;
+    return Object.keys(dict).map((slug) => ({ locale, exhibitionId: slug }));
   });
 }
 
 export async function generateMetadata({
   params
 }: {
-  params: Promise<{ locale: (typeof routing.locales)[number]; workId: string }>;
+  params: Promise<{ locale: (typeof routing.locales)[number]; exhibitionId: string }>;
 }) {
-  const { locale, workId } = await params;
+  const { locale, exhibitionId } = await params;
 
-  const dict = WorksMap[locale] as WorkDict;
-  const item = dict[workId];
+  const dict = ExhibitionsMap[locale] as WorkDict;
+  const item = dict[exhibitionId];
   if (!item) {
     return {};
   }
@@ -35,19 +35,19 @@ export async function generateMetadata({
 export default async function WorkDetailPage({
   params
 }: {
-  params: Promise<{ locale: (typeof routing.locales)[number]; workId: string }>;
+  params: Promise<{ locale: (typeof routing.locales)[number]; exhibitionId: string }>;
 }) {
-  const { locale, workId } = await params;
+  const { locale, exhibitionId } = await params;
 
-  const dict = WorksMap[locale] as WorkDict;
-  const item = dict[workId];
+  const dict = ExhibitionsMap[locale] as WorkDict;
+  const item = dict[exhibitionId];
   if (!item) {
     return <div>Not found</div>;
   }
 
   return (
     <div className="space-y-10">
-      {item.detail.map((block: WorkDetailBlock, index) => (
+      {item.detail.map((block: ExhibitionDetailBlock, index) => (
         <div key={index} className="grid lg:grid-cols-[2fr_1fr] gap-20">
           {/* Left Column: image or video */}
           <div>
