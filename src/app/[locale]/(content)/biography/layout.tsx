@@ -37,7 +37,7 @@ export default async function ContentLayout({
   setRequestLocale(locale);
 
   return (
-    <div className='leading-loose text-sm'>
+    <div className='leading-loose text-sm pt-1'>
         {children}
     </div>
   );
