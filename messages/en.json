@@ -35,7 +35,7 @@
     "WorksPage": {
         "metadata": {
             "title": "Works – Zhang Zikang’s Art Portfolio & Creative Projects",
-            "description": "Explore the diverse portfolio of Zhang Zikang. View a wide range of his artworks—from multimedia installations to traditional paintings—that reflect his innovative approach and the fusion of Eastern and Western artistic traditions.",
+            "description": "Explore the diverse portfolio of Zhang Zikang. View a wide range of his artworks-from multimedia installations to traditional paintings-that reflect his innovative approach and the fusion of Eastern and Western artistic traditions.",
             "keywords": "Zhang Zikang, artworks, multimedia installations, traditional paintings, Eastern and Western art"
         }
     },
@@ -75,53 +75,67 @@
             "keywords": "Zhang Zikang biography, Chinese artist biography, curator biography, CAFA Art Museum, art career, official biography, contemporary Chinese art"
         },
         "name": "ZHANG ZIKANG",
-        "brief": "Born: [Add Birth Year And Location]<div></div>Professor and Doctoral Advisor of Central Academy of Fine Arts (CAFA)<div></div>Honorary Director, Xinjiang Art Museum<div></div>Chair, Academic Committee of Xinjiang Art Museum",
+        "brief": "1964 Born in Shijiazhuang, Hebei, China<div></div>Professor and Doctoral Advisor of Central Academy of Fine Arts (CAFA)<div></div>Director of Xinyi Art Museum<div></div>Honorary Director, Xinjiang Art Museum<div></div>Chair, Academic Committee of Xinjiang Art Museum",
         "education-title": "EDUCATION",
         "education-content": {
-            "[Year]": "[Degree] / [Institution] / [Country]<div></div>(Please provide education details if available)"
+            "1985-1989": "Bachelor's Degree / Hebei Normal University, Department of Fine Arts / Chinese Painting Major / China",
+            "1990-1996": "Central Academy of Fine Arts / Chinese Painting Major / China",
+            "2011-2014": "Master's Degree / Cheung Kong Graduate School of Business / Business Administration Major / China"
         },
         "career-title": "CAREER",
         "career-content": {
+            "2024": "Director of Xinyi Art Museum / China",
+            "2017-2024": "Director of CAFA Art Museum / China",
+            "2014-2017": "Deputy Director of National Art Museum of China / China",
+            "2009-2014": "President of Culture and Art Publishing House / China",
+            "2009-2009": "Director of the Chinese Art Research and Promotion Center, Chinese Academy of Arts / China",
+            "2006-2009": "Deputy Director of the Art Exchange Center, China National Academy of Painting / China<div></div>Director of the China Art Information Research Center / China",
+            "2004-2011": "Director of the Today Art Museum / China",
+            "1999-2006": "Art Director, Beijing Songyafeng Culture and Art Center, Hebei Education Publishing House / China",
+            "1992-1999": "Art Editor, Hebei Education Publishing House / China<div></div>Director, Cultural Editing Office, Hebei Education Publishing House / China",
+            "1989-1992": "Art Editor, Hebei Provincial Book Distribution Newspaper / China",
+
             "[Year1]": "Professor & Doctoral Supervisor of Central Academy of Fine Arts (CAFA) / China",
             "[Year2]": "Honorary Director of Xinjiang Art Museum / China",
             "[Year3]": "Chair of Academic Committee of Xinjiang Art Museum / China",
-            "[Year4]": "Former Director of CAFA Art Museum / China",
             "[Year5]": "Former Deputy Director of National Art Museum of China / China",
             "[Year6]": "Former President of Xinjiang Painting Academy / China",
-            "[Year7]": "Former President of Culture and Arts Publishing House / China",
-            "[Year8]": "Former Executive Vice President of Institute of Contemporary Art, Chinese National Academy of Arts / China",
-            "[Year9]": "Former Director of Information Research Center, National Academy of Painting / China",
-            "[Year0]": "Former Director of Today Art Museum / China"
+            "[Year8]": "Former Executive Vice President of Institute of Contemporary Art, Chinese National Academy of Arts / China"
         },
         "solo-exhibitions-title": "SOLO EXHIBITIONS",
         "solo-exhibitions-content": {
-            "2024": "Zizai Xukong—Zhang Zikang Solo Exhibition / Beijing / China",
-            "2022": "“Between” Zhang Zikang Contemporary Ink Painting Exhibition / Hong Kong / China"
+            "2024": "\"Zizai Xukong\" - Zhang Zikang Solo Exhibition / Beijing / China",
+            "2022": "\"Between\" - Zhang Zikang Contemporary Ink Painting Exhibition / Hong Kong / China"
         },
         "group-exhibitions-title": "GROUP EXHIBITIONS",
         "group-exhibitions-content": {
             "2025": "NordArt 2025 International Contemporary Art Exhibition / Germany",
-            "2024": "NordArt 2024 International Contemporary Art Exhibition / Germany<div></div>Inquiry: Abstraction in China 2023-2024 / Beijing / China<div></div>The Dragon's Turn: Contemporary Art Invitational Exhibition / Zhejiang / China",
-            "2023": "Brilliant Light of the Heart: Contemporary Art Exhibition / Shanghai / China<div></div>Wild Growth: Asian Art Community Exhibition / South Korea<div></div>The Power of Colors: Contemporary Art Invitational Exhibition / Jinhua / China<div></div>Beside the Mountains and Water: Annual Series Invitational Exhibition / Shandong / China<div></div>InK Asia 2023 / Hong Kong / China<div></div>Ruì Hè Qīng Xiǎng Group Exhibition / Guangdong / China<div></div>Era Elegance: Chinese Oil Painting & Sculpture Masters Invitational Exhibition / Jiangsu / China<div></div> Ruì Hè Qīng Xiǎng Group Exhibition / Hong Kong / China",
-            "2022": "Ruì Hè Qīng Xiǎng Group Exhibition / Macau / China<div></div>Mountains and Water Circle—Yan Mountain Meeting 2022 International Ink Art Exhibition / Shandong / China",
+            "2024": "NordArt 2024 International Contemporary Art Exhibition / Germany<div></div>Grand Ink and Vitality – Contemporary Chinese Abstract Art Exhibition / Wuhan / China<div></div>Inquiry: Abstraction in China 2023-2024 / Beijing / China<div></div>The Dragon's Turn: Contemporary Art Invitational Exhibition / Zhejiang / China",
+            "2023": "Brilliant Light of the Heart: Contemporary Art Exhibition / Shanghai / China<div></div>Wild Growth: Asian Art Community Exhibition / South Korea<div></div>The Power of Colors: Contemporary Art Invitational Exhibition / Jinhua / China<div></div>Beside the Mountains and Water: Annual Series Invitational Exhibition / Shandong / China<div></div>InK Asia 2023 / Hong Kong / China<div></div>Ruì Hè Qīng Xiǎng Group Exhibition / Guangdong / China<div></div>Era Elegance: Chinese Oil Painting & Sculpture Masters Invitational Exhibition / Jiangsu / China<div></div> Ruì Hè Qīng Xiǎng Group Exhibition / Hong Kong / China<div></div>2023 China-Japan-Korea International Modern Art Exhibition / Japan",
+            "2022": "Ruì Hè Qīng Xiǎng Group Exhibition / Macau / China<div></div>Mountains and Water Circle-Yan Mountain Meeting 2022 International Ink Art Exhibition / Shandong / China",
+            "2021": "Light of Art Academic Season Invitational Exhibition / Hebei / China",
             "2020": "18th BIEAF Asia International Contemporary Art Invitational Exhibition / South Korea",
             "2017": "11th Florence Biennale of Contemporary Art / Italy"
         },
         "public-collections-title": "PUBLIC COLLECTIONS",
         "public-collections-content": {
-            "[Year1]": "Zhongshan Museum Collection / China",
-            "[Year2]": "CAFA Art Museum Collection / China",
-            "[Year3]": "Ningbo Art Museum Collection / China"
+            "2023": "\"Character\" / Collection of Zhongshan Museum / China",
+            "2018": "\"Tanas\" / Collection of the Art Museum of China Central Academy of Fine Arts / China",
+            "2016": "\"Impression of Ningbo Art Museum #1\" / Collection of Ningbo Art Museum / China"
         },
         "curations-title": "CURATIONS",
         "curations-content": {
-            "2024": "4rd Xinjiang International Biennales / China<div></div>Liang Shaoji: Oceanic Abyss / China",
-            "2023": "Antoni Tàpies—Dialogue with Matter / China<div></div>3rd Xinjiang International Biennales / China",
-            "2022": "59th Venice Biennale China Pavilion / Italy",
-            "2021": "Beyond - Xihai Art Museum Opening Exhibition / China",
-            "2020": "Marc Chagall’s First Exhibition in China / China",
-            "2019": "Anish Kapoor / China<div></div>Leandro Erlich — The Mirage / China",
-            "2018": "Xu Beihong: The Life of a Great Artist / China"
+            "2024": "4th Xinjiang International Biennale / China<div></div>Liang Shaoji: Boundless Seas / China",
+            "2023": "Antoni Tàpies: \"Dialogue with Objects\" / China<div></div>The Power of Painting: Between Concept and Belief / China<div></div>GDMOA Annual Academic Nomination Exhibition / China<div></div>Wu Xiaohai: Natural Consciousness / China<div></div>Heart Sounds of Heaven and Earth – Jin Rilong Exhibition / China<div></div>3rd Xinjiang International Art Biennale / China",
+            "2022": "Ding Yi: Flowing Infinity / China<div></div>\"RONG · Origin\" Space / China<div></div>59th Venice Biennale Chinese Pavilion Thematic Exhibition / Italy<div></div>9th Beijing Biennale Special Exhibition: \"Smell the Roses – The Art of Life: International Contemporary Female Artists Exhibition\"",
+            "2021": "Pulse of Modernity: Powerlong Art Exhibition / China<div></div>Super Fusion – 2021 Chengdu Biennale / China<div></div>Dance of Doves: Exhibition of Works by Huxidan Kerimu / China<div></div>The Logic of Evolution – Wang Yuyang’s Experiment / China<div></div>Evolution – Public Future / China<div></div>\"Beyond\" Opening Exhibition of Xihai Art Museum / China<div></div>\"Two is One\" Wang Shaoqiang Solo Exhibition / China",
+            "2020": "Hedong Power – First Jinan International Biennale / China<div></div>Marc Chagall's First Exhibition in China / China",
+            "2019": "\"Anish Kapoor\" / China<div></div>Leandro Erlich – \"The Realm of Illusions\" / China",
+            "2018": "\"Life of Beihong\" – Xu Beihong Art Exhibition / China",
+            "2016": "City · Elephant – Li Xiangqun Art Exhibition / China",
+            "2015": "The Capital Writer – Lao Jia / China",
+            "2012": "First Xinjiang Contemporary Art Biennale / China",
+            "2011": "Translating China – Solo Exhibition of Jannis Kounellis / China"
         },
         "awards-title": "AWARDS",
         "awards-content": {
@@ -129,8 +143,8 @@
         },
 
         "summary-1": "Zhang Zikang is a professor and doctoral advisor at the Central Academy of Fine Arts (CAFA). He currently serves as the Honorary Director of Xinjiang Art Museum, Chair of the Academic Committee of Xinjiang Art Museum, and Director of Xinyi Art Museum. He has previously held key positions, including Director of the CAFA Art Museum, Deputy Director of the National Art Museum of China, President of Xinjiang Painting Academy, President of the Culture and Arts Publishing House, Executive Vice President of the Institute of Contemporary Art at the Chinese National Academy of Arts, Director of the Information Research Center at the National Academy of Painting, and Director of Today Art Museum.",
-        "summary-2": "As an artist, Zhang’s works have been exhibited in Italy, Germany, South Korea, Hong Kong, Macau, Beijing, Shanghai, and other locations. His art spans various media, including ink painting, oil painting, and video, and his works have been collected by institutions such as the Zhongshan Museum, CAFA Art Museum, and Ningbo Art Museum. In recent years, he has participated in major international exhibitions, including the 11th Florence Biennale of Contemporary Art (Italy, 2017), the 18th BIEAF Asia International Contemporary Art Invitational Exhibition (South Korea, 2020), Mountains and Water Circle—Yan Mountain Meeting 2022 International Ink Art Exhibition (Shandong, 2022), InK Asia (Hong Kong, 2023), Zizai Xukong—Zhang Zikang Solo Exhibition (Beijing, 2024), and NordArt 2024 International Contemporary Art Exhibition (Germany, 2024).",
-        "summary-3": "In curatorial work, Zhang has played a pivotal role in organizing and leading influential domestic and international exhibitions, such as Marc Chagall’s First Exhibition in China, Leandro Erlich—The Mirage, Anish Kapoor, Xu Beihong: The Life of a Great Artist, the 59th Venice Biennale China Pavilion, the 3rd and 4th Xinjiang International Biennales, Antoni Tàpies—Dialogue with Matter, and Liang Shaoji: Oceanic Abyss. Additionally, he has curated and edited over a thousand art and literature books, winning multiple national awards. His publications include Art Museums, Cultural City-Making, Survival Across Borders, Art Museums, Zhang Zikang Oil Painting Collection, and Zhang Zikang—Territories (a collection of video works). He has also published over a hundred academic essays on contemporary art, contributing significantly to the integration of artistic practice and academic research."
+        "summary-2": "As an artist, Zhang’s works have been exhibited in Italy, Germany, South Korea, Hong Kong, Macau, Beijing, Shanghai, and other locations. His art spans various media, including ink painting, oil painting, and video, and his works have been collected by institutions such as the Zhongshan Museum, CAFA Art Museum, and Ningbo Art Museum. In recent years, he has participated in major international exhibitions, including the 11th Florence Biennale of Contemporary Art (Italy, 2017), the 18th BIEAF Asia International Contemporary Art Invitational Exhibition (South Korea, 2020), Mountains and Water Circle-Yan Mountain Meeting 2022 International Ink Art Exhibition (Shandong, 2022), InK Asia (Hong Kong, 2023), Zizai Xukong-Zhang Zikang Solo Exhibition (Beijing, 2024), and NordArt 2024 International Contemporary Art Exhibition (Germany, 2024).",
+        "summary-3": "In curatorial work, Zhang has played a pivotal role in organizing and leading influential domestic and international exhibitions, such as Marc Chagall’s First Exhibition in China, Leandro Erlich-The Mirage, Anish Kapoor, Xu Beihong: The Life of a Great Artist, the 59th Venice Biennale China Pavilion, the 3rd and 4th Xinjiang International Biennales, Antoni Tàpies-Dialogue with Matter, and Liang Shaoji: Oceanic Abyss. Additionally, he has curated and edited over a thousand art and literature books, winning multiple national awards. His publications include Art Museums, Cultural City-Making, Survival Across Borders, Art Museums, Zhang Zikang Oil Painting Collection, and Zhang Zikang-Territories (a collection of video works). He has also published over a hundred academic essays on contemporary art, contributing significantly to the integration of artistic practice and academic research."
     },
 
 
