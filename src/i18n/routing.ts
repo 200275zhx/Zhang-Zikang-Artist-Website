@@ -30,7 +30,7 @@ export const routing = defineRouting({
     },
     "/biography": {
       en: "/biography",
-      zh: "/zhuanji",
+      zh: "/jingli",
     },
     "/contact": {
       en: "/contact",

@@ -10,6 +10,9 @@ export type WorkDetailBlock = {
     title?: string;
     img?: string;
     vid?: string;
+    year?: string;
+    media?: string;
+    size?: string;
     description?: string;
     alt?: string;
 };

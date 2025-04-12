@@ -1,88 +1,22 @@
 {
-  "LoulanSeries-1": {
-    "title": "楼兰",
-    "src": "/assets/works/image/Loulan Series No. 1.webp",
-    "alt": "张子康的作品：楼兰",
-    "metadata": {
-        "title": "张子康的作品：楼兰",
-        "description": "张子康的作品：楼兰",
-        "keywords": "张子康, 艺术作品, 楼兰, 传统绘画, 东方与西方艺术"
-    },
-    "detail": [
-      {
-        "title": "楼兰系列",
-        "vid": "https://www.youtube.com/embed/xt_LNUFzamU",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "alt": "张子康的作品：楼兰"
+  "27-3": {
+      "title": "无题",
+      "src": "/assets/works/image/27-3.webp",
+      "alt": "张子康《无题》",
+      "metadata": {
+          "title": "张子康《无题》",
+          "description": "张子康《无题》",
+          "keywords": "张子康, 艺术作品, 无题, 传统绘画, 东西方艺术"
       },
-      {
-        "title": "楼兰系列之一",
-        "img": "/assets/works/image/Loulan Series No. 1.webp",
-        "alt": "张子康的作品：楼兰系列之一"
-      },
-      {
-        "title": "楼兰系列之二",
-        "img": "/assets/works/image/Loulan Series No. 2.webp",
-        "alt": "张子康的作品：楼兰系列之二"
-      },
-      {
-        "title": "楼兰系列之三",
-        "img": "/assets/works/image/Loulan Series No. 3.webp",
-        "alt": "张子康的作品：楼兰系列之三"
-      },
-      {
-        "title": "楼兰系列之四",
-        "img": "/assets/works/image/Loulan Series No. 4.webp",
-        "alt": "张子康的作品：楼兰系列之四"
-      },
-      {
-        "title": "楼兰系列之五",
-        "img": "/assets/works/image/Loulan Series No. 5.webp",
-        "alt": "张子康的作品：楼兰系列之五"
-      }
-    ]
-  },
-  "LoulanSeries-2": {
-    "title": "楼兰系列之二",
-    "src": "/assets/works/image/Loulan Series No. 2.webp",
-    "alt": "张子康的作品：楼兰系列之二",
-    "metadata": {
-        "title": "张子康的作品：楼兰",
-        "description": "张子康的作品：楼兰",
-        "keywords": "张子康, 艺术作品, 楼兰, 传统绘画, 东方与西方艺术"
-    },
-    "detail": [
-      {
-        "title": "楼兰",
-        "vid": "https://www.youtube.com/embed/xt_LNUFzamU",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "alt": "张子康的作品：楼兰"
-      },
-      {
-        "title": "楼兰系列之一",
-        "img": "/assets/works/image/Loulan Series No. 1.webp",
-        "alt": "张子康的作品：楼兰系列之一"
-      },
-      {
-        "title": "楼兰系列之二",
-        "img": "/assets/works/image/Loulan Series No. 2.webp",
-        "alt": "张子康的作品：楼兰系列之二"
-      },
-      {
-        "title": "楼兰系列之三",
-        "img": "/assets/works/image/Loulan Series No. 3.webp",
-        "alt": "张子康的作品：楼兰系列之三"
-      },
-      {
-        "title": "楼兰系列之四",
-        "img": "/assets/works/image/Loulan Series No. 4.webp",
-        "alt": "张子康的作品：楼兰系列之四"
-      },
-      {
-        "title": "楼兰系列之五",
-        "img": "/assets/works/image/Loulan Series No. 5.webp",
-        "alt": "张子康的作品：楼兰系列之五"
-      }
-    ]
+      "detail": [
+        {
+          "title": "无题",
+          "img": "/assets/works/image/27-3.webp",
+          "year": "2025",
+          "media": "综合材料",
+          "size": "97.5×124cm",
+          "alt": "张子康《无题》"
+        }
+      ]
   }
 }

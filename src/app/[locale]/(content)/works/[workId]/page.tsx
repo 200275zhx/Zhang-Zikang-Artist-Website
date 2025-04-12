@@ -77,9 +77,20 @@ export default async function WorkDetailPage({
             )}
           </div>
 
-          {/* Right Column: title & description */}
+          {/* Right Column: title & info & description */}
           <div className="text-xl">
             {block.title && <h2 className="mb-10">{block.title}</h2>}
+            
+            {block.size && (
+              <div className="text-sm leading-loose">{block.size}</div>
+            )}
+            {block.media && (
+              <div className="text-sm leading-loose">{block.media}</div>
+            )}
+            {block.year && (
+              <div className="text-sm leading-loose">{block.year}</div>
+            )}
+
             {block.description && (
               <div className="text-sm leading-loose">{block.description}</div>
             )}
