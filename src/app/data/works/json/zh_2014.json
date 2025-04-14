@@ -1,22 +1,22 @@
 {
     "1-1": {
+        "title": "初春",
+        "src": "/assets/works/image/1-1.webp",
         "alt": "初春 by Zhang Zikang",
+        "metadata": {
+            "title": "初春 by Zhang Zikang",
+            "description": "初春 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 初春, traditional painting, Eastern and Western art"
+        },
         "detail": [
             {
-                "alt": "初春 by Zhang Zikang",
+                "title": "初春",
                 "img": "/assets/works/image/1-1.webp",
+                "year": "2014",
                 "media": "布面油画",
                 "size": "95×193cm",
-                "title": "初春",
-                "year": "2014"
+                "alt": "初春 by Zhang Zikang"
             }
-        ],
-        "metadata": {
-            "description": "初春 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 初春, traditional painting, Eastern and Western art",
-            "title": "初春 by Zhang Zikang"
-        },
-        "src": "/assets/works/image/1-1.webp",
-        "title": "初春"
+        ]
     }
 }

@@ -3,15 +3,12 @@
 
 import React from "react";
 import { Link } from "@/i18n/routing";
-import { useTranslations, useLocale as useLocaleNextIntl } from "next-intl";
+import { useTranslations } from "next-intl";
 import { useSelectedLayoutSegments } from "next/navigation";
 
 export default function Navbar() {
   const t = useTranslations("Navbar");
-  const locale = useLocaleNextIntl();              // e.g. "en" or "zh"
   const segments = useSelectedLayoutSegments();    // e.g. ["en","works","2025"]
-
-  console.log("Layout segments:", segments);
 
   // Find where "works" sits in the segments array
   const worksIndex = segments.indexOf("works");
@@ -22,8 +19,11 @@ export default function Navbar() {
       ? segments[worksIndex + 1]
       : null;
 
-  console.log("isWorksPage:", isWorksPage);
-  console.log("activeYear:", activeYear);
+
+  // DEBUG Console Logs
+  // console.log("Layout segments:", segments);
+  // console.log("isWorksPage:", isWorksPage);
+  // console.log("activeYear:", activeYear);
 
   // Years to render in the submenu
   const years = [2025, 2024, 2023, 2022, 2019, 2017, 2016, 2015, 2014];
@@ -42,7 +42,9 @@ export default function Navbar() {
             <div className="mt-2 ml-4 flex flex-col space-y-2">
               {years.map((year) => {
                 const isActive = activeYear === String(year);
-                console.log(`Year ${year}: isActive = ${isActive}`);
+
+                // DEBUG Console Log for each year
+                // console.log(`Year ${year}: isActive = ${isActive}`);
 
                 return (
                   <Link

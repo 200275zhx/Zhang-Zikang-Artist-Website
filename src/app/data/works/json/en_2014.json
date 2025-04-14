@@ -1,22 +1,22 @@
 {
     "1-1": {
+        "title": "Early Spring",
+        "src": "/assets/works/image/1-1.webp",
         "alt": "Early Spring by Zhang Zikang",
+        "metadata": {
+            "title": "Early Spring by Zhang Zikang",
+            "description": "Early Spring by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, Early Spring, traditional painting, Eastern and Western art"
+        },
         "detail": [
             {
-                "alt": "Early Spring by Zhang Zikang",
+                "title": "Early Spring",
                 "img": "/assets/works/image/1-1.webp",
+                "year": "2014",
                 "media": "oil on canvas",
                 "size": "95×193cm",
-                "title": "Early Spring",
-                "year": "2014"
+                "alt": "Early Spring by Zhang Zikang"
             }
-        ],
-        "metadata": {
-            "description": "Early Spring by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, Early Spring, traditional painting, Eastern and Western art",
-            "title": "Early Spring by Zhang Zikang"
-        },
-        "src": "/assets/works/image/1-1.webp",
-        "title": "Early Spring"
+        ]
     }
 }

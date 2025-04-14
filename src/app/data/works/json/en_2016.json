@@ -1,122 +1,122 @@
 {
-    "1-2": {
-        "alt": "Kanas #1 by Zhang Zikang",
-        "detail": [
-            {
-                "alt": "Kanas #1 by Zhang Zikang",
-                "img": "/assets/works/image/1-2.webp",
-                "media": "oil on canvas",
-                "size": "120×200cm",
-                "title": "Kanas #1",
-                "year": "2016"
-            }
-        ],
+    "7-4": {
+        "title": "Picnic",
+        "src": "/assets/works/image/7-4.webp",
+        "alt": "Picnic by Zhang Zikang",
         "metadata": {
-            "description": "Kanas #1 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, Kanas #1, traditional painting, Eastern and Western art",
-            "title": "Kanas #1 by Zhang Zikang"
+            "title": "Picnic by Zhang Zikang",
+            "description": "Picnic by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, Picnic, traditional painting, Eastern and Western art"
         },
-        "src": "/assets/works/image/1-2.webp",
-        "title": "Kanas #1"
-    },
-    "4-1": {
-        "alt": "The Owl by Zhang Zikang",
         "detail": [
             {
-                "alt": "The Owl by Zhang Zikang",
-                "img": "/assets/works/image/4-1.webp",
-                "media": "oil on canvas",
-                "size": "95x128cm",
-                "title": "The Owl",
-                "year": "2016"
-            }
-        ],
-        "metadata": {
-            "description": "The Owl by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, The Owl, traditional painting, Eastern and Western art",
-            "title": "The Owl by Zhang Zikang"
-        },
-        "src": "/assets/works/image/4-1.webp",
-        "title": "The Owl"
-    },
-    "7-1": {
-        "alt": "Crossroad by Zhang Zikang",
-        "detail": [
-            {
-                "alt": "Crossroad by Zhang Zikang",
-                "img": "/assets/works/image/7-1.webp",
+                "title": "Picnic",
+                "img": "/assets/works/image/7-4.webp",
+                "year": "2016",
                 "media": "oil on canvas",
                 "size": "37x49cm",
-                "title": "Crossroad",
-                "year": "2016"
+                "alt": "Picnic by Zhang Zikang"
             }
-        ],
-        "metadata": {
-            "description": "Crossroad by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, Crossroad, traditional painting, Eastern and Western art",
-            "title": "Crossroad by Zhang Zikang"
-        },
-        "src": "/assets/works/image/7-1.webp",
-        "title": "Crossroad"
-    },
-    "7-2": {
-        "alt": "Door by Zhang Zikang",
-        "detail": [
-            {
-                "alt": "Door by Zhang Zikang",
-                "img": "/assets/works/image/7-2.webp",
-                "media": "oil on canvas",
-                "size": "37x49cm",
-                "title": "Door",
-                "year": "2016"
-            }
-        ],
-        "metadata": {
-            "description": "Door by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, Door, traditional painting, Eastern and Western art",
-            "title": "Door by Zhang Zikang"
-        },
-        "src": "/assets/works/image/7-2.webp",
-        "title": "Door"
+        ]
     },
     "7-3": {
-        "alt": "Toward Dusk by Zhang Zikang",
-        "detail": [
-            {
-                "alt": "Toward Dusk by Zhang Zikang",
-                "img": "/assets/works/image/7-3.webp",
-                "media": "oil on canvas",
-                "size": "37x49cm",
-                "title": "Toward Dusk",
-                "year": "2016"
-            }
-        ],
-        "metadata": {
-            "description": "Toward Dusk by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, Toward Dusk, traditional painting, Eastern and Western art",
-            "title": "Toward Dusk by Zhang Zikang"
-        },
+        "title": "Toward Dusk",
         "src": "/assets/works/image/7-3.webp",
-        "title": "Toward Dusk"
-    },
-    "7-4": {
-        "alt": "Picnic by Zhang Zikang",
+        "alt": "Toward Dusk by Zhang Zikang",
+        "metadata": {
+            "title": "Toward Dusk by Zhang Zikang",
+            "description": "Toward Dusk by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, Toward Dusk, traditional painting, Eastern and Western art"
+        },
         "detail": [
             {
-                "alt": "Picnic by Zhang Zikang",
-                "img": "/assets/works/image/7-4.webp",
+                "title": "Toward Dusk",
+                "img": "/assets/works/image/7-3.webp",
+                "year": "2016",
                 "media": "oil on canvas",
                 "size": "37x49cm",
-                "title": "Picnic",
-                "year": "2016"
+                "alt": "Toward Dusk by Zhang Zikang"
             }
-        ],
+        ]
+    },
+    "7-2": {
+        "title": "Door",
+        "src": "/assets/works/image/7-2.webp",
+        "alt": "Door by Zhang Zikang",
         "metadata": {
-            "description": "Picnic by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, Picnic, traditional painting, Eastern and Western art",
-            "title": "Picnic by Zhang Zikang"
+            "title": "Door by Zhang Zikang",
+            "description": "Door by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, Door, traditional painting, Eastern and Western art"
         },
-        "src": "/assets/works/image/7-4.webp",
-        "title": "Picnic"
+        "detail": [
+            {
+                "title": "Door",
+                "img": "/assets/works/image/7-2.webp",
+                "year": "2016",
+                "media": "oil on canvas",
+                "size": "37x49cm",
+                "alt": "Door by Zhang Zikang"
+            }
+        ]
+    },
+    "7-1": {
+        "title": "Crossroad",
+        "src": "/assets/works/image/7-1.webp",
+        "alt": "Crossroad by Zhang Zikang",
+        "metadata": {
+            "title": "Crossroad by Zhang Zikang",
+            "description": "Crossroad by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, Crossroad, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Crossroad",
+                "img": "/assets/works/image/7-1.webp",
+                "year": "2016",
+                "media": "oil on canvas",
+                "size": "37x49cm",
+                "alt": "Crossroad by Zhang Zikang"
+            }
+        ]
+    },
+    "4-1": {
+        "title": "The Owl",
+        "src": "/assets/works/image/4-1.webp",
+        "alt": "The Owl by Zhang Zikang",
+        "metadata": {
+            "title": "The Owl by Zhang Zikang",
+            "description": "The Owl by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, The Owl, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "The Owl",
+                "img": "/assets/works/image/4-1.webp",
+                "year": "2016",
+                "media": "oil on canvas",
+                "size": "95x128cm",
+                "alt": "The Owl by Zhang Zikang"
+            }
+        ]
+    },
+    "1-2": {
+        "title": "Kanas #1",
+        "src": "/assets/works/image/1-2.webp",
+        "alt": "Kanas #1 by Zhang Zikang",
+        "metadata": {
+            "title": "Kanas #1 by Zhang Zikang",
+            "description": "Kanas #1 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, Kanas #1, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Kanas #1",
+                "img": "/assets/works/image/1-2.webp",
+                "year": "2016",
+                "media": "oil on canvas",
+                "size": "120×200cm",
+                "alt": "Kanas #1 by Zhang Zikang"
+            }
+        ]
     }
 }

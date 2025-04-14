@@ -1,122 +1,122 @@
 {
-    "1-2": {
-        "alt": "喀纳斯之一 by Zhang Zikang",
-        "detail": [
-            {
-                "alt": "喀纳斯之一 by Zhang Zikang",
-                "img": "/assets/works/image/1-2.webp",
-                "media": "布面油画",
-                "size": "120×200cm",
-                "title": "喀纳斯之一",
-                "year": "2016"
-            }
-        ],
+    "7-4": {
+        "title": "野餐",
+        "src": "/assets/works/image/7-4.webp",
+        "alt": "野餐 by Zhang Zikang",
         "metadata": {
-            "description": "喀纳斯之一 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 喀纳斯之一, traditional painting, Eastern and Western art",
-            "title": "喀纳斯之一 by Zhang Zikang"
+            "title": "野餐 by Zhang Zikang",
+            "description": "野餐 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 野餐, traditional painting, Eastern and Western art"
         },
-        "src": "/assets/works/image/1-2.webp",
-        "title": "喀纳斯之一"
-    },
-    "4-1": {
-        "alt": "猫头鹰 by Zhang Zikang",
         "detail": [
             {
-                "alt": "猫头鹰 by Zhang Zikang",
-                "img": "/assets/works/image/4-1.webp",
-                "media": "布面油画",
-                "size": "95x128cm",
-                "title": "猫头鹰",
-                "year": "2016"
-            }
-        ],
-        "metadata": {
-            "description": "猫头鹰 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 猫头鹰, traditional painting, Eastern and Western art",
-            "title": "猫头鹰 by Zhang Zikang"
-        },
-        "src": "/assets/works/image/4-1.webp",
-        "title": "猫头鹰"
-    },
-    "7-1": {
-        "alt": "路口 by Zhang Zikang",
-        "detail": [
-            {
-                "alt": "路口 by Zhang Zikang",
-                "img": "/assets/works/image/7-1.webp",
+                "title": "野餐",
+                "img": "/assets/works/image/7-4.webp",
+                "year": "2016",
                 "media": "布面油画",
                 "size": "37x49cm",
-                "title": "路口",
-                "year": "2016"
+                "alt": "野餐 by Zhang Zikang"
             }
-        ],
-        "metadata": {
-            "description": "路口 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 路口, traditional painting, Eastern and Western art",
-            "title": "路口 by Zhang Zikang"
-        },
-        "src": "/assets/works/image/7-1.webp",
-        "title": "路口"
-    },
-    "7-2": {
-        "alt": "门 by Zhang Zikang",
-        "detail": [
-            {
-                "alt": "门 by Zhang Zikang",
-                "img": "/assets/works/image/7-2.webp",
-                "media": "布面油画",
-                "size": "37x49cm",
-                "title": "门",
-                "year": "2016"
-            }
-        ],
-        "metadata": {
-            "description": "门 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 门, traditional painting, Eastern and Western art",
-            "title": "门 by Zhang Zikang"
-        },
-        "src": "/assets/works/image/7-2.webp",
-        "title": "门"
+        ]
     },
     "7-3": {
-        "alt": "向夕 by Zhang Zikang",
-        "detail": [
-            {
-                "alt": "向夕 by Zhang Zikang",
-                "img": "/assets/works/image/7-3.webp",
-                "media": "布面油画",
-                "size": "37x49cm",
-                "title": "向夕",
-                "year": "2016"
-            }
-        ],
-        "metadata": {
-            "description": "向夕 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 向夕, traditional painting, Eastern and Western art",
-            "title": "向夕 by Zhang Zikang"
-        },
+        "title": "向夕",
         "src": "/assets/works/image/7-3.webp",
-        "title": "向夕"
-    },
-    "7-4": {
-        "alt": "野餐 by Zhang Zikang",
+        "alt": "向夕 by Zhang Zikang",
+        "metadata": {
+            "title": "向夕 by Zhang Zikang",
+            "description": "向夕 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 向夕, traditional painting, Eastern and Western art"
+        },
         "detail": [
             {
-                "alt": "野餐 by Zhang Zikang",
-                "img": "/assets/works/image/7-4.webp",
+                "title": "向夕",
+                "img": "/assets/works/image/7-3.webp",
+                "year": "2016",
                 "media": "布面油画",
                 "size": "37x49cm",
-                "title": "野餐",
-                "year": "2016"
+                "alt": "向夕 by Zhang Zikang"
             }
-        ],
+        ]
+    },
+    "7-2": {
+        "title": "门",
+        "src": "/assets/works/image/7-2.webp",
+        "alt": "门 by Zhang Zikang",
         "metadata": {
-            "description": "野餐 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 野餐, traditional painting, Eastern and Western art",
-            "title": "野餐 by Zhang Zikang"
+            "title": "门 by Zhang Zikang",
+            "description": "门 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 门, traditional painting, Eastern and Western art"
         },
-        "src": "/assets/works/image/7-4.webp",
-        "title": "野餐"
+        "detail": [
+            {
+                "title": "门",
+                "img": "/assets/works/image/7-2.webp",
+                "year": "2016",
+                "media": "布面油画",
+                "size": "37x49cm",
+                "alt": "门 by Zhang Zikang"
+            }
+        ]
+    },
+    "7-1": {
+        "title": "路口",
+        "src": "/assets/works/image/7-1.webp",
+        "alt": "路口 by Zhang Zikang",
+        "metadata": {
+            "title": "路口 by Zhang Zikang",
+            "description": "路口 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 路口, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "路口",
+                "img": "/assets/works/image/7-1.webp",
+                "year": "2016",
+                "media": "布面油画",
+                "size": "37x49cm",
+                "alt": "路口 by Zhang Zikang"
+            }
+        ]
+    },
+    "4-1": {
+        "title": "猫头鹰",
+        "src": "/assets/works/image/4-1.webp",
+        "alt": "猫头鹰 by Zhang Zikang",
+        "metadata": {
+            "title": "猫头鹰 by Zhang Zikang",
+            "description": "猫头鹰 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 猫头鹰, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "猫头鹰",
+                "img": "/assets/works/image/4-1.webp",
+                "year": "2016",
+                "media": "布面油画",
+                "size": "95x128cm",
+                "alt": "猫头鹰 by Zhang Zikang"
+            }
+        ]
+    },
+    "1-2": {
+        "title": "喀纳斯之一",
+        "src": "/assets/works/image/1-2.webp",
+        "alt": "喀纳斯之一 by Zhang Zikang",
+        "metadata": {
+            "title": "喀纳斯之一 by Zhang Zikang",
+            "description": "喀纳斯之一 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 喀纳斯之一, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "喀纳斯之一",
+                "img": "/assets/works/image/1-2.webp",
+                "year": "2016",
+                "media": "布面油画",
+                "size": "120×200cm",
+                "alt": "喀纳斯之一 by Zhang Zikang"
+            }
+        ]
     }
 }

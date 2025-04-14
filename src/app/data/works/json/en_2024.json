@@ -1,82 +1,82 @@
 {
-    "17-1": {
-        "alt": "Loulan Series: Unbidden by Zhang Zikang",
-        "detail": [
-            {
-                "alt": "Loulan Series: Unbidden by Zhang Zikang",
-                "img": "/assets/works/image/17-1.webp",
-                "media": "Mixed Media",
-                "size": "121×248cm",
-                "title": "Loulan Series: Unbidden",
-                "year": "2024"
-            }
-        ],
-        "metadata": {
-            "description": "Loulan Series: Unbidden by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, Loulan Series: Unbidden, traditional painting, Eastern and Western art",
-            "title": "Loulan Series: Unbidden by Zhang Zikang"
-        },
-        "src": "/assets/works/image/17-1.webp",
-        "title": "Loulan Series: Unbidden"
-    },
-    "17-2": {
-        "alt": "Loulan Series: Echoes of a Dream by Zhang Zikang",
-        "detail": [
-            {
-                "alt": "Loulan Series: Echoes of a Dream by Zhang Zikang",
-                "img": "/assets/works/image/17-2.webp",
-                "media": "Mixed Media",
-                "size": "98×198cm",
-                "title": "Loulan Series: Echoes of a Dream",
-                "year": "2024"
-            }
-        ],
-        "metadata": {
-            "description": "Loulan Series: Echoes of a Dream by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, Loulan Series: Echoes of a Dream, traditional painting, Eastern and Western art",
-            "title": "Loulan Series: Echoes of a Dream by Zhang Zikang"
-        },
-        "src": "/assets/works/image/17-2.webp",
-        "title": "Loulan Series: Echoes of a Dream"
-    },
-    "26-1": {
-        "alt": "Surge by Zhang Zikang",
-        "detail": [
-            {
-                "alt": "Surge by Zhang Zikang",
-                "img": "/assets/works/image/26-1.webp",
-                "media": "Mixed Media",
-                "size": "69×137cm",
-                "title": "Surge",
-                "year": "2024"
-            }
-        ],
-        "metadata": {
-            "description": "Surge by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, Surge, traditional painting, Eastern and Western art",
-            "title": "Surge by Zhang Zikang"
-        },
-        "src": "/assets/works/image/26-1.webp",
-        "title": "Surge"
-    },
     "26-2": {
+        "title": "Loulan Series: Flourishing Realm",
+        "src": "/assets/works/image/26-2.webp",
         "alt": "Loulan Series: Flourishing Realm by Zhang Zikang",
+        "metadata": {
+            "title": "Loulan Series: Flourishing Realm by Zhang Zikang",
+            "description": "Loulan Series: Flourishing Realm by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, Loulan Series: Flourishing Realm, traditional painting, Eastern and Western art"
+        },
         "detail": [
             {
-                "alt": "Loulan Series: Flourishing Realm by Zhang Zikang",
+                "title": "Loulan Series: Flourishing Realm",
                 "img": "/assets/works/image/26-2.webp",
+                "year": "2024",
                 "media": "Mixed Media",
                 "size": "115×369cm",
-                "title": "Loulan Series: Flourishing Realm",
-                "year": "2024"
+                "alt": "Loulan Series: Flourishing Realm by Zhang Zikang"
             }
-        ],
+        ]
+    },
+    "26-1": {
+        "title": "Surge",
+        "src": "/assets/works/image/26-1.webp",
+        "alt": "Surge by Zhang Zikang",
         "metadata": {
-            "description": "Loulan Series: Flourishing Realm by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, Loulan Series: Flourishing Realm, traditional painting, Eastern and Western art",
-            "title": "Loulan Series: Flourishing Realm by Zhang Zikang"
+            "title": "Surge by Zhang Zikang",
+            "description": "Surge by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, Surge, traditional painting, Eastern and Western art"
         },
-        "src": "/assets/works/image/26-2.webp",
-        "title": "Loulan Series: Flourishing Realm"
+        "detail": [
+            {
+                "title": "Surge",
+                "img": "/assets/works/image/26-1.webp",
+                "year": "2024",
+                "media": "Mixed Media",
+                "size": "69×137cm",
+                "alt": "Surge by Zhang Zikang"
+            }
+        ]
+    },
+    "17-2": {
+        "title": "Loulan Series: Echoes of a Dream",
+        "src": "/assets/works/image/17-2.webp",
+        "alt": "Loulan Series: Echoes of a Dream by Zhang Zikang",
+        "metadata": {
+            "title": "Loulan Series: Echoes of a Dream by Zhang Zikang",
+            "description": "Loulan Series: Echoes of a Dream by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, Loulan Series: Echoes of a Dream, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Loulan Series: Echoes of a Dream",
+                "img": "/assets/works/image/17-2.webp",
+                "year": "2024",
+                "media": "Mixed Media",
+                "size": "98×198cm",
+                "alt": "Loulan Series: Echoes of a Dream by Zhang Zikang"
+            }
+        ]
+    },
+    "17-1": {
+        "title": "Loulan Series: Unbidden",
+        "src": "/assets/works/image/17-1.webp",
+        "alt": "Loulan Series: Unbidden by Zhang Zikang",
+        "metadata": {
+            "title": "Loulan Series: Unbidden by Zhang Zikang",
+            "description": "Loulan Series: Unbidden by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, Loulan Series: Unbidden, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Loulan Series: Unbidden",
+                "img": "/assets/works/image/17-1.webp",
+                "year": "2024",
+                "media": "Mixed Media",
+                "size": "121×248cm",
+                "alt": "Loulan Series: Unbidden by Zhang Zikang"
+            }
+        ]
     }
 }

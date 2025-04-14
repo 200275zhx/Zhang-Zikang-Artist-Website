@@ -1,42 +1,42 @@
 {
-    "9-1": {
-        "alt": "Beneath the Bridge by Zhang Zikang",
-        "detail": [
-            {
-                "alt": "Beneath the Bridge by Zhang Zikang",
-                "img": "/assets/works/image/9-1.webp",
-                "media": "oil on canvas",
-                "size": "40x58cm",
-                "title": "Beneath the Bridge",
-                "year": "2019"
-            }
-        ],
-        "metadata": {
-            "description": "Beneath the Bridge by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, Beneath the Bridge, traditional painting, Eastern and Western art",
-            "title": "Beneath the Bridge by Zhang Zikang"
-        },
-        "src": "/assets/works/image/9-1.webp",
-        "title": "Beneath the Bridge"
-    },
     "9-2": {
+        "title": "Divine Bird",
+        "src": "/assets/works/image/9-2.webp",
         "alt": "Divine Bird by Zhang Zikang",
+        "metadata": {
+            "title": "Divine Bird by Zhang Zikang",
+            "description": "Divine Bird by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, Divine Bird, traditional painting, Eastern and Western art"
+        },
         "detail": [
             {
-                "alt": "Divine Bird by Zhang Zikang",
+                "title": "Divine Bird",
                 "img": "/assets/works/image/9-2.webp",
+                "year": "2019",
                 "media": "oil on canvas",
                 "size": "54x45cm",
-                "title": "Divine Bird",
-                "year": "2019"
+                "alt": "Divine Bird by Zhang Zikang"
             }
-        ],
+        ]
+    },
+    "9-1": {
+        "title": "Beneath the Bridge",
+        "src": "/assets/works/image/9-1.webp",
+        "alt": "Beneath the Bridge by Zhang Zikang",
         "metadata": {
-            "description": "Divine Bird by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, Divine Bird, traditional painting, Eastern and Western art",
-            "title": "Divine Bird by Zhang Zikang"
+            "title": "Beneath the Bridge by Zhang Zikang",
+            "description": "Beneath the Bridge by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, Beneath the Bridge, traditional painting, Eastern and Western art"
         },
-        "src": "/assets/works/image/9-2.webp",
-        "title": "Divine Bird"
+        "detail": [
+            {
+                "title": "Beneath the Bridge",
+                "img": "/assets/works/image/9-1.webp",
+                "year": "2019",
+                "media": "oil on canvas",
+                "size": "40x58cm",
+                "alt": "Beneath the Bridge by Zhang Zikang"
+            }
+        ]
     }
 }

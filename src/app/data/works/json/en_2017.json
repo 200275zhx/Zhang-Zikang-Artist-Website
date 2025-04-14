@@ -1,42 +1,42 @@
 {
-    "8-1": {
-        "alt": "Homeward Journey by Zhang Zikang",
-        "detail": [
-            {
-                "alt": "Homeward Journey by Zhang Zikang",
-                "img": "/assets/works/image/8-1.webp",
-                "media": "oil on canvas",
-                "size": "51x58cm",
-                "title": "Homeward Journey",
-                "year": "2017"
-            }
-        ],
-        "metadata": {
-            "description": "Homeward Journey by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, Homeward Journey, traditional painting, Eastern and Western art",
-            "title": "Homeward Journey by Zhang Zikang"
-        },
-        "src": "/assets/works/image/8-1.webp",
-        "title": "Homeward Journey"
-    },
     "8-2": {
+        "title": "Distant Journey",
+        "src": "/assets/works/image/8-2.webp",
         "alt": "Distant Journey by Zhang Zikang",
+        "metadata": {
+            "title": "Distant Journey by Zhang Zikang",
+            "description": "Distant Journey by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, Distant Journey, traditional painting, Eastern and Western art"
+        },
         "detail": [
             {
-                "alt": "Distant Journey by Zhang Zikang",
+                "title": "Distant Journey",
                 "img": "/assets/works/image/8-2.webp",
+                "year": "2017",
                 "media": "oil on canvas",
                 "size": "51x58cm",
-                "title": "Distant Journey",
-                "year": "2017"
+                "alt": "Distant Journey by Zhang Zikang"
             }
-        ],
+        ]
+    },
+    "8-1": {
+        "title": "Homeward Journey",
+        "src": "/assets/works/image/8-1.webp",
+        "alt": "Homeward Journey by Zhang Zikang",
         "metadata": {
-            "description": "Distant Journey by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, Distant Journey, traditional painting, Eastern and Western art",
-            "title": "Distant Journey by Zhang Zikang"
+            "title": "Homeward Journey by Zhang Zikang",
+            "description": "Homeward Journey by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, Homeward Journey, traditional painting, Eastern and Western art"
         },
-        "src": "/assets/works/image/8-2.webp",
-        "title": "Distant Journey"
+        "detail": [
+            {
+                "title": "Homeward Journey",
+                "img": "/assets/works/image/8-1.webp",
+                "year": "2017",
+                "media": "oil on canvas",
+                "size": "51x58cm",
+                "alt": "Homeward Journey by Zhang Zikang"
+            }
+        ]
     }
 }

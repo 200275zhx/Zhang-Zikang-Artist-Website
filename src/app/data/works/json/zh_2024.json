@@ -1,82 +1,82 @@
 {
-    "17-1": {
-        "alt": "楼兰系列之无端 by Zhang Zikang",
-        "detail": [
-            {
-                "alt": "楼兰系列之无端 by Zhang Zikang",
-                "img": "/assets/works/image/17-1.webp",
-                "media": "综合材料",
-                "size": "121×248cm",
-                "title": "楼兰系列之无端",
-                "year": "2024"
-            }
-        ],
-        "metadata": {
-            "description": "楼兰系列之无端 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 楼兰系列之无端, traditional painting, Eastern and Western art",
-            "title": "楼兰系列之无端 by Zhang Zikang"
-        },
-        "src": "/assets/works/image/17-1.webp",
-        "title": "楼兰系列之无端"
-    },
-    "17-2": {
-        "alt": "楼兰系列之梦回 by Zhang Zikang",
-        "detail": [
-            {
-                "alt": "楼兰系列之梦回 by Zhang Zikang",
-                "img": "/assets/works/image/17-2.webp",
-                "media": "综合材料",
-                "size": "98×198cm",
-                "title": "楼兰系列之梦回",
-                "year": "2024"
-            }
-        ],
-        "metadata": {
-            "description": "楼兰系列之梦回 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 楼兰系列之梦回, traditional painting, Eastern and Western art",
-            "title": "楼兰系列之梦回 by Zhang Zikang"
-        },
-        "src": "/assets/works/image/17-2.webp",
-        "title": "楼兰系列之梦回"
-    },
-    "26-1": {
-        "alt": "骤 by Zhang Zikang",
-        "detail": [
-            {
-                "alt": "骤 by Zhang Zikang",
-                "img": "/assets/works/image/26-1.webp",
-                "media": "综合材料",
-                "size": "69×137cm",
-                "title": "骤",
-                "year": "2024"
-            }
-        ],
-        "metadata": {
-            "description": "骤 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 骤, traditional painting, Eastern and Western art",
-            "title": "骤 by Zhang Zikang"
-        },
-        "src": "/assets/works/image/26-1.webp",
-        "title": "骤"
-    },
     "26-2": {
+        "title": "楼兰系列之繁境",
+        "src": "/assets/works/image/26-2.webp",
         "alt": "楼兰系列之繁境 by Zhang Zikang",
+        "metadata": {
+            "title": "楼兰系列之繁境 by Zhang Zikang",
+            "description": "楼兰系列之繁境 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 楼兰系列之繁境, traditional painting, Eastern and Western art"
+        },
         "detail": [
             {
-                "alt": "楼兰系列之繁境 by Zhang Zikang",
+                "title": "楼兰系列之繁境",
                 "img": "/assets/works/image/26-2.webp",
+                "year": "2024",
                 "media": "综合材料",
                 "size": "115×369cm",
-                "title": "楼兰系列之繁境",
-                "year": "2024"
+                "alt": "楼兰系列之繁境 by Zhang Zikang"
             }
-        ],
+        ]
+    },
+    "26-1": {
+        "title": "骤",
+        "src": "/assets/works/image/26-1.webp",
+        "alt": "骤 by Zhang Zikang",
         "metadata": {
-            "description": "楼兰系列之繁境 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 楼兰系列之繁境, traditional painting, Eastern and Western art",
-            "title": "楼兰系列之繁境 by Zhang Zikang"
+            "title": "骤 by Zhang Zikang",
+            "description": "骤 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 骤, traditional painting, Eastern and Western art"
         },
-        "src": "/assets/works/image/26-2.webp",
-        "title": "楼兰系列之繁境"
+        "detail": [
+            {
+                "title": "骤",
+                "img": "/assets/works/image/26-1.webp",
+                "year": "2024",
+                "media": "综合材料",
+                "size": "69×137cm",
+                "alt": "骤 by Zhang Zikang"
+            }
+        ]
+    },
+    "17-2": {
+        "title": "楼兰系列之梦回",
+        "src": "/assets/works/image/17-2.webp",
+        "alt": "楼兰系列之梦回 by Zhang Zikang",
+        "metadata": {
+            "title": "楼兰系列之梦回 by Zhang Zikang",
+            "description": "楼兰系列之梦回 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 楼兰系列之梦回, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "楼兰系列之梦回",
+                "img": "/assets/works/image/17-2.webp",
+                "year": "2024",
+                "media": "综合材料",
+                "size": "98×198cm",
+                "alt": "楼兰系列之梦回 by Zhang Zikang"
+            }
+        ]
+    },
+    "17-1": {
+        "title": "楼兰系列之无端",
+        "src": "/assets/works/image/17-1.webp",
+        "alt": "楼兰系列之无端 by Zhang Zikang",
+        "metadata": {
+            "title": "楼兰系列之无端 by Zhang Zikang",
+            "description": "楼兰系列之无端 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 楼兰系列之无端, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "楼兰系列之无端",
+                "img": "/assets/works/image/17-1.webp",
+                "year": "2024",
+                "media": "综合材料",
+                "size": "121×248cm",
+                "alt": "楼兰系列之无端 by Zhang Zikang"
+            }
+        ]
     }
 }
