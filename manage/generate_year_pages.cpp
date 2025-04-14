@@ -56,14 +56,15 @@ void replaceAll(std::string& str,
 }
 
 int main() {
-    // ---- updated input/output dirs ----
+    // Input/output paths
     const fs::path YEARS_JSON        = "../input/years.json";
     const fs::path TEMPLATE_DIR      = "../input/sample_year_page";
-    const fs::path WORKS_OUTPUT_DIR  = "../output"; 
-    // (change WORKS_OUTPUT_DIR back to "../src/app/(content)/works" for real)
+    const fs::path WORKS_OUTPUT_DIR  = "../src/app/(content)/works";
+    const fs::path NAVBAR_PATH       = "../src/app/components/Navbar.tsx";
+
 
     try {
-        // 1) Read the years JSON
+        // 1) Read years.json
         auto yearsJson = readFile(YEARS_JSON);
         auto years = parseYears(yearsJson);
         if (years.empty()) {
@@ -81,13 +82,13 @@ int main() {
             throw std::runtime_error("Missing input folder: " + sampleWorkIdDir.string());
         }
 
-        // 4) For each year, generate the folder, the page.tsx, and copy [workId]
+        // 4) Generate each year's folder
         for (auto& year : years) {
             fs::path yearDir = WORKS_OUTPUT_DIR / year;
             fs::remove_all(yearDir);
             fs::create_directories(yearDir);
 
-            // 4a) Generate page.tsx with your minor tweaks
+            // 4a) Generate page.tsx with replacements
             std::string out = tmpl;
             replaceAll(out, "en_2025.json",              "en_" + year + ".json");
             replaceAll(out, "zh_2025.json",              "zh_" + year + ".json");
@@ -100,7 +101,7 @@ int main() {
 
             writeFile(yearDir / "page.tsx", out);
 
-            // 4b) Copy the sample [workId] folder into this year's folder
+            // 4b) Copy the sample [workId] folder
             fs::copy(
                 sampleWorkIdDir,
                 yearDir / "[workId]",
@@ -108,6 +109,47 @@ int main() {
             );
 
             std::cout << "Generated folder for year " << year << "\n";
+        }
+
+        // 5) Update Navbar.tsx's years array
+        {
+            // Read existing Navbar.tsx
+            auto navContent = readFile(NAVBAR_PATH);
+            std::istringstream iss(navContent);
+            std::vector<std::string> lines;
+            std::string line;
+            while (std::getline(iss, line)) {
+                lines.push_back(line);
+            }
+
+            // Build the new years list literal
+            std::string joined;
+            for (size_t i = 0; i < years.size(); ++i) {
+                if (i) joined += ", ";
+                joined += years[i];
+            }
+
+            // Replace the line containing "const years ="
+            for (auto& ln : lines) {
+                auto pos = ln.find("const years");
+                if (pos != std::string::npos) {
+                    // Preserve indentation
+                    size_t indentEnd = ln.find_first_not_of(" \t");
+                    std::string indent = (indentEnd == std::string::npos)
+                                         ? ""
+                                         : ln.substr(0, indentEnd);
+                    ln = indent + "const years = [" + joined + "];";
+                }
+            }
+
+            // Write back
+            std::ostringstream oss;
+            for (size_t i = 0; i < lines.size(); ++i) {
+                oss << lines[i];
+                if (i + 1 < lines.size()) oss << "\n";
+            }
+            writeFile(NAVBAR_PATH, oss.str());
+            std::cout << "Updated Navbar.tsx with years\n";
         }
 
         std::cout << "All done!\n";
