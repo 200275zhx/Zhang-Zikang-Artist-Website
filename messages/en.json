@@ -149,14 +149,7 @@
 
 
     "ContactPage": {
-        "title": "Contact us",
-        "description": "Get in touch with us",
-        "go back": "Go back to home page",
-        "form": {
-            "name": "Name",
-            "email": "Email",
-            "message": "Message",
-            "submit": "Submit"
-        }
+        "title": "Contact Us",
+        "description": "Get in touch with us"
     }
 }

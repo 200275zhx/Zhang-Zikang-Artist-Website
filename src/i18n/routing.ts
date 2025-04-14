@@ -40,6 +40,10 @@ export const routing = defineRouting({
       en: "/works/[workId]",
       zh: "/zuopin/[workId]"
     },
+    "/works/2025/[workId]": {
+      en: "/works/2025/[workId]",
+      zh: "/zuopin/2025/[workId]"
+    },
     "/news/[newsId]": {
       en: "/news/[newsId]",
       zh: "/news/[newsId]"

@@ -2,55 +2,48 @@
 "use client";
 
 import React from "react";
-import { usePathname, Link } from "@/i18n/routing";
+import { Link } from "@/i18n/routing";
 import { useTranslations, useLocale as useLocaleNextIntl } from "next-intl";
-import { useParams } from "next/navigation";
+import { useSelectedLayoutSegments } from "next/navigation";
 
 export default function Navbar() {
   const t = useTranslations("Navbar");
-  const locale = useLocaleNextIntl();
-  const pathname = usePathname();
-  const params = useParams();
-  const currentWorkId = params?.workId; // dynamic parameter, e.g. "2024"
+  const locale = useLocaleNextIntl();              // e.g. "en" or "zh"
+  const segments = useSelectedLayoutSegments();    // e.g. ["en","works","2025"]
 
-  // Normalize pathname: remove a trailing slash if one exists.
-  const normalizedPathname =
-    pathname.endsWith("/") && pathname !== "/" ? pathname.slice(0, -1) : pathname;
+  console.log("Layout segments:", segments);
 
-  // use canonical works route for comparison.
-  // When using next-intl, usePathname returns the canonical route—for both zh and en the works landing is "/works".
-  const canonicalWorksPath = "/works";
+  // Find where "works" sits in the segments array
+  const worksIndex = segments.indexOf("works");
+  const isWorksPage = worksIndex !== -1;
+  // If there's something after "works", that's our active workId
+  const activeYear =
+    isWorksPage && segments.length > worksIndex + 1
+      ? segments[worksIndex + 1]
+      : null;
 
-  // Debug logs for overall navigation
-  console.log("Locale:", locale);
-  console.log("Current pathname:", pathname);
-  console.log("Normalized pathname:", normalizedPathname);
-  console.log("Canonical worksPath:", canonicalWorksPath);
-  console.log("Route params:", params);
+  console.log("isWorksPage:", isWorksPage);
+  console.log("activeYear:", activeYear);
 
-  // Determine whether to show the submenu:
-  // Show if we're on the works landing page or if a dynamic work id exists.
-  const isWorksPage = normalizedPathname === canonicalWorksPath || currentWorkId != null;
-
-  // Define submenu years.
+  // Years to render in the submenu
   const years = [2025, 2024, 2023, 2022, 2019, 2017, 2016, 2015, 2014];
 
   return (
     <nav className="sticky top-0 h-screen pt-12 pl-20 pr-16 text-sm">
       <div className="flex flex-col space-y-4">
-        {/* Works Link with conditional submenu */}
+        {/* Works Link */}
         <div>
           <Link href="/works" className="hover:text-gray-400">
             {t("works")}
           </Link>
+
+          {/* Submenu only on /works or /works/[year] */}
           {isWorksPage && (
-            <div className="mt-4 mb-2 ml-4 flex flex-col space-y-2">
+            <div className="mt-2 ml-4 flex flex-col space-y-2">
               {years.map((year) => {
-                // Determine if this submenu item is active by comparing the current workId.
-                const isActiveSubmenu = currentWorkId != null && String(year) === String(currentWorkId);
-                console.log(
-                  `Year ${year}: currentWorkId = ${currentWorkId}, active = ${isActiveSubmenu}`
-                );
+                const isActive = activeYear === String(year);
+                console.log(`Year ${year}: isActive = ${isActive}`);
+
                 return (
                   <Link
                     key={year}
@@ -58,7 +51,11 @@ export default function Navbar() {
                       pathname: "/works/[workId]",
                       params: { workId: String(year) },
                     }}
-                    className={isActiveSubmenu ? "text-black" : "text-gray-400 hover:text-gray-400"}
+                    className={
+                      isActive
+                        ? "text-black"
+                        : "text-gray-400 hover:text-gray-400"
+                    }
                   >
                     {year}
                   </Link>

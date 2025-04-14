@@ -148,13 +148,6 @@
 
     "ContactPage": {
         "title": "联系我们",
-        "description": "与我们联系",
-        "go back": "返回主页",
-        "form": {
-            "name": "姓名",
-            "email": "电子邮件",
-            "message": "信息",
-            "submit": "提交"
-        }
+        "description": "与我们联系"
     }
 }

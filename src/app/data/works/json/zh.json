@@ -1,22 +1,1242 @@
 {
-  "27-3": {
-      "title": "无题",
-      "src": "/assets/works/image/27-3.webp",
-      "alt": "张子康《无题》",
-      "metadata": {
-          "title": "张子康《无题》",
-          "description": "张子康《无题》",
-          "keywords": "张子康, 艺术作品, 无题, 传统绘画, 东西方艺术"
-      },
-      "detail": [
-        {
-          "title": "无题",
-          "img": "/assets/works/image/27-3.webp",
-          "year": "2025",
-          "media": "综合材料",
-          "size": "97.5×124cm",
-          "alt": "张子康《无题》"
-        }
-      ]
-  }
+    "27-3": {
+        "title": "2024.03",
+        "src": "/assets/works/image/27-3.webp",
+        "alt": "2024.03 by Zhang Zikang",
+        "metadata": {
+            "title": "2024.03 by Zhang Zikang",
+            "description": "2024.03 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 2024.03, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "2024.03",
+                "img": "/assets/works/image/27-3.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "97.5×124cm",
+                "alt": "2024.03 by Zhang Zikang"
+            }
+        ]
+    },
+    "27-2": {
+        "title": "2023.02",
+        "src": "/assets/works/image/27-2.webp",
+        "alt": "2023.02 by Zhang Zikang",
+        "metadata": {
+            "title": "2023.02 by Zhang Zikang",
+            "description": "2023.02 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 2023.02, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "2023.02",
+                "img": "/assets/works/image/27-2.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "97.5×124cm",
+                "alt": "2023.02 by Zhang Zikang"
+            }
+        ]
+    },
+    "27-1": {
+        "title": "2023.01",
+        "src": "/assets/works/image/27-1.webp",
+        "alt": "2023.01 by Zhang Zikang",
+        "metadata": {
+            "title": "2023.01 by Zhang Zikang",
+            "description": "2023.01 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 2023.01, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "2023.01",
+                "img": "/assets/works/image/27-1.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "97.5×124cm",
+                "alt": "2023.01 by Zhang Zikang"
+            }
+        ]
+    },
+    "24-2": {
+        "title": "2024.06",
+        "src": "/assets/works/image/24-2.webp",
+        "alt": "2024.06 by Zhang Zikang",
+        "metadata": {
+            "title": "2024.06 by Zhang Zikang",
+            "description": "2024.06 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 2024.06, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "2024.06",
+                "img": "/assets/works/image/24-2.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "97.5×124cm",
+                "alt": "2024.06 by Zhang Zikang"
+            }
+        ]
+    },
+    "24-1": {
+        "title": "2024.04",
+        "src": "/assets/works/image/24-1.webp",
+        "alt": "2024.04 by Zhang Zikang",
+        "metadata": {
+            "title": "2024.04 by Zhang Zikang",
+            "description": "2024.04 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 2024.04, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "2024.04",
+                "img": "/assets/works/image/24-1.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "97.5×124cm",
+                "alt": "2024.04 by Zhang Zikang"
+            }
+        ]
+    },
+    "23-2": {
+        "title": "2019.12",
+        "src": "/assets/works/image/23-2.webp",
+        "alt": "2019.12 by Zhang Zikang",
+        "metadata": {
+            "title": "2019.12 by Zhang Zikang",
+            "description": "2019.12 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 2019.12, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "2019.12",
+                "img": "/assets/works/image/23-2.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "200×400cm",
+                "alt": "2019.12 by Zhang Zikang"
+            }
+        ]
+    },
+    "23-1": {
+        "title": "楼兰系列之一",
+        "src": "/assets/works/image/23-1.webp",
+        "alt": "楼兰系列之一 by Zhang Zikang",
+        "metadata": {
+            "title": "楼兰系列之一 by Zhang Zikang",
+            "description": "楼兰系列之一 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 楼兰系列之一, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "楼兰系列之一",
+                "img": "/assets/works/image/23-1.webp",
+                "year": "2023",
+                "media": "综合材料",
+                "size": "70×140cm",
+                "alt": "楼兰系列之一 by Zhang Zikang"
+            }
+        ]
+    },
+    "26-2": {
+        "title": "楼兰系列之繁境",
+        "src": "/assets/works/image/26-2.webp",
+        "alt": "楼兰系列之繁境 by Zhang Zikang",
+        "metadata": {
+            "title": "楼兰系列之繁境 by Zhang Zikang",
+            "description": "楼兰系列之繁境 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 楼兰系列之繁境, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "楼兰系列之繁境",
+                "img": "/assets/works/image/26-2.webp",
+                "year": "2024",
+                "media": "综合材料",
+                "size": "115×369cm",
+                "alt": "楼兰系列之繁境 by Zhang Zikang"
+            }
+        ]
+    },
+    "26-1": {
+        "title": "骤",
+        "src": "/assets/works/image/26-1.webp",
+        "alt": "骤 by Zhang Zikang",
+        "metadata": {
+            "title": "骤 by Zhang Zikang",
+            "description": "骤 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 骤, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "骤",
+                "img": "/assets/works/image/26-1.webp",
+                "year": "2024",
+                "media": "综合材料",
+                "size": "69×137cm",
+                "alt": "骤 by Zhang Zikang"
+            }
+        ]
+    },
+    "25-2": {
+        "title": "梦回",
+        "src": "/assets/works/image/25-2.webp",
+        "alt": "梦回 by Zhang Zikang",
+        "metadata": {
+            "title": "梦回 by Zhang Zikang",
+            "description": "梦回 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 梦回, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "梦回",
+                "img": "/assets/works/image/25-2.webp",
+                "year": "2023",
+                "media": "综合材料",
+                "size": "69×137cm",
+                "alt": "梦回 by Zhang Zikang"
+            }
+        ]
+    },
+    "25-1": {
+        "title": "日常",
+        "src": "/assets/works/image/25-1.webp",
+        "alt": "日常 by Zhang Zikang",
+        "metadata": {
+            "title": "日常 by Zhang Zikang",
+            "description": "日常 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 日常, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "日常",
+                "img": "/assets/works/image/25-1.webp",
+                "year": "2023",
+                "media": "综合材料",
+                "size": "69×137cm",
+                "alt": "日常 by Zhang Zikang"
+            }
+        ]
+    },
+    "22-2": {
+        "title": "楼兰系列之四",
+        "src": "/assets/works/image/22-2.webp",
+        "alt": "楼兰系列之四 by Zhang Zikang",
+        "metadata": {
+            "title": "楼兰系列之四 by Zhang Zikang",
+            "description": "楼兰系列之四 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 楼兰系列之四, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "楼兰系列之四",
+                "img": "/assets/works/image/22-2.webp",
+                "year": "2023",
+                "media": "综合材料",
+                "size": "85×101cm",
+                "alt": "楼兰系列之四 by Zhang Zikang"
+            }
+        ]
+    },
+    "22-1": {
+        "title": "幻城",
+        "src": "/assets/works/image/22-1.webp",
+        "alt": "幻城 by Zhang Zikang",
+        "metadata": {
+            "title": "幻城 by Zhang Zikang",
+            "description": "幻城 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 幻城, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "幻城",
+                "img": "/assets/works/image/22-1.webp",
+                "year": "2023",
+                "media": "综合材料",
+                "size": "80x100cm",
+                "alt": "幻城 by Zhang Zikang"
+            }
+        ]
+    },
+    "21-2": {
+        "title": "迷失",
+        "src": "/assets/works/image/21-2.webp",
+        "alt": "迷失 by Zhang Zikang",
+        "metadata": {
+            "title": "迷失 by Zhang Zikang",
+            "description": "迷失 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 迷失, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "迷失",
+                "img": "/assets/works/image/21-2.webp",
+                "year": "2023",
+                "media": "综合材料",
+                "size": "69×137cm",
+                "alt": "迷失 by Zhang Zikang"
+            }
+        ]
+    },
+    "21-1": {
+        "title": "指引",
+        "src": "/assets/works/image/21-1.webp",
+        "alt": "指引 by Zhang Zikang",
+        "metadata": {
+            "title": "指引 by Zhang Zikang",
+            "description": "指引 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 指引, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "指引",
+                "img": "/assets/works/image/21-1.webp",
+                "year": "2023",
+                "media": "综合材料",
+                "size": "69×137cm",
+                "alt": "指引 by Zhang Zikang"
+            }
+        ]
+    },
+    "20-2": {
+        "title": "集市",
+        "src": "/assets/works/image/20-2.webp",
+        "alt": "集市 by Zhang Zikang",
+        "metadata": {
+            "title": "集市 by Zhang Zikang",
+            "description": "集市 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 集市, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "集市",
+                "img": "/assets/works/image/20-2.webp",
+                "year": "2023",
+                "media": "综合材料",
+                "size": "53×60cm",
+                "alt": "集市 by Zhang Zikang"
+            }
+        ]
+    },
+    "20-1": {
+        "title": "灵",
+        "src": "/assets/works/image/20-1.webp",
+        "alt": "灵 by Zhang Zikang",
+        "metadata": {
+            "title": "灵 by Zhang Zikang",
+            "description": "灵 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 灵, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "灵",
+                "img": "/assets/works/image/20-1.webp",
+                "year": "2023",
+                "media": "综合材料",
+                "size": "54x81cm",
+                "alt": "灵 by Zhang Zikang"
+            }
+        ]
+    },
+    "19-4": {
+        "title": "归去",
+        "src": "/assets/works/image/19-4.webp",
+        "alt": "归去 by Zhang Zikang",
+        "metadata": {
+            "title": "归去 by Zhang Zikang",
+            "description": "归去 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 归去, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "归去",
+                "img": "/assets/works/image/19-4.webp",
+                "year": "2023",
+                "media": "综合材料",
+                "size": "69.5x138cm",
+                "alt": "归去 by Zhang Zikang"
+            }
+        ]
+    },
+    "19-3": {
+        "title": "看见",
+        "src": "/assets/works/image/19-3.webp",
+        "alt": "看见 by Zhang Zikang",
+        "metadata": {
+            "title": "看见 by Zhang Zikang",
+            "description": "看见 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 看见, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "看见",
+                "img": "/assets/works/image/19-3.webp",
+                "year": "2023",
+                "media": "综合材料",
+                "size": "70×93cm",
+                "alt": "看见 by Zhang Zikang"
+            }
+        ]
+    },
+    "19-2": {
+        "title": "楼兰系列之三",
+        "src": "/assets/works/image/19-2.webp",
+        "alt": "楼兰系列之三 by Zhang Zikang",
+        "metadata": {
+            "title": "楼兰系列之三 by Zhang Zikang",
+            "description": "楼兰系列之三 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 楼兰系列之三, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "楼兰系列之三",
+                "img": "/assets/works/image/19-2.webp",
+                "year": "2023",
+                "media": "综合材料",
+                "size": "76×100cm",
+                "alt": "楼兰系列之三 by Zhang Zikang"
+            }
+        ]
+    },
+    "19-1": {
+        "title": "月夕",
+        "src": "/assets/works/image/19-1.webp",
+        "alt": "月夕 by Zhang Zikang",
+        "metadata": {
+            "title": "月夕 by Zhang Zikang",
+            "description": "月夕 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 月夕, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "月夕",
+                "img": "/assets/works/image/19-1.webp",
+                "year": "2023",
+                "media": "综合材料",
+                "size": "71x87cm",
+                "alt": "月夕 by Zhang Zikang"
+            }
+        ]
+    },
+    "18-2": {
+        "title": "楼兰系列之二",
+        "src": "/assets/works/image/18-2.webp",
+        "alt": "楼兰系列之二 by Zhang Zikang",
+        "metadata": {
+            "title": "楼兰系列之二 by Zhang Zikang",
+            "description": "楼兰系列之二 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 楼兰系列之二, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "楼兰系列之二",
+                "img": "/assets/works/image/18-2.webp",
+                "year": "2023",
+                "media": "综合材料",
+                "size": "76×100cm",
+                "alt": "楼兰系列之二 by Zhang Zikang"
+            }
+        ]
+    },
+    "18-1": {
+        "title": "心生",
+        "src": "/assets/works/image/18-1.webp",
+        "alt": "心生 by Zhang Zikang",
+        "metadata": {
+            "title": "心生 by Zhang Zikang",
+            "description": "心生 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 心生, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "心生",
+                "img": "/assets/works/image/18-1.webp",
+                "year": "2022",
+                "media": "综合材料",
+                "size": "70x93cm",
+                "alt": "心生 by Zhang Zikang"
+            }
+        ]
+    },
+    "17-3": {
+        "title": "起舞",
+        "src": "/assets/works/image/17-3.webp",
+        "alt": "起舞 by Zhang Zikang",
+        "metadata": {
+            "title": "起舞 by Zhang Zikang",
+            "description": "起舞 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 起舞, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "起舞",
+                "img": "/assets/works/image/17-3.webp",
+                "year": "2023",
+                "media": "综合材料",
+                "size": "70×100cm",
+                "alt": "起舞 by Zhang Zikang"
+            }
+        ]
+    },
+    "17-2": {
+        "title": "楼兰系列之梦回",
+        "src": "/assets/works/image/17-2.webp",
+        "alt": "楼兰系列之梦回 by Zhang Zikang",
+        "metadata": {
+            "title": "楼兰系列之梦回 by Zhang Zikang",
+            "description": "楼兰系列之梦回 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 楼兰系列之梦回, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "楼兰系列之梦回",
+                "img": "/assets/works/image/17-2.webp",
+                "year": "2024",
+                "media": "综合材料",
+                "size": "98×198cm",
+                "alt": "楼兰系列之梦回 by Zhang Zikang"
+            }
+        ]
+    },
+    "17-1": {
+        "title": "楼兰系列之无端",
+        "src": "/assets/works/image/17-1.webp",
+        "alt": "楼兰系列之无端 by Zhang Zikang",
+        "metadata": {
+            "title": "楼兰系列之无端 by Zhang Zikang",
+            "description": "楼兰系列之无端 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 楼兰系列之无端, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "楼兰系列之无端",
+                "img": "/assets/works/image/17-1.webp",
+                "year": "2024",
+                "media": "综合材料",
+                "size": "121×248cm",
+                "alt": "楼兰系列之无端 by Zhang Zikang"
+            }
+        ]
+    },
+    "16-2": {
+        "title": "秋雨",
+        "src": "/assets/works/image/16-2.webp",
+        "alt": "秋雨 by Zhang Zikang",
+        "metadata": {
+            "title": "秋雨 by Zhang Zikang",
+            "description": "秋雨 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 秋雨, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "秋雨",
+                "img": "/assets/works/image/16-2.webp",
+                "year": "2022",
+                "media": "宣纸，水墨，油画颜料",
+                "size": "69x137cm",
+                "alt": "秋雨 by Zhang Zikang"
+            }
+        ]
+    },
+    "16-1": {
+        "title": "游物",
+        "src": "/assets/works/image/16-1.webp",
+        "alt": "游物 by Zhang Zikang",
+        "metadata": {
+            "title": "游物 by Zhang Zikang",
+            "description": "游物 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 游物, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "游物",
+                "img": "/assets/works/image/16-1.webp",
+                "year": "2022",
+                "media": "宣纸，水墨，油画颜料",
+                "size": "69x137cm",
+                "alt": "游物 by Zhang Zikang"
+            }
+        ]
+    },
+    "15-2": {
+        "title": "花丛",
+        "src": "/assets/works/image/15-2.webp",
+        "alt": "花丛 by Zhang Zikang",
+        "metadata": {
+            "title": "花丛 by Zhang Zikang",
+            "description": "花丛 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 花丛, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "花丛",
+                "img": "/assets/works/image/15-2.webp",
+                "year": "2022",
+                "media": "宣纸，水墨",
+                "size": "70x140cm",
+                "alt": "花丛 by Zhang Zikang"
+            }
+        ]
+    },
+    "15-1": {
+        "title": "秋",
+        "src": "/assets/works/image/15-1.webp",
+        "alt": "秋 by Zhang Zikang",
+        "metadata": {
+            "title": "秋 by Zhang Zikang",
+            "description": "秋 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 秋, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "秋",
+                "img": "/assets/works/image/15-1.webp",
+                "year": "2022",
+                "media": "宣纸，水墨",
+                "size": "70.5x80.5cm",
+                "alt": "秋 by Zhang Zikang"
+            }
+        ]
+    },
+    "14-2": {
+        "title": "凤莲",
+        "src": "/assets/works/image/14-2.webp",
+        "alt": "凤莲 by Zhang Zikang",
+        "metadata": {
+            "title": "凤莲 by Zhang Zikang",
+            "description": "凤莲 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 凤莲, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "凤莲",
+                "img": "/assets/works/image/14-2.webp",
+                "year": "2022",
+                "media": "宣纸，水墨",
+                "size": "140x69cm",
+                "alt": "凤莲 by Zhang Zikang"
+            }
+        ]
+    },
+    "14-1": {
+        "title": "风物",
+        "src": "/assets/works/image/14-1.webp",
+        "alt": "风物 by Zhang Zikang",
+        "metadata": {
+            "title": "风物 by Zhang Zikang",
+            "description": "风物 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 风物, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "风物",
+                "img": "/assets/works/image/14-1.webp",
+                "year": "2022",
+                "media": "宣纸，水墨",
+                "size": "137x69cm",
+                "alt": "风物 by Zhang Zikang"
+            }
+        ]
+    },
+    "13-3": {
+        "title": "花瓶",
+        "src": "/assets/works/image/13-3.webp",
+        "alt": "花瓶 by Zhang Zikang",
+        "metadata": {
+            "title": "花瓶 by Zhang Zikang",
+            "description": "花瓶 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 花瓶, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "花瓶",
+                "img": "/assets/works/image/13-3.webp",
+                "year": "2022",
+                "media": "宣纸，水墨",
+                "size": "66.5x75cm",
+                "alt": "花瓶 by Zhang Zikang"
+            }
+        ]
+    },
+    "13-2": {
+        "title": "静物之二",
+        "src": "/assets/works/image/13-2.webp",
+        "alt": "静物之二 by Zhang Zikang",
+        "metadata": {
+            "title": "静物之二 by Zhang Zikang",
+            "description": "静物之二 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 静物之二, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "静物之二",
+                "img": "/assets/works/image/13-2.webp",
+                "year": "2023",
+                "media": "宣纸，水墨",
+                "size": "69x137cm",
+                "alt": "静物之二 by Zhang Zikang"
+            }
+        ]
+    },
+    "13-1": {
+        "title": "静物之一",
+        "src": "/assets/works/image/13-1.webp",
+        "alt": "静物之一 by Zhang Zikang",
+        "metadata": {
+            "title": "静物之一 by Zhang Zikang",
+            "description": "静物之一 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 静物之一, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "静物之一",
+                "img": "/assets/works/image/13-1.webp",
+                "year": "2022",
+                "media": "宣纸，水墨",
+                "size": "69x137cm",
+                "alt": "静物之一 by Zhang Zikang"
+            }
+        ]
+    },
+    "12-3": {
+        "title": "起飞",
+        "src": "/assets/works/image/12-3.webp",
+        "alt": "起飞 by Zhang Zikang",
+        "metadata": {
+            "title": "起飞 by Zhang Zikang",
+            "description": "起飞 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 起飞, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "起飞",
+                "img": "/assets/works/image/12-3.webp",
+                "year": "2022",
+                "media": "布面油画",
+                "size": "38x50cm",
+                "alt": "起飞 by Zhang Zikang"
+            }
+        ]
+    },
+    "12-2": {
+        "title": "送别",
+        "src": "/assets/works/image/12-2.webp",
+        "alt": "送别 by Zhang Zikang",
+        "metadata": {
+            "title": "送别 by Zhang Zikang",
+            "description": "送别 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 送别, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "送别",
+                "img": "/assets/works/image/12-2.webp",
+                "year": "2022",
+                "media": "布面油画",
+                "size": "38x50cm",
+                "alt": "送别 by Zhang Zikang"
+            }
+        ]
+    },
+    "12-1": {
+        "title": "倒影",
+        "src": "/assets/works/image/12-1.webp",
+        "alt": "倒影 by Zhang Zikang",
+        "metadata": {
+            "title": "倒影 by Zhang Zikang",
+            "description": "倒影 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 倒影, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "倒影",
+                "img": "/assets/works/image/12-1.webp",
+                "year": "2022",
+                "media": "布面油画",
+                "size": "38x50cm",
+                "alt": "倒影 by Zhang Zikang"
+            }
+        ]
+    },
+    "11-2": {
+        "title": "转换",
+        "src": "/assets/works/image/11-2.webp",
+        "alt": "转换 by Zhang Zikang",
+        "metadata": {
+            "title": "转换 by Zhang Zikang",
+            "description": "转换 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 转换, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "转换",
+                "img": "/assets/works/image/11-2.webp",
+                "year": "2022",
+                "media": "布面油画",
+                "size": "50x38cm",
+                "alt": "转换 by Zhang Zikang"
+            }
+        ]
+    },
+    "11-1": {
+        "title": "屋顶",
+        "src": "/assets/works/image/11-1.webp",
+        "alt": "屋顶 by Zhang Zikang",
+        "metadata": {
+            "title": "屋顶 by Zhang Zikang",
+            "description": "屋顶 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 屋顶, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "屋顶",
+                "img": "/assets/works/image/11-1.webp",
+                "year": "2022",
+                "media": "布面油画",
+                "size": "50x38cm",
+                "alt": "屋顶 by Zhang Zikang"
+            }
+        ]
+    },
+    "10-3": {
+        "title": "乐曲",
+        "src": "/assets/works/image/10-3.webp",
+        "alt": "乐曲 by Zhang Zikang",
+        "metadata": {
+            "title": "乐曲 by Zhang Zikang",
+            "description": "乐曲 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 乐曲, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "乐曲",
+                "img": "/assets/works/image/10-3.webp",
+                "year": "2022",
+                "media": "布面油画",
+                "size": "38x50cm",
+                "alt": "乐曲 by Zhang Zikang"
+            }
+        ]
+    },
+    "10-2": {
+        "title": "平行空间",
+        "src": "/assets/works/image/10-2.webp",
+        "alt": "平行空间 by Zhang Zikang",
+        "metadata": {
+            "title": "平行空间 by Zhang Zikang",
+            "description": "平行空间 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 平行空间, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "平行空间",
+                "img": "/assets/works/image/10-2.webp",
+                "year": "2022",
+                "media": "布面油画",
+                "size": "38x50cm",
+                "alt": "平行空间 by Zhang Zikang"
+            }
+        ]
+    },
+    "10-1": {
+        "title": "等待",
+        "src": "/assets/works/image/10-1.webp",
+        "alt": "等待 by Zhang Zikang",
+        "metadata": {
+            "title": "等待 by Zhang Zikang",
+            "description": "等待 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 等待, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "等待",
+                "img": "/assets/works/image/10-1.webp",
+                "year": "2022",
+                "media": "布面油画",
+                "size": "38x50cm",
+                "alt": "等待 by Zhang Zikang"
+            }
+        ]
+    },
+    "9-2": {
+        "title": "神鸟",
+        "src": "/assets/works/image/9-2.webp",
+        "alt": "神鸟 by Zhang Zikang",
+        "metadata": {
+            "title": "神鸟 by Zhang Zikang",
+            "description": "神鸟 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 神鸟, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "神鸟",
+                "img": "/assets/works/image/9-2.webp",
+                "year": "2019",
+                "media": "布面油画",
+                "size": "54x45cm",
+                "alt": "神鸟 by Zhang Zikang"
+            }
+        ]
+    },
+    "9-1": {
+        "title": "桥下",
+        "src": "/assets/works/image/9-1.webp",
+        "alt": "桥下 by Zhang Zikang",
+        "metadata": {
+            "title": "桥下 by Zhang Zikang",
+            "description": "桥下 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 桥下, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "桥下",
+                "img": "/assets/works/image/9-1.webp",
+                "year": "2019",
+                "media": "布面油画",
+                "size": "40x58cm",
+                "alt": "桥下 by Zhang Zikang"
+            }
+        ]
+    },
+    "8-2": {
+        "title": "远行",
+        "src": "/assets/works/image/8-2.webp",
+        "alt": "远行 by Zhang Zikang",
+        "metadata": {
+            "title": "远行 by Zhang Zikang",
+            "description": "远行 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 远行, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "远行",
+                "img": "/assets/works/image/8-2.webp",
+                "year": "2017",
+                "media": "布面油画",
+                "size": "51x58cm",
+                "alt": "远行 by Zhang Zikang"
+            }
+        ]
+    },
+    "8-1": {
+        "title": "归途",
+        "src": "/assets/works/image/8-1.webp",
+        "alt": "归途 by Zhang Zikang",
+        "metadata": {
+            "title": "归途 by Zhang Zikang",
+            "description": "归途 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 归途, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "归途",
+                "img": "/assets/works/image/8-1.webp",
+                "year": "2017",
+                "media": "布面油画",
+                "size": "51x58cm",
+                "alt": "归途 by Zhang Zikang"
+            }
+        ]
+    },
+    "7-4": {
+        "title": "野餐",
+        "src": "/assets/works/image/7-4.webp",
+        "alt": "野餐 by Zhang Zikang",
+        "metadata": {
+            "title": "野餐 by Zhang Zikang",
+            "description": "野餐 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 野餐, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "野餐",
+                "img": "/assets/works/image/7-4.webp",
+                "year": "2016",
+                "media": "布面油画",
+                "size": "37x49cm",
+                "alt": "野餐 by Zhang Zikang"
+            }
+        ]
+    },
+    "7-3": {
+        "title": "向夕",
+        "src": "/assets/works/image/7-3.webp",
+        "alt": "向夕 by Zhang Zikang",
+        "metadata": {
+            "title": "向夕 by Zhang Zikang",
+            "description": "向夕 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 向夕, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "向夕",
+                "img": "/assets/works/image/7-3.webp",
+                "year": "2016",
+                "media": "布面油画",
+                "size": "37x49cm",
+                "alt": "向夕 by Zhang Zikang"
+            }
+        ]
+    },
+    "7-2": {
+        "title": "门",
+        "src": "/assets/works/image/7-2.webp",
+        "alt": "门 by Zhang Zikang",
+        "metadata": {
+            "title": "门 by Zhang Zikang",
+            "description": "门 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 门, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "门",
+                "img": "/assets/works/image/7-2.webp",
+                "year": "2016",
+                "media": "布面油画",
+                "size": "37x49cm",
+                "alt": "门 by Zhang Zikang"
+            }
+        ]
+    },
+    "7-1": {
+        "title": "路口",
+        "src": "/assets/works/image/7-1.webp",
+        "alt": "路口 by Zhang Zikang",
+        "metadata": {
+            "title": "路口 by Zhang Zikang",
+            "description": "路口 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 路口, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "路口",
+                "img": "/assets/works/image/7-1.webp",
+                "year": "2016",
+                "media": "布面油画",
+                "size": "37x49cm",
+                "alt": "路口 by Zhang Zikang"
+            }
+        ]
+    },
+    "6-1": {
+        "title": "瓦罕走廊之二",
+        "src": "/assets/works/image/6-1.webp",
+        "alt": "瓦罕走廊之二 by Zhang Zikang",
+        "metadata": {
+            "title": "瓦罕走廊之二 by Zhang Zikang",
+            "description": "瓦罕走廊之二 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 瓦罕走廊之二, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "瓦罕走廊之二",
+                "img": "/assets/works/image/6-1.webp",
+                "year": "2015",
+                "media": "布面油画",
+                "size": "97x145cm",
+                "alt": "瓦罕走廊之二 by Zhang Zikang"
+            }
+        ]
+    },
+    "5-1": {
+        "title": "魔鬼城",
+        "src": "/assets/works/image/5-1.webp",
+        "alt": "魔鬼城 by Zhang Zikang",
+        "metadata": {
+            "title": "魔鬼城 by Zhang Zikang",
+            "description": "魔鬼城 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 魔鬼城, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "魔鬼城",
+                "img": "/assets/works/image/5-1.webp",
+                "year": "2015",
+                "media": "布面油画",
+                "size": "92x420cm",
+                "alt": "魔鬼城 by Zhang Zikang"
+            }
+        ]
+    },
+    "4-2": {
+        "title": "寻 · 伊犁",
+        "src": "/assets/works/image/4-2.webp",
+        "alt": "寻 · 伊犁 by Zhang Zikang",
+        "metadata": {
+            "title": "寻 · 伊犁 by Zhang Zikang",
+            "description": "寻 · 伊犁 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 寻 · 伊犁, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "寻 · 伊犁",
+                "img": "/assets/works/image/4-2.webp",
+                "year": "2015",
+                "media": "布面油画",
+                "size": "95×125cm",
+                "alt": "寻 · 伊犁 by Zhang Zikang"
+            }
+        ]
+    },
+    "4-1": {
+        "title": "猫头鹰",
+        "src": "/assets/works/image/4-1.webp",
+        "alt": "猫头鹰 by Zhang Zikang",
+        "metadata": {
+            "title": "猫头鹰 by Zhang Zikang",
+            "description": "猫头鹰 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 猫头鹰, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "猫头鹰",
+                "img": "/assets/works/image/4-1.webp",
+                "year": "2016",
+                "media": "布面油画",
+                "size": "95x128cm",
+                "alt": "猫头鹰 by Zhang Zikang"
+            }
+        ]
+    },
+    "3-3": {
+        "title": "野花",
+        "src": "/assets/works/image/3-3.webp",
+        "alt": "野花 by Zhang Zikang",
+        "metadata": {
+            "title": "野花 by Zhang Zikang",
+            "description": "野花 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 野花, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "野花",
+                "img": "/assets/works/image/3-3.webp",
+                "year": "2015",
+                "media": "布面油画",
+                "size": "94x123cm",
+                "alt": "野花 by Zhang Zikang"
+            }
+        ]
+    },
+    "3-2": {
+        "title": "泉",
+        "src": "/assets/works/image/3-2.webp",
+        "alt": "泉 by Zhang Zikang",
+        "metadata": {
+            "title": "泉 by Zhang Zikang",
+            "description": "泉 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 泉, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "泉",
+                "img": "/assets/works/image/3-2.webp",
+                "year": "2015",
+                "media": "布面油画",
+                "size": "120x200cm",
+                "alt": "泉 by Zhang Zikang"
+            }
+        ]
+    },
+    "3-1": {
+        "title": "远古来客",
+        "src": "/assets/works/image/3-1.webp",
+        "alt": "远古来客 by Zhang Zikang",
+        "metadata": {
+            "title": "远古来客 by Zhang Zikang",
+            "description": "远古来客 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 远古来客, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "远古来客",
+                "img": "/assets/works/image/3-1.webp",
+                "year": "2015",
+                "media": "布面油画",
+                "size": "95x127cm",
+                "alt": "远古来客 by Zhang Zikang"
+            }
+        ]
+    },
+    "2-2": {
+        "title": "瓦罕走廊之一",
+        "src": "/assets/works/image/2-2.webp",
+        "alt": "瓦罕走廊之一 by Zhang Zikang",
+        "metadata": {
+            "title": "瓦罕走廊之一 by Zhang Zikang",
+            "description": "瓦罕走廊之一 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 瓦罕走廊之一, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "瓦罕走廊之一",
+                "img": "/assets/works/image/2-2.webp",
+                "year": "2015",
+                "media": "布面油画",
+                "size": "89x129cm",
+                "alt": "瓦罕走廊之一 by Zhang Zikang"
+            }
+        ]
+    },
+    "2-1": {
+        "title": "融化",
+        "src": "/assets/works/image/2-1.webp",
+        "alt": "融化 by Zhang Zikang",
+        "metadata": {
+            "title": "融化 by Zhang Zikang",
+            "description": "融化 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 融化, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "融化",
+                "img": "/assets/works/image/2-1.webp",
+                "year": "2015",
+                "media": "布面油画",
+                "size": "95x125cm",
+                "alt": "融化 by Zhang Zikang"
+            }
+        ]
+    },
+    "1-2": {
+        "title": "喀纳斯之一",
+        "src": "/assets/works/image/1-2.webp",
+        "alt": "喀纳斯之一 by Zhang Zikang",
+        "metadata": {
+            "title": "喀纳斯之一 by Zhang Zikang",
+            "description": "喀纳斯之一 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 喀纳斯之一, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "喀纳斯之一",
+                "img": "/assets/works/image/1-2.webp",
+                "year": "2016",
+                "media": "布面油画",
+                "size": "120×200cm",
+                "alt": "喀纳斯之一 by Zhang Zikang"
+            }
+        ]
+    },
+    "1-1": {
+        "title": "初春",
+        "src": "/assets/works/image/1-1.webp",
+        "alt": "初春 by Zhang Zikang",
+        "metadata": {
+            "title": "初春 by Zhang Zikang",
+            "description": "初春 by Zhang Zikang",
+            "keywords": "Zhang Zikang, artworks, 初春, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "初春",
+                "img": "/assets/works/image/1-1.webp",
+                "year": "2014",
+                "media": "布面油画",
+                "size": "95×193cm",
+                "alt": "初春 by Zhang Zikang"
+            }
+        ]
+    }
 }
