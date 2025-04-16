@@ -135,7 +135,7 @@ export default function MobileNavbar() {
           </div>
         </nav>
         {/* LocaleSwitcher positioned at the bottom */}
-        <div className="px-10 pb-20">
+        <div className="px-10 py-20">
           <LocaleSwitcher />
         </div>
       </div>
