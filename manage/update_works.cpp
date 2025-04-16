@@ -57,6 +57,7 @@ int main() {
     const fs::path TEMPLATE_DIR         = "../input/sample_year_page";
     const fs::path WORKS_OUTPUT_DIR     = "../../src/app/[locale]/(content)/works";
     const fs::path NAVBAR_PATH          = "../../src/components/Navbar.tsx";
+    const fs::path MOBILENAVBAR_PATH    = "../../src/components/MobileNavbar.tsx";
     const fs::path ROUTING_PATH         = "../../src/i18n/routing.ts";
 
     // We'll collect all years across both locales
@@ -205,33 +206,33 @@ int main() {
         std::cout << "Generated page for year " << year << "\n";
     }
 
-    // --- Update Navbar.tsx ---
     {
+        // --- Update Navbar.tsx ---
         auto navText = readFile(NAVBAR_PATH);
         std::istringstream iss(navText);
         std::vector<std::string> lines;
         std::string line;
         while (std::getline(iss, line)) lines.push_back(line);
-
+    
         // Build new years literal
         std::string joined;
         for (size_t i = 0; i < years.size(); ++i) {
             if (i) joined += ", ";
             joined += years[i];
         }
-
-        // Replace the const years line
+    
+        // Replace the const years line in Navbar.tsx
         for (auto& ln : lines) {
             if (ln.find("const years") != std::string::npos) {
                 size_t indentEnd = ln.find_first_not_of(" \t");
                 std::string indent = (indentEnd == std::string::npos)
-                                     ? ""
-                                     : ln.substr(0, indentEnd);
+                                         ? ""
+                                         : ln.substr(0, indentEnd);
                 ln = indent + "const years = [" + joined + "];";
                 break;
             }
         }
-
+    
         std::ostringstream oss;
         for (size_t i = 0; i < lines.size(); ++i) {
             oss << lines[i];
@@ -239,57 +240,97 @@ int main() {
         }
         writeFile(NAVBAR_PATH, oss.str());
         std::cout << "Updated Navbar.tsx\n";
-    }
+    
+        // --- Update MobileNavbar.tsx ---
+        auto mobileNavText = readFile(MOBILENAVBAR_PATH);
+        std::istringstream issMobile(mobileNavText);
+        std::vector<std::string> mobileLines;
+        while (std::getline(issMobile, line)) {
+            mobileLines.push_back(line);
+        }
+    
+        // Reuse the same literal (or recalc if needed)
+        std::string mobileJoined;
+        for (size_t i = 0; i < years.size(); ++i) {
+            if (i) mobileJoined += ", ";
+            mobileJoined += years[i];
+        }
+    
+        // Replace the const years line in MobileNavbar.tsx
+        for (auto& ln : mobileLines) {
+            if (ln.find("const years") != std::string::npos) {
+                size_t indentEnd = ln.find_first_not_of(" \t");
+                std::string indent = (indentEnd == std::string::npos)
+                                         ? ""
+                                         : ln.substr(0, indentEnd);
+                ln = indent + "const years = [" + mobileJoined + "];";
+                break;
+            }
+        }
+    
+        std::ostringstream ossMobile;
+        for (size_t i = 0; i < mobileLines.size(); ++i) {
+            ossMobile << mobileLines[i];
+            if (i + 1 < mobileLines.size()) ossMobile << "\n";
+        }
+        writeFile(MOBILENAVBAR_PATH, ossMobile.str());
+        std::cout << "Updated MobileNavbar.tsx\n";
+    }    
 
-    // --- Update routing.ts with per‑year detail routes, skipping existing ---
+    // --- Update routing.ts with per‑year listing + detail routes, skipping existing ---
     {
+        const fs::path ROUTING_PATH = "../../src/i18n/routing.ts";
         auto text = readFile(ROUTING_PATH);
 
-        // 1) Locate the opening brace of pathnames
+        // 1) Locate pathnames opening brace
         auto posNames  = text.find("pathnames");
         auto braceOpen = text.find('{', posNames);
         if (posNames == std::string::npos || braceOpen == std::string::npos)
             throw std::runtime_error("Cannot find pathnames in routing.ts");
 
-        // 2) Find the '}' that closes the last entry (depth 2→1)
+        // 2) Find the closing '}' of the last existing entry (depth 2→1)
         int depth = 0;
         size_t lastEntryClose = std::string::npos;
         for (size_t i = braceOpen; i < text.size(); ++i) {
-            char c = text[i];
-            if (c == '{') {
-                ++depth;
-            } else if (c == '}') {
+            if (text[i] == '{')      ++depth;
+            else if (text[i] == '}') {
                 --depth;
-                if (depth == 1) {
-                    lastEntryClose = i;
-                } else if (depth == 0) {
-                    break;
-                }
+                if (depth == 1) lastEntryClose = i;
+                else if (depth == 0) break;
             }
         }
         if (lastEntryClose == std::string::npos)
             throw std::runtime_error("Could not find last entry close in routing.ts");
 
-        // 3) Build insertion text only for years not already present
+        // 3) Build insertion text for each year: base route then detail route
         std::ostringstream ins;
         for (auto& year : years) {
-            std::string key = "\"/works/" + year + "/[workId]\"";
-            if (text.find(key) != std::string::npos) {
-                // already present, skip
-                continue;
+            // Base listing route: "/works/<year>"
+            std::string baseKey = "\"/works/" + year + "\"";
+            if (text.find(baseKey) == std::string::npos) {
+                ins << ",\n"
+                    << "    \"/works/" << year << "\": {\n"
+                    << "      en: \"/works/" << year << "\",\n"
+                    << "      zh: \"/zuopin/" << year << "\"\n"
+                    << "    }";
             }
-            ins << ",\n"
-                << "    \"/works/" << year << "/[workId]\": {\n"
-                << "      en: \"/works/" << year << "/[workId]\",\n"
-                << "      zh: \"/zuopin/" << year << "/[workId]\"\n"
-                << "    }";
+            // Detail route: "/works/<year>/[workId]"
+            std::string detailKey = "\"/works/" + year + "/[workId]\"";
+            if (text.find(detailKey) == std::string::npos) {
+                ins << ",\n"
+                    << "    \"/works/" << year << "/[workId]\": {\n"
+                    << "      en: \"/works/" << year << "/[workId]\",\n"
+                    << "      zh: \"/zuopin/" << year << "/[workId]\"\n"
+                    << "    }";
+            }
         }
 
-        // 4) Insert right after lastEntryClose
+        // 4) Insert immediately after lastEntryClose (no extra newline)
         text.insert(lastEntryClose + 1, ins.str());
         writeFile(ROUTING_PATH, text);
-        std::cout << "Updated routing.ts with per‑year routes (skipped existing)\n";
+        std::cout << "Updated routing.ts with per-year listing & detail routes\n";
     }
+
 
 
 

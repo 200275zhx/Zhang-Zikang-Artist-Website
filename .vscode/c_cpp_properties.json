@@ -6,9 +6,9 @@
         "${workspaceFolder}/**",
         "${workspaceFolder}/manage/include"
       ],
-      "compilerPath": "gcc",
+      "compilerPath": "C:/include/mingw64/bin/gcc.exe",
       "cStandard": "${default}",
-      "cppStandard": "c++17",
+      "cppStandard": "C++17",
       "intelliSenseMode": "windows-gcc-x64",
       "compilerArgs": [
         ""

@@ -1,6 +1,7 @@
 import {Link} from '@/i18n/routing';
 import { getTranslations } from 'next-intl/server';
 import LocaleSwitcher from "@/components/LocaleSwitcher";
+import MobileNavbar from '@/components/MobileNavbar';
 
 export async function generateMetadata() {
   const t = await getTranslations('HomePage.metadata');
@@ -51,12 +52,12 @@ export default async function HomePage() {
         />
 
         {/* White background container for the title */}
-        <div className="absolute top-1/2 transform -translate-y-1/2 w-full bg-white py-8 px-20"> 
+        <div className="absolute top-1/2 transform -translate-y-1/2 w-full bg-white py-8 px-10 md:px-20"> 
           <div className="items-center flex"> {/* Element layout */}
             <Link href="/" className="font-normal text-2xl text-left">
               {t('navbar.name')}
             </Link>
-            <span className="text-sm ml-auto mr-48 text-right space-x-8">
+            <span className="text-sm ml-auto mr-48 text-right space-x-8 hidden xl:block">
               <Link href="/works" className="hover:text-gray-600">{t('navbar.works')}</Link>
               <Link href="/news" className="hover:text-gray-600">{t('navbar.news')}</Link>
               <Link href="/exhibitions" className="hover:text-gray-600">{t('navbar.exhibitions')}</Link>
@@ -64,7 +65,12 @@ export default async function HomePage() {
               <Link href="/biography" className="hover:text-gray-600">{t('navbar.biography')}</Link>
               <Link href="/contact" className="hover:text-gray-600">{t('navbar.contact')}</Link>
             </span>
-            <LocaleSwitcher />
+            <span className="hidden xl:block">
+              <LocaleSwitcher />
+            </span>
+            <span className="ml-auto text-right xl:hidden">
+              <MobileNavbar />
+            </span>
           </div>
         </div>
       </div>

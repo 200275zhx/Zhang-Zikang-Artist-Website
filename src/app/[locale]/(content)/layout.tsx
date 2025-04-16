@@ -95,10 +95,12 @@ export default async function ContentLayout({
       {/* Main layout: Left sticky nav + Right content */}
       <div className="flex">
         {/* Left: sticky navbar (1/6 viewport width) */}
-        <Navbar />
+        <div className="hidden md:block w-1/6">
+          <Navbar />
+        </div>
 
         {/* Right: main content area */}
-        <main className="flex-1 py-12 px-20 font-light">
+        <main className="flex-1 py-12 px-10 md:px-20 font-light">
           {children}
         </main>
       </div>

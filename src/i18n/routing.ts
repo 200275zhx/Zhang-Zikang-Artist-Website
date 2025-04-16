@@ -87,6 +87,42 @@ export const routing = defineRouting({
     "/works/2014/[workId]": {
       en: "/works/2014/[workId]",
       zh: "/zuopin/2014/[workId]"
+    },
+    "/works/2025": {
+      en: "/works/2025",
+      zh: "/zuopin/2025"
+    },
+    "/works/2024": {
+      en: "/works/2024",
+      zh: "/zuopin/2024"
+    },
+    "/works/2023": {
+      en: "/works/2023",
+      zh: "/zuopin/2023"
+    },
+    "/works/2022": {
+      en: "/works/2022",
+      zh: "/zuopin/2022"
+    },
+    "/works/2019": {
+      en: "/works/2019",
+      zh: "/zuopin/2019"
+    },
+    "/works/2017": {
+      en: "/works/2017",
+      zh: "/zuopin/2017"
+    },
+    "/works/2016": {
+      en: "/works/2016",
+      zh: "/zuopin/2016"
+    },
+    "/works/2015": {
+      en: "/works/2015",
+      zh: "/zuopin/2015"
+    },
+    "/works/2014": {
+      en: "/works/2014",
+      zh: "/zuopin/2014"
     }
   }
 });

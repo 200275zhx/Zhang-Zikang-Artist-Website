@@ -5,6 +5,8 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import LocaleSwitcher from "./LocaleSwitcher";
+import MobileNavbar from "./MobileNavbar";
+
 
 export default function Header() {
   const t = useTranslations("Navbar");
@@ -34,11 +36,16 @@ export default function Header() {
       }`}
     >
       {/* Optional padding and container to match your styling */}
-      <div className="p-20 flex items-center justify-between">
+      <div className="px-10 py-20 md:px-20 flex items-center justify-between">
         <Link href="/" className="font-normal text-2xl">
           {t("name")}
         </Link>
-        <LocaleSwitcher />
+        <div className="hidden md:block">
+          <LocaleSwitcher />
+        </div>
+        <div className="md:hidden">
+          <MobileNavbar />
+        </div>
       </div>
     </div>
   );
