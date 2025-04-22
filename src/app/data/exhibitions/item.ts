@@ -12,6 +12,8 @@ export type ExhibitionDetailBlock = {
     vid?: string;
     description?: string;
     alt?: string;
+    location?: string;
+    dates?: string;
 };
 
 export type ExhibitionMetadata = {

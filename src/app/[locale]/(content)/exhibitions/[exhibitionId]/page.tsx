@@ -80,6 +80,22 @@ export default async function WorkDetailPage({
           {/* Right Column: title & description */}
           <div className="text-xl">
             {block.title && <h2 className="mb-10">{block.title}</h2>}
+
+            <div className="grid grid-cols-[100px_1fr] gap-x-4 items-start text-sm">
+              <div className="font-medium leading-loose">Location</div>
+              <div className="leading-loose">{block.location}</div>
+            </div>
+            <div className="grid grid-cols-[100px_1fr] gap-x-4 items-start text-sm">
+              <div className="font-medium leading-loose">Dates</div>
+              <div className="leading-loose">{block.dates}</div>
+            </div>
+            {/* {block.location && (
+              <div className="text-sm leading-loose">{block.location}</div>
+            )}
+            {block.dates && (
+              <div className="text-sm leading-loose">{block.dates}</div>
+            )} */}
+
             {block.description && (
               <div className="text-sm leading-loose">{block.description}</div>
             )}

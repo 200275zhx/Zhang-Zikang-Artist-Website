@@ -1,216 +1,58 @@
 {
-  "LoulanSeries-1": {
-    "title": "Loulan",
-    "src": "/assets/works/image/Loulan Series No. 1.webp",
-    "alt": "Loulan by Zhang Zikang",
+  "Ink-Asia-2016": {
+    "title": "Ink Asia 2016",
+    "src": "/assets/exhibitions/image/Ink-Asia-2016.webp",
+    "alt": "Ink Asia 2016",
     "metadata": {
-        "title": "Loulan by Zhang Zikang",
-        "description": "Loulan by Zhang Zikang",
-        "keywords": "Zhang Zikang, artworks, Loulan, traditional painting, Eastern and Western art"
+        "title": "Zhang Zikang Ink Asia 2016",
+        "description": "Zhang Zikang presented his artworks at Ink Asia 2016 in Hong Kong from December 16, 2016 to December 18, 2016",
+        "keywords": "Zhang, Zikang, exhibition, Ink Asia 2016"
     },
     "detail": [
       {
-        "title": "Loulan",
-        "vid": "https://www.youtube.com/embed/xt_LNUFzamU",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "alt": "Loulan by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 1",
-        "img": "/assets/works/image/Loulan Series No. 1.webp",
-        "alt": "Loulan Series No. 1 by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 2",
-        "img": "/assets/works/image/Loulan Series No. 2.webp",
-        "alt": "Loulan Series No. 2 by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 3",
-        "img": "/assets/works/image/Loulan Series No. 3.webp",
-        "alt": "Loulan Series No. 3 by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 4",
-        "img": "/assets/works/image/Loulan Series No. 4.webp",
-        "alt": "Loulan Series No. 4 by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 5",
-        "img": "/assets/works/image/Loulan Series No. 5.webp",
-        "alt": "Loulan Series No. 5 by Zhang Zikang"
+        "title": "Ink Asia 2016",
+        "img": "/assets/exhibitions/image/Ink-Asia-2016.webp",
+        "alt": "Ink Asia 2016",
+        "location": "Hong Kong",
+        "dates": "December 16, 2016 - December 18, 2016"
       }
     ]
   },
-  "LoulanSeries-2": {
-    "title": "Loulan Series No. 2",
-    "src": "/assets/works/image/Loulan Series No. 2.webp",
-    "alt": "Loulan Series No. 2 by Zhang Zikang",
+  "11th-Florence-International-Biennale-of-Contemporary-Art": {
+    "title": "11th Florence International Biennale of Contemporary Art",
+    "src": "/assets/exhibitions/image/11th-Florence-International-Biennale-of-Contemporary-Art.webp",
+    "alt": "11th Florence International Biennale of Contemporary Art",
     "metadata": {
-        "title": "Loulan by Zhang Zikang",
-        "description": "Loulan by Zhang Zikang",
-        "keywords": "Zhang Zikang, artworks, Loulan, traditional painting, Eastern and Western art"
+        "title": "Zhang Zikang 11th Florence International Biennale of Contemporary Art",
+        "description": "Zhang Zikang presented his artworks at 11th Florence International Biennale of Contemporary Art in Italy from October 6, 2017 to October 15, 2017",
+        "keywords": "Zhang, Zikang, exhibition, 11th Florence International Biennale of Contemporary Art"
     },
     "detail": [
       {
-        "title": "Loulan",
-        "vid": "https://www.youtube.com/embed/xt_LNUFzamU",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "alt": "Loulan by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 1",
-        "img": "/assets/works/image/Loulan Series No. 1.webp",
-        "alt": "Loulan Series No. 1 by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 2",
-        "img": "/assets/works/image/Loulan Series No. 2.webp",
-        "alt": "Loulan Series No. 2 by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 3",
-        "img": "/assets/works/image/Loulan Series No. 3.webp",
-        "alt": "Loulan Series No. 3 by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 4",
-        "img": "/assets/works/image/Loulan Series No. 4.webp",
-        "alt": "Loulan Series No. 4 by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 5",
-        "img": "/assets/works/image/Loulan Series No. 5.webp",
-        "alt": "Loulan Series No. 5 by Zhang Zikang"
+        "title": "11th Florence International Biennale of Contemporary Art",
+        "img": "/assets/exhibitions/image/11th-Florence-International-Biennale-of-Contemporary-Art.webp",
+        "alt": "11th Florence International Biennale of Contemporary Art",
+        "location": "Italy",
+        "dates": "October 6, 2017 - October 15, 2017"
       }
     ]
   },
-  "LoulanSeries-3": {
-    "title": "Loulan Series No. 2",
-    "src": "/assets/works/image/Loulan Series No. 2.webp",
-    "alt": "Loulan Series No. 2 by Zhang Zikang",
+  "18th-Asian-BIEAF-International-Contemporary-Art-Invitational-Exhibition": {
+    "title": "18th Asian BIEAF International Contemporary Art Invitational Exhibition",
+    "src": "/assets/exhibitions/image/18th-Asian-BIEAF-International-Contemporary-Art-Invitational-Exhibition.webp",
+    "alt": "18th Asian BIEAF International Contemporary Art Invitational Exhibition",
     "metadata": {
-        "title": "Loulan by Zhang Zikang",
-        "description": "Loulan by Zhang Zikang",
-        "keywords": "Zhang Zikang, artworks, Loulan, traditional painting, Eastern and Western art"
+        "title": "Zhang Zikang 18th Asian BIEAF International Contemporary Art Invitational Exhibition",
+        "description": "Zhang Zikang presented his artworks at 18th Asian BIEAF International Contemporary Art Invitational Exhibition in Korea from December 21, 2020 to December 26, 2020",
+        "keywords": "Zhang, Zikang, exhibition, 18th Asian BIEAF International Contemporary Art Invitational Exhibition"
     },
     "detail": [
       {
-        "title": "Loulan",
-        "vid": "https://www.youtube.com/embed/xt_LNUFzamU",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "alt": "Loulan by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 1",
-        "img": "/assets/works/image/Loulan Series No. 1.webp",
-        "alt": "Loulan Series No. 1 by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 2",
-        "img": "/assets/works/image/Loulan Series No. 2.webp",
-        "alt": "Loulan Series No. 2 by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 3",
-        "img": "/assets/works/image/Loulan Series No. 3.webp",
-        "alt": "Loulan Series No. 3 by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 4",
-        "img": "/assets/works/image/Loulan Series No. 4.webp",
-        "alt": "Loulan Series No. 4 by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 5",
-        "img": "/assets/works/image/Loulan Series No. 5.webp",
-        "alt": "Loulan Series No. 5 by Zhang Zikang"
-      }
-    ]
-  },
-  "LoulanSeries-4": {
-    "title": "Loulan Series No. 2",
-    "src": "/assets/works/image/Loulan Series No. 2.webp",
-    "alt": "Loulan Series No. 2 by Zhang Zikang",
-    "metadata": {
-        "title": "Loulan by Zhang Zikang",
-        "description": "Loulan by Zhang Zikang",
-        "keywords": "Zhang Zikang, artworks, Loulan, traditional painting, Eastern and Western art"
-    },
-    "detail": [
-      {
-        "title": "Loulan",
-        "vid": "https://www.youtube.com/embed/xt_LNUFzamU",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "alt": "Loulan by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 1",
-        "img": "/assets/works/image/Loulan Series No. 1.webp",
-        "alt": "Loulan Series No. 1 by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 2",
-        "img": "/assets/works/image/Loulan Series No. 2.webp",
-        "alt": "Loulan Series No. 2 by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 3",
-        "img": "/assets/works/image/Loulan Series No. 3.webp",
-        "alt": "Loulan Series No. 3 by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 4",
-        "img": "/assets/works/image/Loulan Series No. 4.webp",
-        "alt": "Loulan Series No. 4 by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 5",
-        "img": "/assets/works/image/Loulan Series No. 5.webp",
-        "alt": "Loulan Series No. 5 by Zhang Zikang"
-      }
-    ]
-  },
-  "LoulanSeries-5": {
-    "title": "Loulan Series No. 2",
-    "src": "/assets/works/image/Loulan Series No. 2.webp",
-    "alt": "Loulan Series No. 2 by Zhang Zikang",
-    "metadata": {
-        "title": "Loulan by Zhang Zikang",
-        "description": "Loulan by Zhang Zikang",
-        "keywords": "Zhang Zikang, artworks, Loulan, traditional painting, Eastern and Western art"
-    },
-    "detail": [
-      {
-        "title": "Loulan",
-        "vid": "https://www.youtube.com/embed/xt_LNUFzamU",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "alt": "Loulan by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 1",
-        "img": "/assets/works/image/Loulan Series No. 1.webp",
-        "alt": "Loulan Series No. 1 by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 2",
-        "img": "/assets/works/image/Loulan Series No. 2.webp",
-        "alt": "Loulan Series No. 2 by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 3",
-        "img": "/assets/works/image/Loulan Series No. 3.webp",
-        "alt": "Loulan Series No. 3 by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 4",
-        "img": "/assets/works/image/Loulan Series No. 4.webp",
-        "alt": "Loulan Series No. 4 by Zhang Zikang"
-      },
-      {
-        "title": "Loulan Series # 5",
-        "img": "/assets/works/image/Loulan Series No. 5.webp",
-        "alt": "Loulan Series No. 5 by Zhang Zikang"
+        "title": "18th Asian BIEAF International Contemporary Art Invitational Exhibition",
+        "img": "/assets/exhibitions/image/18th-Asian-BIEAF-International-Contemporary-Art-Invitational-Exhibition.webp",
+        "alt": "18th Asian BIEAF International Contemporary Art Invitational Exhibition",
+        "location": "Korea",
+        "dates": "December 21, 2020 - December 26, 2020"
       }
     ]
   }
