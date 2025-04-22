@@ -42,15 +42,15 @@ export const routing = defineRouting({
     },
     "/news/[newsId]": {
       en: "/news/[newsId]",
-      zh: "/news/[newsId]"
+      zh: "/xinwen/[newsId]"
     },
     "/exhibitions/[exhibitionId]": {
       en: "/exhibitions/[exhibitionId]",
-      zh: "/exhibitions/[exhibitionId]"
+      zh: "/zhanlan/[exhibitionId]"
     },
     "/publications/[publicationId]": {
       en: "/publications/[publicationId]",
-      zh: "/publications/[publicationId]"
+      zh: "/chubanwu/[publicationId]"
     },
     "/works/2025/[workId]": {
       en: "/works/2025/[workId]",
