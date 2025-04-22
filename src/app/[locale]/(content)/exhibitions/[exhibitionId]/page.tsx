@@ -82,11 +82,11 @@ export default async function WorkDetailPage({
             {block.title && <h2 className="mb-10">{block.title}</h2>}
 
             <div className="grid grid-cols-[100px_1fr] gap-x-4 items-start text-sm">
-              <div className="font-medium leading-loose">Location</div>
+              <div className="font-medium leading-loose">地点</div>
               <div className="leading-loose">{block.location}</div>
             </div>
             <div className="grid grid-cols-[100px_1fr] gap-x-4 items-start text-sm">
-              <div className="font-medium leading-loose">Dates</div>
+              <div className="font-medium leading-loose">时间</div>
               <div className="leading-loose">{block.dates}</div>
             </div>
             {/* {block.location && (

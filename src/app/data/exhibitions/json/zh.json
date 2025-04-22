@@ -1,87 +1,58 @@
 {
-  "LoulanSeries-1": {
-    "title": "楼兰",
-    "src": "/assets/works/image/Loulan Series No. 1.webp",
-    "alt": "张子康的作品：楼兰",
+  "Ink-Asia-2016": {
+    "title": "水墨艺博 2016",
+    "src": "/assets/exhibitions/image/Ink-Asia-2016.webp",
+    "alt": "水墨艺博 2016",
     "metadata": {
-        "title": "张子康的作品：楼兰",
-        "description": "张子康的作品：楼兰",
-        "keywords": "张子康, 艺术作品, 楼兰, 传统绘画, 东方与西方艺术"
+      "title": "张子康 水墨艺博 2016",
+      "description": "张子康于2016年12月16日至12月18日在香港参加水墨艺博2016并展出其艺术作品",
+      "keywords": "张子康, 展览, 水墨艺博 2016"
     },
     "detail": [
       {
-        "title": "楼兰系列",
-        "vid": "https://www.youtube.com/embed/xt_LNUFzamU",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "alt": "张子康的作品：楼兰"
-      },
-      {
-        "title": "楼兰系列之一",
-        "img": "/assets/works/image/Loulan Series No. 1.webp",
-        "alt": "张子康的作品：楼兰系列之一"
-      },
-      {
-        "title": "楼兰系列之二",
-        "img": "/assets/works/image/Loulan Series No. 2.webp",
-        "alt": "张子康的作品：楼兰系列之二"
-      },
-      {
-        "title": "楼兰系列之三",
-        "img": "/assets/works/image/Loulan Series No. 3.webp",
-        "alt": "张子康的作品：楼兰系列之三"
-      },
-      {
-        "title": "楼兰系列之四",
-        "img": "/assets/works/image/Loulan Series No. 4.webp",
-        "alt": "张子康的作品：楼兰系列之四"
-      },
-      {
-        "title": "楼兰系列之五",
-        "img": "/assets/works/image/Loulan Series No. 5.webp",
-        "alt": "张子康的作品：楼兰系列之五"
+        "title": "水墨艺博 2016",
+        "img": "/assets/exhibitions/image/Ink-Asia-2016.webp",
+        "alt": "水墨艺博 2016",
+        "location": "香港",
+        "dates": "2016年12月16日 - 2016年12月18日"
       }
     ]
   },
-  "LoulanSeries-2": {
-    "title": "楼兰系列之二",
-    "src": "/assets/works/image/Loulan Series No. 2.webp",
-    "alt": "张子康的作品：楼兰系列之二",
+  "11th-Florence-International-Biennale-of-Contemporary-Art": {
+    "title": "第十一届佛罗伦萨国际当代艺术双年展",
+    "src": "/assets/exhibitions/image/11th-Florence-International-Biennale-of-Contemporary-Art.webp",
+    "alt": "第十一届佛罗伦萨国际当代艺术双年展",
     "metadata": {
-        "title": "张子康的作品：楼兰",
-        "description": "张子康的作品：楼兰",
-        "keywords": "张子康, 艺术作品, 楼兰, 传统绘画, 东方与西方艺术"
+      "title": "张子康 第十一届佛罗伦萨国际当代艺术双年展",
+      "description": "张子康于2017年10月6日至10月15日在意大利参加第十一届佛罗伦萨国际当代艺术双年展并展出其艺术作品",
+      "keywords": "张子康, 展览, 第十一届佛罗伦萨国际当代艺术双年展"
     },
     "detail": [
       {
-        "title": "楼兰",
-        "vid": "https://www.youtube.com/embed/xt_LNUFzamU",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "alt": "张子康的作品：楼兰"
-      },
+        "title": "第十一届佛罗伦萨国际当代艺术双年展",
+        "img": "/assets/exhibitions/image/11th-Florence-International-Biennale-of-Contemporary-Art.webp",
+        "alt": "第十一届佛罗伦萨国际当代艺术双年展",
+        "location": "意大利",
+        "dates": "2017年10月6日 - 2017年10月15日"
+      }
+    ]
+  },
+  "18th-Asian-BIEAF-International-Contemporary-Art-Invitational-Exhibition": {
+    "title": "第18届亚洲BIEAF国际当代艺术邀请展",
+    "src": "/assets/exhibitions/image/18th-Asian-BIEAF-International-Contemporary-Art-Invitational-Exhibition.webp",
+    "alt": "第18届亚洲BIEAF国际当代艺术邀请展",
+    "metadata": {
+      "title": "张子康 第18届亚洲BIEAF国际当代艺术邀请展",
+      "description": "张子康于2020年12月21日至12月26日在韩国参加第18届亚洲BIEAF国际当代艺术邀请展并展出其艺术作品",
+      "keywords": "张子康, 展览, 第18届亚洲BIEAF国际当代艺术邀请展"
+    },
+    "detail": [
       {
-        "title": "楼兰系列之一",
-        "img": "/assets/works/image/Loulan Series No. 1.webp",
-        "alt": "张子康的作品：楼兰系列之一"
-      },
-      {
-        "title": "楼兰系列之二",
-        "img": "/assets/works/image/Loulan Series No. 2.webp",
-        "alt": "张子康的作品：楼兰系列之二"
-      },
-      {
-        "title": "楼兰系列之三",
-        "img": "/assets/works/image/Loulan Series No. 3.webp",
-        "alt": "张子康的作品：楼兰系列之三"
-      },
-      {
-        "title": "楼兰系列之四",
-        "img": "/assets/works/image/Loulan Series No. 4.webp",
-        "alt": "张子康的作品：楼兰系列之四"
-      },
-      {
-        "title": "楼兰系列之五",
-        "img": "/assets/works/image/Loulan Series No. 5.webp",
-        "alt": "张子康的作品：楼兰系列之五"
+        "title": "第18届亚洲BIEAF国际当代艺术邀请展",
+        "img": "/assets/exhibitions/image/18th-Asian-BIEAF-International-Contemporary-Art-Invitational-Exhibition.webp",
+        "alt": "第18届亚洲BIEAF国际当代艺术邀请展",
+        "location": "韩国",
+        "dates": "2020年12月21日 - 2020年12月26日"
       }
     ]
   }
