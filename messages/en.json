@@ -28,7 +28,12 @@
         "exhibitions": "EXHIBITIONS",
         "publications": "PUBLICATIONS",
         "biography": "BIOGRAPHY",
-        "contact": "CONTACT"
+        "contact": "CONTACT",
+
+        "articles": "ARTICLES",
+        "editions": "EDITIONS",
+        "interviews": "INTERVIEWS",
+        "monographs": "MONOGRAPHS"
     },
 
 
@@ -64,6 +69,11 @@
             "title": "Publications – Research, Essays & Writings by Zhang Zikang",
             "description": "Browse the official publications of Zhang Zikang. Read his in-depth research, essays, and writings on contemporary art, curatorial practice, and cultural innovation that continue to influence art discourse worldwide.",
             "keywords": "Zhang Zikang publications, art essays, research, curatorial practice, cultural innovation, art writings, contemporary art"
+        },
+        "labels": {
+            "publisher": "Publisher",
+            "date": "Publication Date",
+            "category": "Category"
         }
     },
 

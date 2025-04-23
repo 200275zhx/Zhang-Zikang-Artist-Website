@@ -14,115 +14,131 @@ export const routing = defineRouting({
     },
     "/works": {
       en: "/works",
-      zh: "/zuopin",
+      zh: "/zuo-pin",
     },
     "/news": {
       en: "/news",
-      zh: "/xinwen",
+      zh: "/xin-wen",
     },
     "/exhibitions": {
       en: "/exhibitions",
-      zh: "/zhanlan",
+      zh: "/zhan-lan",
     },
     "/publications": {
       en: "/publications",
-      zh: "/chuban",
+      zh: "/chu-ban",
     },
     "/biography": {
       en: "/biography",
-      zh: "/jingli",
+      zh: "/jing-li",
     },
     "/contact": {
       en: "/contact",
-      zh: "/lianxi",
+      zh: "/lian-xi",
+    },
+    "/publications/[pubtype]": {
+      en: "/publications/[pubtype]",
+      zh: "/chu-ban/[pubtype]",
+    },
+    "/publications/articles": {
+      en: "/publications/articles",
+      zh: "/chu-ban/xue-shu-wen-zhang",
+    },
+    "/publications/editions": {
+      en: "/publications/editions",
+      zh: "/chu-ban/bian-ji-tu-shu",
+    },
+    "/publications/interviews": {
+      en: "/publications/interviews",
+      zh: "/chu-ban/fang-tan",
+    },
+    "/publications/monographs": {
+      en: "/publications/monographs",
+      zh: "/chu-ban/xue-shu-zhuan-zhu",
     },
     "/works/[workId]": {
       en: "/works/[workId]",
-      zh: "/zuopin/[workId]"
+      zh: "/zuo-pin/[workId]"
     },
     "/news/[newsId]": {
       en: "/news/[newsId]",
-      zh: "/xinwen/[newsId]"
+      zh: "/xin-wen/[newsId]"
     },
     "/exhibitions/[exhibitionId]": {
       en: "/exhibitions/[exhibitionId]",
-      zh: "/zhanlan/[exhibitionId]"
-    },
-    "/publications/[publicationId]": {
-      en: "/publications/[publicationId]",
-      zh: "/chubanwu/[publicationId]"
+      zh: "/zhan-lan/[exhibitionId]"
     },
     "/works/2025/[workId]": {
       en: "/works/2025/[workId]",
-      zh: "/zuopin/2025/[workId]"
+      zh: "/zuo-pin/2025/[workId]"
     },
     "/works/2024/[workId]": {
       en: "/works/2024/[workId]",
-      zh: "/zuopin/2024/[workId]"
+      zh: "/zuo-pin/2024/[workId]"
     },
     "/works/2023/[workId]": {
       en: "/works/2023/[workId]",
-      zh: "/zuopin/2023/[workId]"
+      zh: "/zuo-pin/2023/[workId]"
     },
     "/works/2022/[workId]": {
       en: "/works/2022/[workId]",
-      zh: "/zuopin/2022/[workId]"
+      zh: "/zuo-pin/2022/[workId]"
     },
     "/works/2019/[workId]": {
       en: "/works/2019/[workId]",
-      zh: "/zuopin/2019/[workId]"
+      zh: "/zuo-pin/2019/[workId]"
     },
     "/works/2017/[workId]": {
       en: "/works/2017/[workId]",
-      zh: "/zuopin/2017/[workId]"
+      zh: "/zuo-pin/2017/[workId]"
     },
     "/works/2016/[workId]": {
       en: "/works/2016/[workId]",
-      zh: "/zuopin/2016/[workId]"
+      zh: "/zuo-pin/2016/[workId]"
     },
     "/works/2015/[workId]": {
       en: "/works/2015/[workId]",
-      zh: "/zuopin/2015/[workId]"
+      zh: "/zuo-pin/2015/[workId]"
     },
     "/works/2014/[workId]": {
       en: "/works/2014/[workId]",
-      zh: "/zuopin/2014/[workId]"
+      zh: "/zuo-pin/2014/[workId]"
     },
     "/works/2025": {
       en: "/works/2025",
-      zh: "/zuopin/2025"
+      zh: "/zuo-pin/2025"
     },
     "/works/2024": {
       en: "/works/2024",
-      zh: "/zuopin/2024"
+      zh: "/zuo-pin/2024"
     },
     "/works/2023": {
       en: "/works/2023",
-      zh: "/zuopin/2023"
+      zh: "/zuo-pin/2023"
     },
     "/works/2022": {
       en: "/works/2022",
-      zh: "/zuopin/2022"
+      zh: "/zuo-pin/2022"
     },
     "/works/2019": {
       en: "/works/2019",
-      zh: "/zuopin/2019"
+      zh: "/zuo-pin/2019"
     },
     "/works/2017": {
       en: "/works/2017",
-      zh: "/zuopin/2017"
+      zh: "/zuo-pin/2017"
     },
     "/works/2016": {
       en: "/works/2016",
-      zh: "/zuopin/2016"
+      zh: "/zuo-pin/2016"
     },
     "/works/2015": {
       en: "/works/2015",
-      zh: "/zuopin/2015"
+      zh: "/zuo-pin/2015"
     },
     "/works/2014": {
       en: "/works/2014",
-      zh: "/zuopin/2014"
+      zh: "/zuo-pin/2014"
     }
   }
 });

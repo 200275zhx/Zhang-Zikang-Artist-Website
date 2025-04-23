@@ -28,7 +28,12 @@
         "exhibitions": "展览",
         "publications": "出版物",
         "biography": "经历",
-        "contact": "联系我们"
+        "contact": "联系我们",
+
+        "articles": "学术文章",
+        "editions": "编辑图书",
+        "interviews": "访谈",
+        "monographs": "学术著作"
     },
 
 
@@ -62,6 +67,11 @@
             "title": "出版物——张子康的研究、论文与著作",
             "description": "浏览张子康的官方出版物。阅读他关于当代艺术、策展实践和文化创新的深入研究、论文和著作，这些作品持续影响着全球艺术话语。",
             "keywords": "张子康出版物, 艺术研究, 论文, 当代艺术, 策展实践, 文化创新"
+        },
+        "labels": {
+            "publisher": "出版社",
+            "date": "出版时间",
+            "category": "类别"
         }
     },
 
