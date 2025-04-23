@@ -4,6 +4,10 @@ export type PublicationItem = {
     alt: string;
     detail: PublicationDetailBlock[];
     metadata: PublicationMetadata;
+    ISBN?: string;
+    publisher?: string;
+    date?: string;
+    category?: string;
 };
 
 export type PublicationDetailBlock = {

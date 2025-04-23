@@ -14,7 +14,8 @@
         "img": "/assets/exhibitions/image/Ink-Asia-2016.webp",
         "alt": "Ink Asia 2016",
         "location": "Hong Kong",
-        "dates": "December 16, 2016 - December 18, 2016"
+        "dates": "December 16, 2016 - December 18, 2016",
+        "label": "location"
       }
     ]
   },
