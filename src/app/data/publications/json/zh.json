@@ -7,5 +7,23 @@
     "publisher": "中国青年出版社",
     "date": "2009年4月",
     "category": "合著"
+  },
+  "Construct-City-With-Cultural-Element": {
+    "title": "文化造城",
+    "src": "/assets/publications/image/Construct-City-With-Cultural-Element.webp",
+    "alt": "张子康 《文化造城》",
+    "ISBN": "978-7-5495-0873-0",
+    "publisher": "广西师范大学出版社",
+    "date": "2011年10月",
+    "category": "合著"
+  },
+  "Today’s-Talk-on-Printmaking": {
+    "title": "版画今日谈",
+    "src": "/assets/publications/image/Today’s-Talk-on-Printmaking.webp",
+    "alt": "张子康 《版画今日谈》",
+    "ISBN": "978-7-5155-0626-5",
+    "publisher": "金城出版社",
+    "date": "2013年1月",
+    "category": "主编"
   }
 }
