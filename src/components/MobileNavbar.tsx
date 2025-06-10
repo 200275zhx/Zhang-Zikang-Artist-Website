@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { createPortal } from "react-dom";
-import { Link, routing, Locale } from "@/i18n/routing";
+import { Link, Locale } from "@/i18n/routing";
 import { useTranslations, useLocale as useLocaleNextIntl } from "next-intl";
 import { useSelectedLayoutSegments } from "next/navigation";
 import LocaleSwitcher from "./LocaleSwitcher";
@@ -30,18 +30,18 @@ export default function MobileNavbar() {
       ? segments[pubIndex + 1]
       : null;
   const PUB_TYPE_SLUGS = {
-    articles:   { en: "articles",           zh: "xue-shu-wen-zhang"   },
-    editions:   { en: "editions",           zh: "bian-ji-tu-shu"      },
-    interviews: { en: "interviews",         zh: "fang-tan"            },
-    monographs: { en: "monographs",         zh: "xue-shu-zhuan-zhu"   },
+    articles: { en: "articles", zh: "xue-shu-wen-zhang" },
+    editions: { en: "editions", zh: "bian-ji-tu-shu" },
+    interviews: { en: "interviews", zh: "fang-tan" },
+    monographs: { en: "monographs", zh: "xue-shu-zhuan-zhu" },
   } as const;
   type PubType = keyof typeof PUB_TYPE_SLUGS;
-  const PUB_TYPE_ROUTES: Record<PubType, keyof typeof routing.pathnames> = {
-    articles:    "/publications/articles",
-    editions:    "/publications/editions",
-    interviews:  "/publications/interviews",
-    monographs:  "/publications/monographs",
-  };
+  const PUB_TYPE_ROUTES = {
+    articles: "/publications/articles",
+    editions: "/publications/editions",
+    interviews: "/publications/interviews",
+    monographs: "/publications/monographs",
+  } as const;
   const PUBLICATION_TYPES = Object.keys(PUB_TYPE_SLUGS) as PubType[];
 
   // News submenu logic
@@ -57,11 +57,11 @@ export default function MobileNavbar() {
     curations: { en: "curations", zh: "ce-zhan" },
   } as const;
   type NewsType = keyof typeof NEWS_TYPE_SLUGS;
-  const NEWS_TYPE_ROUTES: Record<NewsType, keyof typeof routing.pathnames> = {
+  const NEWS_TYPE_ROUTES = {
     interviews: "/news/interviews",
     exhibitions: "/news/exhibitions",
     curations: "/news/curations",
-  };
+  } as const;
   const NEWS_TYPES = Object.keys(NEWS_TYPE_SLUGS) as NewsType[];
 
   // Mobile menu state
@@ -133,13 +133,11 @@ export default function MobileNavbar() {
                 <div className="mt-2 ml-4 flex flex-col space-y-2">
                   {NEWS_TYPES.map((type) => {
                     const isActive = activeNewsSlug === type;
-                    const routeKey = NEWS_TYPE_ROUTES[type];
-                    const mapping = routing.pathnames[routeKey] as Record<Locale, string>;
-                    const localizedHref = mapping[locale];
                     return (
                       <Link
                         key={type}
-                        href={localizedHref as any}
+                        href={NEWS_TYPE_ROUTES[type]}
+                        locale={locale}
                         onClick={toggleMobileMenu}
                         className={
                           isActive
@@ -169,13 +167,11 @@ export default function MobileNavbar() {
                 <div className="mt-2 ml-4 flex flex-col space-y-2">
                   {PUBLICATION_TYPES.map((type) => {
                     const isActive = activePubSlug === type;
-                    const routeKey = PUB_TYPE_ROUTES[type];
-                    const mapping = routing.pathnames[routeKey] as Record<Locale, string>;
-                    const localizedHref = mapping[locale];
                     return (
                       <Link
                         key={type}
-                        href={localizedHref as any}
+                        href={PUB_TYPE_ROUTES[type]}
+                        locale={locale}
                         onClick={toggleMobileMenu}
                         className={
                           isActive

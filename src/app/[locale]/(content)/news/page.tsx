@@ -1,5 +1,4 @@
 import { routing } from '@/i18n/routing';
-import { Link } from '@/i18n/routing';
 import Image from 'next/image';
 import { NewsMap } from '@/app/data/news/map';
 import type { NewsItem } from '@/app/data/news/item';
