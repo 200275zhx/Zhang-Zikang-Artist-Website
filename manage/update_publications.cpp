@@ -154,7 +154,7 @@ int main() {
             if (!it.isbn.empty())      obj["ISBN"]             = it.isbn;
             if (!it.publisher.empty()) obj["publisher"]        = it.publisher;
             if (!it.journal.empty())   obj["journal"]          = it.journal;
-            if (!it.source.empty())    obj["sourcePublication"] = it.source;
+            if (!it.source.empty())    obj["source"] = it.source;
             obj["date"]     = dateOut;
             obj["category"] = it.category;
 
