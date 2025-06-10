@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { PublicationsMap } from '@/app/data/publications/map';
+import { PublicationsEditionsMap } from '@/app/data/publications/map';
 import type { PublicationItem } from '@/app/data/publications/item';
 import { getTranslations } from 'next-intl/server';
 
@@ -16,7 +16,7 @@ type PublicationsDict = Record<string, PublicationItem>;
 
 export default async function PublicationsPage({ params }: { params: Promise<{ locale: (typeof import('@/i18n/routing').routing.locales)[number] }> }) {
   const { locale } = await params;
-  const dict = PublicationsMap[locale] as PublicationsDict;
+  const dict = PublicationsEditionsMap[locale] as PublicationsDict;
   const slugs = Object.keys(dict);
   const t = await getTranslations('PublicationsPage.labels');
 

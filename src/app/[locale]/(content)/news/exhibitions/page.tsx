@@ -1,7 +1,7 @@
 import { routing } from '@/i18n/routing';
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
-import { NewsMap } from '@/app/data/news/map';
+import { NewsExhibitionsMap } from '@/app/data/news/map';
 import type { NewsItem } from '@/app/data/news/item';
 import { getTranslations } from 'next-intl/server';
 
@@ -22,7 +22,7 @@ export default async function NewsPage({
   params: Promise<{ locale: (typeof routing.locales)[number] }>;
 }) {
   const { locale } = await params;
-  const dict = NewsMap[locale] as NewsDict;
+  const dict = NewsExhibitionsMap[locale] as NewsDict;
   const slugs = Object.keys(dict);
   const t = await getTranslations('NewsPage');
 

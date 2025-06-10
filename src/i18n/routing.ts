@@ -60,9 +60,21 @@ export const routing = defineRouting({
       en: "/works/[workId]",
       zh: "/zuo-pin/[workId]"
     },
-    "/news/[newsId]": {
-      en: "/news/[newsId]",
-      zh: "/xin-wen/[newsId]"
+    "/news/[newstype]": {
+      en: "/news/[newstype]",
+      zh: "/xin-wen/[newstype]",
+    },
+    "/news/interviews": {
+      en: "/news/interviews",
+      zh: "/xin-wen/fang-tan",
+    },
+    "/news/exhibitions": {
+      en: "/news/exhibitions",
+      zh: "/xin-wen/can-zhan",
+    },
+    "/news/curations": {
+      en: "/news/curations",
+      zh: "/xin-wen/ce-zhan",
     },
     "/exhibitions/[exhibitionId]": {
       en: "/exhibitions/[exhibitionId]",

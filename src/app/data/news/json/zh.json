@@ -1,88 +1,37 @@
 {
-  "LoulanSeries-1": {
-    "title": "楼兰",
-    "src": "/assets/works/image/Loulan Series No. 1.webp",
-    "alt": "张子康的作品：楼兰",
+  "News-Exhibition-Radiant-Heartlight-2023-1": {
+    "title": "心光灿烂——当代艺术展在上海叁柒贰叁美术馆开幕",
+    "src": "/assets/news/News-Exhibition-Radiant-Heartlight-2023-1.webp",
+    "alt": "新闻 - 张子康的展览 - 心光灿烂——当代艺术展在上海叁柒贰叁美术馆开幕 - 2023",
+    "time": "2023年12月30日 - 2024年3月3日",
+    "location": "叁柒贰叁美术馆·展厅A",
+    "description": "2023年12月29日，我与15位艺术家共同参与了“心光灿烂——当代艺术展”的开幕式，展览在上海叁柒贰叁美术馆隆重举行，由策展人邵译农策划。本次展览以“心光”为题，聚焦色彩与内在心性的对话，涵盖33组风格各异、媒介多元的艺术作品。我此次参展的作品，亦在色彩与形式中映射出我对当下直觉与精神状态的关注。展览强调在直观感知中激活观者的感性与思维，使“心光灿烂”成为一场视觉与内心交织的旅程，也为中国当代艺术注入更多灵动与启示。",
     "metadata": {
-        "title": "张子康的作品：楼兰",
-        "description": "张子康的作品：楼兰",
-        "keywords": "张子康, 艺术作品, 楼兰, 传统绘画, 东方与西方艺术"
+      "title": "新闻 - 张子康的展览 - 心光灿烂——当代艺术展在上海叁柒贰叁美术馆开幕 - 2023",
+      "description": "新闻 - 张子康的展览 - 心光灿烂——当代艺术展在上海叁柒贰叁美术馆开幕 - 2023"
     },
-    "detail": [
-      {
-        "title": "楼兰系列",
-        "vid": "https://www.youtube.com/embed/xt_LNUFzamU",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "alt": "张子康的作品：楼兰"
-      },
-      {
-        "title": "楼兰系列之一",
-        "img": "/assets/works/image/Loulan Series No. 1.webp",
-        "alt": "张子康的作品：楼兰系列之一"
-      },
-      {
-        "title": "楼兰系列之二",
-        "img": "/assets/works/image/Loulan Series No. 2.webp",
-        "alt": "张子康的作品：楼兰系列之二"
-      },
-      {
-        "title": "楼兰系列之三",
-        "img": "/assets/works/image/Loulan Series No. 3.webp",
-        "alt": "张子康的作品：楼兰系列之三"
-      },
-      {
-        "title": "楼兰系列之四",
-        "img": "/assets/works/image/Loulan Series No. 4.webp",
-        "alt": "张子康的作品：楼兰系列之四"
-      },
-      {
-        "title": "楼兰系列之五",
-        "img": "/assets/works/image/Loulan Series No. 5.webp",
-        "alt": "张子康的作品：楼兰系列之五"
-      }
-    ]
+    "link": "https://mp.weixin.qq.com/s/OaDzMaxETonruZWqg3xptQ"
   },
-  "LoulanSeries-2": {
-    "title": "楼兰系列之二",
-    "src": "/assets/works/image/Loulan Series No. 2.webp",
-    "alt": "张子康的作品：楼兰系列之二",
+  "News-Interview-Expanding-the-Curatorial-Horizon-2021": {
+    "title": "美术馆的学术体系与虚拟策展实验室的人才培养相辅相成",
+    "src": "/assets/news/News-Interview-Expanding-the-Curatorial-Horizon-2021.webp",
+    "alt": "新闻 - 张子康的访谈 - 美术馆的学术体系与虚拟策展实验室的人才培养相辅相成 - 2021",
+    "description": "作为中央美术学院美术馆馆长，我始终认为美术馆的学术体系与虚拟策展实验室的人才培养是相辅相成的。我们将馆藏资源、学术研究与当代策展经验全面开放给实验课程，使其成为探索策展新模式的重要平台。虚拟策展不仅是技术手段的应用，更是一种扩展学术边界、重塑观众认知的实验场。它推动了美术馆从教学、研究到社会传播的全面发展。我期待这种融合能够激发学生的创造性思维，也能促进更广泛地区在文化资源共享与美育传播中的深度参与。",
     "metadata": {
-        "title": "张子康的作品：楼兰",
-        "description": "张子康的作品：楼兰",
-        "keywords": "张子康, 艺术作品, 楼兰, 传统绘画, 东方与西方艺术"
+      "title": "新闻 - 张子康的访谈 - 美术馆的学术体系与虚拟策展实验室的人才培养相辅相成 - 2021",
+      "description": "新闻 - 张子康的访谈 - 美术馆的学术体系与虚拟策展实验室的人才培养相辅相成 - 2021"
     },
-    "detail": [
-      {
-        "title": "楼兰",
-        "vid": "https://www.youtube.com/embed/xt_LNUFzamU",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "alt": "张子康的作品：楼兰"
-      },
-      {
-        "title": "楼兰系列之一",
-        "img": "/assets/works/image/Loulan Series No. 1.webp",
-        "alt": "张子康的作品：楼兰系列之一"
-      },
-      {
-        "title": "楼兰系列之二",
-        "img": "/assets/works/image/Loulan Series No. 2.webp",
-        "alt": "张子康的作品：楼兰系列之二"
-      },
-      {
-        "title": "楼兰系列之三",
-        "img": "/assets/works/image/Loulan Series No. 3.webp",
-        "alt": "张子康的作品：楼兰系列之三"
-      },
-      {
-        "title": "楼兰系列之四",
-        "img": "/assets/works/image/Loulan Series No. 4.webp",
-        "alt": "张子康的作品：楼兰系列之四"
-      },
-      {
-        "title": "楼兰系列之五",
-        "img": "/assets/works/image/Loulan Series No. 5.webp",
-        "alt": "张子康的作品：楼兰系列之五"
-      }
-    ]
+    "link": "https://mp.weixin.qq.com/s/_h98O6_gZ_V-ZPAqdLS4lg"
+  },
+  "News-Curation-Leandro-Erlich-2019": {
+    "title": "雷安德罗·埃利希：惊奇之始——看见与相信的重构",
+    "src": "/assets/news/News-Curation-Leandro-Erlich-2019.webp",
+    "alt": "新闻 - 张子康的策展 - 雷安德罗·埃利希：惊奇之始——看见与相信的重构 - 2019",
+    "description": "在策划“雷安德罗·埃利希：太虚之境”这场展览时，我希望呈现这位阿根廷艺术家如何从根本上重构我们对现实与幻象的认知。他以《红楼梦》中“太虚幻境”为灵感，将东西方文化交汇的想象融入作品之中。无论是《游泳池》中现实与幻象的穿梭，还是《试衣间》《迷失花园》中观众的自我对视与情感唤醒，雷安的装置作品始终打破“第四面墙”，激发观众参与与思辨。我始终认为，美术馆的意义之一，便是通过这样的艺术经验，推动文化想象力的边界。",
+    "metadata": {
+      "title": "新闻 - 张子康的策展 - 雷安德罗·埃利希：惊奇之始——看见与相信的重构 - 2019",
+      "description": "新闻 - 张子康的策展 - 雷安德罗·埃利希：惊奇之始——看见与相信的重构 - 2019"
+    },
+    "link": "https://mp.weixin.qq.com/s/YGo7qzhQfadCoUKIujtrZg"
   }
 }

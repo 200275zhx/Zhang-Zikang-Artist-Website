@@ -33,7 +33,9 @@
         "articles": "ARTICLES",
         "editions": "EDITIONS",
         "interviews": "INTERVIEWS",
-        "monographs": "MONOGRAPHS"
+        "monographs": "MONOGRAPHS",
+
+        "curations": "CURATIONS"
     },
 
 
@@ -51,7 +53,11 @@
             "title": "News – Latest Updates & Media Coverage of Zhang Zikang",
             "description": "Stay informed with the latest official news and media coverage on Zhang Zikang. Read press releases, interviews, and feature articles detailing his recent art projects, exhibitions, and curatorial initiatives.",
             "keywords": "Zhang Zikang news, art news, press releases, media coverage, interviews, contemporary art updates, curatorial initiatives"
-        }
+        },
+
+        "more": "Learn More",
+        "time": "Time",
+        "location": "Location"
     },
 
     
