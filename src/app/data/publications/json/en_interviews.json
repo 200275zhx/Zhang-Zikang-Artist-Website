@@ -1,1 +1,34 @@
-{}
+{
+  "China-Culture-Daily-2": {
+    "title": "Connecting Biennales, Cities, and Digital Age",
+    "src": "/assets/publications/image/China-Culture-Daily-2.webp",
+    "alt": "Connecting Biennales, Cities, and Digital Age by Zhang Zikang",
+    "journal": "China Culture Daily",
+    "date": "February 2023",
+    "category": "Interview"
+  },
+  "Art-Collection+Design": {
+    "title": "Art Is an Ongoing Adventure",
+    "src": "/assets/publications/image/Art-Collection+Design.webp",
+    "alt": "Art Is an Ongoing Adventure by Zhang Zikang",
+    "journal": "Art Collection + Design",
+    "date": "July 2022",
+    "category": "Interview"
+  },
+  "Art-China": {
+    "title": "Meta-Realm: The Ideal Fusion of Chinese Art and Emerging Technology",
+    "src": "/assets/publications/image/Art-China.webp",
+    "alt": "Meta-Realm: The Ideal Fusion of Chinese Art and Emerging Technology by Zhang Zikang",
+    "journal": "Art China",
+    "date": "July 2022",
+    "category": "Interview"
+  },
+  "Southern-People-Weekly": {
+    "title": "A Century of Art History as a Mirror of China’s Modernization",
+    "src": "/assets/publications/image/Southern-People-Weekly.webp",
+    "alt": "A Century of Art History as a Mirror of China’s Modernization by Zhang Zikang",
+    "journal": "Southern People Weekly",
+    "date": "December 2021",
+    "category": "Interview"
+  }
+}

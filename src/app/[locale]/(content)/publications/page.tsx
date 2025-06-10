@@ -36,6 +36,18 @@ export default async function PublicationsPage({ params }: { params: Promise<{ l
                 <div className="leading-loose">{item.category}</div>
               </div>
               )}
+              {item.journal && (
+                <div className="grid grid-cols-[140px_1fr] md:grid-cols-[200px_1fr] gap-x-4 items-start text-sm">
+                  <div className="font-medium leading-loose">{t('journal')}</div>
+                  <div className="leading-loose">{item.journal}</div>
+                </div>
+              )}
+              {item.source && (
+                <div className="grid grid-cols-[140px_1fr] md:grid-cols-[200px_1fr] gap-x-4 items-start text-sm">
+                  <div className="font-medium leading-loose">{t('source')}</div>
+                  <div className="leading-loose">{item.source}</div>
+                </div>
+              )}
               {item.ISBN && (
                 <div className="grid grid-cols-[140px_1fr] md:grid-cols-[200px_1fr] gap-x-4 items-start text-sm">
                   <div className="font-medium leading-loose">ISBN</div>

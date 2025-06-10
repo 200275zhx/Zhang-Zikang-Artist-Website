@@ -39,8 +39,15 @@ export default async function ExhibitionsPage({
               }}
               className="block"
             >
-              <div className="relative aspect-square">
-                <Image src={item.src} alt={item.alt} fill className="object-contain object-left" />
+              <div className="bg-gray-100 flex items-center justify-center">
+                <div className="relative aspect-square w-full h-full">
+                  <Image
+                    src={item.src}
+                    alt={item.alt}
+                    fill
+                    className="object-contain object-center"
+                  />
+                </div>
               </div>
               <p>{item.title}</p>
             </Link>

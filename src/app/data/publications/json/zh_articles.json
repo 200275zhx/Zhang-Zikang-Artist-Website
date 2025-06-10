@@ -1,1 +1,109 @@
-{}
+{
+  "Art-Observation-4": {
+    "title": "全球化、本土化与智识链接下的双年展",
+    "src": "/assets/publications/image/Art-Observation-4.webp",
+    "alt": "张子康 《全球化、本土化与智识链接下的双年展》",
+    "journal": "美术观察",
+    "date": "2022年12月",
+    "category": "学术文章"
+  },
+  "China-Culture-Daily-1": {
+    "title": "美术馆建设与城市形象塑造",
+    "src": "/assets/publications/image/China-Culture-Daily-1.webp",
+    "alt": "张子康 《美术馆建设与城市形象塑造》",
+    "journal": "中国文化报",
+    "date": "2022年1月",
+    "category": "学术文章"
+  },
+  "Art-Observation-3": {
+    "title": "创造力推动与智识系统——美术馆数字化时代的策展挑战",
+    "src": "/assets/publications/image/Art-Observation-3.webp",
+    "alt": "张子康 《创造力推动与智识系统——美术馆数字化时代的策展挑战》",
+    "journal": "美术观察",
+    "date": "2021年12月",
+    "category": "学术文章"
+  },
+  "Curating-in-China-Vol3": {
+    "title": "当下策展的转向与应对——艺术博物馆的智识机制建构",
+    "src": "/assets/publications/image/Curating-in-China-Vol3.webp",
+    "alt": "张子康 《当下策展的转向与应对——艺术博物馆的智识机制建构》",
+    "ISBN": "978-7-5598-4325-8",
+    "publisher": "广西师范大学出版社",
+    "source": "策展学丛",
+    "date": "2021年11月",
+    "category": "学术文章"
+  },
+  "Art-Magazine-2": {
+    "title": "当下策展的转向与应对：艺术博物馆的智识机制建构",
+    "src": "/assets/publications/image/Art-Magazine-2.webp",
+    "alt": "张子康 《当下策展的转向与应对：艺术博物馆的智识机制建构》",
+    "journal": "美术",
+    "date": "2020年12月",
+    "category": "学术文章"
+  },
+  "Art-Museum-2": {
+    "title": "浅谈艺术博物馆的智识机制建构",
+    "src": "/assets/publications/image/Art-Museum-2.webp",
+    "alt": "张子康 《浅谈艺术博物馆的智识机制建构》",
+    "journal": "美术馆",
+    "date": "2020年6月",
+    "category": "学术文章"
+  },
+  "Art-Museum-1": {
+    "title": "面对未来的艺术博物馆发展",
+    "src": "/assets/publications/image/Art-Museum-1.webp",
+    "alt": "张子康 《面对未来的艺术博物馆发展》",
+    "journal": "美术馆",
+    "date": "2020年2月",
+    "category": "学术文章"
+  },
+  "Art-Magazine-1": {
+    "title": "化物——卡普尔虚无的营造",
+    "src": "/assets/publications/image/Art-Magazine-1.webp",
+    "alt": "张子康 《化物——卡普尔虚无的营造》",
+    "journal": "美术",
+    "date": "2019年12月",
+    "category": "学术文章"
+  },
+  "Proceedings-of-the-National-Symposium-on-Art-Theory": {
+    "title": "面对未来的艺术博物馆发展",
+    "src": "/assets/publications/image/Proceedings-of-the-National-Symposium-on-Art-Theory.webp",
+    "alt": "张子康 《面对未来的艺术博物馆发展》",
+    "publisher": "文化艺术出版社",
+    "source": "新时代之声：全国美术理论研讨会论文集",
+    "date": "2019年12月",
+    "category": "学术文章"
+  },
+  "Art-Observation-2": {
+    "title": "雷安德罗 · 埃里希：惊奇之始——看见与相信的重构",
+    "src": "/assets/publications/image/Art-Observation-2.webp",
+    "alt": "张子康 《雷安德罗 · 埃里希：惊奇之始——看见与相信的重构》",
+    "journal": "美术观察",
+    "date": "2019年10月",
+    "category": "学术文章"
+  },
+  "Art-Research-2": {
+    "title": "不可忽视的观众和影响制造者——对雷安德罗 · 埃里希“太虚之境”的深思",
+    "src": "/assets/publications/image/Art-Research-2.webp",
+    "alt": "张子康 《不可忽视的观众和影响制造者——对雷安德罗 · 埃里希“太虚之境”的深思》",
+    "journal": "美术研究",
+    "date": "2019年6月",
+    "category": "学术文章"
+  },
+  "Art-Research-1": {
+    "title": "艺术创作中的主观意识——浅谈付满乐的绘画",
+    "src": "/assets/publications/image/Art-Research-1.webp",
+    "alt": "张子康 《艺术创作中的主观意识——浅谈付满乐的绘画》",
+    "journal": "美术研究",
+    "date": "2019年3月",
+    "category": "学术文章"
+  },
+  "Art-Observation-1": {
+    "title": "从创作到艺术史——论美术馆的知识生产",
+    "src": "/assets/publications/image/Art-Observation-1.webp",
+    "alt": "张子康 《从创作到艺术史——论美术馆的知识生产》",
+    "journal": "美术观察",
+    "date": "2015年5月",
+    "category": "学术文章"
+  }
+}

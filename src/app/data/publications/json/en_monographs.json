@@ -1,4 +1,49 @@
 {
+  "Studies-in-Art-Museum-Theory-and-Methodology": {
+    "title": "Studies in Art Museum Theory and Methodology",
+    "src": "/assets/publications/image/Studies-in-Art-Museum-Theory-and-Methodology.webp",
+    "alt": "Studies in Art Museum Theory and Methodology by Zhang Zikang",
+    "ISBN": "978-7-5356-9564-2",
+    "publisher": "Hunan Fine Arts Publishing House",
+    "date": "September 2021",
+    "category": "Co-authored"
+  },
+  "Art-Museum-Theory-and-Practice": {
+    "title": "Art Museum: Theory and Practice",
+    "src": "/assets/publications/image/Art-Museum-Theory-and-Practice.webp",
+    "alt": "Art Museum: Theory and Practice by Zhang Zikang",
+    "ISBN": "978-7-5039-6292-9",
+    "publisher": "Culture and Art Publishing House",
+    "date": "October 2017",
+    "category": "Co-authored"
+  },
+  "Zhang-Zikang-Territories": {
+    "title": "Zhang Zikang · Territories",
+    "src": "/assets/publications/image/Zhang-Zikang-Territories.webp",
+    "alt": "Zhang Zikang · Territories by Zhang Zikang",
+    "ISBN": "978-7-5086-6655-6",
+    "publisher": "CITIC Press",
+    "date": "October 2016",
+    "category": "Art Album"
+  },
+  "Zhang-Zikang-Art-Collection": {
+    "title": "Zhang Zikang: Art Collection",
+    "src": "/assets/publications/image/Zhang-Zikang-Art-Collection.webp",
+    "alt": "Zhang Zikang: Art Collection by Zhang Zikang",
+    "ISBN": "978-7-102-07546-4",
+    "publisher": "People's Fine Arts Publishing House",
+    "date": "August 2016",
+    "category": "Art Album"
+  },
+  "Transdisciplinary-Survival": {
+    "title": "Transdisciplinary Survival — Rethinking the Art Museum",
+    "src": "/assets/publications/image/Transdisciplinary-Survival.webp",
+    "alt": "Transdisciplinary Survival — Rethinking the Art Museum by Zhang Zikang",
+    "ISBN": "978-7-5153-1052-7",
+    "publisher": "China Youth Publishing House",
+    "date": "February 2014",
+    "category": "Academic Monograph"
+  },
   "Construct-City-With-Cultural-Element": {
     "title": "Construct City With Cultural Element",
     "src": "/assets/publications/image/Construct-City-With-Cultural-Element.webp",

@@ -1,4 +1,269 @@
 {
+  "Antoni-Tàpies-Dialogue-with-Things": {
+    "title": "Antoni Tàpies — Dialogue with Things",
+    "src": "/assets/publications/image/Antoni-Tàpies-Dialogue-with-Things.webp",
+    "alt": "Antoni Tàpies — Dialogue with Things by Zhang Zikang",
+    "ISBN": "978-7-5586-2891-2",
+    "publisher": "Shanghai People's Fine Arts Publishing House",
+    "date": "January 2024",
+    "category": "Chief Editor"
+  },
+  "Ding-Yi-Flowing-Infinity": {
+    "title": "Ding Yi: Flowing Infinity",
+    "src": "/assets/publications/image/Ding-Yi-Flowing-Infinity.webp",
+    "alt": "Ding Yi: Flowing Infinity by Zhang Zikang",
+    "ISBN": "978-7-5340-9641-9",
+    "publisher": "Zhejiang People's Fine Arts Publishing House",
+    "date": "August 2023",
+    "category": "Chief Editor"
+  },
+  "China-Culture-Daily-2": {
+    "title": "Connecting Biennales, Cities, and Digital Age",
+    "src": "/assets/publications/image/China-Culture-Daily-2.webp",
+    "alt": "Connecting Biennales, Cities, and Digital Age by Zhang Zikang",
+    "journal": "China Culture Daily",
+    "date": "February 2023",
+    "category": "Interview"
+  },
+  "Art-Observation-4": {
+    "title": "The Biennale in the Context of Globalization, Localization, and Intellectual Connectivity",
+    "src": "/assets/publications/image/Art-Observation-4.webp",
+    "alt": "The Biennale in the Context of Globalization, Localization, and Intellectual Connectivity by Zhang Zikang",
+    "journal": "Art Observation",
+    "date": "December 2022",
+    "category": "Academic Article"
+  },
+  "Art-Collection+Design": {
+    "title": "Art Is an Ongoing Adventure",
+    "src": "/assets/publications/image/Art-Collection+Design.webp",
+    "alt": "Art Is an Ongoing Adventure by Zhang Zikang",
+    "journal": "Art Collection + Design",
+    "date": "July 2022",
+    "category": "Interview"
+  },
+  "Art-China": {
+    "title": "Meta-Realm: The Ideal Fusion of Chinese Art and Emerging Technology",
+    "src": "/assets/publications/image/Art-China.webp",
+    "alt": "Meta-Realm: The Ideal Fusion of Chinese Art and Emerging Technology by Zhang Zikang",
+    "journal": "Art China",
+    "date": "July 2022",
+    "category": "Interview"
+  },
+  "China-Culture-Daily-1": {
+    "title": "Art Museum Development and the Shaping of Urban Identity",
+    "src": "/assets/publications/image/China-Culture-Daily-1.webp",
+    "alt": "Art Museum Development and the Shaping of Urban Identity by Zhang Zikang",
+    "journal": "China Culture Daily",
+    "date": "January 2022",
+    "category": "Academic Article"
+  },
+  "Sniffing-The-Rose-The-Art-of-Life": {
+    "title": "Sniffing The Rose – The Art of Life",
+    "src": "/assets/publications/image/Sniffing-The-Rose-The-Art-of-Life.webp",
+    "alt": "Sniffing The Rose – The Art of Life by Zhang Zikang",
+    "ISBN": "978-7-5474-4110-7",
+    "publisher": "Shandong Pictorial Publishing House",
+    "date": "January 2022",
+    "category": "Chief Editor"
+  },
+  "Art-Observation-3": {
+    "title": "Creative Drive and Intellectual Systems — Curatorial Challenges in the Digital Age of Art Museums",
+    "src": "/assets/publications/image/Art-Observation-3.webp",
+    "alt": "Creative Drive and Intellectual Systems — Curatorial Challenges in the Digital Age of Art Museums by Zhang Zikang",
+    "journal": "Art Observation",
+    "date": "December 2021",
+    "category": "Academic Article"
+  },
+  "Southern-People-Weekly": {
+    "title": "A Century of Art History as a Mirror of China’s Modernization",
+    "src": "/assets/publications/image/Southern-People-Weekly.webp",
+    "alt": "A Century of Art History as a Mirror of China’s Modernization by Zhang Zikang",
+    "journal": "Southern People Weekly",
+    "date": "December 2021",
+    "category": "Interview"
+  },
+  "Central-Academy-of-Fine-Arts-Museum-Yearbook-2019": {
+    "title": "Central Academy of Fine Arts Museum Yearbook 2019",
+    "src": "/assets/publications/image/Central-Academy-of-Fine-Arts-Museum-Yearbook-2019.webp",
+    "alt": "Central Academy of Fine Arts Museum Yearbook 2019 by Zhang Zikang",
+    "ISBN": "978-7-5356-9581-9",
+    "publisher": "Hunan Fine Arts Publishing House",
+    "date": "November 2021",
+    "category": "Chief Editor"
+  },
+  "Curating-in-China-Vol3": {
+    "title": "Curatorial Shifts and Responses — Constructing the Intellectual Mechanism of Art Museums",
+    "src": "/assets/publications/image/Curating-in-China-Vol3.webp",
+    "alt": "Curatorial Shifts and Responses — Constructing the Intellectual Mechanism of Art Museums by Zhang Zikang",
+    "ISBN": "978-7-5598-4325-8",
+    "publisher": "Guangxi Normal University Press",
+    "source": "Curating in China – Vol.3",
+    "date": "November 2021",
+    "category": "Academic Article"
+  },
+  "Pioneering": {
+    "title": "Pioneering: Artists Studying in France and Modern Chinese Art (1911–1949)",
+    "src": "/assets/publications/image/Pioneering.webp",
+    "alt": "Pioneering: Artists Studying in France and Modern Chinese Art (1911–1949) by Zhang Zikang",
+    "ISBN": "978-7-5217-3349-5",
+    "publisher": "CITIC Press",
+    "date": "September 2021",
+    "category": "Chief Editor"
+  },
+  "Studies-in-Art-Museum-Theory-and-Methodology": {
+    "title": "Studies in Art Museum Theory and Methodology",
+    "src": "/assets/publications/image/Studies-in-Art-Museum-Theory-and-Methodology.webp",
+    "alt": "Studies in Art Museum Theory and Methodology by Zhang Zikang",
+    "ISBN": "978-7-5356-9564-2",
+    "publisher": "Hunan Fine Arts Publishing House",
+    "date": "September 2021",
+    "category": "Co-authored"
+  },
+  "Leandro-Erlich-The-Confines-of-The-Great-Void": {
+    "title": "Leandro Erlich – The Confines of The Great Void",
+    "src": "/assets/publications/image/Leandro-Erlich-The-Confines-of-The-Great-Void.webp",
+    "alt": "Leandro Erlich – The Confines of The Great Void by Zhang Zikang",
+    "ISBN": "978-7-5153-5765-2",
+    "publisher": "China Youth Publishing House",
+    "date": "March 2021",
+    "category": "Chief Editor"
+  },
+  "Art-Magazine-2": {
+    "title": "Curatorial Shifts and Responses Today: Constructing the Intellectual Mechanism of Art Museums",
+    "src": "/assets/publications/image/Art-Magazine-2.webp",
+    "alt": "Curatorial Shifts and Responses Today: Constructing the Intellectual Mechanism of Art Museums by Zhang Zikang",
+    "journal": "Art Magazine",
+    "date": "December 2020",
+    "category": "Academic Article"
+  },
+  "Art-Museum-2": {
+    "title": "A Brief Discussion on the Intellectual Mechanism of Art Museums",
+    "src": "/assets/publications/image/Art-Museum-2.webp",
+    "alt": "A Brief Discussion on the Intellectual Mechanism of Art Museums by Zhang Zikang",
+    "journal": "Art Museum",
+    "date": "June 2020",
+    "category": "Academic Article"
+  },
+  "Art-Museum-1": {
+    "title": "The Future-Oriented Development of Art Museums",
+    "src": "/assets/publications/image/Art-Museum-1.webp",
+    "alt": "The Future-Oriented Development of Art Museums by Zhang Zikang",
+    "journal": "Art Museum",
+    "date": "February 2020",
+    "category": "Academic Article"
+  },
+  "Proceedings-of-the-National-Symposium-on-Art-Theory": {
+    "title": "The Future-Oriented Development of Art Museums",
+    "src": "/assets/publications/image/Proceedings-of-the-National-Symposium-on-Art-Theory.webp",
+    "alt": "The Future-Oriented Development of Art Museums by Zhang Zikang",
+    "publisher": "Culture and Art Publishing House",
+    "source": "Voice of the New Era: Proceedings of the National Symposium on Art Theory",
+    "date": "December 2019",
+    "category": "Academic Article"
+  },
+  "Art-Magazine-1": {
+    "title": "Transmuted Forms — Kapoor’s Construction of the Void",
+    "src": "/assets/publications/image/Art-Magazine-1.webp",
+    "alt": "Transmuted Forms — Kapoor’s Construction of the Void by Zhang Zikang",
+    "journal": "Art Magazine",
+    "date": "December 2019",
+    "category": "Academic Article"
+  },
+  "Art-Observation-2": {
+    "title": "Leandro Erlich: The Beginning of Wonder — Reconstructing Seeing and Believing",
+    "src": "/assets/publications/image/Art-Observation-2.webp",
+    "alt": "Leandro Erlich: The Beginning of Wonder — Reconstructing Seeing and Believing by Zhang Zikang",
+    "journal": "Art Observation",
+    "date": "October 2019",
+    "category": "Academic Article"
+  },
+  "The-Life-of-Beihong": {
+    "title": "The Life of Beihong",
+    "src": "/assets/publications/image/The-Life-of-Beihong.webp",
+    "alt": "The Life of Beihong by Zhang Zikang",
+    "ISBN": "978-7-5086-9876-2",
+    "publisher": "CITIC Press",
+    "date": "July 2019",
+    "category": "Chief Editor"
+  },
+  "Art-Research-2": {
+    "title": "The Unignorable Audience and Influence-Makers — Reflections on Leandro Erlich’s The Confines of The Great Void",
+    "src": "/assets/publications/image/Art-Research-2.webp",
+    "alt": "The Unignorable Audience and Influence-Makers — Reflections on Leandro Erlich’s The Confines of The Great Void by Zhang Zikang",
+    "journal": "Art Research",
+    "date": "June 2019",
+    "category": "Academic Article"
+  },
+  "Art-Research-1": {
+    "title": "Subjective Consciousness in Artistic Creation — A Brief Discussion on Fu Manle's Paintings",
+    "src": "/assets/publications/image/Art-Research-1.webp",
+    "alt": "Subjective Consciousness in Artistic Creation — A Brief Discussion on Fu Manle's Paintings by Zhang Zikang",
+    "journal": "Art Research",
+    "date": "March 2019",
+    "category": "Academic Article"
+  },
+  "Art-Museum-Theory-and-Practice": {
+    "title": "Art Museum: Theory and Practice",
+    "src": "/assets/publications/image/Art-Museum-Theory-and-Practice.webp",
+    "alt": "Art Museum: Theory and Practice by Zhang Zikang",
+    "ISBN": "978-7-5039-6292-9",
+    "publisher": "Culture and Art Publishing House",
+    "date": "October 2017",
+    "category": "Co-authored"
+  },
+  "Zhang-Zikang-Territories": {
+    "title": "Zhang Zikang · Territories",
+    "src": "/assets/publications/image/Zhang-Zikang-Territories.webp",
+    "alt": "Zhang Zikang · Territories by Zhang Zikang",
+    "ISBN": "978-7-5086-6655-6",
+    "publisher": "CITIC Press",
+    "date": "October 2016",
+    "category": "Art Album"
+  },
+  "Zhang-Zikang-Art-Collection": {
+    "title": "Zhang Zikang: Art Collection",
+    "src": "/assets/publications/image/Zhang-Zikang-Art-Collection.webp",
+    "alt": "Zhang Zikang: Art Collection by Zhang Zikang",
+    "ISBN": "978-7-102-07546-4",
+    "publisher": "People's Fine Arts Publishing House",
+    "date": "August 2016",
+    "category": "Art Album"
+  },
+  "History-of-Chinese-Fine-Arts": {
+    "title": "History of Chinese Fine Arts: Master Originals Series (12 volumes, 60 books total)",
+    "src": "/assets/publications/image/History-of-Chinese-Fine-Arts.webp",
+    "alt": "History of Chinese Fine Arts: Master Originals Series (12 volumes, 60 books total) by Zhang Zikang",
+    "ISBN": "978-7-5086-6698-3",
+    "publisher": "CITIC Press",
+    "date": "June 2016",
+    "category": "Editor-in-Chief"
+  },
+  "Journey-Through-the-Golden-Heartland": {
+    "title": "Journey Through the Golden Heartland — 2015 Taklamakan Sketch Collection",
+    "src": "/assets/publications/image/Journey-Through-the-Golden-Heartland.webp",
+    "alt": "Journey Through the Golden Heartland — 2015 Taklamakan Sketch Collection by Zhang Zikang",
+    "ISBN": "978-7-5502-6721-3",
+    "publisher": "Beijing United Publishing Co.",
+    "date": "December 2015",
+    "category": "Chief Editor"
+  },
+  "Art-Observation-1": {
+    "title": "From Creation to Art History —Knowledge Production in Art Museums",
+    "src": "/assets/publications/image/Art-Observation-1.webp",
+    "alt": "From Creation to Art History —Knowledge Production in Art Museums by Zhang Zikang",
+    "journal": "Art Observation",
+    "date": "May 2015",
+    "category": "Academic Article"
+  },
+  "Transdisciplinary-Survival": {
+    "title": "Transdisciplinary Survival — Rethinking the Art Museum",
+    "src": "/assets/publications/image/Transdisciplinary-Survival.webp",
+    "alt": "Transdisciplinary Survival — Rethinking the Art Museum by Zhang Zikang",
+    "ISBN": "978-7-5153-1052-7",
+    "publisher": "China Youth Publishing House",
+    "date": "February 2014",
+    "category": "Academic Monograph"
+  },
   "Today’s-Talk-on-Printmaking": {
     "title": "Today’s Talk on Printmaking",
     "src": "/assets/publications/image/Today’s-Talk-on-Printmaking.webp",

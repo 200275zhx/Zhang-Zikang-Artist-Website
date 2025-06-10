@@ -1,1 +1,109 @@
-{}
+{
+  "Art-Observation-4": {
+    "title": "The Biennale in the Context of Globalization, Localization, and Intellectual Connectivity",
+    "src": "/assets/publications/image/Art-Observation-4.webp",
+    "alt": "The Biennale in the Context of Globalization, Localization, and Intellectual Connectivity by Zhang Zikang",
+    "journal": "Art Observation",
+    "date": "December 2022",
+    "category": "Academic Article"
+  },
+  "China-Culture-Daily-1": {
+    "title": "Art Museum Development and the Shaping of Urban Identity",
+    "src": "/assets/publications/image/China-Culture-Daily-1.webp",
+    "alt": "Art Museum Development and the Shaping of Urban Identity by Zhang Zikang",
+    "journal": "China Culture Daily",
+    "date": "January 2022",
+    "category": "Academic Article"
+  },
+  "Art-Observation-3": {
+    "title": "Creative Drive and Intellectual Systems — Curatorial Challenges in the Digital Age of Art Museums",
+    "src": "/assets/publications/image/Art-Observation-3.webp",
+    "alt": "Creative Drive and Intellectual Systems — Curatorial Challenges in the Digital Age of Art Museums by Zhang Zikang",
+    "journal": "Art Observation",
+    "date": "December 2021",
+    "category": "Academic Article"
+  },
+  "Curating-in-China-Vol3": {
+    "title": "Curatorial Shifts and Responses — Constructing the Intellectual Mechanism of Art Museums",
+    "src": "/assets/publications/image/Curating-in-China-Vol3.webp",
+    "alt": "Curatorial Shifts and Responses — Constructing the Intellectual Mechanism of Art Museums by Zhang Zikang",
+    "ISBN": "978-7-5598-4325-8",
+    "publisher": "Guangxi Normal University Press",
+    "source": "Curating in China – Vol.3",
+    "date": "November 2021",
+    "category": "Academic Article"
+  },
+  "Art-Magazine-2": {
+    "title": "Curatorial Shifts and Responses Today: Constructing the Intellectual Mechanism of Art Museums",
+    "src": "/assets/publications/image/Art-Magazine-2.webp",
+    "alt": "Curatorial Shifts and Responses Today: Constructing the Intellectual Mechanism of Art Museums by Zhang Zikang",
+    "journal": "Art Magazine",
+    "date": "December 2020",
+    "category": "Academic Article"
+  },
+  "Art-Museum-2": {
+    "title": "A Brief Discussion on the Intellectual Mechanism of Art Museums",
+    "src": "/assets/publications/image/Art-Museum-2.webp",
+    "alt": "A Brief Discussion on the Intellectual Mechanism of Art Museums by Zhang Zikang",
+    "journal": "Art Museum",
+    "date": "June 2020",
+    "category": "Academic Article"
+  },
+  "Art-Museum-1": {
+    "title": "The Future-Oriented Development of Art Museums",
+    "src": "/assets/publications/image/Art-Museum-1.webp",
+    "alt": "The Future-Oriented Development of Art Museums by Zhang Zikang",
+    "journal": "Art Museum",
+    "date": "February 2020",
+    "category": "Academic Article"
+  },
+  "Proceedings-of-the-National-Symposium-on-Art-Theory": {
+    "title": "The Future-Oriented Development of Art Museums",
+    "src": "/assets/publications/image/Proceedings-of-the-National-Symposium-on-Art-Theory.webp",
+    "alt": "The Future-Oriented Development of Art Museums by Zhang Zikang",
+    "publisher": "Culture and Art Publishing House",
+    "source": "Voice of the New Era: Proceedings of the National Symposium on Art Theory",
+    "date": "December 2019",
+    "category": "Academic Article"
+  },
+  "Art-Magazine-1": {
+    "title": "Transmuted Forms — Kapoor’s Construction of the Void",
+    "src": "/assets/publications/image/Art-Magazine-1.webp",
+    "alt": "Transmuted Forms — Kapoor’s Construction of the Void by Zhang Zikang",
+    "journal": "Art Magazine",
+    "date": "December 2019",
+    "category": "Academic Article"
+  },
+  "Art-Observation-2": {
+    "title": "Leandro Erlich: The Beginning of Wonder — Reconstructing Seeing and Believing",
+    "src": "/assets/publications/image/Art-Observation-2.webp",
+    "alt": "Leandro Erlich: The Beginning of Wonder — Reconstructing Seeing and Believing by Zhang Zikang",
+    "journal": "Art Observation",
+    "date": "October 2019",
+    "category": "Academic Article"
+  },
+  "Art-Research-2": {
+    "title": "The Unignorable Audience and Influence-Makers — Reflections on Leandro Erlich’s The Confines of The Great Void",
+    "src": "/assets/publications/image/Art-Research-2.webp",
+    "alt": "The Unignorable Audience and Influence-Makers — Reflections on Leandro Erlich’s The Confines of The Great Void by Zhang Zikang",
+    "journal": "Art Research",
+    "date": "June 2019",
+    "category": "Academic Article"
+  },
+  "Art-Research-1": {
+    "title": "Subjective Consciousness in Artistic Creation — A Brief Discussion on Fu Manle's Paintings",
+    "src": "/assets/publications/image/Art-Research-1.webp",
+    "alt": "Subjective Consciousness in Artistic Creation — A Brief Discussion on Fu Manle's Paintings by Zhang Zikang",
+    "journal": "Art Research",
+    "date": "March 2019",
+    "category": "Academic Article"
+  },
+  "Art-Observation-1": {
+    "title": "From Creation to Art History —Knowledge Production in Art Museums",
+    "src": "/assets/publications/image/Art-Observation-1.webp",
+    "alt": "From Creation to Art History —Knowledge Production in Art Museums by Zhang Zikang",
+    "journal": "Art Observation",
+    "date": "May 2015",
+    "category": "Academic Article"
+  }
+}

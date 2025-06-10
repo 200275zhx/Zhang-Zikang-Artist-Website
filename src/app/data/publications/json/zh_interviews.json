@@ -1,1 +1,34 @@
-{}
+{
+  "China-Culture-Daily-2": {
+    "title": "数字时代，双年展与城市的连接点",
+    "src": "/assets/publications/image/China-Culture-Daily-2.webp",
+    "alt": "张子康 《数字时代，双年展与城市的连接点》",
+    "journal": "中国文化报",
+    "date": "2023年2月",
+    "category": "访谈"
+  },
+  "Art-Collection+Design": {
+    "title": "艺术是一场持续的冒险",
+    "src": "/assets/publications/image/Art-Collection+Design.webp",
+    "alt": "张子康 《艺术是一场持续的冒险》",
+    "journal": "艺术收藏+设计",
+    "date": "2022年7月",
+    "category": "访谈"
+  },
+  "Art-China": {
+    "title": "“元境”，中国艺术与新兴科技相结合的“理想之境”",
+    "src": "/assets/publications/image/Art-China.webp",
+    "alt": "张子康 《“元境”，中国艺术与新兴科技相结合的“理想之境”》",
+    "journal": "艺术当代",
+    "date": "2022年7月",
+    "category": "访谈"
+  },
+  "Southern-People-Weekly": {
+    "title": "百年艺术史是中国现代化进程的镜子",
+    "src": "/assets/publications/image/Southern-People-Weekly.webp",
+    "alt": "张子康 《百年艺术史是中国现代化进程的镜子》",
+    "journal": "南方人物周刊",
+    "date": "2021年12月",
+    "category": "访谈"
+  }
+}

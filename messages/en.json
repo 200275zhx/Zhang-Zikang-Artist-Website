@@ -79,7 +79,9 @@
         "labels": {
             "publisher": "Publisher",
             "date": "Publication Date",
-            "category": "Category"
+            "category": "Category",
+            "journal": "Journal",
+            "source": "Collected Volume"
         }
     },
 

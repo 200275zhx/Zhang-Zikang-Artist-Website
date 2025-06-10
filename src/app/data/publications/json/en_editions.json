@@ -1,4 +1,85 @@
 {
+  "Antoni-Tàpies-Dialogue-with-Things": {
+    "title": "Antoni Tàpies — Dialogue with Things",
+    "src": "/assets/publications/image/Antoni-Tàpies-Dialogue-with-Things.webp",
+    "alt": "Antoni Tàpies — Dialogue with Things by Zhang Zikang",
+    "ISBN": "978-7-5586-2891-2",
+    "publisher": "Shanghai People's Fine Arts Publishing House",
+    "date": "January 2024",
+    "category": "Chief Editor"
+  },
+  "Ding-Yi-Flowing-Infinity": {
+    "title": "Ding Yi: Flowing Infinity",
+    "src": "/assets/publications/image/Ding-Yi-Flowing-Infinity.webp",
+    "alt": "Ding Yi: Flowing Infinity by Zhang Zikang",
+    "ISBN": "978-7-5340-9641-9",
+    "publisher": "Zhejiang People's Fine Arts Publishing House",
+    "date": "August 2023",
+    "category": "Chief Editor"
+  },
+  "Sniffing-The-Rose-The-Art-of-Life": {
+    "title": "Sniffing The Rose – The Art of Life",
+    "src": "/assets/publications/image/Sniffing-The-Rose-The-Art-of-Life.webp",
+    "alt": "Sniffing The Rose – The Art of Life by Zhang Zikang",
+    "ISBN": "978-7-5474-4110-7",
+    "publisher": "Shandong Pictorial Publishing House",
+    "date": "January 2022",
+    "category": "Chief Editor"
+  },
+  "Central-Academy-of-Fine-Arts-Museum-Yearbook-2019": {
+    "title": "Central Academy of Fine Arts Museum Yearbook 2019",
+    "src": "/assets/publications/image/Central-Academy-of-Fine-Arts-Museum-Yearbook-2019.webp",
+    "alt": "Central Academy of Fine Arts Museum Yearbook 2019 by Zhang Zikang",
+    "ISBN": "978-7-5356-9581-9",
+    "publisher": "Hunan Fine Arts Publishing House",
+    "date": "November 2021",
+    "category": "Chief Editor"
+  },
+  "Pioneering": {
+    "title": "Pioneering: Artists Studying in France and Modern Chinese Art (1911–1949)",
+    "src": "/assets/publications/image/Pioneering.webp",
+    "alt": "Pioneering: Artists Studying in France and Modern Chinese Art (1911–1949) by Zhang Zikang",
+    "ISBN": "978-7-5217-3349-5",
+    "publisher": "CITIC Press",
+    "date": "September 2021",
+    "category": "Chief Editor"
+  },
+  "Leandro-Erlich-The-Confines-of-The-Great-Void": {
+    "title": "Leandro Erlich – The Confines of The Great Void",
+    "src": "/assets/publications/image/Leandro-Erlich-The-Confines-of-The-Great-Void.webp",
+    "alt": "Leandro Erlich – The Confines of The Great Void by Zhang Zikang",
+    "ISBN": "978-7-5153-5765-2",
+    "publisher": "China Youth Publishing House",
+    "date": "March 2021",
+    "category": "Chief Editor"
+  },
+  "The-Life-of-Beihong": {
+    "title": "The Life of Beihong",
+    "src": "/assets/publications/image/The-Life-of-Beihong.webp",
+    "alt": "The Life of Beihong by Zhang Zikang",
+    "ISBN": "978-7-5086-9876-2",
+    "publisher": "CITIC Press",
+    "date": "July 2019",
+    "category": "Chief Editor"
+  },
+  "History-of-Chinese-Fine-Arts": {
+    "title": "History of Chinese Fine Arts: Master Originals Series (12 volumes, 60 books total)",
+    "src": "/assets/publications/image/History-of-Chinese-Fine-Arts.webp",
+    "alt": "History of Chinese Fine Arts: Master Originals Series (12 volumes, 60 books total) by Zhang Zikang",
+    "ISBN": "978-7-5086-6698-3",
+    "publisher": "CITIC Press",
+    "date": "June 2016",
+    "category": "Editor-in-Chief"
+  },
+  "Journey-Through-the-Golden-Heartland": {
+    "title": "Journey Through the Golden Heartland — 2015 Taklamakan Sketch Collection",
+    "src": "/assets/publications/image/Journey-Through-the-Golden-Heartland.webp",
+    "alt": "Journey Through the Golden Heartland — 2015 Taklamakan Sketch Collection by Zhang Zikang",
+    "ISBN": "978-7-5502-6721-3",
+    "publisher": "Beijing United Publishing Co.",
+    "date": "December 2015",
+    "category": "Chief Editor"
+  },
   "Today’s-Talk-on-Printmaking": {
     "title": "Today’s Talk on Printmaking",
     "src": "/assets/publications/image/Today’s-Talk-on-Printmaking.webp",

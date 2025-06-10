@@ -6,4 +6,6 @@ export type PublicationItem = {
     publisher?: string;
     date?: string;
     category?: string;
+    journal?: string;
+    source?: string;
 };

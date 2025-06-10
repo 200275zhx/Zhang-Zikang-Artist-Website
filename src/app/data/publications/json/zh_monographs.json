@@ -1,4 +1,49 @@
 {
+  "Studies-in-Art-Museum-Theory-and-Methodology": {
+    "title": "美术馆学理论与方法研究",
+    "src": "/assets/publications/image/Studies-in-Art-Museum-Theory-and-Methodology.webp",
+    "alt": "张子康 《美术馆学理论与方法研究》",
+    "ISBN": "978-7-5356-9564-2",
+    "publisher": "湖南美术出板社",
+    "date": "2021年9月",
+    "category": "合著"
+  },
+  "Art-Museum-Theory-and-Practice": {
+    "title": "艺术博物馆理论与实务",
+    "src": "/assets/publications/image/Art-Museum-Theory-and-Practice.webp",
+    "alt": "张子康 《艺术博物馆理论与实务》",
+    "ISBN": "978-7-5039-6292-9",
+    "publisher": "文化艺术出版社",
+    "date": "2017年10月",
+    "category": "合著"
+  },
+  "Zhang-Zikang-Territories": {
+    "title": "张子康 · 疆域",
+    "src": "/assets/publications/image/Zhang-Zikang-Territories.webp",
+    "alt": "张子康 《张子康 · 疆域》",
+    "ISBN": "978-7-5086-6655-6",
+    "publisher": "中信出版社",
+    "date": "2016年10月",
+    "category": "画册"
+  },
+  "Zhang-Zikang-Art-Collection": {
+    "title": "张子康",
+    "src": "/assets/publications/image/Zhang-Zikang-Art-Collection.webp",
+    "alt": "张子康 《张子康》",
+    "ISBN": "978-7-102-07546-4",
+    "publisher": "人民美术出版社",
+    "date": "2016年8月",
+    "category": "画册"
+  },
+  "Transdisciplinary-Survival": {
+    "title": "跨界生存——美术馆新思路",
+    "src": "/assets/publications/image/Transdisciplinary-Survival.webp",
+    "alt": "张子康 《跨界生存——美术馆新思路》",
+    "ISBN": "978-7-5153-1052-7",
+    "publisher": "中国青年出版社",
+    "date": "2014年2月",
+    "category": "学术专著"
+  },
   "Construct-City-With-Cultural-Element": {
     "title": "文化造城",
     "src": "/assets/publications/image/Construct-City-With-Cultural-Element.webp",

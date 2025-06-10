@@ -1,4 +1,85 @@
 {
+  "Antoni-Tàpies-Dialogue-with-Things": {
+    "title": "安东尼·塔皮埃斯——与物的对话",
+    "src": "/assets/publications/image/Antoni-Tàpies-Dialogue-with-Things.webp",
+    "alt": "张子康 《安东尼·塔皮埃斯——与物的对话》",
+    "ISBN": "978-7-5586-2891-2",
+    "publisher": "上海人民美术出版社",
+    "date": "2024年1月",
+    "category": "主编"
+  },
+  "Ding-Yi-Flowing-Infinity": {
+    "title": "丁乙：流动的无限",
+    "src": "/assets/publications/image/Ding-Yi-Flowing-Infinity.webp",
+    "alt": "张子康 《丁乙：流动的无限》",
+    "ISBN": "978-7-5340-9641-9",
+    "publisher": "浙江人民美术出版社",
+    "date": "2023年8月",
+    "category": "主编"
+  },
+  "Sniffing-The-Rose-The-Art-of-Life": {
+    "title": "细嗅蔷薇-生命的艺术：国际当代女性艺术家作品集",
+    "src": "/assets/publications/image/Sniffing-The-Rose-The-Art-of-Life.webp",
+    "alt": "张子康 《细嗅蔷薇-生命的艺术：国际当代女性艺术家作品集》",
+    "ISBN": "978-7-5474-4110-7",
+    "publisher": "山东画报出版社",
+    "date": "2022年1月",
+    "category": "主编"
+  },
+  "Central-Academy-of-Fine-Arts-Museum-Yearbook-2019": {
+    "title": "中央美术学院美术馆年鉴 2019",
+    "src": "/assets/publications/image/Central-Academy-of-Fine-Arts-Museum-Yearbook-2019.webp",
+    "alt": "张子康 《中央美术学院美术馆年鉴 2019》",
+    "ISBN": "978-7-5356-9581-9",
+    "publisher": "湖南美术出板社",
+    "date": "2021年11月",
+    "category": "主编"
+  },
+  "Pioneering": {
+    "title": "先驱之路：留法艺术家与中国现代美术1911-1949",
+    "src": "/assets/publications/image/Pioneering.webp",
+    "alt": "张子康 《先驱之路：留法艺术家与中国现代美术1911-1949》",
+    "ISBN": "978-7-5217-3349-5",
+    "publisher": "中信出版社",
+    "date": "2021年9月",
+    "category": "主编"
+  },
+  "Leandro-Erlich-The-Confines-of-The-Great-Void": {
+    "title": "太虚之境——雷安德罗 · 埃里希",
+    "src": "/assets/publications/image/Leandro-Erlich-The-Confines-of-The-Great-Void.webp",
+    "alt": "张子康 《太虚之境——雷安德罗 · 埃里希》",
+    "ISBN": "978-7-5153-5765-2",
+    "publisher": "中国青年出版社",
+    "date": "2021年3月",
+    "category": "主编"
+  },
+  "The-Life-of-Beihong": {
+    "title": "悲鸿生命",
+    "src": "/assets/publications/image/The-Life-of-Beihong.webp",
+    "alt": "张子康 《悲鸿生命》",
+    "ISBN": "978-7-5086-9876-2",
+    "publisher": "中信出版社",
+    "date": "2019年7月",
+    "category": "主编"
+  },
+  "History-of-Chinese-Fine-Arts": {
+    "title": "中国美术史·大师原典 丛书（12 卷，共 60 册）",
+    "src": "/assets/publications/image/History-of-Chinese-Fine-Arts.webp",
+    "alt": "张子康 《中国美术史·大师原典 丛书（12 卷，共 60 册）》",
+    "ISBN": "978-7-5086-6698-3",
+    "publisher": "中信出版社",
+    "date": "2016年6月",
+    "category": "总主编"
+  },
+  "Journey-Through-the-Golden-Heartland": {
+    "title": "黄金腹地行——2015环塔克拉玛干写生作品集",
+    "src": "/assets/publications/image/Journey-Through-the-Golden-Heartland.webp",
+    "alt": "张子康 《黄金腹地行——2015环塔克拉玛干写生作品集》",
+    "ISBN": "978-7-5502-6721-3",
+    "publisher": "北京联合出版公司",
+    "date": "2015年12月",
+    "category": "主编"
+  },
   "Today’s-Talk-on-Printmaking": {
     "title": "版画今日谈",
     "src": "/assets/publications/image/Today’s-Talk-on-Printmaking.webp",
