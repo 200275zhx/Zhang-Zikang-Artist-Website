@@ -1,0 +1,6 @@
+[
+    ["Image Name", "Title", "Type", "Category", "ISBN?", "Publisher?", "Publication Date", "Journal?", "Source Publication?"],
+    ["Art-Museum", "美术馆", "Monograph", "合著", "978-7-5006-8726-9", "中国青年出版社", "2009年4月", "", ""],
+    ["Construct-City-With-Cultural-Element", "文化造城", "Monograph", "合著", "978-7-5495-0873-0", "广西师范大学出版社", "2011年10月", "", ""],
+    ["Today’s-Talk-on-Printmaking", "版画今日谈", "Edition", "主编", "978-7-5155-0626-5", "金城出版社", "2013年1月", "", ""]
+]

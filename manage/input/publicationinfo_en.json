@@ -1,3 +1,6 @@
 [
-    ["Image Name", "Title", "Category", "ISBN", "Publisher", "Publication Date", "Journal", "Publication"]
+    ["Image Name", "Title", "Type", "Category", "ISBN?", "Publisher?", "Publication Date", "Journal?", "Source Publication?"],
+    ["Art-Museum", "Art Museum", "Monograph", "Co-authored", "978-7-5006-8726-9", "China Youth Publishing House", "April 2009", "", ""],
+    ["Construct-City-With-Cultural-Element", "Construct City With Cultural Element", "Monograph", "Co-authored", "978-7-5495-0873-0", "Guangxi Normal University Press", "October 2011", "", ""],
+    ["Today’s-Talk-on-Printmaking", "Today’s Talk on Printmaking", "Edition", "Chief Editor", "978-7-5155-0626-5", "Jincheng Press", "January 2013", "", ""]
 ]
