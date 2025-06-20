@@ -1,3 +1,26 @@
 [
-    ["Image Name", "Title", "Start Date", "End Date", "Location", "Detail Images[]?"]
+    ["Image Name", "Title", "Start Date", "End Date", "Location", "Detail Images[]?"],
+    ["Ink-Asia-2016", "Ink Asia 2016", "December 16, 2016", "December 18, 2016", "Hong Kong", [""]],
+    ["11th-Florence-International-Biennale-of-Contemporary-Art", "11th Florence International Biennale of Contemporary Art", "October 6, 2017", "October 15, 2017", "Italy", [""]],
+    ["18th-Asian-BIEAF-International-Contemporary-Art-Invitational-Exhibition", "18th Asian BIEAF International Contemporary Art Invitational Exhibition", "December 21, 2020", "December 26, 2020", "Korea", [""]],
+    ["Light-of-Art-Academic-Season-Invitational-Exhibition", "Light of Art - Academic Season Invitation Exhibition", "July 18, 2021", "August 18, 2021", "Hebei", [""]],
+    ["landscape-Circle-Yan-Mountain-Assembly-2022-Weihai", "landscape-Circle-Yan-Mountain-Assembly:  2022 International Ink Exhibition- Weihai Invitation Exhibition", "July 31, 2022", "August 10, 2022", "Weihai, Shandong", [""]],
+    ["landscape-Circle-Yan-Mountain-Assembly-2022-Jining", "landscape-Circle-Yan-Mountain-Assembly: 2022 International Ink Exhibition - Jining Invitation Exhibition", "August 15, 2022", "September 10, 2022", "Jining, Shandong", [""]],
+    ["Dancing-Cranes-2022", "Dancing Cranes (2022)", "December 2, 2022", "January 31, 2023", "Macau", [""]],
+    ["In-Between", "In-Between: Zhang Zikang's Contemporary Ink painting Exhibition", "December 21, 2022", "February 8, 2023", "Hong Kong", [""] ],
+    ["Dancing-Cranes-2023", "Dancing Cranes (2023)", "April 3, 2023", "April 23, 2023", "Hong Kong", [""]],
+    ["Elegance-of-the-Times", "Elegance of Three Times: Invitational Exhibition of Chinese Oil Painting and Sculpture Masters ", "July 22, 2023", "August 20, 2023", "Jiangsu", [""]],
+    ["2023-China-Japan-Korea-International-Contemporary-Art", "2023 China-Japan- Korea International Contemporary Art Academic Reception Exhibition", "August 11, 2023", "August 22, 2023", "Japan", [""]],
+    ["Dancing-Cranes-2023-Guangdong", "Dancing Cranes (Guangdong)", "August 22, 2023", "September 3, 2023", "Guangdong", [""]],
+    ["Ink-Asia-2023", "Ink Asia 2023", "October 4, 2023", "October 8, 2023", "Hong Kong", [""]],
+    ["By-the-Mountains-and-Waters-Phase2", "By the Mountains and Waters: Annua Thematic Series of Landscape Circle Invitation Exhibition (Phase2)", "October 15, 2023", "December 10, 2023", "Wulian, Shandong", [""]],
+    ["By-the-Mountains-and-Waters-Zhucheng", "By th Mountains and Waters: Annual Thematic Series of Landscape Circle Invitation Exhibition (Zhucheng)", "December 23, 2023", "January 6, 2024", "Zhucheng, Shandong", [""]],
+    ["The-Power-of-Color", "The Power of Color - Contemporary Art Invitation Exhibition", "October 24, 2023", "November 5, 2023", "Jinhua", [""]],
+    ["Wild-Growth", "Wild Growth - Asian Art Community Exhibition", "December 6, 2023", "December 18, 2023", "South Korea", [""]],
+    ["Radiant-Heartlight", "Radiant Heartlight - Contemporary Art Exhibition", "December 30, 2023", "March 3, 2024", "Shanghai" , [""]],
+    ["The-Turning-of-The-Dragon", "The Turn of the Dragon - Contemporary Art Invitational Exhibition", "January 31, 2024", "March 9, 2024", "Zhejiang", [""]],
+    ["The-Inquiry", "Pursue: Abstraction in China 2023-2024", "February 1, 2024", "March 30, 2024", "Beijing", [""]],
+    ["Freedom-in-the-Void", "Freedom in the Void - Zhang Zikang Solo Exhibition", "March 9, 2024", "May 31, 2024", "Beijing", [""]],
+    ["The-Spirit-of-Ink", "The Spirit of Ink - Contemporary Chinese Abstract Art Exhibition", "May 11, 2024", "June 9, 2024", "Wuhan", [""]],
+    ["NordArt-2024", "NordArt 2024 International Art Exhibition", "June 1, 2024", "October 6, 2024", "Germany", [""]]
 ]

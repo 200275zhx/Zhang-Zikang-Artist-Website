@@ -1,0 +1,78 @@
+{
+  "In-Between": {
+    "title": "In-Between: Zhang Zikang's Contemporary Ink painting Exhibition",
+    "src": "/assets/exhibitions/image/In-Between.webp",
+    "alt": "In-Between: Zhang Zikang's Contemporary Ink painting Exhibition",
+    "metadata": {
+      "title": "Zhang Zikang In-Between: Zhang Zikang's Contemporary Ink painting Exhibition",
+      "description": "Zhang Zikang presented his artworks at In-Between: Zhang Zikang's Contemporary Ink painting Exhibition in Hong Kong from December 21, 2022 to February 8, 2023",
+      "keywords": "Zhang, Zikang, exhibition, In-Between: Zhang Zikang's Contemporary Ink painting Exhibition"
+    },
+    "detail": [
+      {
+        "title": "In-Between: Zhang Zikang's Contemporary Ink painting Exhibition",
+        "img": "/assets/exhibitions/image/In-Between.webp",
+        "alt": "In-Between: Zhang Zikang's Contemporary Ink painting Exhibition",
+        "location": "Hong Kong",
+        "dates": "December 21, 2022 - February 8, 2023"
+      }
+    ]
+  },
+  "Dancing-Cranes-2022": {
+    "title": "Dancing Cranes (2022)",
+    "src": "/assets/exhibitions/image/Dancing-Cranes-2022.webp",
+    "alt": "Dancing Cranes (2022)",
+    "metadata": {
+      "title": "Zhang Zikang Dancing Cranes (2022)",
+      "description": "Zhang Zikang presented his artworks at Dancing Cranes (2022) in Macau from December 2, 2022 to January 31, 2023",
+      "keywords": "Zhang, Zikang, exhibition, Dancing Cranes (2022)"
+    },
+    "detail": [
+      {
+        "title": "Dancing Cranes (2022)",
+        "img": "/assets/exhibitions/image/Dancing-Cranes-2022.webp",
+        "alt": "Dancing Cranes (2022)",
+        "location": "Macau",
+        "dates": "December 2, 2022 - January 31, 2023"
+      }
+    ]
+  },
+  "landscape-Circle-Yan-Mountain-Assembly-2022-Jining": {
+    "title": "landscape-Circle-Yan-Mountain-Assembly: 2022 International Ink Exhibition - Jining Invitation Exhibition",
+    "src": "/assets/exhibitions/image/landscape-Circle-Yan-Mountain-Assembly-2022-Jining.webp",
+    "alt": "landscape-Circle-Yan-Mountain-Assembly: 2022 International Ink Exhibition - Jining Invitation Exhibition",
+    "metadata": {
+      "title": "Zhang Zikang landscape-Circle-Yan-Mountain-Assembly: 2022 International Ink Exhibition - Jining Invitation Exhibition",
+      "description": "Zhang Zikang presented his artworks at landscape-Circle-Yan-Mountain-Assembly: 2022 International Ink Exhibition - Jining Invitation Exhibition in Jining, Shandong from August 15, 2022 to September 10, 2022",
+      "keywords": "Zhang, Zikang, exhibition, landscape-Circle-Yan-Mountain-Assembly: 2022 International Ink Exhibition - Jining Invitation Exhibition"
+    },
+    "detail": [
+      {
+        "title": "landscape-Circle-Yan-Mountain-Assembly: 2022 International Ink Exhibition - Jining Invitation Exhibition",
+        "img": "/assets/exhibitions/image/landscape-Circle-Yan-Mountain-Assembly-2022-Jining.webp",
+        "alt": "landscape-Circle-Yan-Mountain-Assembly: 2022 International Ink Exhibition - Jining Invitation Exhibition",
+        "location": "Jining, Shandong",
+        "dates": "August 15, 2022 - September 10, 2022"
+      }
+    ]
+  },
+  "landscape-Circle-Yan-Mountain-Assembly-2022-Weihai": {
+    "title": "landscape-Circle-Yan-Mountain-Assembly:  2022 International Ink Exhibition- Weihai Invitation Exhibition",
+    "src": "/assets/exhibitions/image/landscape-Circle-Yan-Mountain-Assembly-2022-Weihai.webp",
+    "alt": "landscape-Circle-Yan-Mountain-Assembly:  2022 International Ink Exhibition- Weihai Invitation Exhibition",
+    "metadata": {
+      "title": "Zhang Zikang landscape-Circle-Yan-Mountain-Assembly:  2022 International Ink Exhibition- Weihai Invitation Exhibition",
+      "description": "Zhang Zikang presented his artworks at landscape-Circle-Yan-Mountain-Assembly:  2022 International Ink Exhibition- Weihai Invitation Exhibition in Weihai, Shandong from July 31, 2022 to August 10, 2022",
+      "keywords": "Zhang, Zikang, exhibition, landscape-Circle-Yan-Mountain-Assembly:  2022 International Ink Exhibition- Weihai Invitation Exhibition"
+    },
+    "detail": [
+      {
+        "title": "landscape-Circle-Yan-Mountain-Assembly:  2022 International Ink Exhibition- Weihai Invitation Exhibition",
+        "img": "/assets/exhibitions/image/landscape-Circle-Yan-Mountain-Assembly-2022-Weihai.webp",
+        "alt": "landscape-Circle-Yan-Mountain-Assembly:  2022 International Ink Exhibition- Weihai Invitation Exhibition",
+        "location": "Weihai, Shandong",
+        "dates": "July 31, 2022 - August 10, 2022"
+      }
+    ]
+  }
+}

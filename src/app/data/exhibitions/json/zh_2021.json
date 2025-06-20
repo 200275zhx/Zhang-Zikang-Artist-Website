@@ -1,0 +1,21 @@
+{
+  "Light-of-Art-Academic-Season-Invitational-Exhibition": {
+    "title": "艺术之光学术季邀请展",
+    "src": "/assets/exhibitions/image/Light-of-Art-Academic-Season-Invitational-Exhibition.webp",
+    "alt": "艺术之光学术季邀请展",
+    "metadata": {
+      "title": "张子康 艺术之光学术季邀请展",
+      "description": "张子康于2021年7月18日至2021年8月18日在河北参加艺术之光学术季邀请展并展出其艺术作品",
+      "keywords": "张子康, 展览, 艺术之光学术季邀请展"
+    },
+    "detail": [
+      {
+        "title": "艺术之光学术季邀请展",
+        "img": "/assets/exhibitions/image/Light-of-Art-Academic-Season-Invitational-Exhibition.webp",
+        "alt": "艺术之光学术季邀请展",
+        "location": "河北",
+        "dates": "2021年7月18日 - 2021年8月18日"
+      }
+    ]
+  }
+}

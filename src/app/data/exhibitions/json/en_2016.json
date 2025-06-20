@@ -1,0 +1,21 @@
+{
+  "Ink-Asia-2016": {
+    "title": "Ink Asia 2016",
+    "src": "/assets/exhibitions/image/Ink-Asia-2016.webp",
+    "alt": "Ink Asia 2016",
+    "metadata": {
+      "title": "Zhang Zikang Ink Asia 2016",
+      "description": "Zhang Zikang presented his artworks at Ink Asia 2016 in Hong Kong from December 16, 2016 to December 18, 2016",
+      "keywords": "Zhang, Zikang, exhibition, Ink Asia 2016"
+    },
+    "detail": [
+      {
+        "title": "Ink Asia 2016",
+        "img": "/assets/exhibitions/image/Ink-Asia-2016.webp",
+        "alt": "Ink Asia 2016",
+        "location": "Hong Kong",
+        "dates": "December 16, 2016 - December 18, 2016"
+      }
+    ]
+  }
+}

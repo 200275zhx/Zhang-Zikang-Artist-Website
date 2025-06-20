@@ -51,69 +51,28 @@ export default function Navbar() {
   };
   const NEWS_TYPES = Object.keys(NEWS_TYPE_SLUGS);
 
+  // // Helper to determine active path for main links
+  // const isActiveMain = (key: string) => {
+  //   if (key === "works") return isWorksPage;
+  //   if (key === "publications") return isPublicationsPage;
+  //   if (key === "news") return isNewsPage;
+  //   if (key === "exhibitions") return segments[0] === "exhibitions";
+  //   if (key === "biography") return segments[0] === "biography";
+  //   return false;
+  // };
+
   return (
     <nav className="sticky top-0 h-screen pt-12 pl-20 pr-16 text-sm">
       <div className="flex flex-col space-y-4">
 
-        {/* Works */}
-        <div>
-          <Link href="/works" className="hover:text-gray-400">
-            {t("works")}
-          </Link>
-          {isWorksPage && (
-            <div className="mt-2 ml-4 flex flex-col space-y-2">
-              {years.map((year) => {
-                const slug = String(year);
-                const isActive = activeYear === slug;
-                return (
-                  <Link
-                    key={year}
-                    href={{ pathname: "/works/[workId]", params: { workId: slug } }}
-                    className={
-                      isActive
-                        ? "text-black"
-                        : "text-gray-400 hover:text-gray-400"
-                    }
-                  >
-                    {year}
-                  </Link>
-                );
-              })}
-            </div>
-          )}
-        </div>
-
-        {/* Publications */}
-        <div>
-          <Link href="/publications" className="hover:text-gray-400">
-            {t("publications")}
-          </Link>
-          {isPublicationsPage && (
-            <div className="mt-2 ml-4 flex flex-col space-y-2">
-              {PUBLICATION_TYPES.map((type) => {
-                const localized = PUB_TYPE_SLUGS[type][locale];
-                const isActive = activePubSlug === type;
-                return (
-                  <Link
-                    key={type}
-                    href={{ pathname: "/publications/[pubtype]", params: { pubtype: localized } }}
-                    className={
-                      isActive
-                        ? "text-black"
-                        : "text-gray-400 hover:text-gray-400"
-                    }
-                  >
-                    {t(type)}
-                  </Link>
-                );
-              })}
-            </div>
-          )}
-        </div>
-
         {/* News */}
         <div>
-          <Link href="/news" className="hover:text-gray-400">
+          <Link
+            href="/news"
+            className={`block w-full px-2 py-1
+              ${isNewsPage ? "bg-black text-white" : "hover:text-gray-400"}
+            `}
+          >
             {t("news")}
           </Link>
           {isNewsPage && (
@@ -127,7 +86,7 @@ export default function Navbar() {
                     href={{ pathname: "/news/[newstype]", params: { newstype: localized } }}
                     className={
                       isActive
-                        ? "text-black"
+                        ? "text-black font-semibold"
                         : "text-gray-400 hover:text-gray-400"
                     }
                   >
@@ -139,13 +98,89 @@ export default function Navbar() {
           )}
         </div>
 
+        {/* Works */}
+        <div>
+          <Link
+            href="/works"
+            className={`block w-full px-2 py-1
+              ${isWorksPage ? "bg-black text-white" : "hover:text-gray-400"}
+            `}
+          >
+            {t("works")}
+          </Link>
+          {isWorksPage && (
+            <div className="mt-2 ml-4 flex flex-col space-y-2">
+              {years.map((year) => {
+                const slug = String(year);
+                const isActive = activeYear === slug;
+                return (
+                  <Link
+                    key={year}
+                    href={{ pathname: "/works/[workId]", params: { workId: slug } }}
+                    className={
+                      isActive
+                        ? "text-black font-semibold"
+                        : "text-gray-400 hover:text-gray-400"
+                    }
+                  >
+                    {year}
+                  </Link>
+                );
+              })}
+            </div>
+          )}
+        </div>
+
         {/* Exhibitions */}
-        <Link href="/exhibitions" className="hover:text-gray-400">
+        <Link
+          href="/exhibitions"
+          className={`block w-full px-2 py-1
+            ${segments[0] === "exhibitions" ? "bg-black text-white" : "hover:text-gray-400"}
+          `}
+        >
           {t("exhibitions")}
         </Link>
 
+        {/* Publications */}
+        <div>
+          <Link
+            href="/publications"
+            className={`block w-full px-2 py-1
+              ${isPublicationsPage ? "bg-black text-white" : "hover:text-gray-400"}
+            `}
+          >
+            {t("publications")}
+          </Link>
+          {isPublicationsPage && (
+            <div className="mt-2 ml-4 flex flex-col space-y-2">
+              {PUBLICATION_TYPES.map((type) => {
+                const localized = PUB_TYPE_SLUGS[type][locale];
+                const isActive = activePubSlug === type;
+                return (
+                  <Link
+                    key={type}
+                    href={{ pathname: "/publications/[pubtype]", params: { pubtype: localized } }}
+                    className={
+                      isActive
+                        ? "text-black font-semibold"
+                        : "text-gray-400 hover:text-gray-400"
+                    }
+                  >
+                    {t(type)}
+                  </Link>
+                );
+              })}
+            </div>
+          )}
+        </div>
+
         {/* Biography */}
-        <Link href="/biography" className="hover:text-gray-400">
+        <Link
+          href="/biography"
+          className={`block w-full px-2 py-1
+            ${segments[0] === "biography" ? "bg-black text-white" : "hover:text-gray-400"}
+          `}
+        >
           {t("biography")}
         </Link>
 
@@ -154,7 +189,10 @@ export default function Navbar() {
           href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=hexunzh@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-gray-400"
+          className={`block w-full px-2 py-1
+            ${segments[0] === undefined ? "" : ""}
+            hover:text-gray-400`
+          }
         >
           {t("contact")}
         </a>

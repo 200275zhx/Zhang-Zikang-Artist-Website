@@ -64,148 +64,225 @@ export default function MobileNavbar() {
   } as const;
   const NEWS_TYPES = Object.keys(NEWS_TYPE_SLUGS) as NewsType[];
 
-  // Mobile menu state
+  // Animation and menu state
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const toggleMobileMenu = () => setMobileMenuOpen((prev) => !prev);
+  const [menuVisible, setMenuVisible] = useState(false);
+
+  // Track which menu link is being clicked
+  const [clickedLink, setClickedLink] = useState<string | null>(null);
+
+  const openMenu = () => {
+    setClickedLink(null);
+    setMenuVisible(true);
+    setTimeout(() => setMobileMenuOpen(true), 10);
+  };
+  const closeMenu = () => {
+    setMobileMenuOpen(false);
+    setClickedLink(null);
+    setMenuVisible(false);
+  };
 
   // client-only guard
   const [isBrowser, setIsBrowser] = useState(false);
-  useEffect(() => { setIsBrowser(true); }, []);
+  useEffect(() => {
+    setIsBrowser(true);
+  }, []);
 
   // close on resize
   useEffect(() => {
     const onResize = () => {
       if (window.innerWidth >= 768 && mobileMenuOpen) {
-        setMobileMenuOpen(false);
+        closeMenu();
       }
     };
     window.addEventListener("resize", onResize);
     return () => window.removeEventListener("resize", onResize);
   }, [mobileMenuOpen]);
 
+  // Prevent scrolling of body when menu open
+  useEffect(() => {
+    if (menuVisible) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+  }, [menuVisible]);
+
+  // The animated sliding overlay
   const overlay = (
-    <div className="fixed inset-0 bg-white z-50 overflow-auto">
-      <div className="relative mx-auto max-w-[1920px] min-h-full flex flex-col">
-        <div className="px-10 py-20 flex items-center justify-between">
-          <Link href="/" onClick={toggleMobileMenu} className="font-normal text-2xl">
-            {t("name")}
-          </Link>
-          <button onClick={toggleMobileMenu} className="text-3xl font-light">X</button>
-        </div>
-        <nav className="px-10 flex-1">
-          <div className="flex flex-col space-y-4 text-base font-light">
-
-            {/* Works */}
-            <div>
-              <Link href="/works" onClick={toggleMobileMenu} className="hover:text-gray-400">
-                {t("works")}
-              </Link>
-              {isWorksPage && (
-                <div className="mt-2 ml-4 flex flex-col space-y-2">
-                  {years.map((year) => {
-                    const slug = String(year);
-                    const isActive = activeYear === slug;
-                    return (
-                      <Link
-                        key={year}
-                        href={{ pathname: "/works/[workId]", params: { workId: slug } }}
-                        onClick={toggleMobileMenu}
-                        className={
-                          isActive
-                            ? "text-black"
-                            : "text-gray-400 hover:text-gray-400"
-                        }
-                      >
-                        {year}
-                      </Link>
-                    );
-                  })}
-                </div>
-              )}
-            </div>
-
-            {/* News */}
-            <div>
-              <Link href="/news" onClick={toggleMobileMenu} className="hover:text-gray-400">
-                {t("news")}
-              </Link>
-              {isNewsPage && (
-                <div className="mt-2 ml-4 flex flex-col space-y-2">
-                  {NEWS_TYPES.map((type) => {
-                    const isActive = activeNewsSlug === type;
-                    return (
-                      <Link
-                        key={type}
-                        href={NEWS_TYPE_ROUTES[type]}
-                        locale={locale}
-                        onClick={toggleMobileMenu}
-                        className={
-                          isActive
-                            ? "text-black"
-                            : "text-gray-400 hover:text-gray-400"
-                        }
-                      >
-                        {t(type)}
-                      </Link>
-                    );
-                  })}
-                </div>
-              )}
-            </div>
-
-            {/* Exhibitions */}
-            <Link href="/exhibitions" onClick={toggleMobileMenu} className="hover:text-gray-400">
-              {t("exhibitions")}
-            </Link>
-
-            {/* Publications */}
-            <div>
-              <Link href="/publications" onClick={toggleMobileMenu} className="hover:text-gray-400">
-                {t("publications")}
-              </Link>
-              {isPublicationsPage && (
-                <div className="mt-2 ml-4 flex flex-col space-y-2">
-                  {PUBLICATION_TYPES.map((type) => {
-                    const isActive = activePubSlug === type;
-                    return (
-                      <Link
-                        key={type}
-                        href={PUB_TYPE_ROUTES[type]}
-                        locale={locale}
-                        onClick={toggleMobileMenu}
-                        className={
-                          isActive
-                            ? "text-black"
-                            : "text-gray-400 hover:text-gray-400"
-                        }
-                      >
-                        {t(type)}
-                      </Link>
-                    );
-                  })}
-                </div>
-              )}
-            </div>
-
-            {/* Biography */}
-            <Link href="/biography" onClick={toggleMobileMenu} className="hover:text-gray-400">
-              {t("biography")}
-            </Link>
-
-            {/* Contact */}
-            <a
-              href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=hexunzh@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={toggleMobileMenu}
-              className="hover:text-gray-400"
+    <div className="fixed inset-0 z-50 flex">
+      {/* Sliding Panel */}
+      <div
+        className={`
+          fixed top-0 right-0 h-full w-full max-w-[500px] bg-white overflow-auto
+          transition-transform duration-[1000ms] ease-in-out
+          ${mobileMenuOpen ? "translate-x-0" : "translate-x-full"}
+          shadow-2xl
+        `}
+      >
+        <div className="relative mx-auto max-w-[1920px] min-h-full flex flex-col">
+          <div className="px-10 py-20 flex items-center justify-between">
+            {/* Home link */}
+            <Link
+              href="/"
+              onClick={() => { setClickedLink("home"); closeMenu(); }}
+              className={`block w-full font-normal text-2xl px-2 py-1
+                ${clickedLink === "home" || segments.length === 0 ? "bg-black text-white" : ""}
+              `}
             >
-              {t("contact")}
-            </a>
+              {t("name")}
+            </Link>
+            <button onClick={closeMenu} className="font-light whitespace-nowrap">
+              {t("return")}
+            </button>
           </div>
-        </nav>
-        <div className="px-10 py-20">
-          <LocaleSwitcher />
+          <nav className="px-10 flex-1">
+            <div className="flex flex-col space-y-4 text-base font-light">
+              {/* News */}
+              <div>
+                <Link
+                  href="/news"
+                  onClick={() => { setClickedLink("news"); closeMenu(); }}
+                  className={`block w-full hover:text-gray-400 px-2 py-1
+                    ${clickedLink === "news" || isNewsPage ? "bg-black text-white" : ""}
+                  `}
+                >
+                  {t("news")}
+                </Link>
+                {isNewsPage && (
+                  <div className="mt-2 ml-4 flex flex-col space-y-2">
+                    {NEWS_TYPES.map((type) => {
+                      const isActive = activeNewsSlug === type;
+                      const key = `news-${type}`;
+                      return (
+                        <Link
+                          key={type}
+                          href={NEWS_TYPE_ROUTES[type]}
+                          locale={locale}
+                          onClick={() => { setClickedLink(key); closeMenu(); }}
+                          className={
+                            isActive
+                              ? "text-black font-normal"
+                              : "text-gray-400 hover:text-gray-400"
+                          }
+                        >
+                          {t(type)}
+                        </Link>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
+              {/* Works */}
+              <div>
+                <Link
+                  href="/works"
+                  onClick={() => { setClickedLink("works"); closeMenu(); }}
+                  className={`block w-full hover:text-gray-400 px-2 py-1
+                    ${clickedLink === "works" || isWorksPage ? "bg-black text-white" : ""}
+                  `}
+                >
+                  {t("works")}
+                </Link>
+                {isWorksPage && (
+                  <div className="mt-2 ml-4 flex flex-col space-y-2">
+                    {years.map((year) => {
+                      const slug = String(year);
+                      const isActive = activeYear === slug;
+                      const key = `works-${year}`;
+                      return (
+                        <Link
+                          key={year}
+                          href={{
+                            pathname: "/works/[workId]",
+                            params: { workId: slug },
+                          }}
+                          onClick={() => { setClickedLink(key); closeMenu(); }}
+                          className={
+                            isActive
+                              ? "text-black font-normal"
+                              : "text-gray-400 hover:text-gray-400"
+                          }
+                        >
+                          {year}
+                        </Link>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
+              {/* Exhibitions */}
+              <Link
+                href="/exhibitions"
+                onClick={() => { setClickedLink("exhibitions"); closeMenu(); }}
+                className={`block w-full hover:text-gray-400 px-2 py-1
+                  ${clickedLink === "exhibitions" || segments[0] === "exhibitions" ? "bg-black text-white" : ""}
+                `}
+              >
+                {t("exhibitions")}
+              </Link>
+              {/* Publications */}
+              <div>
+                <Link
+                  href="/publications"
+                  onClick={() => { setClickedLink("publications"); closeMenu(); }}
+                  className={`block w-full hover:text-gray-400 px-2 py-1
+                    ${clickedLink === "publications" || isPublicationsPage ? "bg-black text-white" : ""}
+                  `}
+                >
+                  {t("publications")}
+                </Link>
+                {isPublicationsPage && (
+                  <div className="mt-2 ml-4 flex flex-col space-y-2">
+                    {PUBLICATION_TYPES.map((type) => {
+                      const isActive = activePubSlug === type;
+                      const key = `publications-${type}`;
+                      return (
+                        <Link
+                          key={type}
+                          href={PUB_TYPE_ROUTES[type]}
+                          locale={locale}
+                          onClick={() => { setClickedLink(key); closeMenu(); }}
+                          className={
+                            isActive
+                              ? "text-black font-normal"
+                              : "text-gray-400 hover:text-gray-400"
+                          }
+                        >
+                          {t(type)}
+                        </Link>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
+              {/* Biography */}
+              <Link
+                href="/biography"
+                onClick={() => { setClickedLink("biography"); closeMenu(); }}
+                className={`block w-full hover:text-gray-400 px-2 py-1
+                  ${clickedLink === "biography" || segments[0] === "biography" ? "bg-black text-white" : ""}
+                `}
+              >
+                {t("biography")}
+              </Link>
+              {/* Contact */}
+              <a
+                href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=hexunzh@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => { setClickedLink("contact"); closeMenu(); }}
+                className={`block w-full hover:text-gray-400 px-2 py-1
+                  ${clickedLink === "contact" ? "bg-black text-white" : ""}
+                `}
+              >
+                {t("contact")}
+              </a>
+            </div>
+          </nav>
+          <div className="px-10 py-20">
+            <LocaleSwitcher />
+          </div>
         </div>
       </div>
     </div>
@@ -213,10 +290,22 @@ export default function MobileNavbar() {
 
   return (
     <>
-      <button onClick={toggleMobileMenu} className="text-3xl font-light">
-        {mobileMenuOpen ? "X" : "三"}
+      <button
+        onClick={mobileMenuOpen ? closeMenu : openMenu}
+        className="p-2"
+        aria-label="Open menu"
+      >
+        {mobileMenuOpen ? (
+          "X"
+        ) : (
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+            <rect y="2" width="28" height="3" rx="1.5" fill="black" />
+            <rect y="12" width="28" height="3" rx="1.5" fill="black" />
+            <rect y="22" width="28" height="3" rx="1.5" fill="black" />
+          </svg>
+        )}
       </button>
-      {isBrowser && mobileMenuOpen && createPortal(overlay, document.body)}
+      {isBrowser && menuVisible && createPortal(overlay, document.body)}
     </>
   );
 }

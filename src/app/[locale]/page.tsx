@@ -52,14 +52,14 @@ export default async function HomePage() {
         />
 
         {/* White background container for the title */}
-        <div className="absolute top-1/2 transform -translate-y-1/2 w-full bg-white py-8 px-10 md:px-20"> 
+        <div className="absolute top-1/2 transform -translate-y-1/2 w-full bg-white/90 py-8 px-10 md:px-20"> 
           <div className="items-center flex"> {/* Element layout */}
             <Link href="/" className="font-normal text-2xl text-left">
               {t('navbar.name')}
             </Link>
             <span className="text-sm ml-auto mr-48 text-right space-x-8 hidden xl:block">
-              <Link href="/works" className="hover:text-gray-600">{t('navbar.works')}</Link>
               <Link href="/news" className="hover:text-gray-600">{t('navbar.news')}</Link>
+              <Link href="/works" className="hover:text-gray-600">{t('navbar.works')}</Link>
               <Link href="/exhibitions" className="hover:text-gray-600">{t('navbar.exhibitions')}</Link>
               <Link href="/publications" className="hover:text-gray-600">{t('navbar.publications')}</Link>
               <Link href="/biography" className="hover:text-gray-600">{t('navbar.biography')}</Link>

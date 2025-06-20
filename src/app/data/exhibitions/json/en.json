@@ -1,21 +1,400 @@
 {
-  "Ink-Asia-2016": {
-    "title": "Ink Asia 2016",
-    "src": "/assets/exhibitions/image/Ink-Asia-2016.webp",
-    "alt": "Ink Asia 2016",
+  "NordArt-2024": {
+    "title": "NordArt 2024 International Art Exhibition",
+    "src": "/assets/exhibitions/image/NordArt-2024.webp",
+    "alt": "NordArt 2024 International Art Exhibition",
     "metadata": {
-        "title": "Zhang Zikang Ink Asia 2016",
-        "description": "Zhang Zikang presented his artworks at Ink Asia 2016 in Hong Kong from December 16, 2016 to December 18, 2016",
-        "keywords": "Zhang, Zikang, exhibition, Ink Asia 2016"
+      "title": "Zhang Zikang NordArt 2024 International Art Exhibition",
+      "description": "Zhang Zikang presented his artworks at NordArt 2024 International Art Exhibition in Germany from June 1, 2024 to October 6, 2024",
+      "keywords": "Zhang, Zikang, exhibition, NordArt 2024 International Art Exhibition"
     },
     "detail": [
       {
-        "title": "Ink Asia 2016",
-        "img": "/assets/exhibitions/image/Ink-Asia-2016.webp",
-        "alt": "Ink Asia 2016",
+        "title": "NordArt 2024 International Art Exhibition",
+        "img": "/assets/exhibitions/image/NordArt-2024.webp",
+        "alt": "NordArt 2024 International Art Exhibition",
+        "location": "Germany",
+        "dates": "June 1, 2024 - October 6, 2024"
+      }
+    ]
+  },
+  "The-Spirit-of-Ink": {
+    "title": "The Spirit of Ink - Contemporary Chinese Abstract Art Exhibition",
+    "src": "/assets/exhibitions/image/The-Spirit-of-Ink.webp",
+    "alt": "The Spirit of Ink - Contemporary Chinese Abstract Art Exhibition",
+    "metadata": {
+      "title": "Zhang Zikang The Spirit of Ink - Contemporary Chinese Abstract Art Exhibition",
+      "description": "Zhang Zikang presented his artworks at The Spirit of Ink - Contemporary Chinese Abstract Art Exhibition in Wuhan from May 11, 2024 to June 9, 2024",
+      "keywords": "Zhang, Zikang, exhibition, The Spirit of Ink - Contemporary Chinese Abstract Art Exhibition"
+    },
+    "detail": [
+      {
+        "title": "The Spirit of Ink - Contemporary Chinese Abstract Art Exhibition",
+        "img": "/assets/exhibitions/image/The-Spirit-of-Ink.webp",
+        "alt": "The Spirit of Ink - Contemporary Chinese Abstract Art Exhibition",
+        "location": "Wuhan",
+        "dates": "May 11, 2024 - June 9, 2024"
+      }
+    ]
+  },
+  "Freedom-in-the-Void": {
+    "title": "Freedom in the Void - Zhang Zikang Solo Exhibition",
+    "src": "/assets/exhibitions/image/Freedom-in-the-Void.webp",
+    "alt": "Freedom in the Void - Zhang Zikang Solo Exhibition",
+    "metadata": {
+      "title": "Zhang Zikang Freedom in the Void - Zhang Zikang Solo Exhibition",
+      "description": "Zhang Zikang presented his artworks at Freedom in the Void - Zhang Zikang Solo Exhibition in Beijing from March 9, 2024 to May 31, 2024",
+      "keywords": "Zhang, Zikang, exhibition, Freedom in the Void - Zhang Zikang Solo Exhibition"
+    },
+    "detail": [
+      {
+        "title": "Freedom in the Void - Zhang Zikang Solo Exhibition",
+        "img": "/assets/exhibitions/image/Freedom-in-the-Void.webp",
+        "alt": "Freedom in the Void - Zhang Zikang Solo Exhibition",
+        "location": "Beijing",
+        "dates": "March 9, 2024 - May 31, 2024"
+      }
+    ]
+  },
+  "The-Inquiry": {
+    "title": "Pursue: Abstraction in China 2023-2024",
+    "src": "/assets/exhibitions/image/The-Inquiry.webp",
+    "alt": "Pursue: Abstraction in China 2023-2024",
+    "metadata": {
+      "title": "Zhang Zikang Pursue: Abstraction in China 2023-2024",
+      "description": "Zhang Zikang presented his artworks at Pursue: Abstraction in China 2023-2024 in Beijing from February 1, 2024 to March 30, 2024",
+      "keywords": "Zhang, Zikang, exhibition, Pursue: Abstraction in China 2023-2024"
+    },
+    "detail": [
+      {
+        "title": "Pursue: Abstraction in China 2023-2024",
+        "img": "/assets/exhibitions/image/The-Inquiry.webp",
+        "alt": "Pursue: Abstraction in China 2023-2024",
+        "location": "Beijing",
+        "dates": "February 1, 2024 - March 30, 2024"
+      }
+    ]
+  },
+  "The-Turning-of-The-Dragon": {
+    "title": "The Turn of the Dragon - Contemporary Art Invitational Exhibition",
+    "src": "/assets/exhibitions/image/The-Turning-of-The-Dragon.webp",
+    "alt": "The Turn of the Dragon - Contemporary Art Invitational Exhibition",
+    "metadata": {
+      "title": "Zhang Zikang The Turn of the Dragon - Contemporary Art Invitational Exhibition",
+      "description": "Zhang Zikang presented his artworks at The Turn of the Dragon - Contemporary Art Invitational Exhibition in Zhejiang from January 31, 2024 to March 9, 2024",
+      "keywords": "Zhang, Zikang, exhibition, The Turn of the Dragon - Contemporary Art Invitational Exhibition"
+    },
+    "detail": [
+      {
+        "title": "The Turn of the Dragon - Contemporary Art Invitational Exhibition",
+        "img": "/assets/exhibitions/image/The-Turning-of-The-Dragon.webp",
+        "alt": "The Turn of the Dragon - Contemporary Art Invitational Exhibition",
+        "location": "Zhejiang",
+        "dates": "January 31, 2024 - March 9, 2024"
+      }
+    ]
+  },
+  "Radiant-Heartlight": {
+    "title": "Radiant Heartlight - Contemporary Art Exhibition",
+    "src": "/assets/exhibitions/image/Radiant-Heartlight.webp",
+    "alt": "Radiant Heartlight - Contemporary Art Exhibition",
+    "metadata": {
+      "title": "Zhang Zikang Radiant Heartlight - Contemporary Art Exhibition",
+      "description": "Zhang Zikang presented his artworks at Radiant Heartlight - Contemporary Art Exhibition in Shanghai from December 30, 2023 to March 3, 2024",
+      "keywords": "Zhang, Zikang, exhibition, Radiant Heartlight - Contemporary Art Exhibition"
+    },
+    "detail": [
+      {
+        "title": "Radiant Heartlight - Contemporary Art Exhibition",
+        "img": "/assets/exhibitions/image/Radiant-Heartlight.webp",
+        "alt": "Radiant Heartlight - Contemporary Art Exhibition",
+        "location": "Shanghai",
+        "dates": "December 30, 2023 - March 3, 2024"
+      }
+    ]
+  },
+  "By-the-Mountains-and-Waters-Zhucheng": {
+    "title": "By th Mountains and Waters: Annual Thematic Series of Landscape Circle Invitation Exhibition (Zhucheng)",
+    "src": "/assets/exhibitions/image/By-the-Mountains-and-Waters-Zhucheng.webp",
+    "alt": "By th Mountains and Waters: Annual Thematic Series of Landscape Circle Invitation Exhibition (Zhucheng)",
+    "metadata": {
+      "title": "Zhang Zikang By th Mountains and Waters: Annual Thematic Series of Landscape Circle Invitation Exhibition (Zhucheng)",
+      "description": "Zhang Zikang presented his artworks at By th Mountains and Waters: Annual Thematic Series of Landscape Circle Invitation Exhibition (Zhucheng) in Zhucheng, Shandong from December 23, 2023 to January 6, 2024",
+      "keywords": "Zhang, Zikang, exhibition, By th Mountains and Waters: Annual Thematic Series of Landscape Circle Invitation Exhibition (Zhucheng)"
+    },
+    "detail": [
+      {
+        "title": "By th Mountains and Waters: Annual Thematic Series of Landscape Circle Invitation Exhibition (Zhucheng)",
+        "img": "/assets/exhibitions/image/By-the-Mountains-and-Waters-Zhucheng.webp",
+        "alt": "By th Mountains and Waters: Annual Thematic Series of Landscape Circle Invitation Exhibition (Zhucheng)",
+        "location": "Zhucheng, Shandong",
+        "dates": "December 23, 2023 - January 6, 2024"
+      }
+    ]
+  },
+  "Wild-Growth": {
+    "title": "Wild Growth - Asian Art Community Exhibition",
+    "src": "/assets/exhibitions/image/Wild-Growth.webp",
+    "alt": "Wild Growth - Asian Art Community Exhibition",
+    "metadata": {
+      "title": "Zhang Zikang Wild Growth - Asian Art Community Exhibition",
+      "description": "Zhang Zikang presented his artworks at Wild Growth - Asian Art Community Exhibition in South Korea from December 6, 2023 to December 18, 2023",
+      "keywords": "Zhang, Zikang, exhibition, Wild Growth - Asian Art Community Exhibition"
+    },
+    "detail": [
+      {
+        "title": "Wild Growth - Asian Art Community Exhibition",
+        "img": "/assets/exhibitions/image/Wild-Growth.webp",
+        "alt": "Wild Growth - Asian Art Community Exhibition",
+        "location": "South Korea",
+        "dates": "December 6, 2023 - December 18, 2023"
+      }
+    ]
+  },
+  "The-Power-of-Color": {
+    "title": "The Power of Color - Contemporary Art Invitation Exhibition",
+    "src": "/assets/exhibitions/image/The-Power-of-Color.webp",
+    "alt": "The Power of Color - Contemporary Art Invitation Exhibition",
+    "metadata": {
+      "title": "Zhang Zikang The Power of Color - Contemporary Art Invitation Exhibition",
+      "description": "Zhang Zikang presented his artworks at The Power of Color - Contemporary Art Invitation Exhibition in Jinhua from October 24, 2023 to November 5, 2023",
+      "keywords": "Zhang, Zikang, exhibition, The Power of Color - Contemporary Art Invitation Exhibition"
+    },
+    "detail": [
+      {
+        "title": "The Power of Color - Contemporary Art Invitation Exhibition",
+        "img": "/assets/exhibitions/image/The-Power-of-Color.webp",
+        "alt": "The Power of Color - Contemporary Art Invitation Exhibition",
+        "location": "Jinhua",
+        "dates": "October 24, 2023 - November 5, 2023"
+      }
+    ]
+  },
+  "By-the-Mountains-and-Waters-Phase2": {
+    "title": "By the Mountains and Waters: Annua Thematic Series of Landscape Circle Invitation Exhibition (Phase2)",
+    "src": "/assets/exhibitions/image/By-the-Mountains-and-Waters-Phase2.webp",
+    "alt": "By the Mountains and Waters: Annua Thematic Series of Landscape Circle Invitation Exhibition (Phase2)",
+    "metadata": {
+      "title": "Zhang Zikang By the Mountains and Waters: Annua Thematic Series of Landscape Circle Invitation Exhibition (Phase2)",
+      "description": "Zhang Zikang presented his artworks at By the Mountains and Waters: Annua Thematic Series of Landscape Circle Invitation Exhibition (Phase2) in Wulian, Shandong from October 15, 2023 to December 10, 2023",
+      "keywords": "Zhang, Zikang, exhibition, By the Mountains and Waters: Annua Thematic Series of Landscape Circle Invitation Exhibition (Phase2)"
+    },
+    "detail": [
+      {
+        "title": "By the Mountains and Waters: Annua Thematic Series of Landscape Circle Invitation Exhibition (Phase2)",
+        "img": "/assets/exhibitions/image/By-the-Mountains-and-Waters-Phase2.webp",
+        "alt": "By the Mountains and Waters: Annua Thematic Series of Landscape Circle Invitation Exhibition (Phase2)",
+        "location": "Wulian, Shandong",
+        "dates": "October 15, 2023 - December 10, 2023"
+      }
+    ]
+  },
+  "Ink-Asia-2023": {
+    "title": "Ink Asia 2023",
+    "src": "/assets/exhibitions/image/Ink-Asia-2023.webp",
+    "alt": "Ink Asia 2023",
+    "metadata": {
+      "title": "Zhang Zikang Ink Asia 2023",
+      "description": "Zhang Zikang presented his artworks at Ink Asia 2023 in Hong Kong from October 4, 2023 to October 8, 2023",
+      "keywords": "Zhang, Zikang, exhibition, Ink Asia 2023"
+    },
+    "detail": [
+      {
+        "title": "Ink Asia 2023",
+        "img": "/assets/exhibitions/image/Ink-Asia-2023.webp",
+        "alt": "Ink Asia 2023",
         "location": "Hong Kong",
-        "dates": "December 16, 2016 - December 18, 2016",
-        "label": "location"
+        "dates": "October 4, 2023 - October 8, 2023"
+      }
+    ]
+  },
+  "Dancing-Cranes-2023-Guangdong": {
+    "title": "Dancing Cranes (Guangdong)",
+    "src": "/assets/exhibitions/image/Dancing-Cranes-2023-Guangdong.webp",
+    "alt": "Dancing Cranes (Guangdong)",
+    "metadata": {
+      "title": "Zhang Zikang Dancing Cranes (Guangdong)",
+      "description": "Zhang Zikang presented his artworks at Dancing Cranes (Guangdong) in Guangdong from August 22, 2023 to September 3, 2023",
+      "keywords": "Zhang, Zikang, exhibition, Dancing Cranes (Guangdong)"
+    },
+    "detail": [
+      {
+        "title": "Dancing Cranes (Guangdong)",
+        "img": "/assets/exhibitions/image/Dancing-Cranes-2023-Guangdong.webp",
+        "alt": "Dancing Cranes (Guangdong)",
+        "location": "Guangdong",
+        "dates": "August 22, 2023 - September 3, 2023"
+      }
+    ]
+  },
+  "2023-China-Japan-Korea-International-Contemporary-Art": {
+    "title": "2023 China-Japan- Korea International Contemporary Art Academic Reception Exhibition",
+    "src": "/assets/exhibitions/image/2023-China-Japan-Korea-International-Contemporary-Art.webp",
+    "alt": "2023 China-Japan- Korea International Contemporary Art Academic Reception Exhibition",
+    "metadata": {
+      "title": "Zhang Zikang 2023 China-Japan- Korea International Contemporary Art Academic Reception Exhibition",
+      "description": "Zhang Zikang presented his artworks at 2023 China-Japan- Korea International Contemporary Art Academic Reception Exhibition in Japan from August 11, 2023 to August 22, 2023",
+      "keywords": "Zhang, Zikang, exhibition, 2023 China-Japan- Korea International Contemporary Art Academic Reception Exhibition"
+    },
+    "detail": [
+      {
+        "title": "2023 China-Japan- Korea International Contemporary Art Academic Reception Exhibition",
+        "img": "/assets/exhibitions/image/2023-China-Japan-Korea-International-Contemporary-Art.webp",
+        "alt": "2023 China-Japan- Korea International Contemporary Art Academic Reception Exhibition",
+        "location": "Japan",
+        "dates": "August 11, 2023 - August 22, 2023"
+      }
+    ]
+  },
+  "Elegance-of-the-Times": {
+    "title": "Elegance of Three Times: Invitational Exhibition of Chinese Oil Painting and Sculpture Masters ",
+    "src": "/assets/exhibitions/image/Elegance-of-the-Times.webp",
+    "alt": "Elegance of Three Times: Invitational Exhibition of Chinese Oil Painting and Sculpture Masters ",
+    "metadata": {
+      "title": "Zhang Zikang Elegance of Three Times: Invitational Exhibition of Chinese Oil Painting and Sculpture Masters ",
+      "description": "Zhang Zikang presented his artworks at Elegance of Three Times: Invitational Exhibition of Chinese Oil Painting and Sculpture Masters  in Jiangsu from July 22, 2023 to August 20, 2023",
+      "keywords": "Zhang, Zikang, exhibition, Elegance of Three Times: Invitational Exhibition of Chinese Oil Painting and Sculpture Masters "
+    },
+    "detail": [
+      {
+        "title": "Elegance of Three Times: Invitational Exhibition of Chinese Oil Painting and Sculpture Masters ",
+        "img": "/assets/exhibitions/image/Elegance-of-the-Times.webp",
+        "alt": "Elegance of Three Times: Invitational Exhibition of Chinese Oil Painting and Sculpture Masters ",
+        "location": "Jiangsu",
+        "dates": "July 22, 2023 - August 20, 2023"
+      }
+    ]
+  },
+  "Dancing-Cranes-2023": {
+    "title": "Dancing Cranes (2023)",
+    "src": "/assets/exhibitions/image/Dancing-Cranes-2023.webp",
+    "alt": "Dancing Cranes (2023)",
+    "metadata": {
+      "title": "Zhang Zikang Dancing Cranes (2023)",
+      "description": "Zhang Zikang presented his artworks at Dancing Cranes (2023) in Hong Kong from April 3, 2023 to April 23, 2023",
+      "keywords": "Zhang, Zikang, exhibition, Dancing Cranes (2023)"
+    },
+    "detail": [
+      {
+        "title": "Dancing Cranes (2023)",
+        "img": "/assets/exhibitions/image/Dancing-Cranes-2023.webp",
+        "alt": "Dancing Cranes (2023)",
+        "location": "Hong Kong",
+        "dates": "April 3, 2023 - April 23, 2023"
+      }
+    ]
+  },
+  "In-Between": {
+    "title": "In-Between: Zhang Zikang's Contemporary Ink painting Exhibition",
+    "src": "/assets/exhibitions/image/In-Between.webp",
+    "alt": "In-Between: Zhang Zikang's Contemporary Ink painting Exhibition",
+    "metadata": {
+      "title": "Zhang Zikang In-Between: Zhang Zikang's Contemporary Ink painting Exhibition",
+      "description": "Zhang Zikang presented his artworks at In-Between: Zhang Zikang's Contemporary Ink painting Exhibition in Hong Kong from December 21, 2022 to February 8, 2023",
+      "keywords": "Zhang, Zikang, exhibition, In-Between: Zhang Zikang's Contemporary Ink painting Exhibition"
+    },
+    "detail": [
+      {
+        "title": "In-Between: Zhang Zikang's Contemporary Ink painting Exhibition",
+        "img": "/assets/exhibitions/image/In-Between.webp",
+        "alt": "In-Between: Zhang Zikang's Contemporary Ink painting Exhibition",
+        "location": "Hong Kong",
+        "dates": "December 21, 2022 - February 8, 2023"
+      }
+    ]
+  },
+  "Dancing-Cranes-2022": {
+    "title": "Dancing Cranes (2022)",
+    "src": "/assets/exhibitions/image/Dancing-Cranes-2022.webp",
+    "alt": "Dancing Cranes (2022)",
+    "metadata": {
+      "title": "Zhang Zikang Dancing Cranes (2022)",
+      "description": "Zhang Zikang presented his artworks at Dancing Cranes (2022) in Macau from December 2, 2022 to January 31, 2023",
+      "keywords": "Zhang, Zikang, exhibition, Dancing Cranes (2022)"
+    },
+    "detail": [
+      {
+        "title": "Dancing Cranes (2022)",
+        "img": "/assets/exhibitions/image/Dancing-Cranes-2022.webp",
+        "alt": "Dancing Cranes (2022)",
+        "location": "Macau",
+        "dates": "December 2, 2022 - January 31, 2023"
+      }
+    ]
+  },
+  "landscape-Circle-Yan-Mountain-Assembly-2022-Jining": {
+    "title": "landscape-Circle-Yan-Mountain-Assembly: 2022 International Ink Exhibition - Jining Invitation Exhibition",
+    "src": "/assets/exhibitions/image/landscape-Circle-Yan-Mountain-Assembly-2022-Jining.webp",
+    "alt": "landscape-Circle-Yan-Mountain-Assembly: 2022 International Ink Exhibition - Jining Invitation Exhibition",
+    "metadata": {
+      "title": "Zhang Zikang landscape-Circle-Yan-Mountain-Assembly: 2022 International Ink Exhibition - Jining Invitation Exhibition",
+      "description": "Zhang Zikang presented his artworks at landscape-Circle-Yan-Mountain-Assembly: 2022 International Ink Exhibition - Jining Invitation Exhibition in Jining, Shandong from August 15, 2022 to September 10, 2022",
+      "keywords": "Zhang, Zikang, exhibition, landscape-Circle-Yan-Mountain-Assembly: 2022 International Ink Exhibition - Jining Invitation Exhibition"
+    },
+    "detail": [
+      {
+        "title": "landscape-Circle-Yan-Mountain-Assembly: 2022 International Ink Exhibition - Jining Invitation Exhibition",
+        "img": "/assets/exhibitions/image/landscape-Circle-Yan-Mountain-Assembly-2022-Jining.webp",
+        "alt": "landscape-Circle-Yan-Mountain-Assembly: 2022 International Ink Exhibition - Jining Invitation Exhibition",
+        "location": "Jining, Shandong",
+        "dates": "August 15, 2022 - September 10, 2022"
+      }
+    ]
+  },
+  "landscape-Circle-Yan-Mountain-Assembly-2022-Weihai": {
+    "title": "landscape-Circle-Yan-Mountain-Assembly:  2022 International Ink Exhibition- Weihai Invitation Exhibition",
+    "src": "/assets/exhibitions/image/landscape-Circle-Yan-Mountain-Assembly-2022-Weihai.webp",
+    "alt": "landscape-Circle-Yan-Mountain-Assembly:  2022 International Ink Exhibition- Weihai Invitation Exhibition",
+    "metadata": {
+      "title": "Zhang Zikang landscape-Circle-Yan-Mountain-Assembly:  2022 International Ink Exhibition- Weihai Invitation Exhibition",
+      "description": "Zhang Zikang presented his artworks at landscape-Circle-Yan-Mountain-Assembly:  2022 International Ink Exhibition- Weihai Invitation Exhibition in Weihai, Shandong from July 31, 2022 to August 10, 2022",
+      "keywords": "Zhang, Zikang, exhibition, landscape-Circle-Yan-Mountain-Assembly:  2022 International Ink Exhibition- Weihai Invitation Exhibition"
+    },
+    "detail": [
+      {
+        "title": "landscape-Circle-Yan-Mountain-Assembly:  2022 International Ink Exhibition- Weihai Invitation Exhibition",
+        "img": "/assets/exhibitions/image/landscape-Circle-Yan-Mountain-Assembly-2022-Weihai.webp",
+        "alt": "landscape-Circle-Yan-Mountain-Assembly:  2022 International Ink Exhibition- Weihai Invitation Exhibition",
+        "location": "Weihai, Shandong",
+        "dates": "July 31, 2022 - August 10, 2022"
+      }
+    ]
+  },
+  "Light-of-Art-Academic-Season-Invitational-Exhibition": {
+    "title": "Light of Art - Academic Season Invitation Exhibition",
+    "src": "/assets/exhibitions/image/Light-of-Art-Academic-Season-Invitational-Exhibition.webp",
+    "alt": "Light of Art - Academic Season Invitation Exhibition",
+    "metadata": {
+      "title": "Zhang Zikang Light of Art - Academic Season Invitation Exhibition",
+      "description": "Zhang Zikang presented his artworks at Light of Art - Academic Season Invitation Exhibition in Hebei from July 18, 2021 to August 18, 2021",
+      "keywords": "Zhang, Zikang, exhibition, Light of Art - Academic Season Invitation Exhibition"
+    },
+    "detail": [
+      {
+        "title": "Light of Art - Academic Season Invitation Exhibition",
+        "img": "/assets/exhibitions/image/Light-of-Art-Academic-Season-Invitational-Exhibition.webp",
+        "alt": "Light of Art - Academic Season Invitation Exhibition",
+        "location": "Hebei",
+        "dates": "July 18, 2021 - August 18, 2021"
+      }
+    ]
+  },
+  "18th-Asian-BIEAF-International-Contemporary-Art-Invitational-Exhibition": {
+    "title": "18th Asian BIEAF International Contemporary Art Invitational Exhibition",
+    "src": "/assets/exhibitions/image/18th-Asian-BIEAF-International-Contemporary-Art-Invitational-Exhibition.webp",
+    "alt": "18th Asian BIEAF International Contemporary Art Invitational Exhibition",
+    "metadata": {
+      "title": "Zhang Zikang 18th Asian BIEAF International Contemporary Art Invitational Exhibition",
+      "description": "Zhang Zikang presented his artworks at 18th Asian BIEAF International Contemporary Art Invitational Exhibition in Korea from December 21, 2020 to December 26, 2020",
+      "keywords": "Zhang, Zikang, exhibition, 18th Asian BIEAF International Contemporary Art Invitational Exhibition"
+    },
+    "detail": [
+      {
+        "title": "18th Asian BIEAF International Contemporary Art Invitational Exhibition",
+        "img": "/assets/exhibitions/image/18th-Asian-BIEAF-International-Contemporary-Art-Invitational-Exhibition.webp",
+        "alt": "18th Asian BIEAF International Contemporary Art Invitational Exhibition",
+        "location": "Korea",
+        "dates": "December 21, 2020 - December 26, 2020"
       }
     ]
   },
@@ -24,9 +403,9 @@
     "src": "/assets/exhibitions/image/11th-Florence-International-Biennale-of-Contemporary-Art.webp",
     "alt": "11th Florence International Biennale of Contemporary Art",
     "metadata": {
-        "title": "Zhang Zikang 11th Florence International Biennale of Contemporary Art",
-        "description": "Zhang Zikang presented his artworks at 11th Florence International Biennale of Contemporary Art in Italy from October 6, 2017 to October 15, 2017",
-        "keywords": "Zhang, Zikang, exhibition, 11th Florence International Biennale of Contemporary Art"
+      "title": "Zhang Zikang 11th Florence International Biennale of Contemporary Art",
+      "description": "Zhang Zikang presented his artworks at 11th Florence International Biennale of Contemporary Art in Italy from October 6, 2017 to October 15, 2017",
+      "keywords": "Zhang, Zikang, exhibition, 11th Florence International Biennale of Contemporary Art"
     },
     "detail": [
       {
@@ -38,22 +417,22 @@
       }
     ]
   },
-  "18th-Asian-BIEAF-International-Contemporary-Art-Invitational-Exhibition": {
-    "title": "18th Asian BIEAF International Contemporary Art Invitational Exhibition",
-    "src": "/assets/exhibitions/image/18th-Asian-BIEAF-International-Contemporary-Art-Invitational-Exhibition.webp",
-    "alt": "18th Asian BIEAF International Contemporary Art Invitational Exhibition",
+  "Ink-Asia-2016": {
+    "title": "Ink Asia 2016",
+    "src": "/assets/exhibitions/image/Ink-Asia-2016.webp",
+    "alt": "Ink Asia 2016",
     "metadata": {
-        "title": "Zhang Zikang 18th Asian BIEAF International Contemporary Art Invitational Exhibition",
-        "description": "Zhang Zikang presented his artworks at 18th Asian BIEAF International Contemporary Art Invitational Exhibition in Korea from December 21, 2020 to December 26, 2020",
-        "keywords": "Zhang, Zikang, exhibition, 18th Asian BIEAF International Contemporary Art Invitational Exhibition"
+      "title": "Zhang Zikang Ink Asia 2016",
+      "description": "Zhang Zikang presented his artworks at Ink Asia 2016 in Hong Kong from December 16, 2016 to December 18, 2016",
+      "keywords": "Zhang, Zikang, exhibition, Ink Asia 2016"
     },
     "detail": [
       {
-        "title": "18th Asian BIEAF International Contemporary Art Invitational Exhibition",
-        "img": "/assets/exhibitions/image/18th-Asian-BIEAF-International-Contemporary-Art-Invitational-Exhibition.webp",
-        "alt": "18th Asian BIEAF International Contemporary Art Invitational Exhibition",
-        "location": "Korea",
-        "dates": "December 21, 2020 - December 26, 2020"
+        "title": "Ink Asia 2016",
+        "img": "/assets/exhibitions/image/Ink-Asia-2016.webp",
+        "alt": "Ink Asia 2016",
+        "location": "Hong Kong",
+        "dates": "December 16, 2016 - December 18, 2016"
       }
     ]
   }

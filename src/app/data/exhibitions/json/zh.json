@@ -1,20 +1,400 @@
 {
-  "Ink-Asia-2016": {
-    "title": "水墨艺博 2016",
-    "src": "/assets/exhibitions/image/Ink-Asia-2016.webp",
-    "alt": "水墨艺博 2016",
+  "NordArt-2024": {
+    "title": "NordArt 2024国际当代艺术大展",
+    "src": "/assets/exhibitions/image/NordArt-2024.webp",
+    "alt": "NordArt 2024国际当代艺术大展",
     "metadata": {
-      "title": "张子康 水墨艺博 2016",
-      "description": "张子康于2016年12月16日至12月18日在香港参加水墨艺博2016并展出其艺术作品",
-      "keywords": "张子康, 展览, 水墨艺博 2016"
+      "title": "张子康 NordArt 2024国际当代艺术大展",
+      "description": "张子康于2024年6月1日至2024年10月6日在德国参加NordArt 2024国际当代艺术大展并展出其艺术作品",
+      "keywords": "张子康, 展览, NordArt 2024国际当代艺术大展"
     },
     "detail": [
       {
-        "title": "水墨艺博 2016",
-        "img": "/assets/exhibitions/image/Ink-Asia-2016.webp",
-        "alt": "水墨艺博 2016",
+        "title": "NordArt 2024国际当代艺术大展",
+        "img": "/assets/exhibitions/image/NordArt-2024.webp",
+        "alt": "NordArt 2024国际当代艺术大展",
+        "location": "德国",
+        "dates": "2024年6月1日 - 2024年10月6日"
+      }
+    ]
+  },
+  "The-Spirit-of-Ink": {
+    "title": "大墨有风——当代中国抽象艺术展",
+    "src": "/assets/exhibitions/image/The-Spirit-of-Ink.webp",
+    "alt": "大墨有风——当代中国抽象艺术展",
+    "metadata": {
+      "title": "张子康 大墨有风——当代中国抽象艺术展",
+      "description": "张子康于2024年5月11日至2024年6月9日在武汉参加大墨有风——当代中国抽象艺术展并展出其艺术作品",
+      "keywords": "张子康, 展览, 大墨有风——当代中国抽象艺术展"
+    },
+    "detail": [
+      {
+        "title": "大墨有风——当代中国抽象艺术展",
+        "img": "/assets/exhibitions/image/The-Spirit-of-Ink.webp",
+        "alt": "大墨有风——当代中国抽象艺术展",
+        "location": "武汉",
+        "dates": "2024年5月11日 - 2024年6月9日"
+      }
+    ]
+  },
+  "Freedom-in-the-Void": {
+    "title": "自在虚空——张子康作品展",
+    "src": "/assets/exhibitions/image/Freedom-in-the-Void.webp",
+    "alt": "自在虚空——张子康作品展",
+    "metadata": {
+      "title": "张子康 自在虚空——张子康作品展",
+      "description": "张子康于2024年3月9日至2024年5月31日在北京参加自在虚空——张子康作品展并展出其艺术作品",
+      "keywords": "张子康, 展览, 自在虚空——张子康作品展"
+    },
+    "detail": [
+      {
+        "title": "自在虚空——张子康作品展",
+        "img": "/assets/exhibitions/image/Freedom-in-the-Void.webp",
+        "alt": "自在虚空——张子康作品展",
+        "location": "北京",
+        "dates": "2024年3月9日 - 2024年5月31日"
+      }
+    ]
+  },
+  "The-Inquiry": {
+    "title": "追问——抽象在中国2023-2024",
+    "src": "/assets/exhibitions/image/The-Inquiry.webp",
+    "alt": "追问——抽象在中国2023-2024",
+    "metadata": {
+      "title": "张子康 追问——抽象在中国2023-2024",
+      "description": "张子康于2024年2月1日至2024年3月30日在北京参加追问——抽象在中国2023-2024并展出其艺术作品",
+      "keywords": "张子康, 展览, 追问——抽象在中国2023-2024"
+    },
+    "detail": [
+      {
+        "title": "追问——抽象在中国2023-2024",
+        "img": "/assets/exhibitions/image/The-Inquiry.webp",
+        "alt": "追问——抽象在中国2023-2024",
+        "location": "北京",
+        "dates": "2024年2月1日 - 2024年3月30日"
+      }
+    ]
+  },
+  "The-Turning-of-The-Dragon": {
+    "title": "龙的转身——当代艺术邀请展",
+    "src": "/assets/exhibitions/image/The-Turning-of-The-Dragon.webp",
+    "alt": "龙的转身——当代艺术邀请展",
+    "metadata": {
+      "title": "张子康 龙的转身——当代艺术邀请展",
+      "description": "张子康于2024年1月31日至2024年3月9日在浙江参加龙的转身——当代艺术邀请展并展出其艺术作品",
+      "keywords": "张子康, 展览, 龙的转身——当代艺术邀请展"
+    },
+    "detail": [
+      {
+        "title": "龙的转身——当代艺术邀请展",
+        "img": "/assets/exhibitions/image/The-Turning-of-The-Dragon.webp",
+        "alt": "龙的转身——当代艺术邀请展",
+        "location": "浙江",
+        "dates": "2024年1月31日 - 2024年3月9日"
+      }
+    ]
+  },
+  "Radiant-Heartlight": {
+    "title": "心光灿烂当代艺术展",
+    "src": "/assets/exhibitions/image/Radiant-Heartlight.webp",
+    "alt": "心光灿烂当代艺术展",
+    "metadata": {
+      "title": "张子康 心光灿烂当代艺术展",
+      "description": "张子康于2023年12月30日至2024年3月3日在上海参加心光灿烂当代艺术展并展出其艺术作品",
+      "keywords": "张子康, 展览, 心光灿烂当代艺术展"
+    },
+    "detail": [
+      {
+        "title": "心光灿烂当代艺术展",
+        "img": "/assets/exhibitions/image/Radiant-Heartlight.webp",
+        "alt": "心光灿烂当代艺术展",
+        "location": "上海",
+        "dates": "2023年12月30日 - 2024年3月3日"
+      }
+    ]
+  },
+  "By-the-Mountains-and-Waters-Zhucheng": {
+    "title": "依山傍水——山水圈年度主题系列作品邀请展（诸城站）",
+    "src": "/assets/exhibitions/image/By-the-Mountains-and-Waters-Zhucheng.webp",
+    "alt": "依山傍水——山水圈年度主题系列作品邀请展（诸城站）",
+    "metadata": {
+      "title": "张子康 依山傍水——山水圈年度主题系列作品邀请展（诸城站）",
+      "description": "张子康于2023年12月23日至2024年1月6日在山东诸城参加依山傍水——山水圈年度主题系列作品邀请展（诸城站）并展出其艺术作品",
+      "keywords": "张子康, 展览, 依山傍水——山水圈年度主题系列作品邀请展（诸城站）"
+    },
+    "detail": [
+      {
+        "title": "依山傍水——山水圈年度主题系列作品邀请展（诸城站）",
+        "img": "/assets/exhibitions/image/By-the-Mountains-and-Waters-Zhucheng.webp",
+        "alt": "依山傍水——山水圈年度主题系列作品邀请展（诸城站）",
+        "location": "山东诸城",
+        "dates": "2023年12月23日 - 2024年1月6日"
+      }
+    ]
+  },
+  "Wild-Growth": {
+    "title": "野性生长——亚洲艺术共同体展",
+    "src": "/assets/exhibitions/image/Wild-Growth.webp",
+    "alt": "野性生长——亚洲艺术共同体展",
+    "metadata": {
+      "title": "张子康 野性生长——亚洲艺术共同体展",
+      "description": "张子康于2023年12月6日至2023年12月18日在韩国参加野性生长——亚洲艺术共同体展并展出其艺术作品",
+      "keywords": "张子康, 展览, 野性生长——亚洲艺术共同体展"
+    },
+    "detail": [
+      {
+        "title": "野性生长——亚洲艺术共同体展",
+        "img": "/assets/exhibitions/image/Wild-Growth.webp",
+        "alt": "野性生长——亚洲艺术共同体展",
+        "location": "韩国",
+        "dates": "2023年12月6日 - 2023年12月18日"
+      }
+    ]
+  },
+  "The-Power-of-Color": {
+    "title": "“色彩的力量”当代艺术邀请展",
+    "src": "/assets/exhibitions/image/The-Power-of-Color.webp",
+    "alt": "“色彩的力量”当代艺术邀请展",
+    "metadata": {
+      "title": "张子康 “色彩的力量”当代艺术邀请展",
+      "description": "张子康于2023年10月24日至2023年11月5日在金华参加“色彩的力量”当代艺术邀请展并展出其艺术作品",
+      "keywords": "张子康, 展览, “色彩的力量”当代艺术邀请展"
+    },
+    "detail": [
+      {
+        "title": "“色彩的力量”当代艺术邀请展",
+        "img": "/assets/exhibitions/image/The-Power-of-Color.webp",
+        "alt": "“色彩的力量”当代艺术邀请展",
+        "location": "金华",
+        "dates": "2023年10月24日 - 2023年11月5日"
+      }
+    ]
+  },
+  "By-the-Mountains-and-Waters-Phase2": {
+    "title": "依山傍水——山水圈年度主题系列作品邀请展（第二期）",
+    "src": "/assets/exhibitions/image/By-the-Mountains-and-Waters-Phase2.webp",
+    "alt": "依山傍水——山水圈年度主题系列作品邀请展（第二期）",
+    "metadata": {
+      "title": "张子康 依山傍水——山水圈年度主题系列作品邀请展（第二期）",
+      "description": "张子康于2023年10月15日至2023年12月10日在山东五莲参加依山傍水——山水圈年度主题系列作品邀请展（第二期）并展出其艺术作品",
+      "keywords": "张子康, 展览, 依山傍水——山水圈年度主题系列作品邀请展（第二期）"
+    },
+    "detail": [
+      {
+        "title": "依山傍水——山水圈年度主题系列作品邀请展（第二期）",
+        "img": "/assets/exhibitions/image/By-the-Mountains-and-Waters-Phase2.webp",
+        "alt": "依山傍水——山水圈年度主题系列作品邀请展（第二期）",
+        "location": "山东五莲",
+        "dates": "2023年10月15日 - 2023年12月10日"
+      }
+    ]
+  },
+  "Ink-Asia-2023": {
+    "title": "Ink Asia水墨艺博2023",
+    "src": "/assets/exhibitions/image/Ink-Asia-2023.webp",
+    "alt": "Ink Asia水墨艺博2023",
+    "metadata": {
+      "title": "张子康 Ink Asia水墨艺博2023",
+      "description": "张子康于2023年10月4日至2023年10月8日在香港参加Ink Asia水墨艺博2023并展出其艺术作品",
+      "keywords": "张子康, 展览, Ink Asia水墨艺博2023"
+    },
+    "detail": [
+      {
+        "title": "Ink Asia水墨艺博2023",
+        "img": "/assets/exhibitions/image/Ink-Asia-2023.webp",
+        "alt": "Ink Asia水墨艺博2023",
         "location": "香港",
-        "dates": "2016年12月16日 - 2016年12月18日"
+        "dates": "2023年10月4日 - 2023年10月8日"
+      }
+    ]
+  },
+  "Dancing-Cranes-2023-Guangdong": {
+    "title": "瑞鹤清响——鲁晓波、张子康、谢小铨书画作品联展",
+    "src": "/assets/exhibitions/image/Dancing-Cranes-2023-Guangdong.webp",
+    "alt": "瑞鹤清响——鲁晓波、张子康、谢小铨书画作品联展",
+    "metadata": {
+      "title": "张子康 瑞鹤清响——鲁晓波、张子康、谢小铨书画作品联展",
+      "description": "张子康于2023年8月22日至2023年9月3日在广东参加瑞鹤清响——鲁晓波、张子康、谢小铨书画作品联展并展出其艺术作品",
+      "keywords": "张子康, 展览, 瑞鹤清响——鲁晓波、张子康、谢小铨书画作品联展"
+    },
+    "detail": [
+      {
+        "title": "瑞鹤清响——鲁晓波、张子康、谢小铨书画作品联展",
+        "img": "/assets/exhibitions/image/Dancing-Cranes-2023-Guangdong.webp",
+        "alt": "瑞鹤清响——鲁晓波、张子康、谢小铨书画作品联展",
+        "location": "广东",
+        "dates": "2023年8月22日 - 2023年9月3日"
+      }
+    ]
+  },
+  "2023-China-Japan-Korea-International-Contemporary-Art": {
+    "title": "2023年中·日·韩国际现代美术展",
+    "src": "/assets/exhibitions/image/2023-China-Japan-Korea-International-Contemporary-Art.webp",
+    "alt": "2023年中·日·韩国际现代美术展",
+    "metadata": {
+      "title": "张子康 2023年中·日·韩国际现代美术展",
+      "description": "张子康于2023年8月11日至2023年8月22日在日本参加2023年中·日·韩国际现代美术展并展出其艺术作品",
+      "keywords": "张子康, 展览, 2023年中·日·韩国际现代美术展"
+    },
+    "detail": [
+      {
+        "title": "2023年中·日·韩国际现代美术展",
+        "img": "/assets/exhibitions/image/2023-China-Japan-Korea-International-Contemporary-Art.webp",
+        "alt": "2023年中·日·韩国际现代美术展",
+        "location": "日本",
+        "dates": "2023年8月11日 - 2023年8月22日"
+      }
+    ]
+  },
+  "Elegance-of-the-Times": {
+    "title": "时代风华——中国油画雕塑名家邀请展",
+    "src": "/assets/exhibitions/image/Elegance-of-the-Times.webp",
+    "alt": "时代风华——中国油画雕塑名家邀请展",
+    "metadata": {
+      "title": "张子康 时代风华——中国油画雕塑名家邀请展",
+      "description": "张子康于2023年7月22日至2023年8月20日在江苏参加时代风华——中国油画雕塑名家邀请展并展出其艺术作品",
+      "keywords": "张子康, 展览, 时代风华——中国油画雕塑名家邀请展"
+    },
+    "detail": [
+      {
+        "title": "时代风华——中国油画雕塑名家邀请展",
+        "img": "/assets/exhibitions/image/Elegance-of-the-Times.webp",
+        "alt": "时代风华——中国油画雕塑名家邀请展",
+        "location": "江苏",
+        "dates": "2023年7月22日 - 2023年8月20日"
+      }
+    ]
+  },
+  "Dancing-Cranes-2023": {
+    "title": "瑞鹤清响——鲁晓波、张子康、谢小铨作品联展",
+    "src": "/assets/exhibitions/image/Dancing-Cranes-2023.webp",
+    "alt": "瑞鹤清响——鲁晓波、张子康、谢小铨作品联展",
+    "metadata": {
+      "title": "张子康 瑞鹤清响——鲁晓波、张子康、谢小铨作品联展",
+      "description": "张子康于2023年4月3日至2023年4月23日在香港参加瑞鹤清响——鲁晓波、张子康、谢小铨作品联展并展出其艺术作品",
+      "keywords": "张子康, 展览, 瑞鹤清响——鲁晓波、张子康、谢小铨作品联展"
+    },
+    "detail": [
+      {
+        "title": "瑞鹤清响——鲁晓波、张子康、谢小铨作品联展",
+        "img": "/assets/exhibitions/image/Dancing-Cranes-2023.webp",
+        "alt": "瑞鹤清响——鲁晓波、张子康、谢小铨作品联展",
+        "location": "香港",
+        "dates": "2023年4月3日 - 2023年4月23日"
+      }
+    ]
+  },
+  "In-Between": {
+    "title": "“之间”张子康当代水墨作品展",
+    "src": "/assets/exhibitions/image/In-Between.webp",
+    "alt": "“之间”张子康当代水墨作品展",
+    "metadata": {
+      "title": "张子康 “之间”张子康当代水墨作品展",
+      "description": "张子康于2022年12月21日至2023年2月8日在香港参加“之间”张子康当代水墨作品展并展出其艺术作品",
+      "keywords": "张子康, 展览, “之间”张子康当代水墨作品展"
+    },
+    "detail": [
+      {
+        "title": "“之间”张子康当代水墨作品展",
+        "img": "/assets/exhibitions/image/In-Between.webp",
+        "alt": "“之间”张子康当代水墨作品展",
+        "location": "香港",
+        "dates": "2022年12月21日 - 2023年2月8日"
+      }
+    ]
+  },
+  "Dancing-Cranes-2022": {
+    "title": "瑞鹤清响——鲁晓波、张子康、谢小铨作品联展",
+    "src": "/assets/exhibitions/image/Dancing-Cranes-2022.webp",
+    "alt": "瑞鹤清响——鲁晓波、张子康、谢小铨作品联展",
+    "metadata": {
+      "title": "张子康 瑞鹤清响——鲁晓波、张子康、谢小铨作品联展",
+      "description": "张子康于2022年12月2日至2023年1月31日在澳门参加瑞鹤清响——鲁晓波、张子康、谢小铨作品联展并展出其艺术作品",
+      "keywords": "张子康, 展览, 瑞鹤清响——鲁晓波、张子康、谢小铨作品联展"
+    },
+    "detail": [
+      {
+        "title": "瑞鹤清响——鲁晓波、张子康、谢小铨作品联展",
+        "img": "/assets/exhibitions/image/Dancing-Cranes-2022.webp",
+        "alt": "瑞鹤清响——鲁晓波、张子康、谢小铨作品联展",
+        "location": "澳门",
+        "dates": "2022年12月2日 - 2023年1月31日"
+      }
+    ]
+  },
+  "landscape-Circle-Yan-Mountain-Assembly-2022-Jining": {
+    "title": "山水圈—砚山会2022国际水墨展—济宁邀请展",
+    "src": "/assets/exhibitions/image/landscape-Circle-Yan-Mountain-Assembly-2022-Jining.webp",
+    "alt": "山水圈—砚山会2022国际水墨展—济宁邀请展",
+    "metadata": {
+      "title": "张子康 山水圈—砚山会2022国际水墨展—济宁邀请展",
+      "description": "张子康于2022年8月15日至2022年9月10日在山东济宁参加山水圈—砚山会2022国际水墨展—济宁邀请展并展出其艺术作品",
+      "keywords": "张子康, 展览, 山水圈—砚山会2022国际水墨展—济宁邀请展"
+    },
+    "detail": [
+      {
+        "title": "山水圈—砚山会2022国际水墨展—济宁邀请展",
+        "img": "/assets/exhibitions/image/landscape-Circle-Yan-Mountain-Assembly-2022-Jining.webp",
+        "alt": "山水圈—砚山会2022国际水墨展—济宁邀请展",
+        "location": "山东济宁",
+        "dates": "2022年8月15日 - 2022年9月10日"
+      }
+    ]
+  },
+  "landscape-Circle-Yan-Mountain-Assembly-2022-Weihai": {
+    "title": "山水圈—砚山会2022国际水墨展—威海邀请展",
+    "src": "/assets/exhibitions/image/landscape-Circle-Yan-Mountain-Assembly-2022-Weihai.webp",
+    "alt": "山水圈—砚山会2022国际水墨展—威海邀请展",
+    "metadata": {
+      "title": "张子康 山水圈—砚山会2022国际水墨展—威海邀请展",
+      "description": "张子康于2022年7月31日至2022年8月10日在山东威海参加山水圈—砚山会2022国际水墨展—威海邀请展并展出其艺术作品",
+      "keywords": "张子康, 展览, 山水圈—砚山会2022国际水墨展—威海邀请展"
+    },
+    "detail": [
+      {
+        "title": "山水圈—砚山会2022国际水墨展—威海邀请展",
+        "img": "/assets/exhibitions/image/landscape-Circle-Yan-Mountain-Assembly-2022-Weihai.webp",
+        "alt": "山水圈—砚山会2022国际水墨展—威海邀请展",
+        "location": "山东威海",
+        "dates": "2022年7月31日 - 2022年8月10日"
+      }
+    ]
+  },
+  "Light-of-Art-Academic-Season-Invitational-Exhibition": {
+    "title": "艺术之光学术季邀请展",
+    "src": "/assets/exhibitions/image/Light-of-Art-Academic-Season-Invitational-Exhibition.webp",
+    "alt": "艺术之光学术季邀请展",
+    "metadata": {
+      "title": "张子康 艺术之光学术季邀请展",
+      "description": "张子康于2021年7月18日至2021年8月18日在河北参加艺术之光学术季邀请展并展出其艺术作品",
+      "keywords": "张子康, 展览, 艺术之光学术季邀请展"
+    },
+    "detail": [
+      {
+        "title": "艺术之光学术季邀请展",
+        "img": "/assets/exhibitions/image/Light-of-Art-Academic-Season-Invitational-Exhibition.webp",
+        "alt": "艺术之光学术季邀请展",
+        "location": "河北",
+        "dates": "2021年7月18日 - 2021年8月18日"
+      }
+    ]
+  },
+  "18th-Asian-BIEAF-International-Contemporary-Art-Invitational-Exhibition": {
+    "title": "第18届亚洲BIEAF国际当代艺术邀请展",
+    "src": "/assets/exhibitions/image/18th-Asian-BIEAF-International-Contemporary-Art-Invitational-Exhibition.webp",
+    "alt": "第18届亚洲BIEAF国际当代艺术邀请展",
+    "metadata": {
+      "title": "张子康 第18届亚洲BIEAF国际当代艺术邀请展",
+      "description": "张子康于2020年12月21日至2020年12月26日在韩国参加第18届亚洲BIEAF国际当代艺术邀请展并展出其艺术作品",
+      "keywords": "张子康, 展览, 第18届亚洲BIEAF国际当代艺术邀请展"
+    },
+    "detail": [
+      {
+        "title": "第18届亚洲BIEAF国际当代艺术邀请展",
+        "img": "/assets/exhibitions/image/18th-Asian-BIEAF-International-Contemporary-Art-Invitational-Exhibition.webp",
+        "alt": "第18届亚洲BIEAF国际当代艺术邀请展",
+        "location": "韩国",
+        "dates": "2020年12月21日 - 2020年12月26日"
       }
     ]
   },
@@ -24,7 +404,7 @@
     "alt": "第十一届佛罗伦萨国际当代艺术双年展",
     "metadata": {
       "title": "张子康 第十一届佛罗伦萨国际当代艺术双年展",
-      "description": "张子康于2017年10月6日至10月15日在意大利参加第十一届佛罗伦萨国际当代艺术双年展并展出其艺术作品",
+      "description": "张子康于2017年10月6日至2017年10月15日在意大利参加第十一届佛罗伦萨国际当代艺术双年展并展出其艺术作品",
       "keywords": "张子康, 展览, 第十一届佛罗伦萨国际当代艺术双年展"
     },
     "detail": [
@@ -37,22 +417,22 @@
       }
     ]
   },
-  "18th-Asian-BIEAF-International-Contemporary-Art-Invitational-Exhibition": {
-    "title": "第18届亚洲BIEAF国际当代艺术邀请展",
-    "src": "/assets/exhibitions/image/18th-Asian-BIEAF-International-Contemporary-Art-Invitational-Exhibition.webp",
-    "alt": "第18届亚洲BIEAF国际当代艺术邀请展",
+  "Ink-Asia-2016": {
+    "title": "水墨艺博 2016",
+    "src": "/assets/exhibitions/image/Ink-Asia-2016.webp",
+    "alt": "水墨艺博 2016",
     "metadata": {
-      "title": "张子康 第18届亚洲BIEAF国际当代艺术邀请展",
-      "description": "张子康于2020年12月21日至12月26日在韩国参加第18届亚洲BIEAF国际当代艺术邀请展并展出其艺术作品",
-      "keywords": "张子康, 展览, 第18届亚洲BIEAF国际当代艺术邀请展"
+      "title": "张子康 水墨艺博 2016",
+      "description": "张子康于2016年12月16日至2016年12月18日在香港参加水墨艺博 2016并展出其艺术作品",
+      "keywords": "张子康, 展览, 水墨艺博 2016"
     },
     "detail": [
       {
-        "title": "第18届亚洲BIEAF国际当代艺术邀请展",
-        "img": "/assets/exhibitions/image/18th-Asian-BIEAF-International-Contemporary-Art-Invitational-Exhibition.webp",
-        "alt": "第18届亚洲BIEAF国际当代艺术邀请展",
-        "location": "韩国",
-        "dates": "2020年12月21日 - 2020年12月26日"
+        "title": "水墨艺博 2016",
+        "img": "/assets/exhibitions/image/Ink-Asia-2016.webp",
+        "alt": "水墨艺博 2016",
+        "location": "香港",
+        "dates": "2016年12月16日 - 2016年12月18日"
       }
     ]
   }

@@ -1,0 +1,97 @@
+{
+  "NordArt-2024": {
+    "title": "NordArt 2024 International Art Exhibition",
+    "src": "/assets/exhibitions/image/NordArt-2024.webp",
+    "alt": "NordArt 2024 International Art Exhibition",
+    "metadata": {
+      "title": "Zhang Zikang NordArt 2024 International Art Exhibition",
+      "description": "Zhang Zikang presented his artworks at NordArt 2024 International Art Exhibition in Germany from June 1, 2024 to October 6, 2024",
+      "keywords": "Zhang, Zikang, exhibition, NordArt 2024 International Art Exhibition"
+    },
+    "detail": [
+      {
+        "title": "NordArt 2024 International Art Exhibition",
+        "img": "/assets/exhibitions/image/NordArt-2024.webp",
+        "alt": "NordArt 2024 International Art Exhibition",
+        "location": "Germany",
+        "dates": "June 1, 2024 - October 6, 2024"
+      }
+    ]
+  },
+  "The-Spirit-of-Ink": {
+    "title": "The Spirit of Ink - Contemporary Chinese Abstract Art Exhibition",
+    "src": "/assets/exhibitions/image/The-Spirit-of-Ink.webp",
+    "alt": "The Spirit of Ink - Contemporary Chinese Abstract Art Exhibition",
+    "metadata": {
+      "title": "Zhang Zikang The Spirit of Ink - Contemporary Chinese Abstract Art Exhibition",
+      "description": "Zhang Zikang presented his artworks at The Spirit of Ink - Contemporary Chinese Abstract Art Exhibition in Wuhan from May 11, 2024 to June 9, 2024",
+      "keywords": "Zhang, Zikang, exhibition, The Spirit of Ink - Contemporary Chinese Abstract Art Exhibition"
+    },
+    "detail": [
+      {
+        "title": "The Spirit of Ink - Contemporary Chinese Abstract Art Exhibition",
+        "img": "/assets/exhibitions/image/The-Spirit-of-Ink.webp",
+        "alt": "The Spirit of Ink - Contemporary Chinese Abstract Art Exhibition",
+        "location": "Wuhan",
+        "dates": "May 11, 2024 - June 9, 2024"
+      }
+    ]
+  },
+  "Freedom-in-the-Void": {
+    "title": "Freedom in the Void - Zhang Zikang Solo Exhibition",
+    "src": "/assets/exhibitions/image/Freedom-in-the-Void.webp",
+    "alt": "Freedom in the Void - Zhang Zikang Solo Exhibition",
+    "metadata": {
+      "title": "Zhang Zikang Freedom in the Void - Zhang Zikang Solo Exhibition",
+      "description": "Zhang Zikang presented his artworks at Freedom in the Void - Zhang Zikang Solo Exhibition in Beijing from March 9, 2024 to May 31, 2024",
+      "keywords": "Zhang, Zikang, exhibition, Freedom in the Void - Zhang Zikang Solo Exhibition"
+    },
+    "detail": [
+      {
+        "title": "Freedom in the Void - Zhang Zikang Solo Exhibition",
+        "img": "/assets/exhibitions/image/Freedom-in-the-Void.webp",
+        "alt": "Freedom in the Void - Zhang Zikang Solo Exhibition",
+        "location": "Beijing",
+        "dates": "March 9, 2024 - May 31, 2024"
+      }
+    ]
+  },
+  "The-Inquiry": {
+    "title": "Pursue: Abstraction in China 2023-2024",
+    "src": "/assets/exhibitions/image/The-Inquiry.webp",
+    "alt": "Pursue: Abstraction in China 2023-2024",
+    "metadata": {
+      "title": "Zhang Zikang Pursue: Abstraction in China 2023-2024",
+      "description": "Zhang Zikang presented his artworks at Pursue: Abstraction in China 2023-2024 in Beijing from February 1, 2024 to March 30, 2024",
+      "keywords": "Zhang, Zikang, exhibition, Pursue: Abstraction in China 2023-2024"
+    },
+    "detail": [
+      {
+        "title": "Pursue: Abstraction in China 2023-2024",
+        "img": "/assets/exhibitions/image/The-Inquiry.webp",
+        "alt": "Pursue: Abstraction in China 2023-2024",
+        "location": "Beijing",
+        "dates": "February 1, 2024 - March 30, 2024"
+      }
+    ]
+  },
+  "The-Turning-of-The-Dragon": {
+    "title": "The Turn of the Dragon - Contemporary Art Invitational Exhibition",
+    "src": "/assets/exhibitions/image/The-Turning-of-The-Dragon.webp",
+    "alt": "The Turn of the Dragon - Contemporary Art Invitational Exhibition",
+    "metadata": {
+      "title": "Zhang Zikang The Turn of the Dragon - Contemporary Art Invitational Exhibition",
+      "description": "Zhang Zikang presented his artworks at The Turn of the Dragon - Contemporary Art Invitational Exhibition in Zhejiang from January 31, 2024 to March 9, 2024",
+      "keywords": "Zhang, Zikang, exhibition, The Turn of the Dragon - Contemporary Art Invitational Exhibition"
+    },
+    "detail": [
+      {
+        "title": "The Turn of the Dragon - Contemporary Art Invitational Exhibition",
+        "img": "/assets/exhibitions/image/The-Turning-of-The-Dragon.webp",
+        "alt": "The Turn of the Dragon - Contemporary Art Invitational Exhibition",
+        "location": "Zhejiang",
+        "dates": "January 31, 2024 - March 9, 2024"
+      }
+    ]
+  }
+}

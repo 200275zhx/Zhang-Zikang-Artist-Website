@@ -52,7 +52,8 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
-      <body className={`${notoSansSC.className} font-medium italic antialiased tracking-wide`}>
+      {/* <body className={`${notoSansSC.className} font-medium italic antialiased tracking-wide`}> */}
+      <body className={`${notoSansSC.className} font-medium antialiased tracking-wide`}>
         <NextIntlClientProvider messages={messages}>
             {children}
         </NextIntlClientProvider>

@@ -25,7 +25,7 @@
         "name": "张子康",
         "works": "作品",
         "news": "新闻",
-        "exhibitions": "展览",
+        "exhibitions": "参展",
         "publications": "出版物",
         "biography": "经历",
         "contact": "联系我们",
@@ -35,7 +35,8 @@
         "interviews": "访谈",
         "monographs": "学术著作",
         
-        "curations": "策展"
+        "curations": "策展",
+        "return": "返回 >"
     },
 
 

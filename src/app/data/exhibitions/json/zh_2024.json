@@ -1,0 +1,97 @@
+{
+  "NordArt-2024": {
+    "title": "NordArt 2024国际当代艺术大展",
+    "src": "/assets/exhibitions/image/NordArt-2024.webp",
+    "alt": "NordArt 2024国际当代艺术大展",
+    "metadata": {
+      "title": "张子康 NordArt 2024国际当代艺术大展",
+      "description": "张子康于2024年6月1日至2024年10月6日在德国参加NordArt 2024国际当代艺术大展并展出其艺术作品",
+      "keywords": "张子康, 展览, NordArt 2024国际当代艺术大展"
+    },
+    "detail": [
+      {
+        "title": "NordArt 2024国际当代艺术大展",
+        "img": "/assets/exhibitions/image/NordArt-2024.webp",
+        "alt": "NordArt 2024国际当代艺术大展",
+        "location": "德国",
+        "dates": "2024年6月1日 - 2024年10月6日"
+      }
+    ]
+  },
+  "The-Spirit-of-Ink": {
+    "title": "大墨有风——当代中国抽象艺术展",
+    "src": "/assets/exhibitions/image/The-Spirit-of-Ink.webp",
+    "alt": "大墨有风——当代中国抽象艺术展",
+    "metadata": {
+      "title": "张子康 大墨有风——当代中国抽象艺术展",
+      "description": "张子康于2024年5月11日至2024年6月9日在武汉参加大墨有风——当代中国抽象艺术展并展出其艺术作品",
+      "keywords": "张子康, 展览, 大墨有风——当代中国抽象艺术展"
+    },
+    "detail": [
+      {
+        "title": "大墨有风——当代中国抽象艺术展",
+        "img": "/assets/exhibitions/image/The-Spirit-of-Ink.webp",
+        "alt": "大墨有风——当代中国抽象艺术展",
+        "location": "武汉",
+        "dates": "2024年5月11日 - 2024年6月9日"
+      }
+    ]
+  },
+  "Freedom-in-the-Void": {
+    "title": "自在虚空——张子康作品展",
+    "src": "/assets/exhibitions/image/Freedom-in-the-Void.webp",
+    "alt": "自在虚空——张子康作品展",
+    "metadata": {
+      "title": "张子康 自在虚空——张子康作品展",
+      "description": "张子康于2024年3月9日至2024年5月31日在北京参加自在虚空——张子康作品展并展出其艺术作品",
+      "keywords": "张子康, 展览, 自在虚空——张子康作品展"
+    },
+    "detail": [
+      {
+        "title": "自在虚空——张子康作品展",
+        "img": "/assets/exhibitions/image/Freedom-in-the-Void.webp",
+        "alt": "自在虚空——张子康作品展",
+        "location": "北京",
+        "dates": "2024年3月9日 - 2024年5月31日"
+      }
+    ]
+  },
+  "The-Inquiry": {
+    "title": "追问——抽象在中国2023-2024",
+    "src": "/assets/exhibitions/image/The-Inquiry.webp",
+    "alt": "追问——抽象在中国2023-2024",
+    "metadata": {
+      "title": "张子康 追问——抽象在中国2023-2024",
+      "description": "张子康于2024年2月1日至2024年3月30日在北京参加追问——抽象在中国2023-2024并展出其艺术作品",
+      "keywords": "张子康, 展览, 追问——抽象在中国2023-2024"
+    },
+    "detail": [
+      {
+        "title": "追问——抽象在中国2023-2024",
+        "img": "/assets/exhibitions/image/The-Inquiry.webp",
+        "alt": "追问——抽象在中国2023-2024",
+        "location": "北京",
+        "dates": "2024年2月1日 - 2024年3月30日"
+      }
+    ]
+  },
+  "The-Turning-of-The-Dragon": {
+    "title": "龙的转身——当代艺术邀请展",
+    "src": "/assets/exhibitions/image/The-Turning-of-The-Dragon.webp",
+    "alt": "龙的转身——当代艺术邀请展",
+    "metadata": {
+      "title": "张子康 龙的转身——当代艺术邀请展",
+      "description": "张子康于2024年1月31日至2024年3月9日在浙江参加龙的转身——当代艺术邀请展并展出其艺术作品",
+      "keywords": "张子康, 展览, 龙的转身——当代艺术邀请展"
+    },
+    "detail": [
+      {
+        "title": "龙的转身——当代艺术邀请展",
+        "img": "/assets/exhibitions/image/The-Turning-of-The-Dragon.webp",
+        "alt": "龙的转身——当代艺术邀请展",
+        "location": "浙江",
+        "dates": "2024年1月31日 - 2024年3月9日"
+      }
+    ]
+  }
+}
