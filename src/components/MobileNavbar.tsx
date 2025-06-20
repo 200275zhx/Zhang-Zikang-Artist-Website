@@ -126,9 +126,7 @@ export default function MobileNavbar() {
             <Link
               href="/"
               onClick={() => { setClickedLink("home"); closeMenu(); }}
-              className={`block w-full font-normal text-2xl px-2 py-1
-                ${clickedLink === "home" || segments.length === 0 ? "bg-black text-white" : ""}
-              `}
+              className={`block w-full font-normal text-2xl px-2 py-1`}
             >
               {t("name")}
             </Link>
