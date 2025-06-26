@@ -42,7 +42,7 @@ export default async function HomePage() {
     <div>
       <div className="relative w-full h-screen overflow-hidden">
         <video 
-          src="/assets/homepage/homepage_background_demo.webm" 
+          src="/assets/homepage/homepage_background_demo.mp4" 
           autoPlay 
           muted 
           loop 
