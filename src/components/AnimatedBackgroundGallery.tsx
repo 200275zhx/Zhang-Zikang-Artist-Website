@@ -8,7 +8,7 @@ const FADEOUT_ANIMATION_DURATION = 1000; // # seconds duration for fade out effe
 const ANIMATION_DURATION = FADEIN_ANIMATION_DURATION + SLIDE_DOWN_ANIMATION_DURATION + FADEOUT_ANIMATION_DURATION; // # seconds duration for fade in, slide down, and fade out
 const FADEIN_ANIMATION_DELAY = ANIMATION_DURATION - FADEOUT_ANIMATION_DURATION; // after # seconds start the cross fade effect
 
-const DESIRED_IMAGE_HEIGHT_SCALE_OFFSET = 100; // # scale offset for desired image height by px, vh + DESIRED_IMAGE_HEIGHT_SCALE_OFFSET
+const DESIRED_HEIGHT_SCALE_OFFSET = 100; // scale image height to vh + DESIRED_HEIGHT_SCALE_OFFSET
 
 interface AnimatedBackgroundGalleryProps {
   images: string[];
@@ -96,8 +96,8 @@ const AnimatedImage: React.FC<AnimatedImageProps> = ({ src, meta }) => {
     const vw = viewport.width;
     const vh = viewport.height;
     if (!vw || !vh) return;
-    // Scale to fill at least full width and 120% height
-    const scale = Math.max(vw / naturalWidth, (vh + DESIRED_IMAGE_HEIGHT_SCALE_OFFSET) / naturalHeight);
+    // Scale to fill at least full width and 100% + DESIRED_HEIGHT_SCALE_OFFSET height
+    const scale = Math.max(vw / naturalWidth, (vh + DESIRED_HEIGHT_SCALE_OFFSET) / naturalHeight);
     const scaledW = naturalWidth * scale;
     const scaledH = naturalHeight * scale;
     const widthStyle = `${scaledW}px`;
@@ -128,7 +128,15 @@ const AnimatedImage: React.FC<AnimatedImageProps> = ({ src, meta }) => {
     el.animate(keyframes, { duration: ANIMATION_DURATION, easing: 'ease-out', fill: 'forwards' });
   }, [meta, viewport]);
 
-  return <img ref={ref} src={src} alt="" aria-hidden="true" />;
+  return <img ref={ref} src={src} style={{
+      position: 'absolute',
+      top: 0, left: '50%',
+      transform: 'translateX(-50%)',
+      width: '100%',
+      height: '100%',
+      objectFit: 'cover',         // ← preserves ratio, crops as needed
+      pointerEvents: 'none',
+    }} alt="" aria-hidden="true" />;
 };
 
 export default AnimatedBackgroundGallery;
