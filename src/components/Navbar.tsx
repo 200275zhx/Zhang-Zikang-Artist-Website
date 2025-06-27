@@ -69,7 +69,7 @@ export default function Navbar() {
         <div>
           <Link
             href="/news"
-            className={`block w-full px-2 py-1
+            className={`block w-full px-2 py-1 whitespace-nowrap min-w-max
               ${isNewsPage ? "bg-black text-white" : "hover:text-gray-400"}
             `}
           >
@@ -84,11 +84,11 @@ export default function Navbar() {
                   <Link
                     key={type}
                     href={{ pathname: "/news/[newstype]", params: { newstype: localized } }}
-                    className={
-                      isActive
+                    className={`whitespace-nowrap
+                      ${isActive
                         ? "text-black font-semibold"
-                        : "text-gray-400 hover:text-gray-400"
-                    }
+                        : "text-gray-400 hover:text-gray-400"}
+                    `}
                   >
                     {t(type)}
                   </Link>
@@ -102,7 +102,7 @@ export default function Navbar() {
         <div>
           <Link
             href="/works"
-            className={`block w-full px-2 py-1
+            className={`block w-full px-2 py-1 whitespace-nowrap min-w-max
               ${isWorksPage ? "bg-black text-white" : "hover:text-gray-400"}
             `}
           >
@@ -117,11 +117,11 @@ export default function Navbar() {
                   <Link
                     key={year}
                     href={{ pathname: "/works/[workId]", params: { workId: slug } }}
-                    className={
-                      isActive
+                    className={ `whitespace-nowrap
+                      ${isActive
                         ? "text-black font-semibold"
-                        : "text-gray-400 hover:text-gray-400"
-                    }
+                        : "text-gray-400 hover:text-gray-400"}
+                    `}
                   >
                     {year}
                   </Link>
@@ -134,7 +134,7 @@ export default function Navbar() {
         {/* Exhibitions */}
         <Link
           href="/exhibitions"
-          className={`block w-full px-2 py-1
+          className={`block w-full px-2 py-1 whitespace-nowrap min-w-max
             ${segments[0] === "exhibitions" ? "bg-black text-white" : "hover:text-gray-400"}
           `}
         >
@@ -145,11 +145,11 @@ export default function Navbar() {
         <div>
           <Link
             href="/publications"
-            className={`block w-full px-2 py-1
+            className={`block w-full px-2 py-1 whitespace-nowrap min-w-max
               ${isPublicationsPage ? "bg-black text-white" : "hover:text-gray-400"}
             `}
           >
-            {t("publications")}
+              {t("publications")}
           </Link>
           {isPublicationsPage && (
             <div className="mt-2 ml-4 flex flex-col space-y-2">
@@ -160,13 +160,13 @@ export default function Navbar() {
                   <Link
                     key={type}
                     href={{ pathname: "/publications/[pubtype]", params: { pubtype: localized } }}
-                    className={
-                      isActive
+                    className={`whitespace-nowrap
+                      ${isActive
                         ? "text-black font-semibold"
-                        : "text-gray-400 hover:text-gray-400"
-                    }
+                        : "text-gray-400 hover:text-gray-400"}
+                    `}
                   >
-                    {t(type)}
+                      {t(type)}
                   </Link>
                 );
               })}
@@ -177,7 +177,7 @@ export default function Navbar() {
         {/* Biography */}
         <Link
           href="/biography"
-          className={`block w-full px-2 py-1
+          className={`block w-full px-2 py-1 whitespace-nowrap min-w-max
             ${segments[0] === "biography" ? "bg-black text-white" : "hover:text-gray-400"}
           `}
         >
@@ -189,7 +189,7 @@ export default function Navbar() {
           href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=hexunzh@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
-          className={`block w-full px-2 py-1
+          className={`block w-full px-2 py-1 whitespace-nowrap min-w-max
             ${segments[0] === undefined ? "" : ""}
             hover:text-gray-400`
           }

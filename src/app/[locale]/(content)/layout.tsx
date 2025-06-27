@@ -47,7 +47,7 @@ export default async function ContentLayout({
       {/* Main layout: Left sticky nav + Right content */}
       <div className="flex">
         {/* Left: sticky navbar (1/6 viewport width) */}
-        <div className="hidden md:block w-1/6">
+        <div className="hidden xl:block w-1/6">
           <Navbar />
         </div>
 

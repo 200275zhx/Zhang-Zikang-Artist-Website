@@ -37,10 +37,10 @@ export default function Header() {
         <Link href="/" className="font-normal text-2xl">
           {t("name")}
         </Link>
-        <div className="hidden md:block">
+        <div className="hidden xl:block">
           <LocaleSwitcher />
         </div>
-        <div className="md:hidden">
+        <div className="xl:hidden">
           <MobileNavbar />
         </div>
       </div>
