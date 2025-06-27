@@ -42,15 +42,19 @@ export default async function HomePage() {
   return (
     <div>
       <div className="relative w-full h-screen overflow-hidden">
-        <AnimatedBackgroundGallery
-          images={[
-            '/assets/homepage/21-1.webp',
-            '/assets/homepage/21-2.webp',
-            '/assets/homepage/23-1.webp',
-            '/assets/homepage/23-2.webp',
-            // etc.
-          ]}
-        />
+      <AnimatedBackgroundGallery
+        images={[
+          '/assets/homepage/21-1.webp',
+          '/assets/homepage/21-2.webp',
+          '/assets/homepage/23-1.webp',
+          '/assets/homepage/23-2.webp',
+          // add as many as you like
+        ]}
+        duration={5000}          // each image: 5s total (1s fade in, 3s hold, 1s fade out)
+        fadeInDuration={1000}    // optional: how long the fade-in lasts
+        fadeOutDuration={1000}   // optional: how long the fade-out lasts
+        offset={100}             // optional: start images 100px above the viewport
+      />
 
         {/* White background container for the title */}
         <div className="absolute top-1/2 transform -translate-y-1/2 w-full bg-white/90 py-8 px-10 md:px-20"> 
