@@ -2,6 +2,7 @@ import {Link} from '@/i18n/routing';
 import { getTranslations } from 'next-intl/server';
 import LocaleSwitcher from "@/components/LocaleSwitcher";
 import MobileNavbar from '@/components/MobileNavbar';
+import AnimatedBackgroundGallery from '@/components/AnimatedBackgroundGallery';
 
 export async function generateMetadata() {
   const t = await getTranslations('HomePage.metadata');
@@ -41,14 +42,14 @@ export default async function HomePage() {
   return (
     <div>
       <div className="relative w-full h-screen overflow-hidden">
-        <video 
-          src="/assets/homepage/homepage_background_demo.mp4" 
-          autoPlay 
-          muted 
-          loop 
-          playsInline 
-          className="absolute top-0 left-0 w-full h-full object-cover"
-          aria-label={t('metadata.backgroundVideoAlt')}
+        <AnimatedBackgroundGallery
+          images={[
+            '/assets/homepage/21-1.webp',
+            '/assets/homepage/21-2.webp',
+            '/assets/homepage/23-1.webp',
+            '/assets/homepage/23-2.webp',
+            // etc.
+          ]}
         />
 
         {/* White background container for the title */}
