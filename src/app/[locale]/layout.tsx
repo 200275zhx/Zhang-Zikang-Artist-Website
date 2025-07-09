@@ -1,11 +1,14 @@
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
-import { setRequestLocale } from 'next-intl/server';
-import { notFound } from 'next/navigation';
-import { routing } from '@/i18n/routing';
-import type { Metadata } from "next";
-import { Noto_Sans_SC } from 'next/font/google';
-import "./globals.css";
+import { NextIntlClientProvider } from 'next-intl'
+import { getMessages } from 'next-intl/server'
+import { setRequestLocale } from 'next-intl/server'
+import { notFound } from 'next/navigation'
+import { routing } from '@/i18n/routing'
+import type { Metadata } from "next"
+import { Noto_Sans_SC } from 'next/font/google'
+import "./globals.css"
+import Script from 'next/script'
+import { AnalyticsTracker } from '@/components/AnalyticsTracker'
+import { GA_MEASUREMENT_ID } from '@/app/lib/gtag'
 
 // Load fonts
 const notoSansSC = Noto_Sans_SC({
@@ -52,9 +55,29 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
+      <head>
+        {/* GA4 Script */}
+        <Script
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+        />
+        <Script
+          id="gtag-init"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${GA_MEASUREMENT_ID}');
+            `,
+          }}
+        />
+      </head>
       {/* <body className={`${notoSansSC.className} font-medium italic antialiased tracking-wide`}> */}
       <body className={`${notoSansSC.className} font-medium antialiased tracking-wide`}>
         <NextIntlClientProvider messages={messages}>
+            <AnalyticsTracker />
             {children}
         </NextIntlClientProvider>
       </body>

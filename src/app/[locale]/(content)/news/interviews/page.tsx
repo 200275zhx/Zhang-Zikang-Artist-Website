@@ -30,8 +30,8 @@ export default async function NewsPage({
       {slugs.map((slug) => {
         const item = dict[slug];
         return (
-          <article key={slug} className="w-full py-8">
-            <h2 className="mt-4 text-2xl font-medium mb-10">{item.title}</h2>
+          <article key={slug} className="w-full pb-16">
+            <h2 className="text-2xl font-medium mb-10">{item.title}</h2>
             <div
               className="overflow-hidden w-full h-auto md:h-[560px] mb-10"
               style={{ clipPath: 'inset(0 10% 0 10%)' }}
