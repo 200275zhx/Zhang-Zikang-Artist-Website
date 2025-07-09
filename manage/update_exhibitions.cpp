@@ -1,3 +1,13 @@
+
+// to build:
+// g++ -std=c++17 update_exhibitions.cpp -I"C:\Users\20027\Local Desktop\AW002\artist-website\manage\include" -L"C:\Users\20027\Local Desktop\AW002\artist-website\manage\lib" -lwebp -lssp -o bin\update_exhibitions.exe
+
+// to run:
+// bin\update_exhibitions.exe
+
+
+
+
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -8,6 +18,7 @@
 #include <map>
 #include <ctime>
 #include <nlohmann/json.hpp>
+#include <webp/decode.h>
 
 using ordered_json = nlohmann::ordered_json;
 
@@ -131,6 +142,64 @@ int main() {
             entry["title"] = it.title;
             entry["src"]   = "/assets/exhibitions/image/" + it.imageName + ".webp";
             entry["alt"]   = it.title;
+
+            {   // ---------- Compute background color ---------- //
+                // build full .webp path
+                std::string imagePath =
+                R"(C:\Users\20027\Local Desktop\AW002\artist-website\public\assets\exhibitions\image\)"
+                + it.imageName + ".webp";
+
+                // read file into memory
+                std::ifstream ifs(imagePath, std::ios::binary);
+                std::vector<uint8_t> fileData{
+                    std::istreambuf_iterator<char>(ifs),
+                    std::istreambuf_iterator<char>()
+                };
+
+                int w = 0, h = 0;
+                // decode RGBA pixels
+                uint8_t* rgba = WebPDecodeRGBA(
+                fileData.data(),
+                fileData.size(),
+                &w, &h
+                );
+
+                if (!rgba) {
+                    entry["bgcolor"] = "#ffffff";
+                } else {
+                    uint64_t rSum = 0, gSum = 0, bSum = 0;
+                    int pxCount = w * h;
+                    for (int i = 0; i < pxCount; ++i) {
+                        rSum += rgba[4*i + 0];
+                        gSum += rgba[4*i + 1];
+                        bSum += rgba[4*i + 2];
+                    }
+                    WebPFree(rgba);
+
+                    auto inv = [&](uint64_t sum) {
+                        int avg = int(sum / pxCount);
+                        avg = std::clamp(avg, 0, 255);
+                        return 255 - avg;
+                    };
+
+                    int r = inv(rSum), g = inv(gSum), b = inv(bSum);
+
+                    // reduce saturation by blending toward gray
+                    float grey = r * 0.299f + g * 0.587f + b * 0.114f;
+                    float satFactor = 0.5f; // 0 = full gray, 1 = original color
+                    int rSat = std::clamp<int>(int(grey + (r - grey) * satFactor + 0.5f), 0, 255);
+                    int gSat = std::clamp<int>(int(grey + (g - grey) * satFactor + 0.5f), 0, 255);
+                    int bSat = std::clamp<int>(int(grey + (b - grey) * satFactor + 0.5f), 0, 255);
+                    r = rSat; g = gSat; b = bSat;
+
+                    std::ostringstream oss;
+                    oss << '#' 
+                        << std::hex << std::setw(2) << std::setfill('0') << (r & 0xFF)
+                        << std::setw(2) << (g & 0xFF)
+                        << std::setw(2) << (b & 0xFF);
+                    entry["bgcolor"] = oss.str();
+                }
+            }   // ---------- End of background color computation ---------- //
 
             ordered_json meta = ordered_json::object();
             if (lang == "en") {

@@ -2,6 +2,7 @@ export type ExhibitionItem = {
     title: string;
     src: string;
     alt: string;
+    bgcolor: string;
     detail: ExhibitionDetailBlock[];
     metadata: ExhibitionMetadata;
 };

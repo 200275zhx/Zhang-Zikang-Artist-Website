@@ -3,6 +3,7 @@
     "title": "Radiant Heartlight - Contemporary Art Exhibition",
     "src": "/assets/exhibitions/image/Radiant-Heartlight.webp",
     "alt": "Radiant Heartlight - Contemporary Art Exhibition",
+    "bgcolor": "#2e333d",
     "metadata": {
       "title": "Zhang Zikang Radiant Heartlight - Contemporary Art Exhibition",
       "description": "Zhang Zikang presented his artworks at Radiant Heartlight - Contemporary Art Exhibition in Shanghai from December 30, 2023 to March 3, 2024",
@@ -22,6 +23,7 @@
     "title": "By th Mountains and Waters: Annual Thematic Series of Landscape Circle Invitation Exhibition (Zhucheng)",
     "src": "/assets/exhibitions/image/By-the-Mountains-and-Waters-Zhucheng.webp",
     "alt": "By th Mountains and Waters: Annual Thematic Series of Landscape Circle Invitation Exhibition (Zhucheng)",
+    "bgcolor": "#727274",
     "metadata": {
       "title": "Zhang Zikang By th Mountains and Waters: Annual Thematic Series of Landscape Circle Invitation Exhibition (Zhucheng)",
       "description": "Zhang Zikang presented his artworks at By th Mountains and Waters: Annual Thematic Series of Landscape Circle Invitation Exhibition (Zhucheng) in Zhucheng, Shandong from December 23, 2023 to January 6, 2024",
@@ -41,6 +43,7 @@
     "title": "Wild Growth - Asian Art Community Exhibition",
     "src": "/assets/exhibitions/image/Wild-Growth.webp",
     "alt": "Wild Growth - Asian Art Community Exhibition",
+    "bgcolor": "#313135",
     "metadata": {
       "title": "Zhang Zikang Wild Growth - Asian Art Community Exhibition",
       "description": "Zhang Zikang presented his artworks at Wild Growth - Asian Art Community Exhibition in South Korea from December 6, 2023 to December 18, 2023",
@@ -60,6 +63,7 @@
     "title": "The Power of Color - Contemporary Art Invitation Exhibition",
     "src": "/assets/exhibitions/image/The-Power-of-Color.webp",
     "alt": "The Power of Color - Contemporary Art Invitation Exhibition",
+    "bgcolor": "#556172",
     "metadata": {
       "title": "Zhang Zikang The Power of Color - Contemporary Art Invitation Exhibition",
       "description": "Zhang Zikang presented his artworks at The Power of Color - Contemporary Art Invitation Exhibition in Jinhua from October 24, 2023 to November 5, 2023",
@@ -79,6 +83,7 @@
     "title": "By the Mountains and Waters: Annua Thematic Series of Landscape Circle Invitation Exhibition (Phase2)",
     "src": "/assets/exhibitions/image/By-the-Mountains-and-Waters-Phase2.webp",
     "alt": "By the Mountains and Waters: Annua Thematic Series of Landscape Circle Invitation Exhibition (Phase2)",
+    "bgcolor": "#282425",
     "metadata": {
       "title": "Zhang Zikang By the Mountains and Waters: Annua Thematic Series of Landscape Circle Invitation Exhibition (Phase2)",
       "description": "Zhang Zikang presented his artworks at By the Mountains and Waters: Annua Thematic Series of Landscape Circle Invitation Exhibition (Phase2) in Wulian, Shandong from October 15, 2023 to December 10, 2023",
@@ -98,6 +103,7 @@
     "title": "Ink Asia 2023",
     "src": "/assets/exhibitions/image/Ink-Asia-2023.webp",
     "alt": "Ink Asia 2023",
+    "bgcolor": "#676564",
     "metadata": {
       "title": "Zhang Zikang Ink Asia 2023",
       "description": "Zhang Zikang presented his artworks at Ink Asia 2023 in Hong Kong from October 4, 2023 to October 8, 2023",
@@ -117,6 +123,7 @@
     "title": "Dancing Cranes (Guangdong)",
     "src": "/assets/exhibitions/image/Dancing-Cranes-2023-Guangdong.webp",
     "alt": "Dancing Cranes (Guangdong)",
+    "bgcolor": "#384f5c",
     "metadata": {
       "title": "Zhang Zikang Dancing Cranes (Guangdong)",
       "description": "Zhang Zikang presented his artworks at Dancing Cranes (Guangdong) in Guangdong from August 22, 2023 to September 3, 2023",
@@ -136,6 +143,7 @@
     "title": "2023 China-Japan- Korea International Contemporary Art Academic Reception Exhibition",
     "src": "/assets/exhibitions/image/2023-China-Japan-Korea-International-Contemporary-Art.webp",
     "alt": "2023 China-Japan- Korea International Contemporary Art Academic Reception Exhibition",
+    "bgcolor": "#2e2e33",
     "metadata": {
       "title": "Zhang Zikang 2023 China-Japan- Korea International Contemporary Art Academic Reception Exhibition",
       "description": "Zhang Zikang presented his artworks at 2023 China-Japan- Korea International Contemporary Art Academic Reception Exhibition in Japan from August 11, 2023 to August 22, 2023",
@@ -155,6 +163,7 @@
     "title": "Elegance of Three Times: Invitational Exhibition of Chinese Oil Painting and Sculpture Masters ",
     "src": "/assets/exhibitions/image/Elegance-of-the-Times.webp",
     "alt": "Elegance of Three Times: Invitational Exhibition of Chinese Oil Painting and Sculpture Masters ",
+    "bgcolor": "#6c8293",
     "metadata": {
       "title": "Zhang Zikang Elegance of Three Times: Invitational Exhibition of Chinese Oil Painting and Sculpture Masters ",
       "description": "Zhang Zikang presented his artworks at Elegance of Three Times: Invitational Exhibition of Chinese Oil Painting and Sculpture Masters  in Jiangsu from July 22, 2023 to August 20, 2023",
@@ -174,6 +183,7 @@
     "title": "Dancing Cranes (2023)",
     "src": "/assets/exhibitions/image/Dancing-Cranes-2023.webp",
     "alt": "Dancing Cranes (2023)",
+    "bgcolor": "#18181b",
     "metadata": {
       "title": "Zhang Zikang Dancing Cranes (2023)",
       "description": "Zhang Zikang presented his artworks at Dancing Cranes (2023) in Hong Kong from April 3, 2023 to April 23, 2023",

@@ -3,6 +3,7 @@
     "title": "“之间”张子康当代水墨作品展",
     "src": "/assets/exhibitions/image/In-Between.webp",
     "alt": "“之间”张子康当代水墨作品展",
+    "bgcolor": "#6f6f70",
     "metadata": {
       "title": "张子康 “之间”张子康当代水墨作品展",
       "description": "张子康于2022年12月21日至2023年2月8日在香港参加“之间”张子康当代水墨作品展并展出其艺术作品",
@@ -22,6 +23,7 @@
     "title": "瑞鹤清响——鲁晓波、张子康、谢小铨作品联展",
     "src": "/assets/exhibitions/image/Dancing-Cranes-2022.webp",
     "alt": "瑞鹤清响——鲁晓波、张子康、谢小铨作品联展",
+    "bgcolor": "#3b525f",
     "metadata": {
       "title": "张子康 瑞鹤清响——鲁晓波、张子康、谢小铨作品联展",
       "description": "张子康于2022年12月2日至2023年1月31日在澳门参加瑞鹤清响——鲁晓波、张子康、谢小铨作品联展并展出其艺术作品",
@@ -41,6 +43,7 @@
     "title": "山水圈—砚山会2022国际水墨展—济宁邀请展",
     "src": "/assets/exhibitions/image/landscape-Circle-Yan-Mountain-Assembly-2022-Jining.webp",
     "alt": "山水圈—砚山会2022国际水墨展—济宁邀请展",
+    "bgcolor": "#80888b",
     "metadata": {
       "title": "张子康 山水圈—砚山会2022国际水墨展—济宁邀请展",
       "description": "张子康于2022年8月15日至2022年9月10日在山东济宁参加山水圈—砚山会2022国际水墨展—济宁邀请展并展出其艺术作品",
@@ -60,6 +63,7 @@
     "title": "山水圈—砚山会2022国际水墨展—威海邀请展",
     "src": "/assets/exhibitions/image/landscape-Circle-Yan-Mountain-Assembly-2022-Weihai.webp",
     "alt": "山水圈—砚山会2022国际水墨展—威海邀请展",
+    "bgcolor": "#1c1d1d",
     "metadata": {
       "title": "张子康 山水圈—砚山会2022国际水墨展—威海邀请展",
       "description": "张子康于2022年7月31日至2022年8月10日在山东威海参加山水圈—砚山会2022国际水墨展—威海邀请展并展出其艺术作品",
