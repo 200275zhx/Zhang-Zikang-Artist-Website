@@ -1,3 +1,6 @@
+// Compile: g++ "C:\Users\20027\Local Desktop\AW002\artist-website\manage\update_news.cpp" -I"C:\Users\20027\Local Desktop\AW002\artist-website\manage\include" -L"C:\Users\20027\Local Desktop\AW002\artist-website\manage\lib" -std=c++17 -o "C:\Users\20027\Local Desktop\AW002\artist-website\manage\bin\update_news.exe"
+// Run: & "C:\Users\20027\Local Desktop\AW002\artist-website\manage\bin\update_news.exe"
+
 #include <iostream>
 #include <fstream>
 #include <string>
