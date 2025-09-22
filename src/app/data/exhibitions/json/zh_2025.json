@@ -1,0 +1,42 @@
+{
+  "Becoming": {
+    "title": "生成——张子康作品展",
+    "src": "/assets/exhibitions/image/Becoming.webp",
+    "alt": "生成——张子康作品展",
+    "bgcolor": "#979eb2",
+    "metadata": {
+      "title": "张子康 生成——张子康作品展",
+      "description": "张子康于2025年9月15日至2025年11月2日在玖空间，上海参加生成——张子康作品展并展出其艺术作品",
+      "keywords": "张子康, 展览, 生成——张子康作品展"
+    },
+    "detail": [
+      {
+        "title": "生成——张子康作品展",
+        "img": "/assets/exhibitions/image/Becoming.webp",
+        "alt": "生成——张子康作品展",
+        "location": "玖空间，上海",
+        "dates": "2025年9月15日 - 2025年11月2日"
+      }
+    ]
+  },
+  "Above-The-Boundry": {
+    "title": "边界之上——张子康作品展",
+    "src": "/assets/exhibitions/image/Above-The-Boundry.webp",
+    "alt": "边界之上——张子康作品展",
+    "bgcolor": "#838282",
+    "metadata": {
+      "title": "张子康 边界之上——张子康作品展",
+      "description": "张子康于2025年9月12日至2025年11月2日在大华银行艺术空间，上海参加边界之上——张子康作品展并展出其艺术作品",
+      "keywords": "张子康, 展览, 边界之上——张子康作品展"
+    },
+    "detail": [
+      {
+        "title": "边界之上——张子康作品展",
+        "img": "/assets/exhibitions/image/Above-The-Boundry.webp",
+        "alt": "边界之上——张子康作品展",
+        "location": "大华银行艺术空间，上海",
+        "dates": "2025年9月12日 - 2025年11月2日"
+      }
+    ]
+  }
+}

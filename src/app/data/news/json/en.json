@@ -1,4 +1,43 @@
 {
+  "News-Exhibition-Becoming": {
+    "title": "Becoming - Zhang Zikang Solo Exhibition",
+    "src": "/assets/news/News-Exhibition-Becoming.webp",
+    "alt": "News - Zhang Zikang's Exhibition - Becoming - Zhang Zikang Solo Exhibition - 09/15/2025",
+    "time": "September 15, 2025 - November 2, 2025",
+    "location": "Nine Art Space, Shanghai",
+    "description": "Zhang Zikang Solo Exhibition Opens in Shanghai! The works take life as their entry point, connecting the philosophical spirit of East and West — from Giotto to Muqi — composing a symphony of life in black and white. Beyond form and time, they bring an artistic awakening that speaks directly to the soul. Visitors are invited into an unending cycle of life, to perceive its impact.",
+    "metadata": {
+      "title": "News - Zhang Zikang's Exhibition - Becoming - Zhang Zikang Solo Exhibition - 09/15/2025",
+      "description": "News - Zhang Zikang's Exhibition - Becoming - Zhang Zikang Solo Exhibition - 09/15/2025"
+    },
+    "link": "https://mp.weixin.qq.com/s/lpxThXtpR_Ih4nENIopL4g"
+  },
+  "News-Exhibition-Above-The-Boundry": {
+    "title": "Above The Boundry - Zhang Zikang Solo Exhibition",
+    "src": "/assets/news/News-Exhibition-Above-The-Boundry.webp",
+    "alt": "News - Zhang Zikang's Exhibition - Above The Boundry - Zhang Zikang Solo Exhibition - 09/14/2025",
+    "time": "September 12, 2025 - November 2, 2025",
+    "location": "United Overseas Bank Plaza, Shanghai",
+    "description": "Shanghai and Zhang Zikang Exhibition. “Beyond the Boundary: Zhang Zikang” has opened at the UOB Art Center in Shanghai. With a stance of awakening, the exhibition breaks free from labels and leads a way of “viewing life” that transcends boundaries. Black-and-white textures, transformed bodies, and fractured traces look deeply into life’s impermanence and resilience. This silent ritual calls on viewers to set aside reason and sense the real presence of life — breathing in the fractures, growing within the chaos. A quiet yet profound visual experience awaits.",
+    "metadata": {
+      "title": "News - Zhang Zikang's Exhibition - Above The Boundry - Zhang Zikang Solo Exhibition - 09/14/2025",
+      "description": "News - Zhang Zikang's Exhibition - Above The Boundry - Zhang Zikang Solo Exhibition - 09/14/2025"
+    },
+    "link": "https://mp.weixin.qq.com/s/JcazyRhBoF6UWXPuH5RtGA"
+  },
+  "News-Exhibition-Becoming-Teaser": {
+    "title": "Exhibition Teaser: Becoming",
+    "src": "/assets/news/News-Exhibition-Becoming-Teaser.webp",
+    "alt": "News - Zhang Zikang's Exhibition - Exhibition Teaser: Becoming - 09/13/2025",
+    "time": "September 15, 2025 - November 2, 2025",
+    "location": "Nine Art Space, Shanghai",
+    "description": "",
+    "metadata": {
+      "title": "News - Zhang Zikang's Exhibition - Exhibition Teaser: Becoming - 09/13/2025",
+      "description": "News - Zhang Zikang's Exhibition - Exhibition Teaser: Becoming - 09/13/2025"
+    },
+    "link": "https://youtu.be/JYg_uX1OX84"
+  },
   "News-Interview-Searching-for-Beuys-An-Unannounced-Visit": {
     "title": "Searching for Beuys: An Unannounced Visit",
     "src": "/assets/news/News-Interview-Searching-for-Beuys-An-Unannounced-Visit.webp",

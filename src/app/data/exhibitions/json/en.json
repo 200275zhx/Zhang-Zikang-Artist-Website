@@ -1,4 +1,44 @@
 {
+  "Becoming": {
+    "title": "Becoming - Zhang Zikang Solo Exhibition",
+    "src": "/assets/exhibitions/image/Becoming.webp",
+    "alt": "Becoming - Zhang Zikang Solo Exhibition",
+    "bgcolor": "#979eb2",
+    "metadata": {
+      "title": "Zhang Zikang Becoming - Zhang Zikang Solo Exhibition",
+      "description": "Zhang Zikang presented his artworks at Becoming - Zhang Zikang Solo Exhibition in Nine Art Space, Shanghai from September 15, 2025 to October 2, 2025",
+      "keywords": "Zhang, Zikang, exhibition, Becoming - Zhang Zikang Solo Exhibition"
+    },
+    "detail": [
+      {
+        "title": "Becoming - Zhang Zikang Solo Exhibition",
+        "img": "/assets/exhibitions/image/Becoming.webp",
+        "alt": "Becoming - Zhang Zikang Solo Exhibition",
+        "location": "Nine Art Space, Shanghai",
+        "dates": "September 15, 2025 - October 2, 2025"
+      }
+    ]
+  },
+  "Above-The-Boundry": {
+    "title": "Above The Boundry - Zhang Zikang Solo Exhibition",
+    "src": "/assets/exhibitions/image/Above-The-Boundry.webp",
+    "alt": "Above The Boundry - Zhang Zikang Solo Exhibition",
+    "bgcolor": "#838282",
+    "metadata": {
+      "title": "Zhang Zikang Above The Boundry - Zhang Zikang Solo Exhibition",
+      "description": "Zhang Zikang presented his artworks at Above The Boundry - Zhang Zikang Solo Exhibition in United Overseas Bank Plaza, Shanghai from September 12, 2025 to October 2, 2025",
+      "keywords": "Zhang, Zikang, exhibition, Above The Boundry - Zhang Zikang Solo Exhibition"
+    },
+    "detail": [
+      {
+        "title": "Above The Boundry - Zhang Zikang Solo Exhibition",
+        "img": "/assets/exhibitions/image/Above-The-Boundry.webp",
+        "alt": "Above The Boundry - Zhang Zikang Solo Exhibition",
+        "location": "United Overseas Bank Plaza, Shanghai",
+        "dates": "September 12, 2025 - October 2, 2025"
+      }
+    ]
+  },
   "NordArt-2024": {
     "title": "NordArt 2024 International Art Exhibition",
     "src": "/assets/exhibitions/image/NordArt-2024.webp",
