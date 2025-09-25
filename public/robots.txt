@@ -1,0 +1,6 @@
+# *
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://www.zhang-zikang.com/sitemap.xml

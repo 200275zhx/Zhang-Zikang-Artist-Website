@@ -16,6 +16,10 @@ export function generateStaticParams() {
 }
 
 type AvailableLocale = (typeof routing.locales)[number];
+// Type guard to narrow string -> AvailableLocale
+function isAvailableLocale(x: string): x is AvailableLocale {
+  return (routing.locales as readonly string[]).includes(x);
+}
 
 export default async function ContentLayout({
   children,
@@ -23,13 +27,13 @@ export default async function ContentLayout({
 }: {
   children: React.ReactNode;
   // `params` is declared as a Promise of the object.
-  params: Promise<{ locale: AvailableLocale }>;
+  params: Promise<{ locale: string }>;
 }) {
   // Await the params before using its properties
   const { locale } = await params;
 
   // Validate the locale
-  if (!routing.locales.includes(locale)) {
+  if (!isAvailableLocale(locale)) {
     notFound();
   }
 
