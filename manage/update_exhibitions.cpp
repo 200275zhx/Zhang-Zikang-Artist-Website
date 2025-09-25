@@ -1,6 +1,6 @@
 
 // to build:
-// g++ -std=c++17 update_exhibitions.cpp -I"C:\Users\20027\Local Desktop\AW002\artist-website\manage\include" -L"C:\Users\20027\Local Desktop\AW002\artist-website\manage\lib" -lwebp -lssp -o bin\update_exhibitions.exe
+// g++ -std=c++17 update_exhibitions.cpp -I"F:\Zhang-Zikang-Artist-Website\manage\include" -L"F:\Zhang-Zikang-Artist-Website\manage\lib" -lwebp -lssp -o bin\update_exhibitions.exe
 
 // to run:
 // bin\update_exhibitions.exe
@@ -85,8 +85,8 @@ static time_t toTimeT(std::tm tm) {
 
 int main() {
     const std::vector<std::string> langs = {"en","zh"};
-    const std::string inDir  = R"(C:\Users\20027\Local Desktop\AW002\artist-website\manage\input\)";
-    const std::string outDir = R"(C:\Users\20027\Local Desktop\AW002\artist-website\src\app\data\exhibitions\json\)";
+    const std::string inDir  = R"(F:\Zhang-Zikang-Artist-Website\manage\input\)";
+    const std::string outDir = R"(F:\Zhang-Zikang-Artist-Website\src\app\data\exhibitions\json\)";
 
     for (const auto& lang : langs) {
         std::string inPath = inDir + "exhibitioninfo_" + lang + ".json";
@@ -146,7 +146,7 @@ int main() {
             {   // ---------- Compute background color ---------- //
                 // build full .webp path
                 std::string imagePath =
-                R"(C:\Users\20027\Local Desktop\AW002\artist-website\public\assets\exhibitions\image\)"
+                R"(F:\Zhang-Zikang-Artist-Website\public\assets\exhibitions\image\)"
                 + it.imageName + ".webp";
 
                 // read file into memory
