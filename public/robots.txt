@@ -2,5 +2,8 @@
 User-agent: *
 Allow: /
 
+# Host
+Host: https://www.zhang-zikang.com
+
 # Sitemaps
 Sitemap: https://www.zhang-zikang.com/sitemap.xml

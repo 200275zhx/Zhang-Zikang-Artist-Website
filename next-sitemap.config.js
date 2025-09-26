@@ -4,6 +4,10 @@ const path = require('path');
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.zhang-zikang.com';
 const locales = ['en', 'zh']; // this have to be manually update in sync with the i18n locales
+// Force a clean origin to avoid path-carryover like /en/works/en/works
+const siteOrigin = (() => {
+  try { return new URL(siteUrl).origin; } catch { return 'https://www.zhang-zikang.com'; }
+})();
 const defaultLocale = 'en'; // pick your default
 
 const pathSeg = {
@@ -70,37 +74,32 @@ module.exports = {
   generateRobotsTxt: true,
   sitemapSize: 7000,
 
-  // Ensure EVERY entry has hreflang, and loc points to the default-locale URL
-  transform: async (_config, path) => {
-    const loc = withLocale(defaultLocale, path);
-    const alternateRefs = locales.map((l) => ({
-      hreflang: l,
-      href: `${siteUrl}${withLocale(l, path)}`,
-    }));
-    return {
-      loc,
-      changefreq: 'weekly',
-      priority: baseOf(path) === '/' ? 1 : 0.7,
-      lastmod: new Date().toISOString(),
-      alternateRefs, // no x-default
-    };
-  },
+  // Rely entirely on additionalPaths; don't auto-emit anything to avoid duplicates.
+  transform: async () => null,
 
   // Add your full set (static + dynamic) explicitly so nothing is missed
-  additionalPaths: async () => {
+    additionalPaths: async () => {
     const now = new Date().toISOString();
     const allBasePaths = Array.from(new Set([...staticPaths, ...buildDynamicPaths()]));
 
-    return allBasePaths.map((p) => ({
-      loc: withLocale(defaultLocale, p),
-      lastmod: now,
-      changefreq: 'weekly',
-      priority: baseOf(p) === '/' ? 1 : 0.7,
-      alternateRefs: locales.map((l) => ({
-        hreflang: l,
-        href: `${siteUrl}${withLocale(l, p)}`,
-      })),
-    }));
+    // For each base path, output one <url> per locale (en & zh)
+    return locales.flatMap((locCode) =>
+      allBasePaths.map((p) => ({
+        loc: withLocale(locCode, p),
+        lastmod: now,
+        changefreq: 'weekly',
+        priority: baseOf(p) === '/' ? 1 : 0.7,
+        alternateRefs: locales.map((l) => ({
+          hreflang: l,
+          href: `${siteOrigin}${withLocale(l, p)}`,
+          hrefIsAbsolute: true,
+        })).concat([{
+          hreflang: 'x-default',
+          href: `${siteOrigin}${withLocale(defaultLocale, p)}`,
+          hrefIsAbsolute: true,
+        }]),
+      }))
+    );
   },
 
   // Robots: default is fine; no Host line needed
