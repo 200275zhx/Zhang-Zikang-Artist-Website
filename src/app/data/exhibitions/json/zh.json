@@ -1,4 +1,24 @@
 {
+  "Homage-to-Beuys": {
+    "title": "向博伊斯致敬： 约瑟夫·博伊斯 & 张子康双个展",
+    "src": "/assets/exhibitions/image/Homage-to-Beuys.webp",
+    "alt": "向博伊斯致敬： 约瑟夫·博伊斯 & 张子康双个展",
+    "bgcolor": "#5d5d60",
+    "metadata": {
+      "title": "张子康 向博伊斯致敬： 约瑟夫·博伊斯 & 张子康双个展",
+      "description": "张子康于2025年12月27日至2026年3月30日在德国波恩当代艺术博物馆（北京分馆）参加向博伊斯致敬： 约瑟夫·博伊斯 & 张子康双个展并展出其艺术作品",
+      "keywords": "张子康, 展览, 向博伊斯致敬： 约瑟夫·博伊斯 & 张子康双个展"
+    },
+    "detail": [
+      {
+        "title": "向博伊斯致敬： 约瑟夫·博伊斯 & 张子康双个展",
+        "img": "/assets/exhibitions/image/Homage-to-Beuys.webp",
+        "alt": "向博伊斯致敬： 约瑟夫·博伊斯 & 张子康双个展",
+        "location": "德国波恩当代艺术博物馆（北京分馆）",
+        "dates": "2025年12月27日 - 2026年3月30日"
+      }
+    ]
+  },
   "Becoming": {
     "title": "生成——张子康作品展",
     "src": "/assets/exhibitions/image/Becoming.webp",

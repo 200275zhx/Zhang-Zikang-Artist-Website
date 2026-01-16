@@ -1,4 +1,24 @@
 {
+  "Homage-to-Beuys": {
+    "title": "Homage to Beuys: A Dual Exhibition of Joseph Beuys & Zhang Zikang",
+    "src": "/assets/exhibitions/image/Homage-to-Beuys.webp",
+    "alt": "Homage to Beuys: A Dual Exhibition of Joseph Beuys & Zhang Zikang",
+    "bgcolor": "#5d5d60",
+    "metadata": {
+      "title": "Zhang Zikang Homage to Beuys: A Dual Exhibition of Joseph Beuys & Zhang Zikang",
+      "description": "Zhang Zikang presented his artworks at Homage to Beuys: A Dual Exhibition of Joseph Beuys & Zhang Zikang in Germany Bonn Contemporary Art Museum (Beijing Branch) from December 27, 2025 to March 30, 2026",
+      "keywords": "Zhang, Zikang, exhibition, Homage to Beuys: A Dual Exhibition of Joseph Beuys & Zhang Zikang"
+    },
+    "detail": [
+      {
+        "title": "Homage to Beuys: A Dual Exhibition of Joseph Beuys & Zhang Zikang",
+        "img": "/assets/exhibitions/image/Homage-to-Beuys.webp",
+        "alt": "Homage to Beuys: A Dual Exhibition of Joseph Beuys & Zhang Zikang",
+        "location": "Germany Bonn Contemporary Art Museum (Beijing Branch)",
+        "dates": "December 27, 2025 - March 30, 2026"
+      }
+    ]
+  },
   "Becoming": {
     "title": "Becoming - Zhang Zikang Solo Exhibition",
     "src": "/assets/exhibitions/image/Becoming.webp",

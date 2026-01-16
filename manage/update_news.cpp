@@ -1,5 +1,5 @@
-// Compile: g++ "C:\Users\20027\Local Desktop\AW002\artist-website\manage\update_news.cpp" -I"C:\Users\20027\Local Desktop\AW002\artist-website\manage\include" -L"C:\Users\20027\Local Desktop\AW002\artist-website\manage\lib" -std=c++17 -o "C:\Users\20027\Local Desktop\AW002\artist-website\manage\bin\update_news.exe"
-// Run: & "C:\Users\20027\Local Desktop\AW002\artist-website\manage\bin\update_news.exe"
+// Compile: g++ "F:\Zhang-Zikang-Artist-Website\manage\update_news.cpp" -I"F:\Zhang-Zikang-Artist-Website\manage\include" -L"F:\Zhang-Zikang-Artist-Website\manage\lib" -std=c++17 -o "F:\Zhang-Zikang-Artist-Website\manage\bin\update_news.exe"
+// Run: & "F:\Zhang-Zikang-Artist-Website\manage\bin\update_news.exe"
 
 #include <iostream>
 #include <fstream>
@@ -48,8 +48,8 @@ static bool compareByDateDesc(const NewsItem& a, const NewsItem& b) {
 int main() {
     const std::vector<std::string> langs = {"en", "zh"};
     for (const auto& lang : langs) {
-        const std::string inPath       = R"(C:\Users\20027\Local Desktop\AW002\artist-website\manage\input\newsinfo_)" + lang + ".json";
-        const std::string outDir       = R"(C:\Users\20027\Local Desktop\AW002\artist-website\src\app\data\news\json\)";
+        const std::string inPath       = R"(F:\Zhang-Zikang-Artist-Website\manage\input\newsinfo_)" + lang + ".json";
+        const std::string outDir       = R"(F:\Zhang-Zikang-Artist-Website\src\app\data\news\json\)";
         const std::string outAll       = outDir + lang + ".json";
         const std::string outCurations = outDir + lang + "_curations.json";
         const std::string outExhibs    = outDir + lang + "_exhibitions.json";
