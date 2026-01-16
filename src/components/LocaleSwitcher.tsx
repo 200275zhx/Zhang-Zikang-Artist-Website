@@ -19,15 +19,14 @@ export default function LocaleSwitcher() {
     );
   }
 
-  const currentLocale = params.locale; 
-  
+  const currentLocale = params.locale;
+
   return (
     <div className="text-sm space-x-4">
       <span
         className={
           // If current locale is English, show EN as normal, else muted
-          `cursor-pointer ${
-            currentLocale === "en" ? "text-black" : "text-gray-400"
+          `cursor-pointer ${currentLocale === "en" ? "text-foreground font-semibold" : "text-muted-foreground hover:text-foreground transition-colors"
           }`
         }
         onClick={() => handleLocaleClick("en")}
@@ -35,13 +34,12 @@ export default function LocaleSwitcher() {
         {t("en")}
       </span>
 
-      <span className="text-gray-600">|</span>
+      <span className="text-muted-foreground">|</span>
 
       <span
         className={
           // If current locale is Chinese, show ZH as normal, else muted
-          `cursor-pointer ${
-            currentLocale === "zh" ? "text-black" : "text-gray-400"
+          `cursor-pointer ${currentLocale === "zh" ? "text-foreground font-semibold" : "text-muted-foreground hover:text-foreground transition-colors"
           }`
         }
         onClick={() => handleLocaleClick("zh")}

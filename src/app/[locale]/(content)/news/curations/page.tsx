@@ -56,7 +56,7 @@ export default async function NewsPage({
                 href={item.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-2 inline-block text-blue-600 underline"
+                className="mt-2 inline-block text-blue-600 dark:text-blue-400 underline"
               >
                 {t('more')}
               </a>

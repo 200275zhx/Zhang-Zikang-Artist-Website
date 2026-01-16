@@ -114,7 +114,7 @@ export default function MobileNavbar() {
       {/* Sliding Panel */}
       <div
         className={`
-          fixed top-0 right-0 h-full w-full max-w-[500px] bg-white overflow-auto
+          fixed top-0 right-0 h-full w-full max-w-[500px] bg-background overflow-auto
           transition-transform duration-[1000ms] ease-in-out
           ${mobileMenuOpen ? "translate-x-0" : "translate-x-full"}
           shadow-2xl
@@ -126,11 +126,11 @@ export default function MobileNavbar() {
             <Link
               href="/"
               onClick={() => { setClickedLink("home"); closeMenu(); }}
-              className={`block w-full font-normal text-2xl px-2 py-1`}
+              className={`block w-full font-normal text-2xl px-2 py-1 hover:bg-accent hover:text-accent-foreground rounded-sm transition-colors`}
             >
               {t("name")}
             </Link>
-            <button onClick={closeMenu} className="font-light whitespace-nowrap">
+            <button onClick={closeMenu} className="font-light whitespace-nowrap hover:text-muted-foreground transition-colors">
               {t("return")}
             </button>
           </div>
@@ -141,8 +141,8 @@ export default function MobileNavbar() {
                 <Link
                   href="/news"
                   onClick={() => { setClickedLink("news"); closeMenu(); }}
-                  className={`block w-full hover:text-gray-400 px-2 py-1
-                    ${clickedLink === "news" || isNewsPage ? "bg-black text-white" : ""}
+                  className={`block w-full hover:text-muted-foreground px-2 py-1 rounded-sm transition-colors
+                    ${clickedLink === "news" || isNewsPage ? "bg-primary text-primary-foreground" : ""}
                   `}
                 >
                   {t("news")}
@@ -160,8 +160,8 @@ export default function MobileNavbar() {
                           onClick={() => { setClickedLink(key); closeMenu(); }}
                           className={
                             isActive
-                              ? "text-black font-normal"
-                              : "text-gray-400 hover:text-gray-400"
+                              ? "text-foreground font-normal"
+                              : "text-muted-foreground hover:text-foreground transition-colors"
                           }
                         >
                           {t(type)}
@@ -176,8 +176,8 @@ export default function MobileNavbar() {
                 <Link
                   href="/works"
                   onClick={() => { setClickedLink("works"); closeMenu(); }}
-                  className={`block w-full hover:text-gray-400 px-2 py-1
-                    ${clickedLink === "works" || isWorksPage ? "bg-black text-white" : ""}
+                  className={`block w-full hover:text-muted-foreground px-2 py-1 rounded-sm transition-colors
+                    ${clickedLink === "works" || isWorksPage ? "bg-primary text-primary-foreground" : ""}
                   `}
                 >
                   {t("works")}
@@ -198,8 +198,8 @@ export default function MobileNavbar() {
                           onClick={() => { setClickedLink(key); closeMenu(); }}
                           className={
                             isActive
-                              ? "text-black font-normal"
-                              : "text-gray-400 hover:text-gray-400"
+                              ? "text-foreground font-normal"
+                              : "text-muted-foreground hover:text-foreground transition-colors"
                           }
                         >
                           {year}
@@ -213,8 +213,8 @@ export default function MobileNavbar() {
               <Link
                 href="/exhibitions"
                 onClick={() => { setClickedLink("exhibitions"); closeMenu(); }}
-                className={`block w-full hover:text-gray-400 px-2 py-1
-                  ${clickedLink === "exhibitions" || segments[0] === "exhibitions" ? "bg-black text-white" : ""}
+                className={`block w-full hover:text-muted-foreground px-2 py-1 rounded-sm transition-colors
+                  ${clickedLink === "exhibitions" || segments[0] === "exhibitions" ? "bg-primary text-primary-foreground" : ""}
                 `}
               >
                 {t("exhibitions")}
@@ -224,8 +224,8 @@ export default function MobileNavbar() {
                 <Link
                   href="/publications"
                   onClick={() => { setClickedLink("publications"); closeMenu(); }}
-                  className={`block w-full hover:text-gray-400 px-2 py-1
-                    ${clickedLink === "publications" || isPublicationsPage ? "bg-black text-white" : ""}
+                  className={`block w-full hover:text-muted-foreground px-2 py-1 rounded-sm transition-colors
+                    ${clickedLink === "publications" || isPublicationsPage ? "bg-primary text-primary-foreground" : ""}
                   `}
                 >
                   {t("publications")}
@@ -243,8 +243,8 @@ export default function MobileNavbar() {
                           onClick={() => { setClickedLink(key); closeMenu(); }}
                           className={
                             isActive
-                              ? "text-black font-normal"
-                              : "text-gray-400 hover:text-gray-400"
+                              ? "text-foreground font-normal"
+                              : "text-muted-foreground hover:text-foreground transition-colors"
                           }
                         >
                           {t(type)}
@@ -258,8 +258,8 @@ export default function MobileNavbar() {
               <Link
                 href="/biography"
                 onClick={() => { setClickedLink("biography"); closeMenu(); }}
-                className={`block w-full hover:text-gray-400 px-2 py-1
-                  ${clickedLink === "biography" || segments[0] === "biography" ? "bg-black text-white" : ""}
+                className={`block w-full hover:text-muted-foreground px-2 py-1 rounded-sm transition-colors
+                  ${clickedLink === "biography" || segments[0] === "biography" ? "bg-primary text-primary-foreground" : ""}
                 `}
               >
                 {t("biography")}
@@ -270,8 +270,8 @@ export default function MobileNavbar() {
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => { setClickedLink("contact"); closeMenu(); }}
-                className={`block w-full hover:text-gray-400 px-2 py-1
-                  ${clickedLink === "contact" ? "bg-black text-white" : ""}
+                className={`block w-full hover:text-muted-foreground px-2 py-1 rounded-sm transition-colors
+                  ${clickedLink === "contact" ? "bg-primary text-primary-foreground" : ""}
                 `}
               >
                 {t("contact")}
@@ -290,16 +290,16 @@ export default function MobileNavbar() {
     <>
       <button
         onClick={mobileMenuOpen ? closeMenu : openMenu}
-        className="p-2"
+        className="p-2 text-foreground"
         aria-label="Open menu"
       >
         {mobileMenuOpen ? (
           "X"
         ) : (
           <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-            <rect y="2" width="28" height="3" rx="1.5" fill="black" />
-            <rect y="12" width="28" height="3" rx="1.5" fill="black" />
-            <rect y="22" width="28" height="3" rx="1.5" fill="black" />
+            <rect y="2" width="28" height="3" rx="1.5" className="fill-current" />
+            <rect y="12" width="28" height="3" rx="1.5" className="fill-current" />
+            <rect y="22" width="28" height="3" rx="1.5" className="fill-current" />
           </svg>
         )}
       </button>

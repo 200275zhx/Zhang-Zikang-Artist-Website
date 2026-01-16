@@ -6,6 +6,7 @@ import { routing } from '@/i18n/routing'
 import type { Metadata } from "next"
 import { Noto_Sans_SC } from 'next/font/google'
 import "./globals.css"
+import { ThemeProvider } from "@/components/ThemeProvider"
 import Script from 'next/script'
 import { AnalyticsTracker } from '@/components/AnalyticsTracker'
 import { GA_MEASUREMENT_ID } from '@/app/lib/gtag'
@@ -57,7 +58,7 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} suppressHydrationWarning>
       <head>
         {/* GA4 Script */}
         <Script
@@ -78,10 +79,17 @@ export default async function RootLayout({
         />
       </head>
       {/* <body className={`${notoSansSC.className} font-medium italic antialiased tracking-wide`}> */}
-      <body className={`${notoSansSC.className} font-medium antialiased tracking-wide`}>
+      <body className={`${notoSansSC.className} font-medium antialiased tracking-wide bg-background text-foreground`}>
         <NextIntlClientProvider messages={messages}>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
             <AnalyticsTracker />
             {children}
+          </ThemeProvider>
         </NextIntlClientProvider>
       </body>
     </html>

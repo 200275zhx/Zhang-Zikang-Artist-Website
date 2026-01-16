@@ -29,10 +29,10 @@ export default function Navbar() {
 
   const years = [2025, 2024, 2023, 2022, 2019, 2017, 2016, 2015, 2014];
   const PUB_TYPE_SLUGS: Record<string, Record<string, string>> = {
-    articles:   { en: "articles",            zh: "xue-shu-wen-zhang"   },
-    editions:   { en: "editions",            zh: "bian-ji-tu-shu"      },
-    interviews: { en: "interviews",          zh: "fang-tan"            },
-    monographs: { en: "monographs",          zh: "xue-shu-zhuan-zhu"   },
+    articles: { en: "articles", zh: "xue-shu-wen-zhang" },
+    editions: { en: "editions", zh: "bian-ji-tu-shu" },
+    interviews: { en: "interviews", zh: "fang-tan" },
+    monographs: { en: "monographs", zh: "xue-shu-zhuan-zhu" },
   };
   const PUBLICATION_TYPES = Object.keys(PUB_TYPE_SLUGS);
 
@@ -51,26 +51,16 @@ export default function Navbar() {
   };
   const NEWS_TYPES = Object.keys(NEWS_TYPE_SLUGS);
 
-  // // Helper to determine active path for main links
-  // const isActiveMain = (key: string) => {
-  //   if (key === "works") return isWorksPage;
-  //   if (key === "publications") return isPublicationsPage;
-  //   if (key === "news") return isNewsPage;
-  //   if (key === "exhibitions") return segments[0] === "exhibitions";
-  //   if (key === "biography") return segments[0] === "biography";
-  //   return false;
-  // };
-
   return (
-    <nav className="sticky top-0 h-screen pt-12 pl-20 pr-16 text-sm">
+    <nav className="sticky top-0 h-screen pt-12 pl-20 pr-16 text-sm flex flex-col justify-between pb-8">
       <div className="flex flex-col space-y-4">
 
         {/* News */}
         <div>
           <Link
             href="/news"
-            className={`block w-full px-2 py-1 whitespace-nowrap min-w-max
-              ${isNewsPage ? "bg-black text-white" : "hover:text-gray-400"}
+            className={`block w-full px-2 py-1 whitespace-nowrap min-w-max transition-colors rounded-sm
+              ${isNewsPage ? "bg-primary text-primary-foreground" : "text-muted-foreground hover:text-foreground"}
             `}
           >
             {t("news")}
@@ -84,10 +74,10 @@ export default function Navbar() {
                   <Link
                     key={type}
                     href={{ pathname: "/news/[newstype]", params: { newstype: localized } }}
-                    className={`whitespace-nowrap
+                    className={`whitespace-nowrap transition-colors
                       ${isActive
-                        ? "text-black font-semibold"
-                        : "text-gray-400 hover:text-gray-400"}
+                        ? "text-foreground font-semibold"
+                        : "text-muted-foreground hover:text-foreground"}
                     `}
                   >
                     {t(type)}
@@ -102,8 +92,8 @@ export default function Navbar() {
         <div>
           <Link
             href="/works"
-            className={`block w-full px-2 py-1 whitespace-nowrap min-w-max
-              ${isWorksPage ? "bg-black text-white" : "hover:text-gray-400"}
+            className={`block w-full px-2 py-1 whitespace-nowrap min-w-max transition-colors rounded-sm
+              ${isWorksPage ? "bg-primary text-primary-foreground" : "text-muted-foreground hover:text-foreground"}
             `}
           >
             {t("works")}
@@ -117,10 +107,10 @@ export default function Navbar() {
                   <Link
                     key={year}
                     href={{ pathname: "/works/[workId]", params: { workId: slug } }}
-                    className={ `whitespace-nowrap
+                    className={`whitespace-nowrap transition-colors
                       ${isActive
-                        ? "text-black font-semibold"
-                        : "text-gray-400 hover:text-gray-400"}
+                        ? "text-foreground font-semibold"
+                        : "text-muted-foreground hover:text-foreground"}
                     `}
                   >
                     {year}
@@ -134,8 +124,8 @@ export default function Navbar() {
         {/* Exhibitions */}
         <Link
           href="/exhibitions"
-          className={`block w-full px-2 py-1 whitespace-nowrap min-w-max
-            ${segments[0] === "exhibitions" ? "bg-black text-white" : "hover:text-gray-400"}
+          className={`block w-full px-2 py-1 whitespace-nowrap min-w-max transition-colors rounded-sm
+            ${segments[0] === "exhibitions" ? "bg-primary text-primary-foreground" : "text-muted-foreground hover:text-foreground"}
           `}
         >
           {t("exhibitions")}
@@ -145,11 +135,11 @@ export default function Navbar() {
         <div>
           <Link
             href="/publications"
-            className={`block w-full px-2 py-1 whitespace-nowrap min-w-max
-              ${isPublicationsPage ? "bg-black text-white" : "hover:text-gray-400"}
+            className={`block w-full px-2 py-1 whitespace-nowrap min-w-max transition-colors rounded-sm
+              ${isPublicationsPage ? "bg-primary text-primary-foreground" : "text-muted-foreground hover:text-foreground"}
             `}
           >
-              {t("publications")}
+            {t("publications")}
           </Link>
           {isPublicationsPage && (
             <div className="mt-2 ml-4 flex flex-col space-y-2">
@@ -160,13 +150,13 @@ export default function Navbar() {
                   <Link
                     key={type}
                     href={{ pathname: "/publications/[pubtype]", params: { pubtype: localized } }}
-                    className={`whitespace-nowrap
+                    className={`whitespace-nowrap transition-colors
                       ${isActive
-                        ? "text-black font-semibold"
-                        : "text-gray-400 hover:text-gray-400"}
+                        ? "text-foreground font-semibold"
+                        : "text-muted-foreground hover:text-foreground"}
                     `}
                   >
-                      {t(type)}
+                    {t(type)}
                   </Link>
                 );
               })}
@@ -177,8 +167,8 @@ export default function Navbar() {
         {/* Biography */}
         <Link
           href="/biography"
-          className={`block w-full px-2 py-1 whitespace-nowrap min-w-max
-            ${segments[0] === "biography" ? "bg-black text-white" : "hover:text-gray-400"}
+          className={`block w-full px-2 py-1 whitespace-nowrap min-w-max transition-colors rounded-sm
+            ${segments[0] === "biography" ? "bg-primary text-primary-foreground" : "text-muted-foreground hover:text-foreground"}
           `}
         >
           {t("biography")}
@@ -189,14 +179,15 @@ export default function Navbar() {
           href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=hexunzh@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
-          className={`block w-full px-2 py-1 whitespace-nowrap min-w-max
+          className={`block w-full px-2 py-1 whitespace-nowrap min-w-max transition-colors rounded-sm
             ${segments[0] === undefined ? "" : ""}
-            hover:text-gray-400`
+            text-muted-foreground hover:text-foreground`
           }
         >
           {t("contact")}
         </a>
       </div>
+
     </nav>
   );
 }
