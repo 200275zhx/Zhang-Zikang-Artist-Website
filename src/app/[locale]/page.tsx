@@ -68,7 +68,7 @@ export default async function HomePage() {
               <Link href="/exhibitions" className="hover:text-muted-foreground transition-colors">{t('navbar.exhibitions')}</Link>
               <Link href="/publications" className="hover:text-muted-foreground transition-colors">{t('navbar.publications')}</Link>
               <Link href="/biography" className="hover:text-muted-foreground transition-colors">{t('navbar.biography')}</Link>
-              <Link href="/contact" className="hover:text-muted-foreground transition-colors">{t('navbar.contact')}</Link>
+              <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=hexunzh@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:text-muted-foreground transition-colors">{t('navbar.contact')}</a>
             </span>
             <span className="hidden xl:block">
               <LocaleSwitcher />

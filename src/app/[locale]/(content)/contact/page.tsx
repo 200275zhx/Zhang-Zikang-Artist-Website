@@ -6,7 +6,7 @@ export default async function ContactPage() {
   return (
     <div>
       <h1>{t('title')}</h1>
-      <Link href="/">{t('go back')}</Link>
+      <Link href="/">←</Link>
     </div>
   );
 }

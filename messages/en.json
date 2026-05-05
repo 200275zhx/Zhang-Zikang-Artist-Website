@@ -16,7 +16,6 @@
             "contact": "CONTACT"
         }
     },
-
     "Translations": {
         "zh": "中",
         "en": "EN"
@@ -29,17 +28,13 @@
         "publications": "PUBLICATIONS",
         "biography": "BIOGRAPHY",
         "contact": "CONTACT",
-
         "articles": "ARTICLES",
         "editions": "EDITIONS",
         "interviews": "INTERVIEWS",
         "monographs": "MONOGRAPHS",
-
         "curations": "CURATIONS",
         "return": "RETURN >"
     },
-
-
     "WorksPage": {
         "metadata": {
             "title": "Works – Zhang Zikang’s Art Portfolio & Creative Projects",
@@ -47,21 +42,16 @@
             "keywords": "Zhang Zikang, artworks, multimedia installations, traditional paintings, Eastern and Western art"
         }
     },
-
-
     "NewsPage": {
         "metadata": {
             "title": "News – Latest Updates & Media Coverage of Zhang Zikang",
             "description": "Stay informed with the latest official news and media coverage on Zhang Zikang. Read press releases, interviews, and feature articles detailing his recent art projects, exhibitions, and curatorial initiatives.",
             "keywords": "Zhang Zikang news, art news, press releases, media coverage, interviews, contemporary art updates, curatorial initiatives"
         },
-
         "more": "Learn More",
         "time": "Time",
         "location": "Location"
     },
-
-    
     "ExhibitionsPage": {
         "metadata": {
             "title": "Exhibitions – Curated Art Shows & International Projects by Zhang Zikang",
@@ -69,8 +59,6 @@
             "keywords": "Zhang Zikang exhibitions, curated art shows, Chinese Pavilion, Venice Biennale, international art projects, contemporary exhibitions, curatorial vision"
         }
     },
-
-
     "PublicationsPage": {
         "metadata": {
             "title": "Publications – Research, Essays & Writings by Zhang Zikang",
@@ -85,8 +73,6 @@
             "source": "Collected Volume"
         }
     },
-
-
     "BiographyPage": {
         "metadata": {
             "title": "Biography – The Life & Career of Zhang Zikang",
@@ -113,7 +99,6 @@
             "1999-2006": "Art Director, Beijing Songyafeng Culture and Art Center, Hebei Education Publishing House / China",
             "1992-1999": "Art Editor, Hebei Education Publishing House / China<div></div>Director, Cultural Editing Office, Hebei Education Publishing House / China",
             "1989-1992": "Art Editor, Hebei Provincial Book Distribution Newspaper / China",
-
             "[Year1]": "Professor & Doctoral Supervisor of Central Academy of Fine Arts (CAFA) / China",
             "[Year2]": "Honorary Director of Xinjiang Art Museum / China",
             "[Year3]": "Chair of Academic Committee of Xinjiang Art Museum / China",
@@ -160,13 +145,10 @@
         "awards-content": {
             "[Year]": "(Award Name) / (Awarding Organization) / (Country)<div></div>(Please provide award details if available)"
         },
-
         "summary-1": "Zhang Zikang is a professor and doctoral advisor at the Central Academy of Fine Arts (CAFA). He currently serves as the Honorary Director of Xinjiang Art Museum, Chair of the Academic Committee of Xinjiang Art Museum, and Director of Xinyi Art Museum. He has previously held key positions, including Director of the CAFA Art Museum, Deputy Director of the National Art Museum of China, President of Xinjiang Painting Academy, President of the Culture and Arts Publishing House, Executive Vice President of the Institute of Contemporary Art at the Chinese National Academy of Arts, Director of the Information Research Center at the National Academy of Painting, and Director of Today Art Museum.",
         "summary-2": "As an artist, Zhang’s works have been exhibited in Italy, Germany, South Korea, Hong Kong, Macau, Beijing, Shanghai, and other locations. His art spans various media, including ink painting, oil painting, and video, and his works have been collected by institutions such as the Zhongshan Museum, CAFA Art Museum, and Ningbo Art Museum. In recent years, he has participated in major international exhibitions, including the 11th Florence Biennale of Contemporary Art (Italy, 2017), the 18th BIEAF Asia International Contemporary Art Invitational Exhibition (South Korea, 2020), Mountains and Water Circle-Yan Mountain Meeting 2022 International Ink Art Exhibition (Shandong, 2022), InK Asia (Hong Kong, 2023), Zizai Xukong-Zhang Zikang Solo Exhibition (Beijing, 2024), and NordArt 2024 International Contemporary Art Exhibition (Germany, 2024).",
         "summary-3": "In curatorial work, Zhang has played a pivotal role in organizing and leading influential domestic and international exhibitions, such as Marc Chagall’s First Exhibition in China, Leandro Erlich-The Mirage, Anish Kapoor, Xu Beihong: The Life of a Great Artist, the 59th Venice Biennale China Pavilion, the 3rd and 4th Xinjiang International Biennales, Antoni Tàpies-Dialogue with Matter, and Liang Shaoji: Oceanic Abyss. Additionally, he has curated and edited over a thousand art and literature books, winning multiple national awards. His publications include Art Museums, Cultural City-Making, Survival Across Borders, Art Museums, Zhang Zikang Oil Painting Collection, and Zhang Zikang-Territories (a collection of video works). He has also published over a hundred academic essays on contemporary art, contributing significantly to the integration of artistic practice and academic research."
     },
-
-
     "ContactPage": {
         "title": "Contact Us",
         "description": "Get in touch with us"
