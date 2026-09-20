@@ -2,11 +2,11 @@
     "8-2": {
         "title": "远行",
         "src": "/assets/works/image/8-2.webp",
-        "alt": "远行 by Zhang Zikang",
+        "alt": "张子康 《远行》",
         "metadata": {
-            "title": "远行 by Zhang Zikang",
-            "description": "远行 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 远行, traditional painting, Eastern and Western art"
+            "title": "张子康 《远行》",
+            "description": "张子康作品《远行》，布面油画，51x58cm，2017年",
+            "keywords": "张子康, 艺术作品, 远行, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -15,18 +15,18 @@
                 "year": "2017",
                 "media": "布面油画",
                 "size": "51x58cm",
-                "alt": "远行 by Zhang Zikang"
+                "alt": "张子康 《远行》"
             }
         ]
     },
     "8-1": {
         "title": "归途",
         "src": "/assets/works/image/8-1.webp",
-        "alt": "归途 by Zhang Zikang",
+        "alt": "张子康 《归途》",
         "metadata": {
-            "title": "归途 by Zhang Zikang",
-            "description": "归途 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 归途, traditional painting, Eastern and Western art"
+            "title": "张子康 《归途》",
+            "description": "张子康作品《归途》，布面油画，51x58cm，2017年",
+            "keywords": "张子康, 艺术作品, 归途, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -35,7 +35,7 @@
                 "year": "2017",
                 "media": "布面油画",
                 "size": "51x58cm",
-                "alt": "归途 by Zhang Zikang"
+                "alt": "张子康 《归途》"
             }
         ]
     }
