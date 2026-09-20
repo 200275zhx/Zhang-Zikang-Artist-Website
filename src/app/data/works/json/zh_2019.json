@@ -2,11 +2,11 @@
     "9-2": {
         "title": "神鸟",
         "src": "/assets/works/image/9-2.webp",
-        "alt": "神鸟 by Zhang Zikang",
+        "alt": "张子康 《神鸟》",
         "metadata": {
-            "title": "神鸟 by Zhang Zikang",
-            "description": "神鸟 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 神鸟, traditional painting, Eastern and Western art"
+            "title": "张子康 《神鸟》",
+            "description": "张子康作品《神鸟》，布面油画，54x45cm，2019年",
+            "keywords": "张子康, 艺术作品, 神鸟, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -15,18 +15,18 @@
                 "year": "2019",
                 "media": "布面油画",
                 "size": "54x45cm",
-                "alt": "神鸟 by Zhang Zikang"
+                "alt": "张子康 《神鸟》"
             }
         ]
     },
     "9-1": {
         "title": "桥下",
         "src": "/assets/works/image/9-1.webp",
-        "alt": "桥下 by Zhang Zikang",
+        "alt": "张子康 《桥下》",
         "metadata": {
-            "title": "桥下 by Zhang Zikang",
-            "description": "桥下 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 桥下, traditional painting, Eastern and Western art"
+            "title": "张子康 《桥下》",
+            "description": "张子康作品《桥下》，布面油画，40x58cm，2019年",
+            "keywords": "张子康, 艺术作品, 桥下, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -35,7 +35,7 @@
                 "year": "2019",
                 "media": "布面油画",
                 "size": "40x58cm",
-                "alt": "桥下 by Zhang Zikang"
+                "alt": "张子康 《桥下》"
             }
         ]
     }

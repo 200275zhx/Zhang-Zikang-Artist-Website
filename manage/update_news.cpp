@@ -1,5 +1,10 @@
-// Compile: g++ "F:\Zhang-Zikang-Artist-Website\manage\update_news.cpp" -I"F:\Zhang-Zikang-Artist-Website\manage\include" -L"F:\Zhang-Zikang-Artist-Website\manage\lib" -std=c++17 -o "F:\Zhang-Zikang-Artist-Website\manage\bin\update_news.exe"
-// Run: & "F:\Zhang-Zikang-Artist-Website\manage\bin\update_news.exe"
+// Build (from the repository root):
+//   g++ -std=c++17 -static -static-libgcc -static-libstdc++ manage/update_news.cpp -Imanage/include -o manage/bin/update_news.exe
+//
+// Run: manage/bin/update_news.exe
+//
+// Paths resolve from the executable's own location, so the tool can be run
+// from any working directory.
 
 #include <iostream>
 #include <fstream>
@@ -10,6 +15,7 @@
 #include <iomanip>
 #include <cstdlib>
 #include <nlohmann/json.hpp>
+#include <project_paths.hpp>
 
 // use insertion-ordered variant
 using ordered_json = nlohmann::ordered_json;
@@ -45,11 +51,13 @@ static bool compareByDateDesc(const NewsItem& a, const NewsItem& b) {
     return ta.tm_mday > tb.tm_mday;
 }
 
-int main() {
+int main(int argc, char** argv) {
+    (void)argc;
+    const auto root = manage::projectRoot(argv[0]);
     const std::vector<std::string> langs = {"en", "zh"};
     for (const auto& lang : langs) {
-        const std::string inPath       = R"(F:\Zhang-Zikang-Artist-Website\manage\input\newsinfo_)" + lang + ".json";
-        const std::string outDir       = R"(F:\Zhang-Zikang-Artist-Website\src\app\data\news\json\)";
+        const std::string inPath       = (root / "manage" / "input").string() + "/newsinfo_" + lang + ".json";
+        const std::string outDir       = (root / "src" / "app" / "data" / "news" / "json").string() + "/";
         const std::string outAll       = outDir + lang + ".json";
         const std::string outCurations = outDir + lang + "_curations.json";
         const std::string outExhibs    = outDir + lang + "_exhibitions.json";

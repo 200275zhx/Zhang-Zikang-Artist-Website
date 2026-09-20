@@ -1,4 +1,10 @@
-// File: manage/generate_all.cpp
+// Build (from the repository root):
+//   g++ -std=c++17 -static -static-libgcc -static-libstdc++ manage/update_works.cpp -Imanage/include -o manage/bin/update_works.exe
+//
+// Run: manage/bin/update_works.exe
+//
+// Paths resolve from the executable's own location, so the tool can be run
+// from any working directory.
 
 #include <filesystem>
 #include <fstream>
@@ -13,6 +19,7 @@
 
 // nlohmann ordered_json for preserving insertion order
 #include <nlohmann/json.hpp>
+#include <project_paths.hpp>
 using ordered_json = nlohmann::ordered_json;
 
 namespace fs = std::filesystem;
@@ -49,19 +56,68 @@ void replaceAll(std::string& str,
 
 // --- Main ---
 
-int main() {
-    // Paths are relative to manage/bin when running
-    const fs::path INPUT_EN_JSON        = "../input/workinfo_en.json";
-    const fs::path INPUT_ZH_JSON        = "../input/workinfo_zh.json";
-    const fs::path OUTPUT_JSON_DIR      = "../../src/app/data/works/json";
-    const fs::path TEMPLATE_DIR         = "../input/sample_year_page";
-    const fs::path WORKS_OUTPUT_DIR     = "../../src/app/[locale]/(content)/works";
-    const fs::path NAVBAR_PATH          = "../../src/components/Navbar.tsx";
-    const fs::path MOBILENAVBAR_PATH    = "../../src/components/MobileNavbar.tsx";
-    const fs::path ROUTING_PATH         = "../../src/i18n/routing.ts";
+int main(int argc, char** argv) {
+    (void)argc;
+    // Paths resolve from the executable's own location, so the tool runs from
+    // any working directory and on any checkout.
+    const fs::path ROOT                 = manage::projectRoot(argv[0]);
+    const fs::path INPUT_EN_JSON        = ROOT / "manage/input/workinfo_en.json";
+    const fs::path INPUT_ZH_JSON        = ROOT / "manage/input/workinfo_zh.json";
+    const fs::path OUTPUT_JSON_DIR      = ROOT / "src/app/data/works/json";
+    const fs::path TEMPLATE_DIR         = ROOT / "manage/input/sample_year_page";
+    const fs::path WORKS_OUTPUT_DIR     = ROOT / "src/app/[locale]/(content)/works";
+    const fs::path NAVBAR_PATH          = ROOT / "src/components/Navbar.tsx";
+    const fs::path MOBILENAVBAR_PATH    = ROOT / "src/components/MobileNavbar.tsx";
+    const fs::path PATHNAMES_PATH       = ROOT / "src/i18n/pathnames.js";
 
     // We'll collect all years across both locales
     std::set<std::string, std::greater<>> allYearsSet;
+
+    // Builds one work entry. Both the flat and the per-year passes go through
+    // this, so the two can no longer drift apart. Chinese entries get Chinese
+    // metadata; the description carries medium, size and year so the search
+    // snippet says something the title does not.
+    auto buildWork = [](const std::string& locale,
+                        const std::string& imageName,
+                        const std::string& workName,
+                        const std::string& year,
+                        const std::string& media,
+                        const std::string& sizeStr) {
+        std::string imgPath = "/assets/works/image/" + imageName + ".webp";
+
+        std::string label, description, keywords;
+        if (locale == "zh") {
+            label       = "张子康 《" + workName + "》";
+            description = "张子康作品《" + workName + "》，" + media + "，" + sizeStr + "，" + year + "年";
+            keywords    = "张子康, 艺术作品, " + workName + ", 传统绘画, 东西方艺术";
+        } else {
+            label       = workName + " by Zhang Zikang";
+            description = label + " — " + media + ", " + sizeStr + ", " + year;
+            keywords    = "Zhang Zikang, artworks, " + workName + ", traditional painting, Eastern and Western art";
+        }
+
+        ordered_json projObj = ordered_json::object();
+        projObj["title"] = workName;
+        projObj["src"]   = imgPath;
+        projObj["alt"]   = label;
+
+        ordered_json meta = ordered_json::object();
+        meta["title"]       = label;
+        meta["description"] = description;
+        meta["keywords"]    = keywords;
+        projObj["metadata"] = meta;
+
+        ordered_json detailObj = ordered_json::object();
+        detailObj["title"] = workName;
+        detailObj["img"]   = imgPath;
+        detailObj["year"]  = year;
+        detailObj["media"] = media;
+        detailObj["size"]  = sizeStr;
+        detailObj["alt"]   = label;
+        projObj["detail"] = ordered_json::array({ detailObj });
+
+        return projObj;
+    };
 
     // Helper lambda to process one locale
     auto processLocale = [&](const std::string& locale) {
@@ -89,29 +145,7 @@ int main() {
             std::string media     = project[3].get<std::string>();
             std::string sizeStr   = project[4].get<std::string>();
 
-            std::string imgPath = "/assets/works/image/" + imageName + ".webp";
-            std::string altText = workName + " by Zhang Zikang";
-            std::string keywords = "Zhang Zikang, artworks, " + workName + ", traditional painting, Eastern and Western art";
-
-            ordered_json projObj = ordered_json::object();
-            projObj["title"] = workName;
-            projObj["src"]   = imgPath;
-            projObj["alt"]   = altText;
-
-            ordered_json meta = ordered_json::object();
-            meta["title"]       = altText;
-            meta["description"] = altText;
-            meta["keywords"]    = keywords;
-            projObj["metadata"] = meta;
-
-            ordered_json detailObj = ordered_json::object();
-            detailObj["title"] = workName;
-            detailObj["img"]   = imgPath;
-            detailObj["year"]  = year;
-            detailObj["media"] = media;
-            detailObj["size"]  = sizeStr;
-            detailObj["alt"]   = altText;
-            projObj["detail"] = ordered_json::array({ detailObj });
+            ordered_json projObj = buildWork(locale, imageName, workName, year, media, sizeStr);
 
             defaultOut[imageName] = projObj;
         }
@@ -133,27 +167,7 @@ int main() {
             std::string media     = project[3].get<std::string>();
             std::string sizeStr   = project[4].get<std::string>();
 
-            std::string imgPath = "/assets/works/image/" + imageName + ".webp";
-            std::string altText = workName + " by Zhang Zikang";
-            std::string keywords = "Zhang Zikang, artworks, " + workName + ", traditional painting, Eastern and Western art";
-
-            ordered_json projObj = ordered_json::object();
-            projObj["title"] = workName;
-            projObj["src"]   = imgPath;
-            projObj["alt"]   = altText;
-            ordered_json meta = ordered_json::object();
-            meta["title"]       = altText;
-            meta["description"] = altText;
-            meta["keywords"]    = keywords;
-            projObj["metadata"] = meta;
-            ordered_json detailObj = ordered_json::object();
-            detailObj["title"] = workName;
-            detailObj["img"]   = imgPath;
-            detailObj["year"]  = year;
-            detailObj["media"] = media;
-            detailObj["size"]  = sizeStr;
-            detailObj["alt"]   = altText;
-            projObj["detail"] = ordered_json::array({ detailObj });
+            ordered_json projObj = buildWork(locale, imageName, workName, year, media, sizeStr);
 
             groups[year][imageName] = projObj;
         }
@@ -179,6 +193,7 @@ int main() {
     fs::path tmplPath    = TEMPLATE_DIR / "page.tsx";
     fs::path sampleWIDir = TEMPLATE_DIR / "[workId]";
     auto tmpl = readFile(tmplPath);
+    auto detailTmpl = readFile(sampleWIDir / "page.tsx");
 
     for (auto& year : years) {
         fs::path yearDir = WORKS_OUTPUT_DIR / year;
@@ -186,22 +201,18 @@ int main() {
         fs::create_directories(yearDir);
 
         // Fill in template
+        // The per-year page files are thin wrappers around works/_shared/*,
+        // so the only year token in the template is the literal 2025.
         std::string out = tmpl;
-        replaceAll(out, "en_2025.json",              "en_" + year + ".json");
-        replaceAll(out, "zh_2025.json",              "zh_" + year + ".json");
-        replaceAll(out, "Works2025Map",              "Works" + year + "Map");
-        replaceAll(out, "` ${t('title')} - 2025`",  "` ${t('title')} - " + year + "`");
-        replaceAll(out, "Works2025Map[locale]",      "Works" + year + "Map[locale]");
-        replaceAll(out,
-                   "pathname: '/works/2025/[workId]'",
-                   "pathname: '/works/" + year + "/[workId]'");
+        replaceAll(out, "2025", year);
 
         writeFile(yearDir / "page.tsx", out);
 
-        // Copy the [workId] template folder
-        fs::copy(sampleWIDir,
-                 yearDir / "[workId]",
-                 fs::copy_options::recursive);
+        // The [workId] wrapper is year-scoped too (it imports that year's JSON),
+        // so it needs the same substitution rather than a verbatim copy.
+        std::string detailOut = detailTmpl;
+        replaceAll(detailOut, "2025", year);
+        writeFile(yearDir / "[workId]" / "page.tsx", detailOut);
 
         std::cout << "Generated page for year " << year << "\n";
     }
@@ -235,8 +246,7 @@ int main() {
     
         std::ostringstream oss;
         for (size_t i = 0; i < lines.size(); ++i) {
-            oss << lines[i];
-            if (i + 1 < lines.size()) oss << "\n";
+            oss << lines[i] << "\n";
         }
         writeFile(NAVBAR_PATH, oss.str());
         std::cout << "Updated Navbar.tsx\n";
@@ -270,65 +280,62 @@ int main() {
     
         std::ostringstream ossMobile;
         for (size_t i = 0; i < mobileLines.size(); ++i) {
-            ossMobile << mobileLines[i];
-            if (i + 1 < mobileLines.size()) ossMobile << "\n";
+            ossMobile << mobileLines[i] << "\n";
         }
         writeFile(MOBILENAVBAR_PATH, ossMobile.str());
         std::cout << "Updated MobileNavbar.tsx\n";
     }    
 
-    // --- Update routing.ts with per‑year listing + detail routes, skipping existing ---
+    // --- Update pathnames.js with per-year listing + detail routes, skipping existing ---
     {
-        const fs::path ROUTING_PATH = "../../src/i18n/routing.ts";
-        auto text = readFile(ROUTING_PATH);
+        auto text = readFile(PATHNAMES_PATH);
 
-        // 1) Locate pathnames opening brace
-        auto posNames  = text.find("pathnames");
-        auto braceOpen = text.find('{', posNames);
-        if (posNames == std::string::npos || braceOpen == std::string::npos)
-            throw std::runtime_error("Cannot find pathnames in routing.ts");
-
-        // 2) Find the closing '}' of the last existing entry (depth 2→1)
-        int depth = 0;
-        size_t lastEntryClose = std::string::npos;
-        for (size_t i = braceOpen; i < text.size(); ++i) {
-            if (text[i] == '{')      ++depth;
-            else if (text[i] == '}') {
-                --depth;
-                if (depth == 1) lastEntryClose = i;
-                else if (depth == 0) break;
+        // Read the Chinese /works segment out of the file rather than hardcoding
+        // it, so a generated route can never drift from the real slug again.
+        std::string zhWorks = "/zuo-pin";
+        auto worksKey = text.find("\"/works\": {");
+        if (worksKey != std::string::npos) {
+            auto zhPos = text.find("zh:", worksKey);
+            if (zhPos != std::string::npos) {
+                auto q1 = text.find('"', zhPos);
+                auto q2 = (q1 == std::string::npos) ? std::string::npos : text.find('"', q1 + 1);
+                if (q2 != std::string::npos) zhWorks = text.substr(q1 + 1, q2 - q1 - 1);
             }
         }
-        if (lastEntryClose == std::string::npos)
-            throw std::runtime_error("Could not find last entry close in routing.ts");
 
-        // 3) Build insertion text for each year: base route then detail route
+        // The map is closed by the last "};" before the module.exports line.
+        auto exportsPos = text.find("module.exports");
+        if (exportsPos == std::string::npos)
+            throw std::runtime_error("Cannot find module.exports in pathnames.js");
+        auto closePos = text.rfind("};", exportsPos);
+        if (closePos == std::string::npos)
+            throw std::runtime_error("Cannot find the end of the pathnames map");
+
         std::ostringstream ins;
         for (auto& year : years) {
-            // Base listing route: "/works/<year>"
-            std::string baseKey = "\"/works/" + year + "\"";
+            std::string baseKey = "\"/works/" + year + "\":";
             if (text.find(baseKey) == std::string::npos) {
-                ins << ",\n"
-                    << "    \"/works/" << year << "\": {\n"
-                    << "      en: \"/works/" << year << "\",\n"
-                    << "      zh: \"/zuopin/" << year << "\"\n"
-                    << "    }";
+                ins << "  \"/works/" << year << "\": {\n"
+                    << "    en: \"/works/" << year << "\",\n"
+                    << "    zh: \"" << zhWorks << "/" << year << "\",\n"
+                    << "  },\n";
             }
-            // Detail route: "/works/<year>/[workId]"
-            std::string detailKey = "\"/works/" + year + "/[workId]\"";
+            std::string detailKey = "\"/works/" + year + "/[workId]\":";
             if (text.find(detailKey) == std::string::npos) {
-                ins << ",\n"
-                    << "    \"/works/" << year << "/[workId]\": {\n"
-                    << "      en: \"/works/" << year << "/[workId]\",\n"
-                    << "      zh: \"/zuopin/" << year << "/[workId]\"\n"
-                    << "    }";
+                ins << "  \"/works/" << year << "/[workId]\": {\n"
+                    << "    en: \"/works/" << year << "/[workId]\",\n"
+                    << "    zh: \"" << zhWorks << "/" << year << "/[workId]\",\n"
+                    << "  },\n";
             }
         }
 
-        // 4) Insert immediately after lastEntryClose (no extra newline)
-        text.insert(lastEntryClose + 1, ins.str());
-        writeFile(ROUTING_PATH, text);
-        std::cout << "Updated routing.ts with per-year listing & detail routes\n";
+        if (ins.str().empty()) {
+            std::cout << "pathnames.js already lists every year\n";
+        } else {
+            text.insert(closePos, ins.str());
+            writeFile(PATHNAMES_PATH, text);
+            std::cout << "Updated pathnames.js with per-year routes\n";
+        }
     }
 
 

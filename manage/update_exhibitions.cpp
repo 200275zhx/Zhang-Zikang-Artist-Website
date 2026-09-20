@@ -1,12 +1,10 @@
-
-// to build:
-// g++ -std=c++17 update_exhibitions.cpp -I"F:\Zhang-Zikang-Artist-Website\manage\include" -L"F:\Zhang-Zikang-Artist-Website\manage\lib" -lwebp -lssp -o bin\update_exhibitions.exe
-
-// to run:
-// bin\update_exhibitions.exe
-
-
-
+// Build (from the repository root):
+//   g++ -std=c++17 -static -static-libgcc -static-libstdc++ manage/update_exhibitions.cpp -Imanage/include -Lmanage/lib -lwebp -lssp -o manage/bin/update_exhibitions.exe
+//
+// Run: manage/bin/update_exhibitions.exe
+//
+// Paths resolve from the executable's own location, so the tool can be run
+// from any working directory.
 
 #include <iostream>
 #include <fstream>
@@ -19,6 +17,7 @@
 #include <ctime>
 #include <nlohmann/json.hpp>
 #include <webp/decode.h>
+#include <project_paths.hpp>
 
 using ordered_json = nlohmann::ordered_json;
 
@@ -83,10 +82,13 @@ static time_t toTimeT(std::tm tm) {
     return std::mktime(&tm);
 }
 
-int main() {
+int main(int argc, char** argv) {
+    (void)argc;
+    const auto root = manage::projectRoot(argv[0]);
     const std::vector<std::string> langs = {"en","zh"};
-    const std::string inDir  = R"(F:\Zhang-Zikang-Artist-Website\manage\input\)";
-    const std::string outDir = R"(F:\Zhang-Zikang-Artist-Website\src\app\data\exhibitions\json\)";
+    const std::string inDir  = (root / "manage" / "input").string() + "/";
+    const std::string outDir = (root / "src" / "app" / "data" / "exhibitions" / "json").string() + "/";
+    const std::string imageDir = (root / "public" / "assets" / "exhibitions" / "image").string() + "/";
 
     for (const auto& lang : langs) {
         std::string inPath = inDir + "exhibitioninfo_" + lang + ".json";
@@ -145,9 +147,7 @@ int main() {
 
             {   // ---------- Compute background color ---------- //
                 // build full .webp path
-                std::string imagePath =
-                R"(F:\Zhang-Zikang-Artist-Website\public\assets\exhibitions\image\)"
-                + it.imageName + ".webp";
+                std::string imagePath = imageDir + it.imageName + ".webp";
 
                 // read file into memory
                 std::ifstream ifs(imagePath, std::ios::binary);

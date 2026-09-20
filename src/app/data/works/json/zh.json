@@ -1,12 +1,632 @@
 {
+    "Sentient-Beings": {
+        "title": "众生",
+        "src": "/assets/works/image/Sentient-Beings.webp",
+        "alt": "张子康 《众生》",
+        "metadata": {
+            "title": "张子康 《众生》",
+            "description": "张子康作品《众生》，综合材料，200.5×300cm，2025年",
+            "keywords": "张子康, 艺术作品, 众生, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "众生",
+                "img": "/assets/works/image/Sentient-Beings.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "200.5×300cm",
+                "alt": "张子康 《众生》"
+            }
+        ]
+    },
+    "Attract": {
+        "title": "吸引",
+        "src": "/assets/works/image/Attract.webp",
+        "alt": "张子康 《吸引》",
+        "metadata": {
+            "title": "张子康 《吸引》",
+            "description": "张子康作品《吸引》，综合材料，140×180cm，2025年",
+            "keywords": "张子康, 艺术作品, 吸引, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "吸引",
+                "img": "/assets/works/image/Attract.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "140×180cm",
+                "alt": "张子康 《吸引》"
+            }
+        ]
+    },
+    "Fusion": {
+        "title": "聚变",
+        "src": "/assets/works/image/Fusion.webp",
+        "alt": "张子康 《聚变》",
+        "metadata": {
+            "title": "张子康 《聚变》",
+            "description": "张子康作品《聚变》，综合材料，68.5×137.5cm，2025年",
+            "keywords": "张子康, 艺术作品, 聚变, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "聚变",
+                "img": "/assets/works/image/Fusion.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "68.5×137.5cm",
+                "alt": "张子康 《聚变》"
+            }
+        ]
+    },
+    "Float": {
+        "title": "漂浮",
+        "src": "/assets/works/image/Float.webp",
+        "alt": "张子康 《漂浮》",
+        "metadata": {
+            "title": "张子康 《漂浮》",
+            "description": "张子康作品《漂浮》，综合材料，140×180cm，2025年",
+            "keywords": "张子康, 艺术作品, 漂浮, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "漂浮",
+                "img": "/assets/works/image/Float.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "140×180cm",
+                "alt": "张子康 《漂浮》"
+            }
+        ]
+    },
+    "Ring": {
+        "title": "鸣",
+        "src": "/assets/works/image/Ring.webp",
+        "alt": "张子康 《鸣》",
+        "metadata": {
+            "title": "张子康 《鸣》",
+            "description": "张子康作品《鸣》，综合材料，69.5×138cm，2025年",
+            "keywords": "张子康, 艺术作品, 鸣, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "鸣",
+                "img": "/assets/works/image/Ring.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "69.5×138cm",
+                "alt": "张子康 《鸣》"
+            }
+        ]
+    },
+    "Aspiration": {
+        "title": "望",
+        "src": "/assets/works/image/Aspiration.webp",
+        "alt": "张子康 《望》",
+        "metadata": {
+            "title": "张子康 《望》",
+            "description": "张子康作品《望》，综合材料，68.8×84cm，2025年",
+            "keywords": "张子康, 艺术作品, 望, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "望",
+                "img": "/assets/works/image/Aspiration.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "68.8×84cm",
+                "alt": "张子康 《望》"
+            }
+        ]
+    },
+    "Detached": {
+        "title": "旁观",
+        "src": "/assets/works/image/Detached.webp",
+        "alt": "张子康 《旁观》",
+        "metadata": {
+            "title": "张子康 《旁观》",
+            "description": "张子康作品《旁观》，综合材料，33.5×124.5cm，2025年",
+            "keywords": "张子康, 艺术作品, 旁观, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "旁观",
+                "img": "/assets/works/image/Detached.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "33.5×124.5cm",
+                "alt": "张子康 《旁观》"
+            }
+        ]
+    },
+    "Life": {
+        "title": "生",
+        "src": "/assets/works/image/Life.webp",
+        "alt": "张子康 《生》",
+        "metadata": {
+            "title": "张子康 《生》",
+            "description": "张子康作品《生》，综合材料，53.5×69.5cm，2025年",
+            "keywords": "张子康, 艺术作品, 生, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "生",
+                "img": "/assets/works/image/Life.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "53.5×69.5cm",
+                "alt": "张子康 《生》"
+            }
+        ]
+    },
+    "Liminal": {
+        "title": "临界",
+        "src": "/assets/works/image/Liminal.webp",
+        "alt": "张子康 《临界》",
+        "metadata": {
+            "title": "张子康 《临界》",
+            "description": "张子康作品《临界》，综合材料，68.5×74cm，2025年",
+            "keywords": "张子康, 艺术作品, 临界, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "临界",
+                "img": "/assets/works/image/Liminal.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "68.5×74cm",
+                "alt": "张子康 《临界》"
+            }
+        ]
+    },
+    "Transform": {
+        "title": "化",
+        "src": "/assets/works/image/Transform.webp",
+        "alt": "张子康 《化》",
+        "metadata": {
+            "title": "张子康 《化》",
+            "description": "张子康作品《化》，综合材料，70×139cm，2025年",
+            "keywords": "张子康, 艺术作品, 化, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "化",
+                "img": "/assets/works/image/Transform.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "70×139cm",
+                "alt": "张子康 《化》"
+            }
+        ]
+    },
+    "Naissance": {
+        "title": "诞生",
+        "src": "/assets/works/image/Naissance.webp",
+        "alt": "张子康 《诞生》",
+        "metadata": {
+            "title": "张子康 《诞生》",
+            "description": "张子康作品《诞生》，综合材料，97×180cm，2025年",
+            "keywords": "张子康, 艺术作品, 诞生, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "诞生",
+                "img": "/assets/works/image/Naissance.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "97×180cm",
+                "alt": "张子康 《诞生》"
+            }
+        ]
+    },
+    "Dreamscape": {
+        "title": "幻境",
+        "src": "/assets/works/image/Dreamscape.webp",
+        "alt": "张子康 《幻境》",
+        "metadata": {
+            "title": "张子康 《幻境》",
+            "description": "张子康作品《幻境》，综合材料，69×137cm，2025年",
+            "keywords": "张子康, 艺术作品, 幻境, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "幻境",
+                "img": "/assets/works/image/Dreamscape.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "69×137cm",
+                "alt": "张子康 《幻境》"
+            }
+        ]
+    },
+    "Cadence": {
+        "title": "韵律",
+        "src": "/assets/works/image/Cadence.webp",
+        "alt": "张子康 《韵律》",
+        "metadata": {
+            "title": "张子康 《韵律》",
+            "description": "张子康作品《韵律》，综合材料，69×137cm，2025年",
+            "keywords": "张子康, 艺术作品, 韵律, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "韵律",
+                "img": "/assets/works/image/Cadence.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "69×137cm",
+                "alt": "张子康 《韵律》"
+            }
+        ]
+    },
+    "Ascension": {
+        "title": "升",
+        "src": "/assets/works/image/Ascension.webp",
+        "alt": "张子康 《升》",
+        "metadata": {
+            "title": "张子康 《升》",
+            "description": "张子康作品《升》，综合材料，69×138cm，2025年",
+            "keywords": "张子康, 艺术作品, 升, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "升",
+                "img": "/assets/works/image/Ascension.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "69×138cm",
+                "alt": "张子康 《升》"
+            }
+        ]
+    },
+    "Convergence": {
+        "title": "聚集",
+        "src": "/assets/works/image/Convergence.webp",
+        "alt": "张子康 《聚集》",
+        "metadata": {
+            "title": "张子康 《聚集》",
+            "description": "张子康作品《聚集》，综合材料，68.5×137cm，2025年",
+            "keywords": "张子康, 艺术作品, 聚集, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "聚集",
+                "img": "/assets/works/image/Convergence.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "68.5×137cm",
+                "alt": "张子康 《聚集》"
+            }
+        ]
+    },
+    "Contemplation": {
+        "title": "观",
+        "src": "/assets/works/image/Contemplation.webp",
+        "alt": "张子康 《观》",
+        "metadata": {
+            "title": "张子康 《观》",
+            "description": "张子康作品《观》，综合材料，78×114.5cm，2025年",
+            "keywords": "张子康, 艺术作品, 观, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "观",
+                "img": "/assets/works/image/Contemplation.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "78×114.5cm",
+                "alt": "张子康 《观》"
+            }
+        ]
+    },
+    "Scream": {
+        "title": "尖叫",
+        "src": "/assets/works/image/Scream.webp",
+        "alt": "张子康 《尖叫》",
+        "metadata": {
+            "title": "张子康 《尖叫》",
+            "description": "张子康作品《尖叫》，综合材料，68×73cm，2025年",
+            "keywords": "张子康, 艺术作品, 尖叫, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "尖叫",
+                "img": "/assets/works/image/Scream.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "68×73cm",
+                "alt": "张子康 《尖叫》"
+            }
+        ]
+    },
+    "Time": {
+        "title": "时间",
+        "src": "/assets/works/image/Time.webp",
+        "alt": "张子康 《时间》",
+        "metadata": {
+            "title": "张子康 《时间》",
+            "description": "张子康作品《时间》，综合材料，69×137cm，2025年",
+            "keywords": "张子康, 艺术作品, 时间, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "时间",
+                "img": "/assets/works/image/Time.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "69×137cm",
+                "alt": "张子康 《时间》"
+            }
+        ]
+    },
+    "Meditative-Trace": {
+        "title": "禅",
+        "src": "/assets/works/image/Meditative-Trace.webp",
+        "alt": "张子康 《禅》",
+        "metadata": {
+            "title": "张子康 《禅》",
+            "description": "张子康作品《禅》，综合材料，69×138.5cm，2025年",
+            "keywords": "张子康, 艺术作品, 禅, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "禅",
+                "img": "/assets/works/image/Meditative-Trace.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "69×138.5cm",
+                "alt": "张子康 《禅》"
+            }
+        ]
+    },
+    "Renascence": {
+        "title": "重生",
+        "src": "/assets/works/image/Renascence.webp",
+        "alt": "张子康 《重生》",
+        "metadata": {
+            "title": "张子康 《重生》",
+            "description": "张子康作品《重生》，综合材料，66×135cm，2025年",
+            "keywords": "张子康, 艺术作品, 重生, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "重生",
+                "img": "/assets/works/image/Renascence.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "66×135cm",
+                "alt": "张子康 《重生》"
+            }
+        ]
+    },
+    "Metamorphosis": {
+        "title": "蝶变",
+        "src": "/assets/works/image/Metamorphosis.webp",
+        "alt": "张子康 《蝶变》",
+        "metadata": {
+            "title": "张子康 《蝶变》",
+            "description": "张子康作品《蝶变》，综合材料，69×137.5cm，2025年",
+            "keywords": "张子康, 艺术作品, 蝶变, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "蝶变",
+                "img": "/assets/works/image/Metamorphosis.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "69×137.5cm",
+                "alt": "张子康 《蝶变》"
+            }
+        ]
+    },
+    "Epiphany": {
+        "title": "惊",
+        "src": "/assets/works/image/Epiphany.webp",
+        "alt": "张子康 《惊》",
+        "metadata": {
+            "title": "张子康 《惊》",
+            "description": "张子康作品《惊》，综合材料，69×53.5cm，2025年",
+            "keywords": "张子康, 艺术作品, 惊, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "惊",
+                "img": "/assets/works/image/Epiphany.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "69×53.5cm",
+                "alt": "张子康 《惊》"
+            }
+        ]
+    },
+    "Levitation": {
+        "title": "浮",
+        "src": "/assets/works/image/Levitation.webp",
+        "alt": "张子康 《浮》",
+        "metadata": {
+            "title": "张子康 《浮》",
+            "description": "张子康作品《浮》，综合材料，69×137cm，2025年",
+            "keywords": "张子康, 艺术作品, 浮, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "浮",
+                "img": "/assets/works/image/Levitation.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "69×137cm",
+                "alt": "张子康 《浮》"
+            }
+        ]
+    },
+    "Mystery": {
+        "title": "疑",
+        "src": "/assets/works/image/Mystery.webp",
+        "alt": "张子康 《疑》",
+        "metadata": {
+            "title": "张子康 《疑》",
+            "description": "张子康作品《疑》，综合材料，69×137cm，2025年",
+            "keywords": "张子康, 艺术作品, 疑, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "疑",
+                "img": "/assets/works/image/Mystery.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "69×137cm",
+                "alt": "张子康 《疑》"
+            }
+        ]
+    },
+    "Atmosphere": {
+        "title": "境",
+        "src": "/assets/works/image/Atmosphere.webp",
+        "alt": "张子康 《境》",
+        "metadata": {
+            "title": "张子康 《境》",
+            "description": "张子康作品《境》，综合材料，69×138cm，2025年",
+            "keywords": "张子康, 艺术作品, 境, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "境",
+                "img": "/assets/works/image/Atmosphere.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "69×138cm",
+                "alt": "张子康 《境》"
+            }
+        ]
+    },
+    "Ignite": {
+        "title": "燃",
+        "src": "/assets/works/image/Ignite.webp",
+        "alt": "张子康 《燃》",
+        "metadata": {
+            "title": "张子康 《燃》",
+            "description": "张子康作品《燃》，综合材料，69×137.5cm，2025年",
+            "keywords": "张子康, 艺术作品, 燃, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "燃",
+                "img": "/assets/works/image/Ignite.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "69×137.5cm",
+                "alt": "张子康 《燃》"
+            }
+        ]
+    },
+    "Unbridled": {
+        "title": "放",
+        "src": "/assets/works/image/Unbridled.webp",
+        "alt": "张子康 《放》",
+        "metadata": {
+            "title": "张子康 《放》",
+            "description": "张子康作品《放》，综合材料，69×137.5cm，2025年",
+            "keywords": "张子康, 艺术作品, 放, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "放",
+                "img": "/assets/works/image/Unbridled.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "69×137.5cm",
+                "alt": "张子康 《放》"
+            }
+        ]
+    },
+    "Rhythm": {
+        "title": "律",
+        "src": "/assets/works/image/Rhythm.webp",
+        "alt": "张子康 《律》",
+        "metadata": {
+            "title": "张子康 《律》",
+            "description": "张子康作品《律》，综合材料，69×137.5cm，2025年",
+            "keywords": "张子康, 艺术作品, 律, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "律",
+                "img": "/assets/works/image/Rhythm.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "69×137.5cm",
+                "alt": "张子康 《律》"
+            }
+        ]
+    },
+    "Observe": {
+        "title": "视",
+        "src": "/assets/works/image/Observe.webp",
+        "alt": "张子康 《视》",
+        "metadata": {
+            "title": "张子康 《视》",
+            "description": "张子康作品《视》，综合材料，69×137.5cm，2025年",
+            "keywords": "张子康, 艺术作品, 视, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "视",
+                "img": "/assets/works/image/Observe.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "69×137.5cm",
+                "alt": "张子康 《视》"
+            }
+        ]
+    },
+    "Resonance": {
+        "title": "意",
+        "src": "/assets/works/image/Resonance.webp",
+        "alt": "张子康 《意》",
+        "metadata": {
+            "title": "张子康 《意》",
+            "description": "张子康作品《意》，综合材料，69×138cm，2025年",
+            "keywords": "张子康, 艺术作品, 意, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "意",
+                "img": "/assets/works/image/Resonance.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "69×138cm",
+                "alt": "张子康 《意》"
+            }
+        ]
+    },
+    "Incandescent": {
+        "title": "灼",
+        "src": "/assets/works/image/Incandescent.webp",
+        "alt": "张子康 《灼》",
+        "metadata": {
+            "title": "张子康 《灼》",
+            "description": "张子康作品《灼》，综合材料，180×245cm，2025年",
+            "keywords": "张子康, 艺术作品, 灼, 传统绘画, 东西方艺术"
+        },
+        "detail": [
+            {
+                "title": "灼",
+                "img": "/assets/works/image/Incandescent.webp",
+                "year": "2025",
+                "media": "综合材料",
+                "size": "180×245cm",
+                "alt": "张子康 《灼》"
+            }
+        ]
+    },
     "27-3": {
         "title": "2024.03",
         "src": "/assets/works/image/27-3.webp",
-        "alt": "2024.03 by Zhang Zikang",
+        "alt": "张子康 《2024.03》",
         "metadata": {
-            "title": "2024.03 by Zhang Zikang",
-            "description": "2024.03 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 2024.03, traditional painting, Eastern and Western art"
+            "title": "张子康 《2024.03》",
+            "description": "张子康作品《2024.03》，综合材料，97.5×124cm，2025年",
+            "keywords": "张子康, 艺术作品, 2024.03, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -15,18 +635,18 @@
                 "year": "2025",
                 "media": "综合材料",
                 "size": "97.5×124cm",
-                "alt": "2024.03 by Zhang Zikang"
+                "alt": "张子康 《2024.03》"
             }
         ]
     },
     "27-2": {
         "title": "2023.02",
         "src": "/assets/works/image/27-2.webp",
-        "alt": "2023.02 by Zhang Zikang",
+        "alt": "张子康 《2023.02》",
         "metadata": {
-            "title": "2023.02 by Zhang Zikang",
-            "description": "2023.02 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 2023.02, traditional painting, Eastern and Western art"
+            "title": "张子康 《2023.02》",
+            "description": "张子康作品《2023.02》，综合材料，97.5×124cm，2025年",
+            "keywords": "张子康, 艺术作品, 2023.02, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -35,18 +655,18 @@
                 "year": "2025",
                 "media": "综合材料",
                 "size": "97.5×124cm",
-                "alt": "2023.02 by Zhang Zikang"
+                "alt": "张子康 《2023.02》"
             }
         ]
     },
     "27-1": {
         "title": "2023.01",
         "src": "/assets/works/image/27-1.webp",
-        "alt": "2023.01 by Zhang Zikang",
+        "alt": "张子康 《2023.01》",
         "metadata": {
-            "title": "2023.01 by Zhang Zikang",
-            "description": "2023.01 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 2023.01, traditional painting, Eastern and Western art"
+            "title": "张子康 《2023.01》",
+            "description": "张子康作品《2023.01》，综合材料，97.5×124cm，2025年",
+            "keywords": "张子康, 艺术作品, 2023.01, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -55,18 +675,18 @@
                 "year": "2025",
                 "media": "综合材料",
                 "size": "97.5×124cm",
-                "alt": "2023.01 by Zhang Zikang"
+                "alt": "张子康 《2023.01》"
             }
         ]
     },
     "24-2": {
         "title": "2024.06",
         "src": "/assets/works/image/24-2.webp",
-        "alt": "2024.06 by Zhang Zikang",
+        "alt": "张子康 《2024.06》",
         "metadata": {
-            "title": "2024.06 by Zhang Zikang",
-            "description": "2024.06 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 2024.06, traditional painting, Eastern and Western art"
+            "title": "张子康 《2024.06》",
+            "description": "张子康作品《2024.06》，综合材料，97.5×124cm，2025年",
+            "keywords": "张子康, 艺术作品, 2024.06, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -75,18 +695,18 @@
                 "year": "2025",
                 "media": "综合材料",
                 "size": "97.5×124cm",
-                "alt": "2024.06 by Zhang Zikang"
+                "alt": "张子康 《2024.06》"
             }
         ]
     },
     "24-1": {
         "title": "2024.04",
         "src": "/assets/works/image/24-1.webp",
-        "alt": "2024.04 by Zhang Zikang",
+        "alt": "张子康 《2024.04》",
         "metadata": {
-            "title": "2024.04 by Zhang Zikang",
-            "description": "2024.04 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 2024.04, traditional painting, Eastern and Western art"
+            "title": "张子康 《2024.04》",
+            "description": "张子康作品《2024.04》，综合材料，97.5×124cm，2025年",
+            "keywords": "张子康, 艺术作品, 2024.04, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -95,18 +715,18 @@
                 "year": "2025",
                 "media": "综合材料",
                 "size": "97.5×124cm",
-                "alt": "2024.04 by Zhang Zikang"
+                "alt": "张子康 《2024.04》"
             }
         ]
     },
     "23-2": {
         "title": "2019.12",
         "src": "/assets/works/image/23-2.webp",
-        "alt": "2019.12 by Zhang Zikang",
+        "alt": "张子康 《2019.12》",
         "metadata": {
-            "title": "2019.12 by Zhang Zikang",
-            "description": "2019.12 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 2019.12, traditional painting, Eastern and Western art"
+            "title": "张子康 《2019.12》",
+            "description": "张子康作品《2019.12》，综合材料，200×400cm，2025年",
+            "keywords": "张子康, 艺术作品, 2019.12, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -115,18 +735,18 @@
                 "year": "2025",
                 "media": "综合材料",
                 "size": "200×400cm",
-                "alt": "2019.12 by Zhang Zikang"
+                "alt": "张子康 《2019.12》"
             }
         ]
     },
     "23-1": {
         "title": "楼兰系列之一",
         "src": "/assets/works/image/23-1.webp",
-        "alt": "楼兰系列之一 by Zhang Zikang",
+        "alt": "张子康 《楼兰系列之一》",
         "metadata": {
-            "title": "楼兰系列之一 by Zhang Zikang",
-            "description": "楼兰系列之一 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 楼兰系列之一, traditional painting, Eastern and Western art"
+            "title": "张子康 《楼兰系列之一》",
+            "description": "张子康作品《楼兰系列之一》，综合材料，70×140cm，2023年",
+            "keywords": "张子康, 艺术作品, 楼兰系列之一, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -135,18 +755,18 @@
                 "year": "2023",
                 "media": "综合材料",
                 "size": "70×140cm",
-                "alt": "楼兰系列之一 by Zhang Zikang"
+                "alt": "张子康 《楼兰系列之一》"
             }
         ]
     },
     "26-2": {
         "title": "楼兰系列之繁境",
         "src": "/assets/works/image/26-2.webp",
-        "alt": "楼兰系列之繁境 by Zhang Zikang",
+        "alt": "张子康 《楼兰系列之繁境》",
         "metadata": {
-            "title": "楼兰系列之繁境 by Zhang Zikang",
-            "description": "楼兰系列之繁境 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 楼兰系列之繁境, traditional painting, Eastern and Western art"
+            "title": "张子康 《楼兰系列之繁境》",
+            "description": "张子康作品《楼兰系列之繁境》，综合材料，115×369cm，2024年",
+            "keywords": "张子康, 艺术作品, 楼兰系列之繁境, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -155,18 +775,18 @@
                 "year": "2024",
                 "media": "综合材料",
                 "size": "115×369cm",
-                "alt": "楼兰系列之繁境 by Zhang Zikang"
+                "alt": "张子康 《楼兰系列之繁境》"
             }
         ]
     },
     "26-1": {
         "title": "骤",
         "src": "/assets/works/image/26-1.webp",
-        "alt": "骤 by Zhang Zikang",
+        "alt": "张子康 《骤》",
         "metadata": {
-            "title": "骤 by Zhang Zikang",
-            "description": "骤 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 骤, traditional painting, Eastern and Western art"
+            "title": "张子康 《骤》",
+            "description": "张子康作品《骤》，综合材料，69×137cm，2024年",
+            "keywords": "张子康, 艺术作品, 骤, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -175,18 +795,18 @@
                 "year": "2024",
                 "media": "综合材料",
                 "size": "69×137cm",
-                "alt": "骤 by Zhang Zikang"
+                "alt": "张子康 《骤》"
             }
         ]
     },
     "25-2": {
         "title": "梦回",
         "src": "/assets/works/image/25-2.webp",
-        "alt": "梦回 by Zhang Zikang",
+        "alt": "张子康 《梦回》",
         "metadata": {
-            "title": "梦回 by Zhang Zikang",
-            "description": "梦回 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 梦回, traditional painting, Eastern and Western art"
+            "title": "张子康 《梦回》",
+            "description": "张子康作品《梦回》，综合材料，69×137cm，2023年",
+            "keywords": "张子康, 艺术作品, 梦回, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -195,18 +815,18 @@
                 "year": "2023",
                 "media": "综合材料",
                 "size": "69×137cm",
-                "alt": "梦回 by Zhang Zikang"
+                "alt": "张子康 《梦回》"
             }
         ]
     },
     "25-1": {
         "title": "日常",
         "src": "/assets/works/image/25-1.webp",
-        "alt": "日常 by Zhang Zikang",
+        "alt": "张子康 《日常》",
         "metadata": {
-            "title": "日常 by Zhang Zikang",
-            "description": "日常 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 日常, traditional painting, Eastern and Western art"
+            "title": "张子康 《日常》",
+            "description": "张子康作品《日常》，综合材料，69×137cm，2023年",
+            "keywords": "张子康, 艺术作品, 日常, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -215,18 +835,18 @@
                 "year": "2023",
                 "media": "综合材料",
                 "size": "69×137cm",
-                "alt": "日常 by Zhang Zikang"
+                "alt": "张子康 《日常》"
             }
         ]
     },
     "22-2": {
         "title": "楼兰系列之四",
         "src": "/assets/works/image/22-2.webp",
-        "alt": "楼兰系列之四 by Zhang Zikang",
+        "alt": "张子康 《楼兰系列之四》",
         "metadata": {
-            "title": "楼兰系列之四 by Zhang Zikang",
-            "description": "楼兰系列之四 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 楼兰系列之四, traditional painting, Eastern and Western art"
+            "title": "张子康 《楼兰系列之四》",
+            "description": "张子康作品《楼兰系列之四》，综合材料，85×101cm，2023年",
+            "keywords": "张子康, 艺术作品, 楼兰系列之四, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -235,18 +855,18 @@
                 "year": "2023",
                 "media": "综合材料",
                 "size": "85×101cm",
-                "alt": "楼兰系列之四 by Zhang Zikang"
+                "alt": "张子康 《楼兰系列之四》"
             }
         ]
     },
     "22-1": {
         "title": "幻城",
         "src": "/assets/works/image/22-1.webp",
-        "alt": "幻城 by Zhang Zikang",
+        "alt": "张子康 《幻城》",
         "metadata": {
-            "title": "幻城 by Zhang Zikang",
-            "description": "幻城 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 幻城, traditional painting, Eastern and Western art"
+            "title": "张子康 《幻城》",
+            "description": "张子康作品《幻城》，综合材料，80x100cm，2023年",
+            "keywords": "张子康, 艺术作品, 幻城, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -255,18 +875,18 @@
                 "year": "2023",
                 "media": "综合材料",
                 "size": "80x100cm",
-                "alt": "幻城 by Zhang Zikang"
+                "alt": "张子康 《幻城》"
             }
         ]
     },
     "21-2": {
         "title": "迷失",
         "src": "/assets/works/image/21-2.webp",
-        "alt": "迷失 by Zhang Zikang",
+        "alt": "张子康 《迷失》",
         "metadata": {
-            "title": "迷失 by Zhang Zikang",
-            "description": "迷失 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 迷失, traditional painting, Eastern and Western art"
+            "title": "张子康 《迷失》",
+            "description": "张子康作品《迷失》，综合材料，69×137cm，2023年",
+            "keywords": "张子康, 艺术作品, 迷失, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -275,18 +895,18 @@
                 "year": "2023",
                 "media": "综合材料",
                 "size": "69×137cm",
-                "alt": "迷失 by Zhang Zikang"
+                "alt": "张子康 《迷失》"
             }
         ]
     },
     "21-1": {
         "title": "指引",
         "src": "/assets/works/image/21-1.webp",
-        "alt": "指引 by Zhang Zikang",
+        "alt": "张子康 《指引》",
         "metadata": {
-            "title": "指引 by Zhang Zikang",
-            "description": "指引 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 指引, traditional painting, Eastern and Western art"
+            "title": "张子康 《指引》",
+            "description": "张子康作品《指引》，综合材料，69×137cm，2023年",
+            "keywords": "张子康, 艺术作品, 指引, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -295,18 +915,18 @@
                 "year": "2023",
                 "media": "综合材料",
                 "size": "69×137cm",
-                "alt": "指引 by Zhang Zikang"
+                "alt": "张子康 《指引》"
             }
         ]
     },
     "20-2": {
         "title": "集市",
         "src": "/assets/works/image/20-2.webp",
-        "alt": "集市 by Zhang Zikang",
+        "alt": "张子康 《集市》",
         "metadata": {
-            "title": "集市 by Zhang Zikang",
-            "description": "集市 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 集市, traditional painting, Eastern and Western art"
+            "title": "张子康 《集市》",
+            "description": "张子康作品《集市》，综合材料，53×60cm，2023年",
+            "keywords": "张子康, 艺术作品, 集市, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -315,18 +935,18 @@
                 "year": "2023",
                 "media": "综合材料",
                 "size": "53×60cm",
-                "alt": "集市 by Zhang Zikang"
+                "alt": "张子康 《集市》"
             }
         ]
     },
     "20-1": {
         "title": "灵",
         "src": "/assets/works/image/20-1.webp",
-        "alt": "灵 by Zhang Zikang",
+        "alt": "张子康 《灵》",
         "metadata": {
-            "title": "灵 by Zhang Zikang",
-            "description": "灵 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 灵, traditional painting, Eastern and Western art"
+            "title": "张子康 《灵》",
+            "description": "张子康作品《灵》，综合材料，54x81cm，2023年",
+            "keywords": "张子康, 艺术作品, 灵, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -335,18 +955,18 @@
                 "year": "2023",
                 "media": "综合材料",
                 "size": "54x81cm",
-                "alt": "灵 by Zhang Zikang"
+                "alt": "张子康 《灵》"
             }
         ]
     },
     "19-4": {
         "title": "归去",
         "src": "/assets/works/image/19-4.webp",
-        "alt": "归去 by Zhang Zikang",
+        "alt": "张子康 《归去》",
         "metadata": {
-            "title": "归去 by Zhang Zikang",
-            "description": "归去 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 归去, traditional painting, Eastern and Western art"
+            "title": "张子康 《归去》",
+            "description": "张子康作品《归去》，综合材料，69.5x138cm，2023年",
+            "keywords": "张子康, 艺术作品, 归去, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -355,18 +975,18 @@
                 "year": "2023",
                 "media": "综合材料",
                 "size": "69.5x138cm",
-                "alt": "归去 by Zhang Zikang"
+                "alt": "张子康 《归去》"
             }
         ]
     },
     "19-3": {
         "title": "看见",
         "src": "/assets/works/image/19-3.webp",
-        "alt": "看见 by Zhang Zikang",
+        "alt": "张子康 《看见》",
         "metadata": {
-            "title": "看见 by Zhang Zikang",
-            "description": "看见 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 看见, traditional painting, Eastern and Western art"
+            "title": "张子康 《看见》",
+            "description": "张子康作品《看见》，综合材料，70×93cm，2023年",
+            "keywords": "张子康, 艺术作品, 看见, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -375,18 +995,18 @@
                 "year": "2023",
                 "media": "综合材料",
                 "size": "70×93cm",
-                "alt": "看见 by Zhang Zikang"
+                "alt": "张子康 《看见》"
             }
         ]
     },
     "19-2": {
         "title": "楼兰系列之三",
         "src": "/assets/works/image/19-2.webp",
-        "alt": "楼兰系列之三 by Zhang Zikang",
+        "alt": "张子康 《楼兰系列之三》",
         "metadata": {
-            "title": "楼兰系列之三 by Zhang Zikang",
-            "description": "楼兰系列之三 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 楼兰系列之三, traditional painting, Eastern and Western art"
+            "title": "张子康 《楼兰系列之三》",
+            "description": "张子康作品《楼兰系列之三》，综合材料，76×100cm，2023年",
+            "keywords": "张子康, 艺术作品, 楼兰系列之三, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -395,18 +1015,18 @@
                 "year": "2023",
                 "media": "综合材料",
                 "size": "76×100cm",
-                "alt": "楼兰系列之三 by Zhang Zikang"
+                "alt": "张子康 《楼兰系列之三》"
             }
         ]
     },
     "19-1": {
         "title": "月夕",
         "src": "/assets/works/image/19-1.webp",
-        "alt": "月夕 by Zhang Zikang",
+        "alt": "张子康 《月夕》",
         "metadata": {
-            "title": "月夕 by Zhang Zikang",
-            "description": "月夕 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 月夕, traditional painting, Eastern and Western art"
+            "title": "张子康 《月夕》",
+            "description": "张子康作品《月夕》，综合材料，71x87cm，2023年",
+            "keywords": "张子康, 艺术作品, 月夕, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -415,18 +1035,18 @@
                 "year": "2023",
                 "media": "综合材料",
                 "size": "71x87cm",
-                "alt": "月夕 by Zhang Zikang"
+                "alt": "张子康 《月夕》"
             }
         ]
     },
     "18-2": {
         "title": "楼兰系列之二",
         "src": "/assets/works/image/18-2.webp",
-        "alt": "楼兰系列之二 by Zhang Zikang",
+        "alt": "张子康 《楼兰系列之二》",
         "metadata": {
-            "title": "楼兰系列之二 by Zhang Zikang",
-            "description": "楼兰系列之二 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 楼兰系列之二, traditional painting, Eastern and Western art"
+            "title": "张子康 《楼兰系列之二》",
+            "description": "张子康作品《楼兰系列之二》，综合材料，76×100cm，2023年",
+            "keywords": "张子康, 艺术作品, 楼兰系列之二, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -435,18 +1055,18 @@
                 "year": "2023",
                 "media": "综合材料",
                 "size": "76×100cm",
-                "alt": "楼兰系列之二 by Zhang Zikang"
+                "alt": "张子康 《楼兰系列之二》"
             }
         ]
     },
     "18-1": {
         "title": "心生",
         "src": "/assets/works/image/18-1.webp",
-        "alt": "心生 by Zhang Zikang",
+        "alt": "张子康 《心生》",
         "metadata": {
-            "title": "心生 by Zhang Zikang",
-            "description": "心生 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 心生, traditional painting, Eastern and Western art"
+            "title": "张子康 《心生》",
+            "description": "张子康作品《心生》，综合材料，70x93cm，2022年",
+            "keywords": "张子康, 艺术作品, 心生, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -455,18 +1075,18 @@
                 "year": "2022",
                 "media": "综合材料",
                 "size": "70x93cm",
-                "alt": "心生 by Zhang Zikang"
+                "alt": "张子康 《心生》"
             }
         ]
     },
     "17-3": {
         "title": "起舞",
         "src": "/assets/works/image/17-3.webp",
-        "alt": "起舞 by Zhang Zikang",
+        "alt": "张子康 《起舞》",
         "metadata": {
-            "title": "起舞 by Zhang Zikang",
-            "description": "起舞 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 起舞, traditional painting, Eastern and Western art"
+            "title": "张子康 《起舞》",
+            "description": "张子康作品《起舞》，综合材料，70×100cm，2023年",
+            "keywords": "张子康, 艺术作品, 起舞, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -475,18 +1095,18 @@
                 "year": "2023",
                 "media": "综合材料",
                 "size": "70×100cm",
-                "alt": "起舞 by Zhang Zikang"
+                "alt": "张子康 《起舞》"
             }
         ]
     },
     "17-2": {
         "title": "楼兰系列之梦回",
         "src": "/assets/works/image/17-2.webp",
-        "alt": "楼兰系列之梦回 by Zhang Zikang",
+        "alt": "张子康 《楼兰系列之梦回》",
         "metadata": {
-            "title": "楼兰系列之梦回 by Zhang Zikang",
-            "description": "楼兰系列之梦回 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 楼兰系列之梦回, traditional painting, Eastern and Western art"
+            "title": "张子康 《楼兰系列之梦回》",
+            "description": "张子康作品《楼兰系列之梦回》，综合材料，98×198cm，2024年",
+            "keywords": "张子康, 艺术作品, 楼兰系列之梦回, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -495,18 +1115,18 @@
                 "year": "2024",
                 "media": "综合材料",
                 "size": "98×198cm",
-                "alt": "楼兰系列之梦回 by Zhang Zikang"
+                "alt": "张子康 《楼兰系列之梦回》"
             }
         ]
     },
     "17-1": {
         "title": "楼兰系列之无端",
         "src": "/assets/works/image/17-1.webp",
-        "alt": "楼兰系列之无端 by Zhang Zikang",
+        "alt": "张子康 《楼兰系列之无端》",
         "metadata": {
-            "title": "楼兰系列之无端 by Zhang Zikang",
-            "description": "楼兰系列之无端 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 楼兰系列之无端, traditional painting, Eastern and Western art"
+            "title": "张子康 《楼兰系列之无端》",
+            "description": "张子康作品《楼兰系列之无端》，综合材料，121×248cm，2024年",
+            "keywords": "张子康, 艺术作品, 楼兰系列之无端, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -515,18 +1135,18 @@
                 "year": "2024",
                 "media": "综合材料",
                 "size": "121×248cm",
-                "alt": "楼兰系列之无端 by Zhang Zikang"
+                "alt": "张子康 《楼兰系列之无端》"
             }
         ]
     },
     "16-2": {
         "title": "秋雨",
         "src": "/assets/works/image/16-2.webp",
-        "alt": "秋雨 by Zhang Zikang",
+        "alt": "张子康 《秋雨》",
         "metadata": {
-            "title": "秋雨 by Zhang Zikang",
-            "description": "秋雨 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 秋雨, traditional painting, Eastern and Western art"
+            "title": "张子康 《秋雨》",
+            "description": "张子康作品《秋雨》，宣纸，水墨，油画颜料，69x137cm，2022年",
+            "keywords": "张子康, 艺术作品, 秋雨, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -535,18 +1155,18 @@
                 "year": "2022",
                 "media": "宣纸，水墨，油画颜料",
                 "size": "69x137cm",
-                "alt": "秋雨 by Zhang Zikang"
+                "alt": "张子康 《秋雨》"
             }
         ]
     },
     "16-1": {
         "title": "游物",
         "src": "/assets/works/image/16-1.webp",
-        "alt": "游物 by Zhang Zikang",
+        "alt": "张子康 《游物》",
         "metadata": {
-            "title": "游物 by Zhang Zikang",
-            "description": "游物 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 游物, traditional painting, Eastern and Western art"
+            "title": "张子康 《游物》",
+            "description": "张子康作品《游物》，宣纸，水墨，油画颜料，69x137cm，2022年",
+            "keywords": "张子康, 艺术作品, 游物, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -555,18 +1175,18 @@
                 "year": "2022",
                 "media": "宣纸，水墨，油画颜料",
                 "size": "69x137cm",
-                "alt": "游物 by Zhang Zikang"
+                "alt": "张子康 《游物》"
             }
         ]
     },
     "15-2": {
         "title": "花丛",
         "src": "/assets/works/image/15-2.webp",
-        "alt": "花丛 by Zhang Zikang",
+        "alt": "张子康 《花丛》",
         "metadata": {
-            "title": "花丛 by Zhang Zikang",
-            "description": "花丛 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 花丛, traditional painting, Eastern and Western art"
+            "title": "张子康 《花丛》",
+            "description": "张子康作品《花丛》，宣纸，水墨，70x140cm，2022年",
+            "keywords": "张子康, 艺术作品, 花丛, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -575,18 +1195,18 @@
                 "year": "2022",
                 "media": "宣纸，水墨",
                 "size": "70x140cm",
-                "alt": "花丛 by Zhang Zikang"
+                "alt": "张子康 《花丛》"
             }
         ]
     },
     "15-1": {
         "title": "秋",
         "src": "/assets/works/image/15-1.webp",
-        "alt": "秋 by Zhang Zikang",
+        "alt": "张子康 《秋》",
         "metadata": {
-            "title": "秋 by Zhang Zikang",
-            "description": "秋 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 秋, traditional painting, Eastern and Western art"
+            "title": "张子康 《秋》",
+            "description": "张子康作品《秋》，宣纸，水墨，70.5x80.5cm，2022年",
+            "keywords": "张子康, 艺术作品, 秋, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -595,18 +1215,18 @@
                 "year": "2022",
                 "media": "宣纸，水墨",
                 "size": "70.5x80.5cm",
-                "alt": "秋 by Zhang Zikang"
+                "alt": "张子康 《秋》"
             }
         ]
     },
     "14-2": {
         "title": "凤莲",
         "src": "/assets/works/image/14-2.webp",
-        "alt": "凤莲 by Zhang Zikang",
+        "alt": "张子康 《凤莲》",
         "metadata": {
-            "title": "凤莲 by Zhang Zikang",
-            "description": "凤莲 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 凤莲, traditional painting, Eastern and Western art"
+            "title": "张子康 《凤莲》",
+            "description": "张子康作品《凤莲》，宣纸，水墨，140x69cm，2022年",
+            "keywords": "张子康, 艺术作品, 凤莲, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -615,18 +1235,18 @@
                 "year": "2022",
                 "media": "宣纸，水墨",
                 "size": "140x69cm",
-                "alt": "凤莲 by Zhang Zikang"
+                "alt": "张子康 《凤莲》"
             }
         ]
     },
     "14-1": {
         "title": "风物",
         "src": "/assets/works/image/14-1.webp",
-        "alt": "风物 by Zhang Zikang",
+        "alt": "张子康 《风物》",
         "metadata": {
-            "title": "风物 by Zhang Zikang",
-            "description": "风物 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 风物, traditional painting, Eastern and Western art"
+            "title": "张子康 《风物》",
+            "description": "张子康作品《风物》，宣纸，水墨，137x69cm，2022年",
+            "keywords": "张子康, 艺术作品, 风物, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -635,18 +1255,18 @@
                 "year": "2022",
                 "media": "宣纸，水墨",
                 "size": "137x69cm",
-                "alt": "风物 by Zhang Zikang"
+                "alt": "张子康 《风物》"
             }
         ]
     },
     "13-3": {
         "title": "花瓶",
         "src": "/assets/works/image/13-3.webp",
-        "alt": "花瓶 by Zhang Zikang",
+        "alt": "张子康 《花瓶》",
         "metadata": {
-            "title": "花瓶 by Zhang Zikang",
-            "description": "花瓶 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 花瓶, traditional painting, Eastern and Western art"
+            "title": "张子康 《花瓶》",
+            "description": "张子康作品《花瓶》，宣纸，水墨，66.5x75cm，2022年",
+            "keywords": "张子康, 艺术作品, 花瓶, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -655,18 +1275,18 @@
                 "year": "2022",
                 "media": "宣纸，水墨",
                 "size": "66.5x75cm",
-                "alt": "花瓶 by Zhang Zikang"
+                "alt": "张子康 《花瓶》"
             }
         ]
     },
     "13-2": {
         "title": "静物之二",
         "src": "/assets/works/image/13-2.webp",
-        "alt": "静物之二 by Zhang Zikang",
+        "alt": "张子康 《静物之二》",
         "metadata": {
-            "title": "静物之二 by Zhang Zikang",
-            "description": "静物之二 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 静物之二, traditional painting, Eastern and Western art"
+            "title": "张子康 《静物之二》",
+            "description": "张子康作品《静物之二》，宣纸，水墨，69x137cm，2023年",
+            "keywords": "张子康, 艺术作品, 静物之二, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -675,18 +1295,18 @@
                 "year": "2023",
                 "media": "宣纸，水墨",
                 "size": "69x137cm",
-                "alt": "静物之二 by Zhang Zikang"
+                "alt": "张子康 《静物之二》"
             }
         ]
     },
     "13-1": {
         "title": "静物之一",
         "src": "/assets/works/image/13-1.webp",
-        "alt": "静物之一 by Zhang Zikang",
+        "alt": "张子康 《静物之一》",
         "metadata": {
-            "title": "静物之一 by Zhang Zikang",
-            "description": "静物之一 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 静物之一, traditional painting, Eastern and Western art"
+            "title": "张子康 《静物之一》",
+            "description": "张子康作品《静物之一》，宣纸，水墨，69x137cm，2022年",
+            "keywords": "张子康, 艺术作品, 静物之一, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -695,18 +1315,18 @@
                 "year": "2022",
                 "media": "宣纸，水墨",
                 "size": "69x137cm",
-                "alt": "静物之一 by Zhang Zikang"
+                "alt": "张子康 《静物之一》"
             }
         ]
     },
     "12-3": {
         "title": "起飞",
         "src": "/assets/works/image/12-3.webp",
-        "alt": "起飞 by Zhang Zikang",
+        "alt": "张子康 《起飞》",
         "metadata": {
-            "title": "起飞 by Zhang Zikang",
-            "description": "起飞 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 起飞, traditional painting, Eastern and Western art"
+            "title": "张子康 《起飞》",
+            "description": "张子康作品《起飞》，布面油画，38x50cm，2022年",
+            "keywords": "张子康, 艺术作品, 起飞, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -715,18 +1335,18 @@
                 "year": "2022",
                 "media": "布面油画",
                 "size": "38x50cm",
-                "alt": "起飞 by Zhang Zikang"
+                "alt": "张子康 《起飞》"
             }
         ]
     },
     "12-2": {
         "title": "送别",
         "src": "/assets/works/image/12-2.webp",
-        "alt": "送别 by Zhang Zikang",
+        "alt": "张子康 《送别》",
         "metadata": {
-            "title": "送别 by Zhang Zikang",
-            "description": "送别 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 送别, traditional painting, Eastern and Western art"
+            "title": "张子康 《送别》",
+            "description": "张子康作品《送别》，布面油画，38x50cm，2022年",
+            "keywords": "张子康, 艺术作品, 送别, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -735,18 +1355,18 @@
                 "year": "2022",
                 "media": "布面油画",
                 "size": "38x50cm",
-                "alt": "送别 by Zhang Zikang"
+                "alt": "张子康 《送别》"
             }
         ]
     },
     "12-1": {
         "title": "倒影",
         "src": "/assets/works/image/12-1.webp",
-        "alt": "倒影 by Zhang Zikang",
+        "alt": "张子康 《倒影》",
         "metadata": {
-            "title": "倒影 by Zhang Zikang",
-            "description": "倒影 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 倒影, traditional painting, Eastern and Western art"
+            "title": "张子康 《倒影》",
+            "description": "张子康作品《倒影》，布面油画，38x50cm，2022年",
+            "keywords": "张子康, 艺术作品, 倒影, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -755,18 +1375,18 @@
                 "year": "2022",
                 "media": "布面油画",
                 "size": "38x50cm",
-                "alt": "倒影 by Zhang Zikang"
+                "alt": "张子康 《倒影》"
             }
         ]
     },
     "11-2": {
         "title": "转换",
         "src": "/assets/works/image/11-2.webp",
-        "alt": "转换 by Zhang Zikang",
+        "alt": "张子康 《转换》",
         "metadata": {
-            "title": "转换 by Zhang Zikang",
-            "description": "转换 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 转换, traditional painting, Eastern and Western art"
+            "title": "张子康 《转换》",
+            "description": "张子康作品《转换》，布面油画，50x38cm，2022年",
+            "keywords": "张子康, 艺术作品, 转换, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -775,18 +1395,18 @@
                 "year": "2022",
                 "media": "布面油画",
                 "size": "50x38cm",
-                "alt": "转换 by Zhang Zikang"
+                "alt": "张子康 《转换》"
             }
         ]
     },
     "11-1": {
         "title": "屋顶",
         "src": "/assets/works/image/11-1.webp",
-        "alt": "屋顶 by Zhang Zikang",
+        "alt": "张子康 《屋顶》",
         "metadata": {
-            "title": "屋顶 by Zhang Zikang",
-            "description": "屋顶 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 屋顶, traditional painting, Eastern and Western art"
+            "title": "张子康 《屋顶》",
+            "description": "张子康作品《屋顶》，布面油画，50x38cm，2022年",
+            "keywords": "张子康, 艺术作品, 屋顶, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -795,18 +1415,18 @@
                 "year": "2022",
                 "media": "布面油画",
                 "size": "50x38cm",
-                "alt": "屋顶 by Zhang Zikang"
+                "alt": "张子康 《屋顶》"
             }
         ]
     },
     "10-3": {
         "title": "乐曲",
         "src": "/assets/works/image/10-3.webp",
-        "alt": "乐曲 by Zhang Zikang",
+        "alt": "张子康 《乐曲》",
         "metadata": {
-            "title": "乐曲 by Zhang Zikang",
-            "description": "乐曲 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 乐曲, traditional painting, Eastern and Western art"
+            "title": "张子康 《乐曲》",
+            "description": "张子康作品《乐曲》，布面油画，38x50cm，2022年",
+            "keywords": "张子康, 艺术作品, 乐曲, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -815,18 +1435,18 @@
                 "year": "2022",
                 "media": "布面油画",
                 "size": "38x50cm",
-                "alt": "乐曲 by Zhang Zikang"
+                "alt": "张子康 《乐曲》"
             }
         ]
     },
     "10-2": {
         "title": "平行空间",
         "src": "/assets/works/image/10-2.webp",
-        "alt": "平行空间 by Zhang Zikang",
+        "alt": "张子康 《平行空间》",
         "metadata": {
-            "title": "平行空间 by Zhang Zikang",
-            "description": "平行空间 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 平行空间, traditional painting, Eastern and Western art"
+            "title": "张子康 《平行空间》",
+            "description": "张子康作品《平行空间》，布面油画，38x50cm，2022年",
+            "keywords": "张子康, 艺术作品, 平行空间, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -835,18 +1455,18 @@
                 "year": "2022",
                 "media": "布面油画",
                 "size": "38x50cm",
-                "alt": "平行空间 by Zhang Zikang"
+                "alt": "张子康 《平行空间》"
             }
         ]
     },
     "10-1": {
         "title": "等待",
         "src": "/assets/works/image/10-1.webp",
-        "alt": "等待 by Zhang Zikang",
+        "alt": "张子康 《等待》",
         "metadata": {
-            "title": "等待 by Zhang Zikang",
-            "description": "等待 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 等待, traditional painting, Eastern and Western art"
+            "title": "张子康 《等待》",
+            "description": "张子康作品《等待》，布面油画，38x50cm，2022年",
+            "keywords": "张子康, 艺术作品, 等待, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -855,18 +1475,18 @@
                 "year": "2022",
                 "media": "布面油画",
                 "size": "38x50cm",
-                "alt": "等待 by Zhang Zikang"
+                "alt": "张子康 《等待》"
             }
         ]
     },
     "9-2": {
         "title": "神鸟",
         "src": "/assets/works/image/9-2.webp",
-        "alt": "神鸟 by Zhang Zikang",
+        "alt": "张子康 《神鸟》",
         "metadata": {
-            "title": "神鸟 by Zhang Zikang",
-            "description": "神鸟 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 神鸟, traditional painting, Eastern and Western art"
+            "title": "张子康 《神鸟》",
+            "description": "张子康作品《神鸟》，布面油画，54x45cm，2019年",
+            "keywords": "张子康, 艺术作品, 神鸟, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -875,18 +1495,18 @@
                 "year": "2019",
                 "media": "布面油画",
                 "size": "54x45cm",
-                "alt": "神鸟 by Zhang Zikang"
+                "alt": "张子康 《神鸟》"
             }
         ]
     },
     "9-1": {
         "title": "桥下",
         "src": "/assets/works/image/9-1.webp",
-        "alt": "桥下 by Zhang Zikang",
+        "alt": "张子康 《桥下》",
         "metadata": {
-            "title": "桥下 by Zhang Zikang",
-            "description": "桥下 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 桥下, traditional painting, Eastern and Western art"
+            "title": "张子康 《桥下》",
+            "description": "张子康作品《桥下》，布面油画，40x58cm，2019年",
+            "keywords": "张子康, 艺术作品, 桥下, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -895,18 +1515,18 @@
                 "year": "2019",
                 "media": "布面油画",
                 "size": "40x58cm",
-                "alt": "桥下 by Zhang Zikang"
+                "alt": "张子康 《桥下》"
             }
         ]
     },
     "8-2": {
         "title": "远行",
         "src": "/assets/works/image/8-2.webp",
-        "alt": "远行 by Zhang Zikang",
+        "alt": "张子康 《远行》",
         "metadata": {
-            "title": "远行 by Zhang Zikang",
-            "description": "远行 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 远行, traditional painting, Eastern and Western art"
+            "title": "张子康 《远行》",
+            "description": "张子康作品《远行》，布面油画，51x58cm，2017年",
+            "keywords": "张子康, 艺术作品, 远行, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -915,18 +1535,18 @@
                 "year": "2017",
                 "media": "布面油画",
                 "size": "51x58cm",
-                "alt": "远行 by Zhang Zikang"
+                "alt": "张子康 《远行》"
             }
         ]
     },
     "8-1": {
         "title": "归途",
         "src": "/assets/works/image/8-1.webp",
-        "alt": "归途 by Zhang Zikang",
+        "alt": "张子康 《归途》",
         "metadata": {
-            "title": "归途 by Zhang Zikang",
-            "description": "归途 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 归途, traditional painting, Eastern and Western art"
+            "title": "张子康 《归途》",
+            "description": "张子康作品《归途》，布面油画，51x58cm，2017年",
+            "keywords": "张子康, 艺术作品, 归途, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -935,18 +1555,18 @@
                 "year": "2017",
                 "media": "布面油画",
                 "size": "51x58cm",
-                "alt": "归途 by Zhang Zikang"
+                "alt": "张子康 《归途》"
             }
         ]
     },
     "7-4": {
         "title": "野餐",
         "src": "/assets/works/image/7-4.webp",
-        "alt": "野餐 by Zhang Zikang",
+        "alt": "张子康 《野餐》",
         "metadata": {
-            "title": "野餐 by Zhang Zikang",
-            "description": "野餐 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 野餐, traditional painting, Eastern and Western art"
+            "title": "张子康 《野餐》",
+            "description": "张子康作品《野餐》，布面油画，37x49cm，2016年",
+            "keywords": "张子康, 艺术作品, 野餐, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -955,18 +1575,18 @@
                 "year": "2016",
                 "media": "布面油画",
                 "size": "37x49cm",
-                "alt": "野餐 by Zhang Zikang"
+                "alt": "张子康 《野餐》"
             }
         ]
     },
     "7-3": {
         "title": "向夕",
         "src": "/assets/works/image/7-3.webp",
-        "alt": "向夕 by Zhang Zikang",
+        "alt": "张子康 《向夕》",
         "metadata": {
-            "title": "向夕 by Zhang Zikang",
-            "description": "向夕 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 向夕, traditional painting, Eastern and Western art"
+            "title": "张子康 《向夕》",
+            "description": "张子康作品《向夕》，布面油画，37x49cm，2016年",
+            "keywords": "张子康, 艺术作品, 向夕, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -975,18 +1595,18 @@
                 "year": "2016",
                 "media": "布面油画",
                 "size": "37x49cm",
-                "alt": "向夕 by Zhang Zikang"
+                "alt": "张子康 《向夕》"
             }
         ]
     },
     "7-2": {
         "title": "门",
         "src": "/assets/works/image/7-2.webp",
-        "alt": "门 by Zhang Zikang",
+        "alt": "张子康 《门》",
         "metadata": {
-            "title": "门 by Zhang Zikang",
-            "description": "门 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 门, traditional painting, Eastern and Western art"
+            "title": "张子康 《门》",
+            "description": "张子康作品《门》，布面油画，37x49cm，2016年",
+            "keywords": "张子康, 艺术作品, 门, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -995,18 +1615,18 @@
                 "year": "2016",
                 "media": "布面油画",
                 "size": "37x49cm",
-                "alt": "门 by Zhang Zikang"
+                "alt": "张子康 《门》"
             }
         ]
     },
     "7-1": {
         "title": "路口",
         "src": "/assets/works/image/7-1.webp",
-        "alt": "路口 by Zhang Zikang",
+        "alt": "张子康 《路口》",
         "metadata": {
-            "title": "路口 by Zhang Zikang",
-            "description": "路口 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 路口, traditional painting, Eastern and Western art"
+            "title": "张子康 《路口》",
+            "description": "张子康作品《路口》，布面油画，37x49cm，2016年",
+            "keywords": "张子康, 艺术作品, 路口, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -1015,18 +1635,18 @@
                 "year": "2016",
                 "media": "布面油画",
                 "size": "37x49cm",
-                "alt": "路口 by Zhang Zikang"
+                "alt": "张子康 《路口》"
             }
         ]
     },
     "6-1": {
         "title": "瓦罕走廊之二",
         "src": "/assets/works/image/6-1.webp",
-        "alt": "瓦罕走廊之二 by Zhang Zikang",
+        "alt": "张子康 《瓦罕走廊之二》",
         "metadata": {
-            "title": "瓦罕走廊之二 by Zhang Zikang",
-            "description": "瓦罕走廊之二 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 瓦罕走廊之二, traditional painting, Eastern and Western art"
+            "title": "张子康 《瓦罕走廊之二》",
+            "description": "张子康作品《瓦罕走廊之二》，布面油画，97x145cm，2015年",
+            "keywords": "张子康, 艺术作品, 瓦罕走廊之二, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -1035,18 +1655,18 @@
                 "year": "2015",
                 "media": "布面油画",
                 "size": "97x145cm",
-                "alt": "瓦罕走廊之二 by Zhang Zikang"
+                "alt": "张子康 《瓦罕走廊之二》"
             }
         ]
     },
     "5-1": {
         "title": "魔鬼城",
         "src": "/assets/works/image/5-1.webp",
-        "alt": "魔鬼城 by Zhang Zikang",
+        "alt": "张子康 《魔鬼城》",
         "metadata": {
-            "title": "魔鬼城 by Zhang Zikang",
-            "description": "魔鬼城 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 魔鬼城, traditional painting, Eastern and Western art"
+            "title": "张子康 《魔鬼城》",
+            "description": "张子康作品《魔鬼城》，布面油画，92x420cm，2015年",
+            "keywords": "张子康, 艺术作品, 魔鬼城, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -1055,18 +1675,18 @@
                 "year": "2015",
                 "media": "布面油画",
                 "size": "92x420cm",
-                "alt": "魔鬼城 by Zhang Zikang"
+                "alt": "张子康 《魔鬼城》"
             }
         ]
     },
     "4-2": {
         "title": "寻 · 伊犁",
         "src": "/assets/works/image/4-2.webp",
-        "alt": "寻 · 伊犁 by Zhang Zikang",
+        "alt": "张子康 《寻 · 伊犁》",
         "metadata": {
-            "title": "寻 · 伊犁 by Zhang Zikang",
-            "description": "寻 · 伊犁 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 寻 · 伊犁, traditional painting, Eastern and Western art"
+            "title": "张子康 《寻 · 伊犁》",
+            "description": "张子康作品《寻 · 伊犁》，布面油画，95×125cm，2015年",
+            "keywords": "张子康, 艺术作品, 寻 · 伊犁, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -1075,18 +1695,18 @@
                 "year": "2015",
                 "media": "布面油画",
                 "size": "95×125cm",
-                "alt": "寻 · 伊犁 by Zhang Zikang"
+                "alt": "张子康 《寻 · 伊犁》"
             }
         ]
     },
     "4-1": {
         "title": "猫头鹰",
         "src": "/assets/works/image/4-1.webp",
-        "alt": "猫头鹰 by Zhang Zikang",
+        "alt": "张子康 《猫头鹰》",
         "metadata": {
-            "title": "猫头鹰 by Zhang Zikang",
-            "description": "猫头鹰 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 猫头鹰, traditional painting, Eastern and Western art"
+            "title": "张子康 《猫头鹰》",
+            "description": "张子康作品《猫头鹰》，布面油画，95x128cm，2016年",
+            "keywords": "张子康, 艺术作品, 猫头鹰, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -1095,18 +1715,18 @@
                 "year": "2016",
                 "media": "布面油画",
                 "size": "95x128cm",
-                "alt": "猫头鹰 by Zhang Zikang"
+                "alt": "张子康 《猫头鹰》"
             }
         ]
     },
     "3-3": {
         "title": "野花",
         "src": "/assets/works/image/3-3.webp",
-        "alt": "野花 by Zhang Zikang",
+        "alt": "张子康 《野花》",
         "metadata": {
-            "title": "野花 by Zhang Zikang",
-            "description": "野花 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 野花, traditional painting, Eastern and Western art"
+            "title": "张子康 《野花》",
+            "description": "张子康作品《野花》，布面油画，94x123cm，2015年",
+            "keywords": "张子康, 艺术作品, 野花, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -1115,18 +1735,18 @@
                 "year": "2015",
                 "media": "布面油画",
                 "size": "94x123cm",
-                "alt": "野花 by Zhang Zikang"
+                "alt": "张子康 《野花》"
             }
         ]
     },
     "3-2": {
         "title": "泉",
         "src": "/assets/works/image/3-2.webp",
-        "alt": "泉 by Zhang Zikang",
+        "alt": "张子康 《泉》",
         "metadata": {
-            "title": "泉 by Zhang Zikang",
-            "description": "泉 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 泉, traditional painting, Eastern and Western art"
+            "title": "张子康 《泉》",
+            "description": "张子康作品《泉》，布面油画，120x200cm，2015年",
+            "keywords": "张子康, 艺术作品, 泉, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -1135,18 +1755,18 @@
                 "year": "2015",
                 "media": "布面油画",
                 "size": "120x200cm",
-                "alt": "泉 by Zhang Zikang"
+                "alt": "张子康 《泉》"
             }
         ]
     },
     "3-1": {
         "title": "远古来客",
         "src": "/assets/works/image/3-1.webp",
-        "alt": "远古来客 by Zhang Zikang",
+        "alt": "张子康 《远古来客》",
         "metadata": {
-            "title": "远古来客 by Zhang Zikang",
-            "description": "远古来客 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 远古来客, traditional painting, Eastern and Western art"
+            "title": "张子康 《远古来客》",
+            "description": "张子康作品《远古来客》，布面油画，95x127cm，2015年",
+            "keywords": "张子康, 艺术作品, 远古来客, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -1155,18 +1775,18 @@
                 "year": "2015",
                 "media": "布面油画",
                 "size": "95x127cm",
-                "alt": "远古来客 by Zhang Zikang"
+                "alt": "张子康 《远古来客》"
             }
         ]
     },
     "2-2": {
         "title": "瓦罕走廊之一",
         "src": "/assets/works/image/2-2.webp",
-        "alt": "瓦罕走廊之一 by Zhang Zikang",
+        "alt": "张子康 《瓦罕走廊之一》",
         "metadata": {
-            "title": "瓦罕走廊之一 by Zhang Zikang",
-            "description": "瓦罕走廊之一 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 瓦罕走廊之一, traditional painting, Eastern and Western art"
+            "title": "张子康 《瓦罕走廊之一》",
+            "description": "张子康作品《瓦罕走廊之一》，布面油画，89x129cm，2015年",
+            "keywords": "张子康, 艺术作品, 瓦罕走廊之一, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -1175,18 +1795,18 @@
                 "year": "2015",
                 "media": "布面油画",
                 "size": "89x129cm",
-                "alt": "瓦罕走廊之一 by Zhang Zikang"
+                "alt": "张子康 《瓦罕走廊之一》"
             }
         ]
     },
     "2-1": {
         "title": "融化",
         "src": "/assets/works/image/2-1.webp",
-        "alt": "融化 by Zhang Zikang",
+        "alt": "张子康 《融化》",
         "metadata": {
-            "title": "融化 by Zhang Zikang",
-            "description": "融化 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 融化, traditional painting, Eastern and Western art"
+            "title": "张子康 《融化》",
+            "description": "张子康作品《融化》，布面油画，95x125cm，2015年",
+            "keywords": "张子康, 艺术作品, 融化, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -1195,18 +1815,18 @@
                 "year": "2015",
                 "media": "布面油画",
                 "size": "95x125cm",
-                "alt": "融化 by Zhang Zikang"
+                "alt": "张子康 《融化》"
             }
         ]
     },
     "1-2": {
         "title": "喀纳斯之一",
         "src": "/assets/works/image/1-2.webp",
-        "alt": "喀纳斯之一 by Zhang Zikang",
+        "alt": "张子康 《喀纳斯之一》",
         "metadata": {
-            "title": "喀纳斯之一 by Zhang Zikang",
-            "description": "喀纳斯之一 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 喀纳斯之一, traditional painting, Eastern and Western art"
+            "title": "张子康 《喀纳斯之一》",
+            "description": "张子康作品《喀纳斯之一》，布面油画，120×200cm，2016年",
+            "keywords": "张子康, 艺术作品, 喀纳斯之一, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -1215,18 +1835,18 @@
                 "year": "2016",
                 "media": "布面油画",
                 "size": "120×200cm",
-                "alt": "喀纳斯之一 by Zhang Zikang"
+                "alt": "张子康 《喀纳斯之一》"
             }
         ]
     },
     "1-1": {
         "title": "初春",
         "src": "/assets/works/image/1-1.webp",
-        "alt": "初春 by Zhang Zikang",
+        "alt": "张子康 《初春》",
         "metadata": {
-            "title": "初春 by Zhang Zikang",
-            "description": "初春 by Zhang Zikang",
-            "keywords": "Zhang Zikang, artworks, 初春, traditional painting, Eastern and Western art"
+            "title": "张子康 《初春》",
+            "description": "张子康作品《初春》，布面油画，95×193cm，2014年",
+            "keywords": "张子康, 艺术作品, 初春, 传统绘画, 东西方艺术"
         },
         "detail": [
             {
@@ -1235,7 +1855,7 @@
                 "year": "2014",
                 "media": "布面油画",
                 "size": "95×193cm",
-                "alt": "初春 by Zhang Zikang"
+                "alt": "张子康 《初春》"
             }
         ]
     }

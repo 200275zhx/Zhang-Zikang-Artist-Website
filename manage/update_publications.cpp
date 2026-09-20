@@ -1,3 +1,11 @@
+// Build (from the repository root):
+//   g++ -std=c++17 -static -static-libgcc -static-libstdc++ manage/update_publications.cpp -Imanage/include -o manage/bin/update_publications.exe
+//
+// Run: manage/bin/update_publications.exe
+//
+// Paths resolve from the executable's own location, so the tool can be run
+// from any working directory.
+
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -8,6 +16,7 @@
 #include <iomanip>
 #include <cstdlib>
 #include <nlohmann/json.hpp>
+#include <project_paths.hpp>
 
 // insertion-ordered JSON
 using ordered_json = nlohmann::ordered_json;
@@ -68,10 +77,12 @@ static bool compareByDateDesc(const PublicationItem& a, const PublicationItem& b
     return da.second > db.second;
 }
 
-int main() {
+int main(int argc, char** argv) {
+    (void)argc;
+    const auto root = manage::projectRoot(argv[0]);
     const std::vector<std::string> langs = { "en", "zh" };
-    const std::string inDir  = R"(C:\Users\20027\Local Desktop\AW002\artist-website\manage\input\)";
-    const std::string outDir = R"(C:\Users\20027\Local Desktop\AW002\artist-website\src\app\data\publications\json\)";
+    const std::string inDir  = (root / "manage" / "input").string() + "/";
+    const std::string outDir = (root / "src" / "app" / "data" / "publications" / "json").string() + "/";
 
     for (const auto& lang : langs) {
         const std::string inPath       = inDir + "publicationinfo_" + lang + ".json";
