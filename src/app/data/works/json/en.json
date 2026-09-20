@@ -1,4 +1,624 @@
 {
+    "Sentient-Beings": {
+        "title": "Sentient Beings",
+        "src": "/assets/works/image/Sentient-Beings.webp",
+        "alt": "Sentient Beings by Zhang Zikang",
+        "metadata": {
+            "title": "Sentient Beings by Zhang Zikang",
+            "description": "Sentient Beings by Zhang Zikang — Mixed Media, 200.5×300cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Sentient Beings, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Sentient Beings",
+                "img": "/assets/works/image/Sentient-Beings.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "200.5×300cm",
+                "alt": "Sentient Beings by Zhang Zikang"
+            }
+        ]
+    },
+    "Attract": {
+        "title": "Attract",
+        "src": "/assets/works/image/Attract.webp",
+        "alt": "Attract by Zhang Zikang",
+        "metadata": {
+            "title": "Attract by Zhang Zikang",
+            "description": "Attract by Zhang Zikang — Mixed Media, 140×180cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Attract, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Attract",
+                "img": "/assets/works/image/Attract.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "140×180cm",
+                "alt": "Attract by Zhang Zikang"
+            }
+        ]
+    },
+    "Fusion": {
+        "title": "Fusion",
+        "src": "/assets/works/image/Fusion.webp",
+        "alt": "Fusion by Zhang Zikang",
+        "metadata": {
+            "title": "Fusion by Zhang Zikang",
+            "description": "Fusion by Zhang Zikang — Mixed Media, 68.5×137.5cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Fusion, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Fusion",
+                "img": "/assets/works/image/Fusion.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "68.5×137.5cm",
+                "alt": "Fusion by Zhang Zikang"
+            }
+        ]
+    },
+    "Float": {
+        "title": "Float",
+        "src": "/assets/works/image/Float.webp",
+        "alt": "Float by Zhang Zikang",
+        "metadata": {
+            "title": "Float by Zhang Zikang",
+            "description": "Float by Zhang Zikang — Mixed Media, 140×180cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Float, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Float",
+                "img": "/assets/works/image/Float.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "140×180cm",
+                "alt": "Float by Zhang Zikang"
+            }
+        ]
+    },
+    "Ring": {
+        "title": "Ring",
+        "src": "/assets/works/image/Ring.webp",
+        "alt": "Ring by Zhang Zikang",
+        "metadata": {
+            "title": "Ring by Zhang Zikang",
+            "description": "Ring by Zhang Zikang — Mixed Media, 69.5×138cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Ring, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Ring",
+                "img": "/assets/works/image/Ring.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "69.5×138cm",
+                "alt": "Ring by Zhang Zikang"
+            }
+        ]
+    },
+    "Aspiration": {
+        "title": "Aspiration",
+        "src": "/assets/works/image/Aspiration.webp",
+        "alt": "Aspiration by Zhang Zikang",
+        "metadata": {
+            "title": "Aspiration by Zhang Zikang",
+            "description": "Aspiration by Zhang Zikang — Mixed Media, 68.8×84cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Aspiration, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Aspiration",
+                "img": "/assets/works/image/Aspiration.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "68.8×84cm",
+                "alt": "Aspiration by Zhang Zikang"
+            }
+        ]
+    },
+    "Detached": {
+        "title": "Detached",
+        "src": "/assets/works/image/Detached.webp",
+        "alt": "Detached by Zhang Zikang",
+        "metadata": {
+            "title": "Detached by Zhang Zikang",
+            "description": "Detached by Zhang Zikang — Mixed Media, 33.5×124.5cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Detached, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Detached",
+                "img": "/assets/works/image/Detached.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "33.5×124.5cm",
+                "alt": "Detached by Zhang Zikang"
+            }
+        ]
+    },
+    "Life": {
+        "title": "Life",
+        "src": "/assets/works/image/Life.webp",
+        "alt": "Life by Zhang Zikang",
+        "metadata": {
+            "title": "Life by Zhang Zikang",
+            "description": "Life by Zhang Zikang — Mixed Media, 53.5×69.5cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Life, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Life",
+                "img": "/assets/works/image/Life.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "53.5×69.5cm",
+                "alt": "Life by Zhang Zikang"
+            }
+        ]
+    },
+    "Liminal": {
+        "title": "Liminal",
+        "src": "/assets/works/image/Liminal.webp",
+        "alt": "Liminal by Zhang Zikang",
+        "metadata": {
+            "title": "Liminal by Zhang Zikang",
+            "description": "Liminal by Zhang Zikang — Mixed Media, 68.5×74cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Liminal, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Liminal",
+                "img": "/assets/works/image/Liminal.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "68.5×74cm",
+                "alt": "Liminal by Zhang Zikang"
+            }
+        ]
+    },
+    "Transform": {
+        "title": "Transform",
+        "src": "/assets/works/image/Transform.webp",
+        "alt": "Transform by Zhang Zikang",
+        "metadata": {
+            "title": "Transform by Zhang Zikang",
+            "description": "Transform by Zhang Zikang — Mixed Media, 70×139cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Transform, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Transform",
+                "img": "/assets/works/image/Transform.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "70×139cm",
+                "alt": "Transform by Zhang Zikang"
+            }
+        ]
+    },
+    "Naissance": {
+        "title": "Naissance",
+        "src": "/assets/works/image/Naissance.webp",
+        "alt": "Naissance by Zhang Zikang",
+        "metadata": {
+            "title": "Naissance by Zhang Zikang",
+            "description": "Naissance by Zhang Zikang — Mixed Media, 97×180cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Naissance, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Naissance",
+                "img": "/assets/works/image/Naissance.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "97×180cm",
+                "alt": "Naissance by Zhang Zikang"
+            }
+        ]
+    },
+    "Dreamscape": {
+        "title": "Dreamscape",
+        "src": "/assets/works/image/Dreamscape.webp",
+        "alt": "Dreamscape by Zhang Zikang",
+        "metadata": {
+            "title": "Dreamscape by Zhang Zikang",
+            "description": "Dreamscape by Zhang Zikang — Mixed Media, 69×137cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Dreamscape, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Dreamscape",
+                "img": "/assets/works/image/Dreamscape.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "69×137cm",
+                "alt": "Dreamscape by Zhang Zikang"
+            }
+        ]
+    },
+    "Cadence": {
+        "title": "Cadence",
+        "src": "/assets/works/image/Cadence.webp",
+        "alt": "Cadence by Zhang Zikang",
+        "metadata": {
+            "title": "Cadence by Zhang Zikang",
+            "description": "Cadence by Zhang Zikang — Mixed Media, 69×137cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Cadence, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Cadence",
+                "img": "/assets/works/image/Cadence.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "69×137cm",
+                "alt": "Cadence by Zhang Zikang"
+            }
+        ]
+    },
+    "Ascension": {
+        "title": "Ascension",
+        "src": "/assets/works/image/Ascension.webp",
+        "alt": "Ascension by Zhang Zikang",
+        "metadata": {
+            "title": "Ascension by Zhang Zikang",
+            "description": "Ascension by Zhang Zikang — Mixed Media, 69×138cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Ascension, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Ascension",
+                "img": "/assets/works/image/Ascension.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "69×138cm",
+                "alt": "Ascension by Zhang Zikang"
+            }
+        ]
+    },
+    "Convergence": {
+        "title": "Convergence",
+        "src": "/assets/works/image/Convergence.webp",
+        "alt": "Convergence by Zhang Zikang",
+        "metadata": {
+            "title": "Convergence by Zhang Zikang",
+            "description": "Convergence by Zhang Zikang — Mixed Media, 68.5×137cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Convergence, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Convergence",
+                "img": "/assets/works/image/Convergence.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "68.5×137cm",
+                "alt": "Convergence by Zhang Zikang"
+            }
+        ]
+    },
+    "Contemplation": {
+        "title": "Contemplation",
+        "src": "/assets/works/image/Contemplation.webp",
+        "alt": "Contemplation by Zhang Zikang",
+        "metadata": {
+            "title": "Contemplation by Zhang Zikang",
+            "description": "Contemplation by Zhang Zikang — Mixed Media, 78×114.5cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Contemplation, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Contemplation",
+                "img": "/assets/works/image/Contemplation.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "78×114.5cm",
+                "alt": "Contemplation by Zhang Zikang"
+            }
+        ]
+    },
+    "Scream": {
+        "title": "Scream",
+        "src": "/assets/works/image/Scream.webp",
+        "alt": "Scream by Zhang Zikang",
+        "metadata": {
+            "title": "Scream by Zhang Zikang",
+            "description": "Scream by Zhang Zikang — Mixed Media, 68×73cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Scream, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Scream",
+                "img": "/assets/works/image/Scream.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "68×73cm",
+                "alt": "Scream by Zhang Zikang"
+            }
+        ]
+    },
+    "Time": {
+        "title": "Time",
+        "src": "/assets/works/image/Time.webp",
+        "alt": "Time by Zhang Zikang",
+        "metadata": {
+            "title": "Time by Zhang Zikang",
+            "description": "Time by Zhang Zikang — Mixed Media, 69×137cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Time, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Time",
+                "img": "/assets/works/image/Time.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "69×137cm",
+                "alt": "Time by Zhang Zikang"
+            }
+        ]
+    },
+    "Meditative-Trace": {
+        "title": "Meditative Trace",
+        "src": "/assets/works/image/Meditative-Trace.webp",
+        "alt": "Meditative Trace by Zhang Zikang",
+        "metadata": {
+            "title": "Meditative Trace by Zhang Zikang",
+            "description": "Meditative Trace by Zhang Zikang — Mixed Media, 69×138.5cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Meditative Trace, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Meditative Trace",
+                "img": "/assets/works/image/Meditative-Trace.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "69×138.5cm",
+                "alt": "Meditative Trace by Zhang Zikang"
+            }
+        ]
+    },
+    "Renascence": {
+        "title": "Renascence",
+        "src": "/assets/works/image/Renascence.webp",
+        "alt": "Renascence by Zhang Zikang",
+        "metadata": {
+            "title": "Renascence by Zhang Zikang",
+            "description": "Renascence by Zhang Zikang — Mixed Media, 66×135cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Renascence, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Renascence",
+                "img": "/assets/works/image/Renascence.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "66×135cm",
+                "alt": "Renascence by Zhang Zikang"
+            }
+        ]
+    },
+    "Metamorphosis": {
+        "title": "Metamorphosis",
+        "src": "/assets/works/image/Metamorphosis.webp",
+        "alt": "Metamorphosis by Zhang Zikang",
+        "metadata": {
+            "title": "Metamorphosis by Zhang Zikang",
+            "description": "Metamorphosis by Zhang Zikang — Mixed Media, 69×137.5cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Metamorphosis, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Metamorphosis",
+                "img": "/assets/works/image/Metamorphosis.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "69×137.5cm",
+                "alt": "Metamorphosis by Zhang Zikang"
+            }
+        ]
+    },
+    "Epiphany": {
+        "title": "Epiphany",
+        "src": "/assets/works/image/Epiphany.webp",
+        "alt": "Epiphany by Zhang Zikang",
+        "metadata": {
+            "title": "Epiphany by Zhang Zikang",
+            "description": "Epiphany by Zhang Zikang — Mixed Media, 69×53.5cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Epiphany, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Epiphany",
+                "img": "/assets/works/image/Epiphany.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "69×53.5cm",
+                "alt": "Epiphany by Zhang Zikang"
+            }
+        ]
+    },
+    "Levitation": {
+        "title": "Levitation",
+        "src": "/assets/works/image/Levitation.webp",
+        "alt": "Levitation by Zhang Zikang",
+        "metadata": {
+            "title": "Levitation by Zhang Zikang",
+            "description": "Levitation by Zhang Zikang — Mixed Media, 69×137cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Levitation, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Levitation",
+                "img": "/assets/works/image/Levitation.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "69×137cm",
+                "alt": "Levitation by Zhang Zikang"
+            }
+        ]
+    },
+    "Mystery": {
+        "title": "Mystery",
+        "src": "/assets/works/image/Mystery.webp",
+        "alt": "Mystery by Zhang Zikang",
+        "metadata": {
+            "title": "Mystery by Zhang Zikang",
+            "description": "Mystery by Zhang Zikang — Mixed Media, 69×137cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Mystery, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Mystery",
+                "img": "/assets/works/image/Mystery.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "69×137cm",
+                "alt": "Mystery by Zhang Zikang"
+            }
+        ]
+    },
+    "Atmosphere": {
+        "title": "Atmosphere",
+        "src": "/assets/works/image/Atmosphere.webp",
+        "alt": "Atmosphere by Zhang Zikang",
+        "metadata": {
+            "title": "Atmosphere by Zhang Zikang",
+            "description": "Atmosphere by Zhang Zikang — Mixed Media, 69×138cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Atmosphere, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Atmosphere",
+                "img": "/assets/works/image/Atmosphere.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "69×138cm",
+                "alt": "Atmosphere by Zhang Zikang"
+            }
+        ]
+    },
+    "Ignite": {
+        "title": "Ignite",
+        "src": "/assets/works/image/Ignite.webp",
+        "alt": "Ignite by Zhang Zikang",
+        "metadata": {
+            "title": "Ignite by Zhang Zikang",
+            "description": "Ignite by Zhang Zikang — Mixed Media, 69×137.5cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Ignite, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Ignite",
+                "img": "/assets/works/image/Ignite.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "69×137.5cm",
+                "alt": "Ignite by Zhang Zikang"
+            }
+        ]
+    },
+    "Unbridled": {
+        "title": "Unbridled",
+        "src": "/assets/works/image/Unbridled.webp",
+        "alt": "Unbridled by Zhang Zikang",
+        "metadata": {
+            "title": "Unbridled by Zhang Zikang",
+            "description": "Unbridled by Zhang Zikang — Mixed Media, 69×137.5cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Unbridled, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Unbridled",
+                "img": "/assets/works/image/Unbridled.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "69×137.5cm",
+                "alt": "Unbridled by Zhang Zikang"
+            }
+        ]
+    },
+    "Rhythm": {
+        "title": "Rhythm",
+        "src": "/assets/works/image/Rhythm.webp",
+        "alt": "Rhythm by Zhang Zikang",
+        "metadata": {
+            "title": "Rhythm by Zhang Zikang",
+            "description": "Rhythm by Zhang Zikang — Mixed Media, 69×137.5cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Rhythm, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Rhythm",
+                "img": "/assets/works/image/Rhythm.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "69×137.5cm",
+                "alt": "Rhythm by Zhang Zikang"
+            }
+        ]
+    },
+    "Observe": {
+        "title": "Observe",
+        "src": "/assets/works/image/Observe.webp",
+        "alt": "Observe by Zhang Zikang",
+        "metadata": {
+            "title": "Observe by Zhang Zikang",
+            "description": "Observe by Zhang Zikang — Mixed Media, 69×137.5cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Observe, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Observe",
+                "img": "/assets/works/image/Observe.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "69×137.5cm",
+                "alt": "Observe by Zhang Zikang"
+            }
+        ]
+    },
+    "Resonance": {
+        "title": "Resonance",
+        "src": "/assets/works/image/Resonance.webp",
+        "alt": "Resonance by Zhang Zikang",
+        "metadata": {
+            "title": "Resonance by Zhang Zikang",
+            "description": "Resonance by Zhang Zikang — Mixed Media, 69×138cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Resonance, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Resonance",
+                "img": "/assets/works/image/Resonance.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "69×138cm",
+                "alt": "Resonance by Zhang Zikang"
+            }
+        ]
+    },
+    "Incandescent": {
+        "title": "Incandescent",
+        "src": "/assets/works/image/Incandescent.webp",
+        "alt": "Incandescent by Zhang Zikang",
+        "metadata": {
+            "title": "Incandescent by Zhang Zikang",
+            "description": "Incandescent by Zhang Zikang — Mixed Media, 180×245cm, 2025",
+            "keywords": "Zhang Zikang, artworks, Incandescent, traditional painting, Eastern and Western art"
+        },
+        "detail": [
+            {
+                "title": "Incandescent",
+                "img": "/assets/works/image/Incandescent.webp",
+                "year": "2025",
+                "media": "Mixed Media",
+                "size": "180×245cm",
+                "alt": "Incandescent by Zhang Zikang"
+            }
+        ]
+    },
     "27-3": {
         "title": "2024.03",
         "src": "/assets/works/image/27-3.webp",
