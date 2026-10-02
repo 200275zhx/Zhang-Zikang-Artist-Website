@@ -1,3 +1,4 @@
+import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import Image from 'next/image';
 import { ExhibitionsMap } from '@/app/data/exhibitions/map';
@@ -41,9 +42,9 @@ export default async function WorkDetailPage({
 
   const dict = ExhibitionsMap[locale] as WorkDict;
   const item = dict[exhibitionId];
-  if (!item) {
-    return <div>Not found</div>;
-  }
+  // An unknown exhibition should 404 outright rather than return 200 with a
+  // "Not found" body, which reads as a soft 404.
+  if (!item) notFound();
 
   return (
     <div className="space-y-10">
