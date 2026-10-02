@@ -1,0 +1,162 @@
+{
+  "Toki": {
+    "title": "“Toki” - Zhang Zikang Solo Exhibition",
+    "src": "/assets/exhibitions/image/Toki.webp",
+    "alt": "“Toki” - Zhang Zikang Solo Exhibition",
+    "bgcolor": "#585b71",
+    "metadata": {
+      "title": "Zhang Zikang “Toki” - Zhang Zikang Solo Exhibition",
+      "description": "Zhang Zikang presented his artworks at “Toki” - Zhang Zikang Solo Exhibition in Enshitsu Suwa, Shimosuwa, Nagano, Japan from September 10, 2026 to September 27, 2026",
+      "keywords": "Zhang, Zikang, exhibition, “Toki” - Zhang Zikang Solo Exhibition"
+    },
+    "detail": [
+      {
+        "title": "“Toki” - Zhang Zikang Solo Exhibition",
+        "img": "/assets/exhibitions/image/Toki.webp",
+        "alt": "“Toki” - Zhang Zikang Solo Exhibition",
+        "location": "Enshitsu Suwa, Shimosuwa, Nagano, Japan",
+        "dates": "September 10, 2026 - September 27, 2026"
+      }
+    ]
+  },
+  "Symbiosis-China-Germany": {
+    "title": "Symbiosis·China-Germany Contemporary Art Exhibition",
+    "src": "/assets/exhibitions/image/Symbiosis-China-Germany.webp",
+    "alt": "Symbiosis·China-Germany Contemporary Art Exhibition",
+    "bgcolor": "#313437",
+    "metadata": {
+      "title": "Zhang Zikang Symbiosis·China-Germany Contemporary Art Exhibition",
+      "description": "Zhang Zikang presented his artworks at Symbiosis·China-Germany Contemporary Art Exhibition in Hunan Art Museum from September 1, 2026 to October 7, 2026",
+      "keywords": "Zhang, Zikang, exhibition, Symbiosis·China-Germany Contemporary Art Exhibition"
+    },
+    "detail": [
+      {
+        "title": "Symbiosis·China-Germany Contemporary Art Exhibition",
+        "img": "/assets/exhibitions/image/Symbiosis-China-Germany.webp",
+        "alt": "Symbiosis·China-Germany Contemporary Art Exhibition",
+        "location": "Hunan Art Museum",
+        "dates": "September 1, 2026 - October 7, 2026"
+      }
+    ]
+  },
+  "Pulchri-Studio-Rewritten-Pages": {
+    "title": "Pulchri Studio (Netherlands) International Contemporary Art Exhibition: Rewritten Pages - Overprint and Regeneration",
+    "src": "/assets/exhibitions/image/Pulchri-Studio-Rewritten-Pages.webp",
+    "alt": "Pulchri Studio (Netherlands) International Contemporary Art Exhibition: Rewritten Pages - Overprint and Regeneration",
+    "bgcolor": "#736e6c",
+    "metadata": {
+      "title": "Zhang Zikang Pulchri Studio (Netherlands) International Contemporary Art Exhibition: Rewritten Pages - Overprint and Regeneration",
+      "description": "Zhang Zikang presented his artworks at Pulchri Studio (Netherlands) International Contemporary Art Exhibition: Rewritten Pages - Overprint and Regeneration in Pulchri Studio, The Hague, Netherlands from August 29, 2026 to September 20, 2026",
+      "keywords": "Zhang, Zikang, exhibition, Pulchri Studio (Netherlands) International Contemporary Art Exhibition: Rewritten Pages - Overprint and Regeneration"
+    },
+    "detail": [
+      {
+        "title": "Pulchri Studio (Netherlands) International Contemporary Art Exhibition: Rewritten Pages - Overprint and Regeneration",
+        "img": "/assets/exhibitions/image/Pulchri-Studio-Rewritten-Pages.webp",
+        "alt": "Pulchri Studio (Netherlands) International Contemporary Art Exhibition: Rewritten Pages - Overprint and Regeneration",
+        "location": "Pulchri Studio, The Hague, Netherlands",
+        "dates": "August 29, 2026 - September 20, 2026"
+      }
+    ]
+  },
+  "Light-of-the-City": {
+    "title": "Light of the City - 2026 Urban Art Museum Development Forum & Special Exhibition for the 3rd Anniversary of Zhongjia Art Museum",
+    "src": "/assets/exhibitions/image/Light-of-the-City.webp",
+    "alt": "Light of the City - 2026 Urban Art Museum Development Forum & Special Exhibition for the 3rd Anniversary of Zhongjia Art Museum",
+    "bgcolor": "#19261c",
+    "metadata": {
+      "title": "Zhang Zikang Light of the City - 2026 Urban Art Museum Development Forum & Special Exhibition for the 3rd Anniversary of Zhongjia Art Museum",
+      "description": "Zhang Zikang presented his artworks at Light of the City - 2026 Urban Art Museum Development Forum & Special Exhibition for the 3rd Anniversary of Zhongjia Art Museum in Zhongjia Art Museum from August 16, 2026 to October 16, 2026",
+      "keywords": "Zhang, Zikang, exhibition, Light of the City - 2026 Urban Art Museum Development Forum & Special Exhibition for the 3rd Anniversary of Zhongjia Art Museum"
+    },
+    "detail": [
+      {
+        "title": "Light of the City - 2026 Urban Art Museum Development Forum & Special Exhibition for the 3rd Anniversary of Zhongjia Art Museum",
+        "img": "/assets/exhibitions/image/Light-of-the-City.webp",
+        "alt": "Light of the City - 2026 Urban Art Museum Development Forum & Special Exhibition for the 3rd Anniversary of Zhongjia Art Museum",
+        "location": "Zhongjia Art Museum",
+        "dates": "August 16, 2026 - October 16, 2026"
+      }
+    ]
+  },
+  "NordArt-2026": {
+    "title": "NordArt 2026 International Contemporary Art Exhibition",
+    "src": "/assets/exhibitions/image/NordArt-2026.webp",
+    "alt": "NordArt 2026 International Contemporary Art Exhibition",
+    "bgcolor": "#555c5d",
+    "metadata": {
+      "title": "Zhang Zikang NordArt 2026 International Contemporary Art Exhibition",
+      "description": "Zhang Zikang presented his artworks at NordArt 2026 International Contemporary Art Exhibition in The historic former site of the Carlshütte Iron Foundry in Schleswig-Holstein, Northern Germany from June 6, 2026 to October 4, 2026",
+      "keywords": "Zhang, Zikang, exhibition, NordArt 2026 International Contemporary Art Exhibition"
+    },
+    "detail": [
+      {
+        "title": "NordArt 2026 International Contemporary Art Exhibition",
+        "img": "/assets/exhibitions/image/NordArt-2026.webp",
+        "alt": "NordArt 2026 International Contemporary Art Exhibition",
+        "location": "The historic former site of the Carlshütte Iron Foundry in Schleswig-Holstein, Northern Germany",
+        "dates": "June 6, 2026 - October 4, 2026"
+      }
+    ]
+  },
+  "Galloping-Toward-New-Horizons": {
+    "title": "Galloping Toward New Horizons - Fine Art Exhibition in Honor of Veteran Artists",
+    "src": "/assets/exhibitions/image/Galloping-Toward-New-Horizons.webp",
+    "alt": "Galloping Toward New Horizons - Fine Art Exhibition in Honor of Veteran Artists",
+    "bgcolor": "#538586",
+    "metadata": {
+      "title": "Zhang Zikang Galloping Toward New Horizons - Fine Art Exhibition in Honor of Veteran Artists",
+      "description": "Zhang Zikang presented his artworks at Galloping Toward New Horizons - Fine Art Exhibition in Honor of Veteran Artists in National Art Museum of China from February 11, 2026 to March 8, 2026",
+      "keywords": "Zhang, Zikang, exhibition, Galloping Toward New Horizons - Fine Art Exhibition in Honor of Veteran Artists"
+    },
+    "detail": [
+      {
+        "title": "Galloping Toward New Horizons - Fine Art Exhibition in Honor of Veteran Artists",
+        "img": "/assets/exhibitions/image/Galloping-Toward-New-Horizons.webp",
+        "alt": "Galloping Toward New Horizons - Fine Art Exhibition in Honor of Veteran Artists",
+        "location": "National Art Museum of China",
+        "dates": "February 11, 2026 - March 8, 2026"
+      }
+    ]
+  },
+  "Vitality-Index-Chengdu-Biennale": {
+    "title": "Vitality Index·Chengdu Biennale",
+    "src": "/assets/exhibitions/image/Vitality-Index-Chengdu-Biennale.webp",
+    "alt": "Vitality Index·Chengdu Biennale",
+    "bgcolor": "#4e8ab6",
+    "metadata": {
+      "title": "Zhang Zikang Vitality Index·Chengdu Biennale",
+      "description": "Zhang Zikang presented his artworks at Vitality Index·Chengdu Biennale in Chengdu Art Museum from February 8, 2026 to August 23, 2026",
+      "keywords": "Zhang, Zikang, exhibition, Vitality Index·Chengdu Biennale"
+    },
+    "detail": [
+      {
+        "title": "Vitality Index·Chengdu Biennale",
+        "img": "/assets/exhibitions/image/Vitality-Index-Chengdu-Biennale.webp",
+        "alt": "Vitality Index·Chengdu Biennale",
+        "location": "Chengdu Art Museum",
+        "dates": "February 8, 2026 - August 23, 2026"
+      }
+    ]
+  },
+  "Super-Rational": {
+    "title": "Super-Rational Contemporary Art Exhibition",
+    "src": "/assets/exhibitions/image/Super-Rational.webp",
+    "alt": "Super-Rational Contemporary Art Exhibition",
+    "bgcolor": "#558284",
+    "metadata": {
+      "title": "Zhang Zikang Super-Rational Contemporary Art Exhibition",
+      "description": "Zhang Zikang presented his artworks at Super-Rational Contemporary Art Exhibition in Quzhou Art Museum from February 6, 2026 to April 19, 2026",
+      "keywords": "Zhang, Zikang, exhibition, Super-Rational Contemporary Art Exhibition"
+    },
+    "detail": [
+      {
+        "title": "Super-Rational Contemporary Art Exhibition",
+        "img": "/assets/exhibitions/image/Super-Rational.webp",
+        "alt": "Super-Rational Contemporary Art Exhibition",
+        "location": "Quzhou Art Museum",
+        "dates": "February 6, 2026 - April 19, 2026"
+      }
+    ]
+  }
+}

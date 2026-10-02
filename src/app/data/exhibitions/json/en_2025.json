@@ -19,6 +19,66 @@
       }
     ]
   },
+  "Modeng-Contemporary-Art-Fair-2025": {
+    "title": "Modeng Contemporary Art Fair",
+    "src": "/assets/exhibitions/image/Modeng-Contemporary-Art-Fair-2025.webp",
+    "alt": "Modeng Contemporary Art Fair",
+    "bgcolor": "#131412",
+    "metadata": {
+      "title": "Zhang Zikang Modeng Contemporary Art Fair",
+      "description": "Zhang Zikang presented his artworks at Modeng Contemporary Art Fair in L1 Exhibition Hall, Haizhu International Convention & Exhibition Center, Guangzhou from December 18, 2025 to December 21, 2025",
+      "keywords": "Zhang, Zikang, exhibition, Modeng Contemporary Art Fair"
+    },
+    "detail": [
+      {
+        "title": "Modeng Contemporary Art Fair",
+        "img": "/assets/exhibitions/image/Modeng-Contemporary-Art-Fair-2025.webp",
+        "alt": "Modeng Contemporary Art Fair",
+        "location": "L1 Exhibition Hall, Haizhu International Convention & Exhibition Center, Guangzhou",
+        "dates": "December 18, 2025 - December 21, 2025"
+      }
+    ]
+  },
+  "12th-Art-Shenzhen": {
+    "title": "The 12th Art Shenzhen",
+    "src": "/assets/exhibitions/image/12th-Art-Shenzhen.webp",
+    "alt": "The 12th Art Shenzhen",
+    "bgcolor": "#9f9195",
+    "metadata": {
+      "title": "Zhang Zikang The 12th Art Shenzhen",
+      "description": "Zhang Zikang presented his artworks at The 12th Art Shenzhen in Hall 6, Shenzhen Convention & Exhibition Center from December 4, 2025 to December 7, 2025",
+      "keywords": "Zhang, Zikang, exhibition, The 12th Art Shenzhen"
+    },
+    "detail": [
+      {
+        "title": "The 12th Art Shenzhen",
+        "img": "/assets/exhibitions/image/12th-Art-Shenzhen.webp",
+        "alt": "The 12th Art Shenzhen",
+        "location": "Hall 6, Shenzhen Convention & Exhibition Center",
+        "dates": "December 4, 2025 - December 7, 2025"
+      }
+    ]
+  },
+  "West-Bund-Art-Design-Fair-2025": {
+    "title": "West Bund Art & Design Fair",
+    "src": "/assets/exhibitions/image/West-Bund-Art-Design-Fair-2025.webp",
+    "alt": "West Bund Art & Design Fair",
+    "bgcolor": "#aaadae",
+    "metadata": {
+      "title": "Zhang Zikang West Bund Art & Design Fair",
+      "description": "Zhang Zikang presented his artworks at West Bund Art & Design Fair in West Bund International Convention & Exhibition Center, Xuhui District, Shanghai from November 13, 2025 to November 16, 2025",
+      "keywords": "Zhang, Zikang, exhibition, West Bund Art & Design Fair"
+    },
+    "detail": [
+      {
+        "title": "West Bund Art & Design Fair",
+        "img": "/assets/exhibitions/image/West-Bund-Art-Design-Fair-2025.webp",
+        "alt": "West Bund Art & Design Fair",
+        "location": "West Bund International Convention & Exhibition Center, Xuhui District, Shanghai",
+        "dates": "November 13, 2025 - November 16, 2025"
+      }
+    ]
+  },
   "Becoming": {
     "title": "Becoming - Zhang Zikang Solo Exhibition",
     "src": "/assets/exhibitions/image/Becoming.webp",
