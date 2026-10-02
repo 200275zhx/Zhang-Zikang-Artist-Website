@@ -19,6 +19,66 @@
       }
     ]
   },
+  "Modeng-Contemporary-Art-Fair-2025": {
+    "title": "摩灯当代艺术博览会",
+    "src": "/assets/exhibitions/image/Modeng-Contemporary-Art-Fair-2025.webp",
+    "alt": "摩灯当代艺术博览会",
+    "bgcolor": "#131412",
+    "metadata": {
+      "title": "张子康 摩灯当代艺术博览会",
+      "description": "张子康于2025年12月18日至2025年12月21日在广州·海珠国际会展中心L1展览馆参加摩灯当代艺术博览会并展出其艺术作品",
+      "keywords": "张子康, 展览, 摩灯当代艺术博览会"
+    },
+    "detail": [
+      {
+        "title": "摩灯当代艺术博览会",
+        "img": "/assets/exhibitions/image/Modeng-Contemporary-Art-Fair-2025.webp",
+        "alt": "摩灯当代艺术博览会",
+        "location": "广州·海珠国际会展中心L1展览馆",
+        "dates": "2025年12月18日 - 2025年12月21日"
+      }
+    ]
+  },
+  "12th-Art-Shenzhen": {
+    "title": "第十二届艺术深圳",
+    "src": "/assets/exhibitions/image/12th-Art-Shenzhen.webp",
+    "alt": "第十二届艺术深圳",
+    "bgcolor": "#9f9195",
+    "metadata": {
+      "title": "张子康 第十二届艺术深圳",
+      "description": "张子康于2025年12月4日至2025年12月7日在深圳会展中心6号馆参加第十二届艺术深圳并展出其艺术作品",
+      "keywords": "张子康, 展览, 第十二届艺术深圳"
+    },
+    "detail": [
+      {
+        "title": "第十二届艺术深圳",
+        "img": "/assets/exhibitions/image/12th-Art-Shenzhen.webp",
+        "alt": "第十二届艺术深圳",
+        "location": "深圳会展中心6号馆",
+        "dates": "2025年12月4日 - 2025年12月7日"
+      }
+    ]
+  },
+  "West-Bund-Art-Design-Fair-2025": {
+    "title": "西岸艺术与设计博览会",
+    "src": "/assets/exhibitions/image/West-Bund-Art-Design-Fair-2025.webp",
+    "alt": "西岸艺术与设计博览会",
+    "bgcolor": "#aaadae",
+    "metadata": {
+      "title": "张子康 西岸艺术与设计博览会",
+      "description": "张子康于2025年11月13日至2025年11月16日在上海市徐汇区西岸国际会展中心参加西岸艺术与设计博览会并展出其艺术作品",
+      "keywords": "张子康, 展览, 西岸艺术与设计博览会"
+    },
+    "detail": [
+      {
+        "title": "西岸艺术与设计博览会",
+        "img": "/assets/exhibitions/image/West-Bund-Art-Design-Fair-2025.webp",
+        "alt": "西岸艺术与设计博览会",
+        "location": "上海市徐汇区西岸国际会展中心",
+        "dates": "2025年11月13日 - 2025年11月16日"
+      }
+    ]
+  },
   "Becoming": {
     "title": "生成——张子康作品展",
     "src": "/assets/exhibitions/image/Becoming.webp",
